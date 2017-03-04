@@ -75,6 +75,7 @@
 				<Target type="ProtoUnit">cov_air_vampire_01</Target>
 			</Effect>
 		</Effects>
+		<Flag>HiddenFromStats</Flag>
 	</Tech>
 	<Tech name="cov_vampire_upgrade3_balance" type="Normal">
 		<DBID>1917</DBID>
@@ -89,6 +90,7 @@
 				<Target type="ProtoUnit">cov_air_vampire_01</Target>
 			</Effect>
 		</Effects>
+		<Flag>HiddenFromStats</Flag>
 	</Tech>
 	<Tech name="WarthogBuildRateNerf" type="Normal">
 		<DBID>1917</DBID>
