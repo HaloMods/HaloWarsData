@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Objects>
+		<Object IsSquad="false" Player="0" ID="10000051" TintValue="1" EditorName="cpgn_scn11_Sof_01_416" Position="470.4087,-67.1044,342.3882" Forward="0,0,1" Right="1,0,0" Group="1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>cpgn_scn11_Sof_01</Object>
+		<Object IsSquad="false" Player="1" ID="10000076" TintValue="1" EditorName="cpgn_scn11_SoFbridge_01_1129" Position="470.1031,-5.2545,754.9083" Forward="0,0,1" Right="1,0,0" Group="1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>cpgn_scn11_SoFbridge_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000053" TintValue="1" EditorName="cpgn_scn11_wallshell_01_610" Position="467.3231,-60.0217,555.923" Forward="0,0,1" Right="1,0,0" Group="1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn11_wallshell_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000075" TintValue="1" EditorName="env_wasteland_bigmetalwall_01_249" Position="1517.288,414.666,575.6766" Forward="0,0,1" Right="0.4561,0.8899,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_wasteland_bigmetalwall_01</Object>
+	</Objects>
+</Scenario>

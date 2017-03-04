@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<ControllerConfigs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Config name="Default" id="0">
+		<Function name="ActionModifier">
+			<Key>TriggerRight</Key>
+		</Function>
+		<Function name="SpeedModifier">
+			<Key>TriggerLeft</Key>
+		</Function>
+		<Function name="Translation">
+			<Key>StickLeft</Key>
+		</Function>
+		<Function name="Pan">
+			<Key>StickRight</Key>
+		</Function>
+		<Function name="Tilt">
+			<Key>StickRight</Key>
+			<Key>TriggerRight</Key>
+		</Function>
+		<Function name="Zoom">
+			<Key>StickRight</Key>
+		</Function>
+		<Function name="Selection">
+			<Key>ButtonA</Key>
+		</Function>
+		<Function name="DoubleClickSelect">
+			<Key>ButtonA</Key>
+			<Key>DoubleClick</Key>
+		</Function>
+		<Function name="MultiSelect">
+			<Key>ButtonA</Key>
+			<Key>Hold</Key>
+		</Function>
+		<Function name="Clear">
+			<Key>ButtonB</Key>
+		</Function>
+		<Function name="DoWork">
+			<Key>ButtonX</Key>
+		</Function>
+		<Function name="Ability">
+			<Key>ButtonY</Key>
+		</Function>
+		<Function name="ResetCamera">
+			<Key>ButtonThumbRight</Key>
+		</Function>
+		<Function name="Powers">
+			<Key>DpadUp</Key>
+			<Key>Precise</Key>
+		</Function>
+		<Function name="GotoBase">
+			<Key>DpadLeft</Key>
+			<Key>Precise</Key>
+		</Function>
+		<Function name="GotoArmy">
+			<Key>DpadDown</Key>
+			<Key>Precise</Key>
+		</Function>
+		<Function name="GotoAlert">
+			<Key>DpadRight</Key>
+			<Key>Precise</Key>
+		</Function>
+		<Function name="SubSelectNext">
+			<Key>ButtonShoulderRight</Key>
+		</Function>
+		<Function name="SubSelectPrev">
+			<Key>ButtonShoulderRight</Key>
+			<Key>TriggerRight</Key>
+		</Function>
+		<Function name="ScreenSelect">
+			<Key>ButtonShoulderLeft</Key>
+		</Function>
+		<Function name="GlobalSelect">
+			<Key>ButtonShoulderLeft</Key>
+			<Key>DoubleClick</Key>
+		</Function>
+		<Function name="SetRally">
+			<Key>ButtonThumbLeft</Key>
+			<Key>TriggerRight</Key>
+		</Function>
+		<Function name="Flare">
+			<Key>ButtonThumbLeft</Key>
+		</Function>
+		<Function name="Start">
+			<Key>ButtonStart</Key>
+		</Function>
+		<Function name="Back">
+			<Key>ButtonBack</Key>
+		</Function>
+		<Function name="ExtraInfo">
+			<Key>ButtonY</Key>
+		</Function>
+	</Config>
+	<Config name="New1" id="0">
+		<Function name="ActionModifier">
+			<Key>TriggerRight</Key>
+		</Function>
+		<Function name="SpeedModifier">
+			<Key>TriggerLeft</Key>
+		</Function>
+		<Function name="Translation">
+			<Key>StickLeft</Key>
+		</Function>
+		<Function name="Pan">
+			<Key>StickRight</Key>
+		</Function>
+		<Function name="Tilt">
+			<Key>StickRight</Key>
+			<Key>TriggerRight</Key>
+		</Function>
+		<Function name="Zoom">
+			<Key>StickRight</Key>
+		</Function>
+		<Function name="Selection">
+			<Key>ButtonA</Key>
+		</Function>
+		<Function name="DoubleClickSelect">
+			<Key>ButtonA</Key>
+			<Key>DoubleClick</Key>
+		</Function>
+		<Function name="MultiSelect">
+			<Key>ButtonA</Key>
+			<Key>Hold</Key>
+		</Function>
+		<Function name="Clear">
+			<Key>ButtonB</Key>
+		</Function>
+		<Function name="DoWork">
+			<Key>ButtonX</Key>
+		</Function>
+		<Function name="Ability">
+			<Key>ButtonY</Key>
+		</Function>
+		<Function name="ResetCamera">
+			<Key>ButtonThumbRight</Key>
+		</Function>
+		<Function name="Powers">
+			<Key>DpadUp</Key>
+			<Key>Precise</Key>
+		</Function>
+		<Function name="GotoBase">
+			<Key>DpadLeft</Key>
+			<Key>Precise</Key>
+		</Function>
+		<Function name="GotoArmy">
+			<Key>DpadDown</Key>
+			<Key>Precise</Key>
+		</Function>
+		<Function name="GotoAlert">
+			<Key>DpadRight</Key>
+			<Key>Precise</Key>
+		</Function>
+		<Function name="ScreenSelectNext">
+			<Key>ButtonShoulderLeft</Key>
+		</Function>
+		<Function name="GlobalSelectNext">
+			<Key>ButtonShoulderLeft</Key>
+			<Key>TriggerRight</Key>
+		</Function>
+		<Function name="TargetNext">
+			<Key>ButtonShoulderRight</Key>
+		</Function>
+		<Function name="TargetPrev">
+			<Key>ButtonShoulderRight</Key>
+			<Key>TriggerRight</Key>
+		</Function>
+		<Function name="SetRally">
+			<Key>ButtonThumbLeft</Key>
+			<Key>TriggerRight</Key>
+		</Function>
+		<Function name="Flare">
+			<Key>ButtonThumbLeft</Key>
+		</Function>
+		<Function name="Start">
+			<Key>ButtonStart</Key>
+		</Function>
+		<Function name="Back">
+			<Key>ButtonBack</Key>
+		</Function>
+		<Function name="ExtraInfo">
+			<Key>ButtonY</Key>
+		</Function>
+	</Config>
+	<Config name="New2" id="0">
+		<Function name="ActionModifier">
+			<Key>TriggerRight</Key>
+		</Function>
+		<Function name="SpeedModifier">
+			<Key>TriggerLeft</Key>
+		</Function>
+		<Function name="Translation">
+			<Key>StickLeft</Key>
+		</Function>
+		<Function name="Pan">
+			<Key>StickRight</Key>
+		</Function>
+		<Function name="Tilt">
+			<Key>StickRight</Key>
+			<Key>TriggerRight</Key>
+		</Function>
+		<Function name="Zoom">
+			<Key>StickRight</Key>
+		</Function>
+		<Function name="Selection">
+			<Key>ButtonA</Key>
+		</Function>
+		<Function name="DoubleClickSelect">
+			<Key>ButtonA</Key>
+			<Key>DoubleClick</Key>
+		</Function>
+		<Function name="MultiSelect">
+			<Key>ButtonA</Key>
+			<Key>Hold</Key>
+		</Function>
+		<Function name="Clear">
+			<Key>ButtonB</Key>
+		</Function>
+		<Function name="DoWork">
+			<Key>ButtonX</Key>
+		</Function>
+		<Function name="Ability">
+			<Key>ButtonY</Key>
+		</Function>
+		<Function name="ResetCamera">
+			<Key>ButtonThumbRight</Key>
+		</Function>
+		<Function name="Powers">
+			<Key>DpadUp</Key>
+			<Key>Precise</Key>
+		</Function>
+		<Function name="GotoBase">
+			<Key>DpadLeft</Key>
+			<Key>Precise</Key>
+		</Function>
+		<Function name="GotoArmy">
+			<Key>DpadDown</Key>
+			<Key>Precise</Key>
+		</Function>
+		<Function name="GotoAlert">
+			<Key>DpadRight</Key>
+			<Key>Precise</Key>
+		</Function>
+		<Function name="ScreenCycleNext">
+			<Key>ButtonShoulderLeft</Key>
+		</Function>
+		<Function name="ScreenSelect">
+			<Key>ButtonShoulderLeft</Key>
+			<Key>TriggerRight</Key>
+		</Function>
+		<Function name="TargetNext">
+			<Key>ButtonShoulderRight</Key>
+		</Function>
+		<Function name="TargetPrev">
+			<Key>ButtonShoulderRight</Key>
+			<Key>TriggerRight</Key>
+		</Function>
+		<Function name="SetRally">
+			<Key>ButtonThumbLeft</Key>
+			<Key>TriggerRight</Key>
+		</Function>
+		<Function name="Flare">
+			<Key>ButtonThumbLeft</Key>
+		</Function>
+		<Function name="Start">
+			<Key>ButtonStart</Key>
+		</Function>
+		<Function name="Back">
+			<Key>ButtonBack</Key>
+		</Function>
+		<Function name="ExtraInfo">
+			<Key>ButtonY</Key>
+		</Function>
+	</Config>
+	<Config name="New3" id="0">
+		<Function name="SpeedModifier">
+			<Key>TriggerLeft</Key>
+		</Function>
+		<Function name="Translation">
+			<Key>StickLeft</Key>
+		</Function>
+		<Function name="Pan">
+			<Key>StickRight</Key>
+		</Function>
+		<Function name="Tilt">
+			<Key>StickRight</Key>
+			<Key>TriggerRight</Key>
+		</Function>
+		<Function name="Zoom">
+			<Key>StickRight</Key>
+		</Function>
+		<Function name="Selection">
+			<Key>ButtonA</Key>
+		</Function>
+		<Function name="DoubleClickSelect">
+			<Key>ButtonA</Key>
+			<Key>DoubleClick</Key>
+		</Function>
+		<Function name="MultiSelect">
+			<Key>ButtonA</Key>
+			<Key>Hold</Key>
+		</Function>
+		<Function name="Clear">
+			<Key>ButtonB</Key>
+		</Function>
+		<Function name="DoWork">
+			<Key>ButtonX</Key>
+		</Function>
+		<Function name="DoWorkQueue">
+			<Key>ButtonX</Key>
+			<Key>Hold</Key>
+		</Function>
+		<Function name="Ability">
+			<Key>ButtonY</Key>
+		</Function>
+		<Function name="AbilityQueue">
+			<Key>ButtonY</Key>
+			<Key>Hold</Key>
+		</Function>
+		<Function name="ResetCamera">
+			<Key>ButtonThumbRight</Key>
+		</Function>
+		<Function name="Powers">
+			<Key>DpadUp</Key>
+			<Key>Precise</Key>
+		</Function>
+		<Function name="GotoBase">
+			<Key>DpadLeft</Key>
+			<Key>Precise</Key>
+		</Function>
+		<Function name="GotoArmy">
+			<Key>DpadDown</Key>
+			<Key>Precise</Key>
+		</Function>
+		<Function name="GotoAlert">
+			<Key>DpadRight</Key>
+			<Key>Precise</Key>
+		</Function>
+		<Function name="SubSelectNext">
+			<Key>TriggerRight</Key>
+		</Function>
+		<Function name="ScreenSelect">
+			<Key>ButtonShoulderRight</Key>
+		</Function>
+		<Function name="GlobalSelect">
+			<Key>ButtonShoulderLeft</Key>
+		</Function>
+		<Function name="SetRally">
+			<Key>ButtonThumbLeft</Key>
+			<Key>DoubleClick</Key>
+		</Function>
+		<Function name="Flare">
+			<Key>ButtonThumbLeft</Key>
+		</Function>
+		<Function name="Start">
+			<Key>ButtonStart</Key>
+		</Function>
+		<Function name="Back">
+			<Key>ButtonBack</Key>
+		</Function>
+		<Function name="ExtraInfo">
+			<Key>ButtonY</Key>
+		</Function>
+	</Config>
+	<Config name="New4" id="0">
+		<Function name="SpeedModifier">
+			<Key>ButtonShoulderLeft</Key>
+		</Function>
+		<Function name="Translation">
+			<Key>StickLeft</Key>
+		</Function>
+		<Function name="Pan">
+			<Key>StickRight</Key>
+		</Function>
+		<Function name="Tilt">
+			<Key>StickRight</Key>
+			<Key>TriggerRight</Key>
+		</Function>
+		<Function name="Zoom">
+			<Key>StickRight</Key>
+		</Function>
+		<Function name="Selection">
+			<Key>ButtonA</Key>
+		</Function>
+		<Function name="DoubleClickSelect">
+			<Key>ButtonA</Key>
+			<Key>DoubleClick</Key>
+		</Function>
+		<Function name="MultiSelect">
+			<Key>ButtonA</Key>
+			<Key>Hold</Key>
+		</Function>
+		<Function name="Clear">
+			<Key>ButtonB</Key>
+		</Function>
+		<Function name="DoWork">
+			<Key>TriggerRight</Key>
+		</Function>
+		<Function name="DoWorkQueue">
+			<Key>TriggerRight</Key>
+			<Key>Hold</Key>
+		</Function>
+		<Function name="Ability">
+			<Key>TriggerLeft</Key>
+		</Function>
+		<Function name="AbilityQueue">
+			<Key>TriggerLeft</Key>
+			<Key>Hold</Key>
+		</Function>
+		<Function name="ResetCamera">
+			<Key>ButtonThumbRight</Key>
+		</Function>
+		<Function name="Powers">
+			<Key>DpadUp</Key>
+			<Key>Precise</Key>
+		</Function>
+		<Function name="GotoBase">
+			<Key>DpadLeft</Key>
+			<Key>Precise</Key>
+		</Function>
+		<Function name="GotoArmy">
+			<Key>DpadDown</Key>
+			<Key>Precise</Key>
+		</Function>
+		<Function name="GotoAlert">
+			<Key>DpadRight</Key>
+			<Key>Precise</Key>
+		</Function>
+		<Function name="SubSelectNext">
+			<Key>ButtonShoulderRight</Key>
+		</Function>
+		<Function name="ScreenSelect">
+			<Key>ButtonX</Key>
+		</Function>
+		<Function name="GlobalSelect">
+			<Key>ButtonY</Key>
+		</Function>
+		<Function name="SetRally">
+			<Key>ButtonThumbLeft</Key>
+			<Key>TriggerRight</Key>
+		</Function>
+		<Function name="Flare">
+			<Key>ButtonThumbLeft</Key>
+		</Function>
+		<Function name="Start">
+			<Key>ButtonStart</Key>
+		</Function>
+		<Function name="Back">
+			<Key>ButtonBack</Key>
+		</Function>
+		<Function name="ExtraInfo">
+			<Key>ButtonY</Key>
+		</Function>
+	</Config>
+	<FunctionStrings>
+		<FunctionString name="ActionModifier">ActionModifier</FunctionString>
+		<FunctionString name="Flare">Flare</FunctionString>
+		<FunctionString name="SpeedModifier">SpeedModifier</FunctionString>
+		<FunctionString name="Start">Start</FunctionString>
+		<FunctionString name="Back">Back</FunctionString>
+		<FunctionString name="Translation">Translation</FunctionString>
+		<FunctionString name="Pan">Pan</FunctionString>
+		<FunctionString name="Tilt">Tilt</FunctionString>
+		<FunctionString name="Zoom">Zoom</FunctionString>
+		<FunctionString name="Selection">Selection</FunctionString>
+		<FunctionString name="DoubleClickSelect">DoubleClickSelect</FunctionString>
+		<FunctionString name="MultiSelect">MultiSelect</FunctionString>
+		<FunctionString name="Clear">Cancel</FunctionString>
+		<FunctionString name="DoWork">DoWork</FunctionString>
+		<FunctionString name="DoWorkQueue">DoWorkQueue</FunctionString>
+		<FunctionString name="Ability">Ability</FunctionString>
+		<FunctionString name="AbilityQueue">AbilityQueue</FunctionString>
+		<FunctionString name="Powers">Powers</FunctionString>
+		<FunctionString name="ResetCamera">ResetCamera</FunctionString>
+		<FunctionString name="AssignGroup1">AssignGroup1</FunctionString>
+		<FunctionString name="AssignGroup2">AssignGroup2</FunctionString>
+		<FunctionString name="AssignGroup3">AssignGroup3</FunctionString>
+		<FunctionString name="AssignGroup4">AssignGroup4</FunctionString>
+		<FunctionString name="SelectGroup1">SelectGroup1</FunctionString>
+		<FunctionString name="SelectGroup2">SelectGroup2</FunctionString>
+		<FunctionString name="SelectGroup3">SelectGroup3</FunctionString>
+		<FunctionString name="SelectGroup4">SelectGroup4</FunctionString>
+		<FunctionString name="GotoGroup1">GotoGroup1</FunctionString>
+		<FunctionString name="GotoGroup2">GotoGroup2</FunctionString>
+		<FunctionString name="GotoGroup3">GotoGroup3</FunctionString>
+		<FunctionString name="GotoGroup4">GotoGroup4</FunctionString>
+		<FunctionString name="GotoBase">GotoBase</FunctionString>
+		<FunctionString name="GotoAlert">GotoAlert</FunctionString>
+		<FunctionString name="GotoScout">GotScout</FunctionString>
+		<FunctionString name="GotoArmy">GotoArmy</FunctionString>
+		<FunctionString name="GotoNode">GotoNode</FunctionString>
+		<FunctionString name="GotoHero">GotoHero</FunctionString>
+		<FunctionString name="GotoRally">GotoRally</FunctionString>
+		<FunctionString name="GotoSelected">GotoSelected</FunctionString>
+		<FunctionString name="ScreenSelect">ScreenSelect</FunctionString>
+		<FunctionString name="GlobalSelect">GlobalSelect</FunctionString>
+		<FunctionString name="ScreenSelectPrev">ScreenSelectPrev</FunctionString>
+		<FunctionString name="ScreenSelectNext">ScreenSelectNext</FunctionString>
+		<FunctionString name="GlobalSelectPrev">GlobalSelectPrev</FunctionString>
+		<FunctionString name="GlobalSelectNext">GlobalSelectNext</FunctionString>
+		<FunctionString name="ScreenCyclePrev">ScreenCyclePrev</FunctionString>
+		<FunctionString name="ScreenCycleNext">ScreenCycleNext</FunctionString>
+		<FunctionString name="TargetPrev">TargetPrev</FunctionString>
+		<FunctionString name="TargetNext">TargetNext</FunctionString>
+		<FunctionString name="SubSelectPrev">SubSelectPrev</FunctionString>
+		<FunctionString name="SubSelectNext">SubSelectNext</FunctionString>
+		<FunctionString name="SubSelectSquad">SubSelectSquad</FunctionString>
+		<FunctionString name="SubSelectType">SubSelectType</FunctionString>
+		<FunctionString name="SubSelectTag">SubSelectTag</FunctionString>
+		<FunctionString name="SubSelectSelect">SubSelectSelect</FunctionString>
+		<FunctionString name="SubSelectGoto">SubSelectGoto</FunctionString>
+		<FunctionString name="ModeGoto">ModeGoto</FunctionString>
+		<FunctionString name="ModeSubSelectRight">ModeSubSelectRight</FunctionString>
+		<FunctionString name="ModeSubSelectLeft">ModeSubSelectLeft</FunctionString>
+		<FunctionString name="ModeGroup">ModeGroup</FunctionString>
+		<FunctionString name="GroupAdd">GroupAdd</FunctionString>
+		<FunctionString name="GroupNext">GroupNext</FunctionString>
+		<FunctionString name="GroupPrev">GroupPrev</FunctionString>
+		<FunctionString name="GroupGoto">GroupGoto</FunctionString>
+		<FunctionString name="FlareLook">FlareLook</FunctionString>
+		<FunctionString name="FlareHelp">FlareHelp</FunctionString>
+		<FunctionString name="FlareMeet">FlareMeet</FunctionString>
+		<FunctionString name="FlareAttack">FlareAttack</FunctionString>
+		<FunctionString name="MapZoom">MapZoom</FunctionString>
+		<FunctionString name="AttackMove">AttackMove</FunctionString>
+		<FunctionString name="SetRally">SetRally</FunctionString>
+		<FunctionString name="NoAction1">NoAction1</FunctionString>
+		<FunctionString name="NoAction2">NoAction2</FunctionString>
+		<FunctionString name="ExtraInfo">ExtraInfo</FunctionString>
+	</FunctionStrings>
+	<MaxControllerConfigID>3</MaxControllerConfigID>
+</ControllerConfigs>

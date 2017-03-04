@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<GameSets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<PerP>100</PerP>
+	<MaxP>250</MaxP>
+	<CPE>1</CPE>
+	<MaxT>600000</MaxT>
+	<LPL>0</LPL>
+	<MST>50000</MST>
+	<MQOS>4000</MQOS>
+	<NSUT>15000</NSUT>
+	<NJRT>30000</NJRT>
+	<NPRT>8000</NPRT>
+	<NPPT>3000</NPPT>
+	<GS Name="Custom Game" _locID="23465" GM="0" P="6" T="C" R="N" XGM="0">
+		<ml>
+			<m N="Exile" />
+		</ml>
+	</GS>
+	<GS Name="Ranked Standard 1v1" _locID="23460" GM="0" P="2" T="N" R="Y" XGM="1" HDB="0" HDR="500" HT="25000" MQ1="0.9" MQ2="0.7" MQ3="0.2">
+		<ml>
+			<m N="chasms" />
+			<m N="release" />
+			<m N="pirth_outskirts" />
+			<m N="the_docks" />
+			<m N="blood_gulch" />
+			<m N="tundra" />
+		</ml>
+	</GS>
+	<GS Name="Ranked Standard 2v2" _locID="23461" GM="0" P="4" T="N" R="Y" XGM="2" FSC="10" NSC="20" HT="25000">
+		<ml>
+			<m N="Beasleys_Plateau" />
+			<m N="terminal_moraine" />
+			<m N="repository" />
+			<m N="labyrinth" />
+			<m N="crevice" />
+		</ml>
+	</GS>
+	<GS Name="Ranked Teams 2v2" _locID="23463" GM="0" P="4" T="Y" R="Y" XGM="3" HT="15000" MQ1="0.25" MQ2="0" MQ3="0">
+		<ml>
+			<m N="Beasleys_Plateau" />
+			<m N="terminal_moraine" />
+			<m N="repository" />
+			<m N="labyrinth" />
+			<m N="crevice" />
+		</ml>
+	</GS>
+	<GS Name="Ranked Standard 3v3" _locID="23462" GM="0" P="6" T="N" R="Y" XGM="4" HT="25000" MQ1="0.25" MQ2="0" MQ3="0">
+		<ml>
+			<m N="Exile" />
+			<m N="frozen_valley" />
+			<m N="Fort_Deen" />
+		</ml>
+	</GS>
+	<GS Name="Ranked Teams 3v3" _locID="23464" GM="0" P="6" T="Y" R="Y" XGM="5" HT="10000" MQ1="0.25" MQ2="0" MQ3="0">
+		<ml>
+			<m N="Exile" />
+			<m N="frozen_valley" />
+			<m N="Fort_Deen" />
+		</ml>
+	</GS>
+	<GS Name="DM Standard 1v1" _locID="25331" GM="1" P="2" T="N" R="Y" XGM="6" HT="25000">
+		<ml>
+			<m N="chasms" />
+			<m N="release" />
+			<m N="pirth_outskirts" />
+			<m N="the_docks" />
+			<m N="blood_gulch" />
+			<m N="tundra" />
+		</ml>
+	</GS>
+	<GS Name="DM 2v2" _locID="25332" GM="1" P="4" T="N" R="Y" XGM="7" HT="25000" MQ1="0.25" MQ2="0.1" MQ3="0">
+		<ml>
+			<m N="Beasleys_Plateau" />
+			<m N="terminal_moraine" />
+			<m N="repository" />
+			<m N="labyrinth" />
+			<m N="crevice" />
+		</ml>
+	</GS>
+	<GS Name="DM Teams 2v2" _locID="25334" GM="1" P="4" T="Y" R="Y" XGM="8" HT="25000" MQ1="0.25" MQ2="0" MQ3="0">
+		<ml>
+			<m N="Beasleys_Plateau" />
+			<m N="terminal_moraine" />
+			<m N="repository" />
+			<m N="labyrinth" />
+			<m N="crevice" />
+		</ml>
+	</GS>
+	<GS Name="DM 3v3" _locID="25333" GM="1" P="6" T="N" R="Y" XGM="9" HT="15000" MQ1="0.25" MQ2="0" MQ3="0">
+		<ml>
+			<m N="Exile" />
+			<m N="frozen_valley" />
+			<m N="Fort_Deen" />
+		</ml>
+	</GS>
+	<GS Name="DM Teams 3v3" _locID="25335" GM="1" P="6" T="Y" R="Y" XGM="10" HT="10000" MQ1="0.25" MQ2="0" MQ3="0">
+		<ml>
+			<m N="Exile" />
+			<m N="frozen_valley" />
+			<m N="Fort_Deen" />
+		</ml>
+	</GS>
+</GameSets>

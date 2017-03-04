@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<GameModes>
+	<GameMode>
+		<Name>Skirmish</Name>
+		<WorldScript>SkirmishWorld.triggerscript</WorldScript>
+		<PlayerScript>SkirmishPlayer.triggerscript</PlayerScript>
+		<Tech />
+		<DisplayNameID>8000</DisplayNameID>
+		<DescriptionID>8001</DescriptionID>
+		<NPC />
+	</GameMode>
+	<GameMode>
+		<Name>Deathmatch</Name>
+		<WorldScript>SkirmishWorld.triggerscript</WorldScript>
+		<PlayerScript>DeathMatchPlayer.triggerscript</PlayerScript>
+		<Tech />
+		<DisplayNameID>8002</DisplayNameID>
+		<DescriptionID>8003</DescriptionID>
+		<NPC />
+	</GameMode>
+</GameModes>

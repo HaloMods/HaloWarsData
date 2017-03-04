@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Objects>
+		<Object IsSquad="false" Player="0" ID="30000003" TintValue="1" EditorName="snd_play_bird_bg_01_2228" Position="507.1321,-28.2569,986.548" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_bird_bg_01</Object>
+		<Object IsSquad="false" Player="0" ID="30000002" TintValue="1" EditorName="snd_play_bird_bg_01_2230" Position="971.9134,67.1634,37.8753" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_bird_bg_01</Object>
+		<Object IsSquad="false" Player="0" ID="30000001" TintValue="1" EditorName="snd_play_bird_bg_01_2229" Position="986.673,-26.1368,406.5645" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_bird_bg_01</Object>
+		<Object IsSquad="false" Player="0" ID="30000007" TintValue="1" EditorName="snd_play_birds_group_03_2232" Position="575.5612,-21.8111,392.216" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_birds_group_03</Object>
+		<Object IsSquad="false" Player="0" ID="30000008" TintValue="1" EditorName="snd_play_birds_group_03_2236" Position="34.7773,104.0269,34.5392" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_birds_group_03</Object>
+		<Object IsSquad="false" Player="0" ID="30000009" TintValue="1" EditorName="snd_play_birds_group_03_2233" Position="26.377,91.6122,517.4131" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_birds_group_03</Object>
+		<Object IsSquad="false" Player="0" ID="30000004" TintValue="1" EditorName="snd_play_birds_group_03_2235" Position="27.9479,91.3884,269.1364" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_birds_group_03</Object>
+		<Object IsSquad="false" Player="0" ID="30000005" TintValue="1" EditorName="snd_play_birds_group_03_2234" Position="82.7941,104.5644,939.3507" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_birds_group_03</Object>
+		<Object IsSquad="false" Player="0" ID="30000006" TintValue="1" EditorName="snd_play_birds_group_03_2231" Position="835.0128,115.188,55.5006" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_birds_group_03</Object>
+		<Object IsSquad="false" Player="0" ID="30000010" TintValue="1" EditorName="snd_play_scn_06_domeoflight_2240" Position="838.0447,48.4123,841.2817" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_scn_06_domeoflight</Object>
+	</Objects>
+</Scenario>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Achievements>
+	<AchievementXMLVersion>21</AchievementXMLVersion>
+	<Campaign name="Meet Sergent Forge" LiveIndex="7" gamerPicture="Forge">
+		<GameType>Campaign</GameType>
+		<CompletedScenario name="PHXscn01" />
+	</Campaign>
+	<Campaign name="Ice Warriors" LiveIndex="8">
+		<GameType>Campaign</GameType>
+		<CompletedScenario name="PHXscn01" />
+		<CompletedScenario name="PHXscn02" />
+		<CompletedScenario name="PHXscn03" />
+	</Campaign>
+	<Campaign name="Key to Pirth" LiveIndex="9">
+		<GameType>Campaign</GameType>
+		<CompletedScenario name="PHXscn04" />
+		<CompletedScenario name="PHXscn05" />
+		<CompletedScenario name="PHXscn06" />
+		<CompletedScenario name="PHXscn07" />
+	</Campaign>
+	<Campaign name="Ugly is only Skin Deep" LiveIndex="11">
+		<GameType>Campaign</GameType>
+		<CompletedScenario name="PHXscn08" />
+		<CompletedScenario name="PHXscn09" />
+		<CompletedScenario name="PHXscn10" />
+		<CompletedScenario name="PHXscn11" />
+	</Campaign>
+	<Campaign name="No Way Home?" LiveIndex="12" gamerPicture="Anders">
+		<GameType>Campaign</GameType>
+		<CompletedScenario name="PHXscn12" />
+		<CompletedScenario name="PHXscn13" />
+		<CompletedScenario name="PHXscn14" />
+		<CompletedScenario name="PHXscn15" />
+	</Campaign>
+	<Campaign name="Adjudicate the Arbiter" LiveIndex="13">
+		<GameType>Campaign</GameType>
+		<CompletedScenario name="PHXscn01" difficulty="Heroic" />
+		<CompletedScenario name="PHXscn02" difficulty="Heroic" />
+		<CompletedScenario name="PHXscn03" difficulty="Heroic" />
+		<CompletedScenario name="PHXscn04" difficulty="Heroic" />
+		<CompletedScenario name="PHXscn05" difficulty="Heroic" />
+		<CompletedScenario name="PHXscn06" difficulty="Heroic" />
+		<CompletedScenario name="PHXscn07" difficulty="Heroic" />
+		<CompletedScenario name="PHXscn08" difficulty="Heroic" />
+		<CompletedScenario name="PHXscn09" difficulty="Heroic" />
+		<CompletedScenario name="PHXscn10" difficulty="Heroic" />
+		<CompletedScenario name="PHXscn11" difficulty="Heroic" />
+		<CompletedScenario name="PHXscn12" difficulty="Heroic" />
+		<CompletedScenario name="PHXscn13" difficulty="Heroic" />
+		<CompletedScenario name="PHXscn14" difficulty="Heroic" />
+		<CompletedScenario name="PHXscn15" difficulty="Heroic" />
+	</Campaign>
+	<Campaign name="Detour the Great Journey" LiveIndex="14">
+		<GameType>Campaign</GameType>
+		<CompletedScenario name="PHXscn01" difficulty="Legendary" />
+		<CompletedScenario name="PHXscn02" difficulty="Legendary" />
+		<CompletedScenario name="PHXscn03" difficulty="Legendary" />
+		<CompletedScenario name="PHXscn04" difficulty="Legendary" />
+		<CompletedScenario name="PHXscn05" difficulty="Legendary" />
+		<CompletedScenario name="PHXscn06" difficulty="Legendary" />
+		<CompletedScenario name="PHXscn07" difficulty="Legendary" />
+		<CompletedScenario name="PHXscn08" difficulty="Legendary" />
+		<CompletedScenario name="PHXscn09" difficulty="Legendary" />
+		<CompletedScenario name="PHXscn10" difficulty="Legendary" />
+		<CompletedScenario name="PHXscn11" difficulty="Legendary" />
+		<CompletedScenario name="PHXscn12" difficulty="Legendary" />
+		<CompletedScenario name="PHXscn13" difficulty="Legendary" />
+		<CompletedScenario name="PHXscn14" difficulty="Legendary" />
+		<CompletedScenario name="PHXscn15" difficulty="Legendary" />
+	</Campaign>
+	<Campaign name="Momma's Boy" LiveIndex="15">
+		<GameType>Campaign</GameType>
+		<CompletedScenario name="" medal="1" />
+		<Restriction>Win</Restriction>
+	</Campaign>
+	<Campaign name="Crushed Colors" LiveIndex="16">
+		<GameType>Campaign</GameType>
+		<ScoreImprovement />
+	</Campaign>
+	<Campaign name="Mr Punctual" LiveIndex="17">
+		<GameType>Campaign</GameType>
+		<CompletedScenario name="PHXscn01" difficulty="Heroic" parbeat="true" />
+		<CompletedScenario name="PHXscn02" difficulty="Heroic" parbeat="true" />
+		<CompletedScenario name="PHXscn03" difficulty="Heroic" parbeat="true" />
+		<CompletedScenario name="PHXscn04" difficulty="Heroic" parbeat="true" />
+		<CompletedScenario name="PHXscn05" difficulty="Heroic" parbeat="true" />
+		<CompletedScenario name="PHXscn06" difficulty="Heroic" parbeat="true" />
+		<CompletedScenario name="PHXscn07" difficulty="Heroic" parbeat="true" />
+		<CompletedScenario name="PHXscn08" difficulty="Heroic" parbeat="true" />
+		<CompletedScenario name="PHXscn09" difficulty="Heroic" parbeat="true" />
+		<CompletedScenario name="PHXscn10" difficulty="Heroic" parbeat="true" />
+		<CompletedScenario name="PHXscn11" difficulty="Heroic" parbeat="true" />
+		<CompletedScenario name="PHXscn12" difficulty="Heroic" parbeat="true" />
+		<CompletedScenario name="PHXscn13" difficulty="Heroic" parbeat="true" />
+		<CompletedScenario name="PHXscn14" difficulty="Heroic" parbeat="true" />
+		<CompletedScenario name="PHXscn15" difficulty="Heroic" parbeat="true" />
+	</Campaign>
+	<Campaign name="Own Worst Enemy" LiveIndex="18">
+		<GameType>Campaign</GameType>
+		<CompletedScenario name="" medal="1" />
+		<AllSkullDebuffs />
+		<Restriction>Win</Restriction>
+	</Campaign>
+	<Campaign name="Wall of Recognition" LiveIndex="19">
+		<GameType>Campaign</GameType>
+		<CompletedScenario name="PHXscn01" medal="1" />
+		<CompletedScenario name="PHXscn02" medal="1" />
+		<CompletedScenario name="PHXscn03" medal="1" />
+		<CompletedScenario name="PHXscn04" medal="1" />
+		<CompletedScenario name="PHXscn05" medal="1" />
+		<CompletedScenario name="PHXscn06" medal="1" />
+		<CompletedScenario name="PHXscn07" medal="1" />
+		<CompletedScenario name="PHXscn08" medal="1" />
+		<CompletedScenario name="PHXscn09" medal="1" />
+		<CompletedScenario name="PHXscn10" medal="1" />
+		<CompletedScenario name="PHXscn11" medal="1" />
+		<CompletedScenario name="PHXscn12" medal="1" />
+		<CompletedScenario name="PHXscn13" medal="1" />
+		<CompletedScenario name="PHXscn14" medal="1" />
+		<CompletedScenario name="PHXscn15" medal="1" />
+	</Campaign>
+	<Campaign name="Epic Grinder" LiveIndex="20">
+		<GameType>Campaign</GameType>
+		<LifetimeScore>1000000</LifetimeScore>
+	</Campaign>
+	<Trigger name="Mission01" LiveIndex="21" />
+	<Trigger name="Mission02" LiveIndex="22" />
+	<Trigger name="Mission03" LiveIndex="23" />
+	<Trigger name="Mission04" LiveIndex="25" />
+	<Trigger name="Mission05" LiveIndex="26" />
+	<Trigger name="Mission06" LiveIndex="27" />
+	<Trigger name="Mission07" LiveIndex="28" />
+	<Trigger name="Mission08" LiveIndex="29" />
+	<Trigger name="Mission09" LiveIndex="30" />
+	<Trigger name="Mission10" LiveIndex="31" />
+	<Trigger name="Mission11" LiveIndex="32" />
+	<Trigger name="Mission12" LiveIndex="33" />
+	<Trigger name="Mission13" LiveIndex="34" />
+	<Trigger name="Mission14" LiveIndex="35" />
+	<Trigger name="Mission15" LiveIndex="36" />
+	<Campaign name="Backscratcher" LiveIndex="37">
+		<GameType>Campaign</GameType>
+		<CompletedScenario name="" mode="coop" />
+		<Restriction>Win</Restriction>
+	</Campaign>
+	<Campaign name="OMG BFF FTW" LiveIndex="38">
+		<GameType>Campaign</GameType>
+		<CompletedScenario name="PHXscn01" mode="coop" />
+		<CompletedScenario name="PHXscn02" mode="coop" />
+		<CompletedScenario name="PHXscn03" mode="coop" />
+		<CompletedScenario name="PHXscn04" mode="coop" />
+		<CompletedScenario name="PHXscn05" mode="coop" />
+		<CompletedScenario name="PHXscn06" mode="coop" />
+		<CompletedScenario name="PHXscn07" mode="coop" />
+		<CompletedScenario name="PHXscn08" mode="coop" />
+		<CompletedScenario name="PHXscn09" mode="coop" />
+		<CompletedScenario name="PHXscn10" mode="coop" />
+		<CompletedScenario name="PHXscn11" mode="coop" />
+		<CompletedScenario name="PHXscn12" mode="coop" />
+		<CompletedScenario name="PHXscn13" mode="coop" />
+		<CompletedScenario name="PHXscn14" mode="coop" />
+		<CompletedScenario name="PHXscn15" mode="coop" />
+	</Campaign>
+	<Skirmish name="Playin' the Field" LiveIndex="39">
+		<Leader win="true">Cutter</Leader>
+		<Leader win="true">Forge</Leader>
+		<Leader win="true">Anders</Leader>
+		<Leader win="true">Arbiter</Leader>
+		<Leader win="true">Brute Chieftain</Leader>
+		<Leader win="true">Prophet of Mercy</Leader>
+	</Skirmish>
+	<Skirmish name="Gallivant around the Galaxy" LiveIndex="40">
+		<Map win="true">Chasms</Map>
+		<Map win="true">Pirth_Outskirts</Map>
+		<Map win="true">The_Docks</Map>
+		<Map win="true">Beasleys_Plateau</Map>
+		<Map win="true">Fort_Deen</Map>
+		<Map win="true">Tundra</Map>
+		<Map win="true">Terminal_Moraine</Map>
+		<Map win="true">Frozen_Valley</Map>
+		<Map win="true">Blood_Gulch</Map>
+		<Map win="true">Repository</Map>
+		<Map win="true">Labyrinth</Map>
+		<Map win="true">Release</Map>
+		<Map win="true">Crevice</Map>
+		<Map win="true">Exile</Map>
+	</Skirmish>
+	<Skirmish name="Empire Builder" LiveIndex="41">
+		<Mode win="true">Skirmish</Mode>
+		<Mode win="true">Deathmatch</Mode>
+	</Skirmish>
+	<Skirmish name="Titan" LiveIndex="42">
+		<MinScore>20000</MinScore>
+	</Skirmish>
+	<Skirmish name="Big Al's Scooter" LiveIndex="43">
+		<Restriction>Win</Restriction>
+		<MaxTime>600</MaxTime>
+		<Difficulty>Heroic</Difficulty>
+		<NumPlayers PlayerType="AI" Team="Enemy" Range="Minimum">1</NumPlayers>
+		<NumPlayers PlayerType="Human" Team="Enemy" Range="Maximum">0</NumPlayers>
+	</Skirmish>
+	<Skirmish name="At Least My Virtual Friends Love Me" LiveIndex="44">
+		<Restriction>Win</Restriction>
+		<NumPlayers PlayerType="AI" Team="Ally" Range="Minimum">2</NumPlayers>
+		<NumPlayers PlayerType="Human" Team="Ally" Range="Exact">1</NumPlayers>
+	</Skirmish>
+	<Misc name="Walk Off Winner" LiveIndex="45">
+		<FinalKillByPower />
+	</Misc>
+	<Skirmish name="2 Death Machines are Better than 1" LiveIndex="46">
+		<Restriction>Win</Restriction>
+		<Restriction>DualScarabs</Restriction>
+	</Skirmish>
+	<Skirmish name="PennyPincher" LiveIndex="47">
+		<Restriction>Win</Restriction>
+		<Restriction>HighestScore</Restriction>
+		<Restriction>HasAIOpponents</Restriction>
+		<SquadLimit>10</SquadLimit>
+		<Difficulty>Heroic</Difficulty>
+	</Skirmish>
+	<Skirmish name="N00b n0 M0r3" LiveIndex="48">
+		<Restriction>Win</Restriction>
+		<Restriction>Live</Restriction>
+		<Restriction>Ranked</Restriction>
+	</Skirmish>
+	<Skirmish name="So Lonely at the Top" LiveIndex="49">
+		<Restriction>Win</Restriction>
+		<Restriction>Live</Restriction>
+		<Restriction>HighestScore</Restriction>
+		<Restriction>Ranked</Restriction>
+	</Skirmish>
+	<Skirmish name="Basically Naive" LiveIndex="50">
+		<Restriction>Live</Restriction>
+		<Rank>1</Rank>
+	</Skirmish>
+	<Skirmish name="Officer on Deck" LiveIndex="51">
+		<Restriction>Live</Restriction>
+		<Rank>2</Rank>
+	</Skirmish>
+	<Skirmish name="Running the Show" LiveIndex="52">
+		<Restriction>Live</Restriction>
+		<Rank>8</Rank>
+	</Skirmish>
+	<Misc name="Alas Poor Andrew Thomas" LiveIndex="53">
+		<Skulls>1</Skulls>
+	</Misc>
+	<Misc name="Graverobber" LiveIndex="54">
+		<Skulls>15</Skulls>
+	</Misc>
+	<Misc name="Halo Academic" LiveIndex="55">
+		<TimelineEvents>20</TimelineEvents>
+	</Misc>
+	<Misc name="Halo Historian" LiveIndex="56">
+		<TimelineEvents>41</TimelineEvents>
+	</Misc>
+	<Meta name="Ready for the Sequel" LiveIndex="57">
+		<Achievement>Mission01</Achievement>
+		<Achievement>Mission02</Achievement>
+		<Achievement>Mission03</Achievement>
+		<Achievement>Mission04</Achievement>
+		<Achievement>Mission05</Achievement>
+		<Achievement>Mission06</Achievement>
+		<Achievement>Mission07</Achievement>
+		<Achievement>Mission08</Achievement>
+		<Achievement>Mission09</Achievement>
+		<Achievement>Mission10</Achievement>
+		<Achievement>Mission11</Achievement>
+		<Achievement>Mission12</Achievement>
+		<Achievement>Mission13</Achievement>
+		<Achievement>Mission14</Achievement>
+		<Achievement>Mission15</Achievement>
+		<Achievement>Wall of Recognition</Achievement>
+		<Achievement>Epic Grinder</Achievement>
+		<Achievement>Playin' the Field</Achievement>
+		<Achievement>Gallivant around the Galaxy</Achievement>
+		<Achievement>Empire Builder</Achievement>
+		<Achievement>Titan</Achievement>
+		<Achievement>Graverobber</Achievement>
+		<Achievement>Halo Historian</Achievement>
+	</Meta>
+	<Misc name="24 Hours of Quality" LiveIndex="58">
+		<PlayedTime>86400</PlayedTime>
+	</Misc>
+</Achievements>

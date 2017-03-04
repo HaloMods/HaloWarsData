@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Objects>
+		<Object IsSquad="false" Player="0" ID="10000042" TintValue="1" EditorName="env_shieldexterior_4wall26in_01_2980" Position="809.29,-21.0556,462.9097" Forward="0.21,0,-0.9777" Right="-0.9777,0,-0.21" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_4wall26in_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000023" TintValue="1" EditorName="env_shieldexterior_4wall26out_01_2961" Position="761.5909,-20.0016,399.1772" Forward="0.077,0,0.997" Right="0.997,0,-0.077" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_4wall26out_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000041" TintValue="1" EditorName="env_shieldexterior_4wall26out_01_2979" Position="754.6725,-21.0573,463.0686" Forward="-0.5985,0,-0.8011" Right="-0.8011,0,0.5985" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_4wall26out_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000028" TintValue="1" EditorName="env_shieldexterior_4wall26out_01_2966" Position="657.3193,-19.9895,477.2623" Forward="0.3879,0,0.9217" Right="0.9217,0,-0.3879" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_4wall26out_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000012" TintValue="1" EditorName="env_shieldexterior_4wall26out_01_2950" Position="792.5389,-19.9848,236.5505" Forward="0.5064,0,0.8623" Right="0.8623,0,-0.5064" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_4wall26out_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000025" TintValue="1" EditorName="env_shieldexterior_4wall45in_01_2963" Position="725.2304,-19.9871,397.5132" Forward="0.2339,0,0.9723" Right="0.9723,0,-0.2339" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_4wall45in_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000016" TintValue="1" EditorName="env_shieldexterior_4wall45in_01_2954" Position="759.124,-20.0398,250.864" Forward="0.6342,0,0.7732" Right="0.7732,0,-0.6342" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_4wall45in_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000029" TintValue="1" EditorName="env_shieldexterior_4wall45in_01_2967" Position="701.1441,-19.9965,419.8562" Forward="0.8524,0,0.523" Right="0.523,0,-0.8524" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_4wall45in_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000036" TintValue="1" EditorName="env_shieldexterior_4wall45in_01_2974" Position="618.6166,-20.0122,697.723" Forward="-0.2097,0,0.9778" Right="0.9778,0,0.2097" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_4wall45in_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000034" TintValue="1" EditorName="env_shieldexterior_4wall45out_01_2972" Position="785.1286,-19.8943,658.8619" Forward="0.9163,0,-0.4006" Right="-0.4006,0,-0.9163" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_4wall45out_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000008" TintValue="1" EditorName="env_shieldexterior_4wall45out_01_2946" Position="856.9431,-19.9365,105.989" Forward="0.9352,0,-0.3542" Right="-0.3542,0,-0.9352" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_4wall45out_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000021" TintValue="1" EditorName="env_shieldexterior_4wall45out_01_2959" Position="823.0124,-20.0399,355.1938" Forward="0.9963,0,0.0855" Right="0.0855,0,-0.9963" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_4wall45out_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000006" TintValue="1" EditorName="env_shieldexterior_4wall45out_01_2943" Position="806.7353,-19.942,45.8552" Forward="0.4274,0,-0.9041" Right="-0.9041,0,-0.4274" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_4wall45out_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000027" TintValue="1" EditorName="env_shieldexterior_4wall45out_01_2965" Position="691.4484,-20.0006,455.3069" Forward="0.8523,0,0.5231" Right="0.5231,0,-0.8523" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_4wall45out_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000010" TintValue="1" EditorName="env_shieldexterior_4wall45out_01_2948" Position="850.9078,-19.9156,184.0385" Forward="0.9129,0,0.4081" Right="0.4081,0,-0.9129" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_4wall45out_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000020" TintValue="1" EditorName="env_shieldexterior_4wall45out_01_2958" Position="814.6331,-20.0399,315.5816" Forward="0.7659,0,-0.643" Right="-0.643,0,-0.7659" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_4wall45out_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000030" TintValue="1" EditorName="env_shieldexterior_4wall45out_01_2968" Position="707.193,-19.9774,578.4196" Forward="0.3733,0,-0.9277" Right="-0.9277,0,-0.3733" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_4wall45out_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000022" TintValue="1" EditorName="env_shieldexterior_4wall45out_01_2960" Position="800.882,-20.0309,389.0996" Forward="0.6427,0,0.7661" Right="0.7661,0,-0.6427" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_4wall45out_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000017" TintValue="1" EditorName="env_shieldexterior_4wall90in_01_2955" Position="748.0076,-20.0398,280.3196" Forward="0.9538,0,-0.3003" Right="-0.3003,0,-0.9538" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_4wall90in_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000037" TintValue="1" EditorName="env_shieldexterior_4wall90in_01_2975" Position="588.5085,-20.0317,707.1705" Forward="0.8218,0,0.5698" Right="0.5698,0,-0.8218" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_4wall90in_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000001" TintValue="1" EditorName="env_shieldexterior_4wall90in_01_2938" Position="732.1179,-19.9464,43.9333" Forward="0.6755,0,-0.7374" Right="-0.7374,0,-0.6755" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_4wall90in_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000040" TintValue="1" EditorName="env_shieldexterior_4wall90out_01_2978" Position="755.3796,-19.894,586.4818" Forward="-0.0253,0,0.9997" Right="0.9997,0,0.0253" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_4wall90out_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000033" TintValue="1" EditorName="env_shieldexterior_4wallLD_01_2971" Position="746.1086,-19.9776,611.5905" Forward="0.6921,0,-0.7218" Right="-0.7218,0,-0.6921" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_4wallLD_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000038" TintValue="1" EditorName="env_shieldexterior_4wallLD_01_2976" Position="603.2388,-20.0473,753.4889" Forward="0.9852,0,-0.1714" Right="-0.1714,0,-0.9852" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_4wallLD_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000035" TintValue="1" EditorName="env_shieldexterior_4wallS_01_2973" Position="648.8776,-19.9593,715.4176" Forward="-0.5646,0,0.8253" Right="0.8253,0,0.5646" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_4wallS_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000019" TintValue="1" EditorName="env_shieldexterior_4wallS_01_2957" Position="782.6935,-20.0398,292.9115" Forward="0.4611,0,-0.8874" Right="-0.8874,0,-0.4611" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_4wallS_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000007" TintValue="1" EditorName="env_shieldexterior_4wallS_01_2944" Position="834.5305,-19.9953,73.9765" Forward="0.7338,0,-0.6794" Right="-0.6794,0,-0.7338" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_4wallS_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000039" TintValue="1" EditorName="env_shieldexterior_4wallS_01_2977" Position="729.0825,-19.9272,556.4828" Forward="-0.7174,0,0.6967" Right="0.6967,0,0.7174" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_4wallS_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000003" TintValue="1" EditorName="env_shieldexterior_4wallS_01_2940" Position="768.2925,-19.9262,39.0004" Forward="0.0198,0,-0.9998" Right="-0.9998,0,-0.0198" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_4wallS_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000009" TintValue="1" EditorName="env_shieldexterior_4wallS_01_2947" Position="857.3305,-19.912,145.4506" Forward="0.9997,0,0.0246" Right="0.0246,0,-0.9997" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_4wallS_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000011" TintValue="1" EditorName="env_shieldexterior_4wallS_01_2949" Position="823.2587,-19.9131,212.384" Forward="0.6917,0,0.7222" Right="0.7222,0,-0.6917" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_4wallS_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000096" TintValue="1" EditorName="env_shieldexterior_floodpatch_02_3403" Position="413.0266,-2.6481,631.7961" Forward="0.9854,0,0.17" Right="0.17,0,-0.9854" Group="-1" VisualVariationIndex="0">
+			<Flag>IncludeInSimRep</Flag>env_shieldexterior_floodpatch_02</Object>
+		<Object IsSquad="false" Player="0" ID="10000097" TintValue="1" EditorName="env_shieldexterior_floodpatch_02_3404" Position="788.6339,-4.0983,511.5001" Forward="-0.932,0,0.3624" Right="0.3624,0,0.932" Group="-1" VisualVariationIndex="0">
+			<Flag>IncludeInSimRep</Flag>env_shieldexterior_floodpatch_02</Object>
+		<Object IsSquad="false" Player="0" ID="10000091" TintValue="1" EditorName="env_shieldexterior_floodpatch_02_3398" Position="413.2922,10.727,186.6864" Forward="-0.932,0,0.3624" Right="0.3624,0,0.932" Group="-1" VisualVariationIndex="0">
+			<Flag>IncludeInSimRep</Flag>env_shieldexterior_floodpatch_02</Object>
+		<Object IsSquad="false" Player="0" ID="10000093" TintValue="1" EditorName="env_shieldexterior_floodpatch_03_3398" Position="377.9984,31.5228,385.7361" Forward="-0.8415,0,0.5403" Right="0.5403,0,0.8415" Group="-1" VisualVariationIndex="0">
+			<Flag>IncludeInSimRep</Flag>env_shieldexterior_floodpatch_03</Object>
+		<Object IsSquad="false" Player="0" ID="10000094" TintValue="1" EditorName="env_shieldexterior_floodpatch_03_3399" Position="331.5776,29.7278,441.564" Forward="-0.1987,0,0.9801" Right="0.9801,0,0.1987" Group="-1" VisualVariationIndex="0">
+			<Flag>IncludeInSimRep</Flag>env_shieldexterior_floodpatch_03</Object>
+		<Object IsSquad="false" Player="0" ID="10000098" TintValue="1" EditorName="env_shieldexterior_floodpatch_03_3405" Position="652.8623,6.4418,662.6157" Forward="-0.5646,0,0.8253" Right="0.8253,0,0.5646" Group="-1" VisualVariationIndex="0">
+			<Flag>IncludeInSimRep</Flag>env_shieldexterior_floodpatch_03</Object>
+		<Object IsSquad="false" Player="0" ID="10000092" TintValue="1" EditorName="env_shieldexterior_floodpatch_03_3399" Position="311.2421,3.839,143.1575" Forward="-0.7174,0,0.6967" Right="0.6967,0,0.7174" Group="-1" VisualVariationIndex="0">
+			<Flag>IncludeInSimRep</Flag>env_shieldexterior_floodpatch_03</Object>
+		<Object IsSquad="false" Player="0" ID="10000095" TintValue="1" EditorName="env_shieldexterior_floodpatch_04_3402" Position="494.126,15.4609,742.9323" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>IncludeInSimRep</Flag>env_shieldexterior_floodpatch_04</Object>
+		<Object IsSquad="false" Player="0" ID="10000067" TintValue="1" EditorName="env_shieldexterior_floodpod_03_3106" Position="794.53,-4.0992,509.4386" Forward="0.9463,0,-0.3233" Right="-0.3233,0,-0.9463" Group="-1" VisualVariationIndex="0">env_shieldexterior_floodpod_03</Object>
+		<Object IsSquad="false" Player="0" ID="10000068" TintValue="1" EditorName="env_shieldexterior_floodpod_03_3107" Position="752.8441,-1.052,497.0954" Forward="-0.9775,0,-0.2108" Right="-0.2108,0,0.9775" Group="-1" VisualVariationIndex="0">env_shieldexterior_floodpod_03</Object>
+		<Object IsSquad="false" Player="0" ID="10000063" TintValue="1" EditorName="env_shieldexterior_floodpod_03_3102" Position="425.8757,-1.7925,104.8284" Forward="0.9636,0,0.2675" Right="0.2675,0,-0.9636" Group="-1" VisualVariationIndex="0">env_shieldexterior_floodpod_03</Object>
+		<Object IsSquad="false" Player="0" ID="10000066" TintValue="1" EditorName="env_shieldexterior_floodpod_03_3105" Position="390.4606,-2.6464,624.6429" Forward="0.2392,0,-0.971" Right="-0.971,0,-0.2392" Group="-1" VisualVariationIndex="0">env_shieldexterior_floodpod_03</Object>
+		<Object IsSquad="false" Player="0" ID="10000065" TintValue="1" EditorName="env_shieldexterior_floodpod_03_3104" Position="372.6886,-2.7905,635.5661" Forward="0.2955,0,0.9553" Right="0.9553,0,-0.2955" Group="-1" VisualVariationIndex="0">env_shieldexterior_floodpod_03</Object>
+		<Object IsSquad="false" Player="0" ID="10000064" TintValue="1" EditorName="env_shieldexterior_floodpod_03_3103" Position="411.1424,-2.5893,625.1535" Forward="0.9093,0,-0.4161" Right="-0.4161,0,-0.9093" Group="-1" VisualVariationIndex="0">env_shieldexterior_floodpod_03</Object>
+		<Object IsSquad="false" Player="0" ID="10000101" TintValue="1" EditorName="env_shieldexterior_landingdecal_01_3410" Position="766.2684,0.0004,200.455" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">env_shieldexterior_landingdecal_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000099" TintValue="1" EditorName="env_shieldexterior_landingdecal_01_3408" Position="775.7028,0.0006,62.7074" Forward="-0.0998,0,0.995" Right="0.995,0,0.0998" Group="-1" VisualVariationIndex="0">env_shieldexterior_landingdecal_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000100" TintValue="1" EditorName="env_shieldexterior_landingdecal_01_3409" Position="738.0248,0.0008,60.7945" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">env_shieldexterior_landingdecal_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000081" TintValue="1" EditorName="env_shieldexterior_rockpillar_01_3120" Position="114.149,6.5706,188.4993" Forward="0.8632,0,-0.5048" Right="-0.5048,0,-0.8632" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_rockpillar_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000077" TintValue="1" EditorName="env_shieldexterior_rockpillar_01_3116" Position="213.4354,33.7608,754.9126" Forward="-0.7174,0,0.6967" Right="0.6967,0,0.7174" Group="-1" VisualVariationIndex="0">env_shieldexterior_rockpillar_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000089" TintValue="1" EditorName="env_shieldexterior_rockpillar_01_3128" Position="83.3969,16.5232,494.9098" Forward="0.9093,0,-0.4161" Right="-0.4161,0,-0.9093" Group="-1" VisualVariationIndex="0">env_shieldexterior_rockpillar_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000082" TintValue="1" EditorName="env_shieldexterior_rockpillar_02_3121" Position="205.8364,11.3496,143.7323" Forward="0.6442,0,0.7648" Right="0.7648,0,-0.6442" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_rockpillar_02</Object>
+		<Object IsSquad="false" Player="0" ID="10000078" TintValue="1" EditorName="env_shieldexterior_rockpillar_02_3117" Position="297.1971,28.8735,775.9558" Forward="0.9636,0,0.2675" Right="0.2675,0,-0.9636" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_rockpillar_02</Object>
+		<Object IsSquad="false" Player="0" ID="10000090" TintValue="1" EditorName="env_shieldexterior_rockpillar_02_3129" Position="134.8675,2.3692,471.9744" Forward="0.2955,0,0.9553" Right="0.9553,0,-0.2955" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_rockpillar_02</Object>
+		<Object IsSquad="false" Player="0" ID="10000087" TintValue="1" EditorName="env_shieldexterior_rockpillar_02_3126" Position="297.6909,12.9817,282.3322" Forward="-0.7055,0,0.7087" Right="0.7087,0,0.7055" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_rockpillar_02</Object>
+		<Object IsSquad="false" Player="0" ID="10000079" TintValue="1" EditorName="env_shieldexterior_rockpillar_03_3118" Position="231.5806,35.8759,820.8062" Forward="0.5646,0,0.8253" Right="0.8253,0,-0.5646" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_rockpillar_03</Object>
+		<Object IsSquad="false" Player="0" ID="10000088" TintValue="1" EditorName="env_shieldexterior_rockpillar_03_3127" Position="535.355,9.753,392.3246" Forward="-0.6442,0,0.7648" Right="0.7648,0,0.6442" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_rockpillar_03</Object>
+		<Object IsSquad="false" Player="0" ID="10000085" TintValue="1" EditorName="env_shieldexterior_rockpillar_03_3124" Position="406.7531,23.5124,294.4504" Forward="-0.9937,0,-0.1122" Right="-0.1122,0,0.9937" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_rockpillar_03</Object>
+		<Object IsSquad="false" Player="0" ID="10000083" TintValue="1" EditorName="env_shieldexterior_rockpillar_03_3122" Position="216.0319,25.4851,315.8923" Forward="-0.932,0,0.3624" Right="0.3624,0,0.932" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_rockpillar_03</Object>
+		<Object IsSquad="false" Player="0" ID="10000086" TintValue="1" EditorName="env_shieldexterior_rockpillar_07_3125" Position="151.3689,34.8939,307.2964" Forward="-0.3508,0,-0.9365" Right="-0.9365,0,0.3508" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_rockpillar_07</Object>
+		<Object IsSquad="false" Player="0" ID="10000045" TintValue="1" EditorName="env_shieldexterior_scn10water_02_2986" Position="564.9992,-68.2465,456.0446" Forward="-0.9979,0,0.0654" Right="0.0654,0,0.9979" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_scn10water_02</Object>
+		<Object IsSquad="false" Player="6" ID="10000055" TintValue="1" EditorName="fld_egg_dead_01_3110" Position="379.3044,-2.6481,627.9756" Forward="-0.3508,0,-0.9365" Right="-0.9365,0,0.3508" Group="-1" VisualVariationIndex="0">fld_egg_dead_01</Object>
+		<Object IsSquad="false" Player="6" ID="10000056" TintValue="1" EditorName="fld_egg_dead_01_3111" Position="400.9495,-2.6481,642.4752" Forward="-0.2955,0,0.9553" Right="0.9553,0,0.2955" Group="-1" VisualVariationIndex="0">fld_egg_dead_01</Object>
+		<Object IsSquad="false" Player="6" ID="10000050" TintValue="1" EditorName="fld_egg_dead_01_3105" Position="416.7964,-1.7894,117.0684" Forward="0.8632,0,-0.5048" Right="-0.5048,0,-0.8632" Group="-1" VisualVariationIndex="0">fld_egg_dead_01</Object>
+		<Object IsSquad="false" Player="6" ID="10000060" TintValue="1" EditorName="fld_egg_sporeCloud_01_3115" Position="755.7484,-1.0391,486.0363" Forward="0.1411,0,-0.99" Right="-0.99,0,-0.1411" Group="-1" VisualVariationIndex="0">fld_egg_sporeCloud_01</Object>
+		<Object IsSquad="false" Player="6" ID="10000051" TintValue="1" EditorName="fld_egg_sporeCloud_01_3106" Position="402.3106,-2.6481,631.8343" Forward="0.9975,0,0.0707" Right="0.0707,0,-0.9975" Group="-1" VisualVariationIndex="0">fld_egg_sporeCloud_01</Object>
+		<Object IsSquad="false" Player="6" ID="10000048" TintValue="1" EditorName="fld_egg_sporeCloud_01_3103" Position="414.4801,-1.769,101.612" Forward="0.3894,0,0.9211" Right="0.9211,0,-0.3894" Group="-1" VisualVariationIndex="0">fld_egg_sporeCloud_01</Object>
+		<Object IsSquad="false" Player="6" ID="10000059" TintValue="1" EditorName="fld_egg_sporeCloud_01_3114" Position="823.7224,-4.0992,500.8149" Forward="-0.4425,0,-0.8968" Right="-0.8968,0,0.4425" Group="-1" VisualVariationIndex="0">fld_egg_sporeCloud_01</Object>
+		<Object IsSquad="false" Player="6" ID="10000047" TintValue="1" EditorName="fld_egg_sporeCloud_01_3102" Position="428.2725,-1.7922,91.2328" Forward="0.7174,0,0.6967" Right="0.6967,0,-0.7174" Group="-1" VisualVariationIndex="0">fld_egg_sporeCloud_01</Object>
+		<Object IsSquad="false" Player="6" ID="10000049" TintValue="1" EditorName="fld_egg_sporeCloud_01_3104" Position="429.8438,-1.7914,117.2915" Forward="-0.4868,0,-0.8735" Right="-0.8735,0,0.4868" Group="-1" VisualVariationIndex="0">fld_egg_sporeCloud_01</Object>
+		<Object IsSquad="false" Player="6" ID="10000053" TintValue="1" EditorName="fld_egg_sporeCloud_01_3108" Position="367.9817,-2.6507,616.655" Forward="0.9975,0,0.0707" Right="0.0707,0,-0.9975" Group="-1" VisualVariationIndex="0">fld_egg_sporeCloud_01</Object>
+		<Object IsSquad="false" Player="6" ID="10000058" TintValue="1" EditorName="fld_egg_sporeCloud_01_3113" Position="807.964,-4.0992,505.5078" Forward="0.4274,0,-0.9041" Right="-0.9041,0,-0.4274" Group="-1" VisualVariationIndex="0">fld_egg_sporeCloud_01</Object>
+		<Object IsSquad="false" Player="6" ID="10000057" TintValue="1" EditorName="fld_egg_sporeCloud_01_3112" Position="809.5449,-4.0992,489.7867" Forward="0.8415,0,0.5403" Right="0.5403,0,-0.8415" Group="-1" VisualVariationIndex="0">fld_egg_sporeCloud_01</Object>
+		<Object IsSquad="false" Player="6" ID="10000052" TintValue="1" EditorName="fld_egg_sporeCloud_01_3107" Position="388.5331,-2.6482,637.4229" Forward="0.0915,0,-0.9958" Right="-0.9958,0,-0.0915" Group="-1" VisualVariationIndex="0">fld_egg_sporeCloud_01</Object>
+		<Object IsSquad="false" Player="6" ID="10000061" TintValue="1" EditorName="fld_egg_sporeCloud_01_3116" Position="769.0156,-1.0391,485.8884" Forward="0.9854,0,0.17" Right="0.17,0,-0.9854" Group="-1" VisualVariationIndex="0">fld_egg_sporeCloud_01</Object>
+		<Object IsSquad="false" Player="6" ID="10000062" TintValue="1" EditorName="fld_egg_sporeCloud_01_3117" Position="779.4207,-1.0391,474.8734" Forward="0.6442,0,0.7648" Right="0.7648,0,-0.6442" Group="-1" VisualVariationIndex="0">fld_egg_sporeCloud_01</Object>
+		<Object IsSquad="false" Player="6" ID="10000054" TintValue="1" EditorName="fld_egg_sporeCloud_01_3109" Position="358.4982,-2.6342,622.1702" Forward="0.2474,0,0.9689" Right="0.9689,0,-0.2474" Group="-1" VisualVariationIndex="0">fld_egg_sporeCloud_01</Object>
+	</Objects>
+</Scenario>

@@ -1,0 +1,28 @@
+<EraArchive>
+  <Files>
+    <chunk fileDateTime="2008-12-16 22:40:35Z" id="2AA72CEA5C72D609" name="art\ui\flash\fontlibrary\locale\fonts.gfx" Compression="DeflateRaw" />
+    <chunk fileDateTime="2008-12-16 22:40:35Z" id="17AFDC2DB23BF955" name="art\ui\flash\fontlibrary\locale\fonts.swf" Compression="DeflateRaw" />
+    <chunk fileDateTime="2008-12-16 22:40:35Z" id="B9A72FF0088F28A5" name="data\flashfonts.xml.xmb" />
+    <chunk fileDateTime="2008-12-16 22:40:35Z" id="6C8AE5EB0AB2DC5F" name="data\flashfontstest.xml.xmb" />
+    <chunk fileDateTime="2008-12-16 22:40:35Z" id="79C76E161F764726" name="data\halotimeline.xml.xmb" />
+    <chunk fileDateTime="2008-12-16 22:40:35Z" id="21650A2612B2E1B5" name="data\stringtable.xml.xmb" />
+    <chunk fileDateTime="2008-12-16 22:40:35Z" id="B9B5F4EBFDD5CB44" name="data\cinimaticcaptions\cin0.eng.xml.xmb" />
+    <chunk fileDateTime="2008-12-16 22:40:35Z" id="577896116624A0AC" name="data\cinimaticcaptions\cin10.eng.xml.xmb" />
+    <chunk fileDateTime="2008-12-16 22:40:35Z" id="361FA42F036ACF3E" name="data\cinimaticcaptions\cin11.eng.xml.xmb" />
+    <chunk fileDateTime="2008-12-16 22:40:35Z" id="A53CAB296309FFBF" name="data\cinimaticcaptions\cin12.eng.xml.xmb" />
+    <chunk fileDateTime="2008-12-16 22:40:35Z" id="C39201FF228FBE16" name="data\cinimaticcaptions\cin13.eng.xml.xmb" />
+    <chunk fileDateTime="2008-12-16 22:40:35Z" id="D201BF1B17CD7107" name="data\cinimaticcaptions\cin14.eng.xml.xmb" />
+    <chunk fileDateTime="2008-12-16 22:40:35Z" id="D30810F4B3B9D805" name="data\cinimaticcaptions\cin15.eng.xml.xmb" />
+    <chunk fileDateTime="2008-12-16 22:40:35Z" id="98CCC2E63D9CD49F" name="data\cinimaticcaptions\cin16.eng.xml.xmb" />
+    <chunk fileDateTime="2008-12-16 22:40:35Z" id="EA2CB4F5D9F56CD5" name="data\cinimaticcaptions\cin17.eng.xml.xmb" />
+    <chunk fileDateTime="2008-12-16 22:40:35Z" id="B8FD6BFBF64CED22" name="data\cinimaticcaptions\cin18.eng.xml.xmb" />
+    <chunk fileDateTime="2008-12-16 22:40:35Z" id="6014AB811E81DC35" name="data\cinimaticcaptions\cin3.eng.xml.xmb" />
+    <chunk fileDateTime="2008-12-16 22:40:35Z" id="7C663CBEF59B2290" name="data\cinimaticcaptions\cin4.eng.xml.xmb" />
+    <chunk fileDateTime="2008-12-16 22:40:35Z" id="A9F371815A83EC5F" name="data\cinimaticcaptions\cin5.eng.xml.xmb" />
+    <chunk fileDateTime="2008-12-16 22:40:35Z" id="F10EC7C3D9D3DD6C" name="data\cinimaticcaptions\cin6.eng.xml.xmb" />
+    <chunk fileDateTime="2008-12-16 22:40:35Z" id="9800441936171B9D" name="data\cinimaticcaptions\cin7.eng.xml.xmb" />
+    <chunk fileDateTime="2008-12-16 22:40:35Z" id="CD826243A3F42528" name="data\cinimaticcaptions\cin8.eng.xml.xmb" />
+    <chunk fileDateTime="2008-12-16 22:40:35Z" id="AB65CD65B90183A5" name="data\cinimaticcaptions\cin9.eng.xml.xmb" />
+    <chunk fileDateTime="2008-12-16 22:40:35Z" id="983B8FD01FB6E027" name="startup\locale.cfg" Compression="DeflateRaw" />
+  </Files>
+</EraArchive>

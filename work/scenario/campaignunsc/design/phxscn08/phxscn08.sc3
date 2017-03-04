@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Objects>
+		<Object IsSquad="false" Player="0" ID="30000004" TintValue="1" EditorName="snd_play_cavern_scn_08_1826" Position="486.4723,-70.2146,109.9609" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_cavern_scn_08</Object>
+		<Object IsSquad="false" Player="0" ID="30000005" TintValue="1" EditorName="snd_play_cavern_scn_08_1623" Position="237.0169,0.6607,797.8242" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_cavern_scn_08</Object>
+		<Object IsSquad="false" Player="0" ID="30000003" TintValue="1" EditorName="snd_play_cavern_scn_08_1624" Position="893.1191,-29.8239,241.3352" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_cavern_scn_08</Object>
+		<Object IsSquad="false" Player="0" ID="30000001" TintValue="1" EditorName="snd_play_cavern_scn_08_1640" Position="202.3467,-7.2099,283.1243" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_cavern_scn_08</Object>
+		<Object IsSquad="false" Player="0" ID="30000002" TintValue="1" EditorName="snd_play_cavern_scn_08_1641" Position="811.6671,-51.4193,546.6475" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_cavern_scn_08</Object>
+		<Object IsSquad="false" Player="0" ID="30000008" TintValue="1" EditorName="snd_play_flood_pod_exist_1639" Position="196.1052,18.5911,764.1422" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_flood_pod_exist</Object>
+		<Object IsSquad="false" Player="0" ID="30000009" TintValue="1" EditorName="snd_play_flood_pod_exist_1827" Position="901.4262,9.4526,419.4534" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_flood_pod_exist</Object>
+		<Object IsSquad="false" Player="0" ID="30000006" TintValue="1" EditorName="snd_play_flood_pod_exist_1828" Position="847.5938,-5.4445,807.5916" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_flood_pod_exist</Object>
+		<Object IsSquad="false" Player="0" ID="30000007" TintValue="1" EditorName="snd_play_flood_pod_exist_1829" Position="687.4189,-6.148,799.1961" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_flood_pod_exist</Object>
+	</Objects>
+</Scenario>
