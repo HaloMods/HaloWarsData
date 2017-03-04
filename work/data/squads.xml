@@ -4626,6 +4626,25 @@
 			<Unit count="1" role="normal">fx_obj_gruntconfetti</Unit>
 		</Units>
 	</Squad>
+	<Squad name="game_CTF_monitor_01" dbid="4358" update="true">
+		<DisplayNameID>23944</DisplayNameID>
+		<RolloverTextID>23945</RolloverTextID>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>0</LeashDistance>
+		<BobbleHead>ctf_flag</BobbleHead>
+		<Units>
+			<Unit count="1" role="normal">game_CTF_flag_01</Unit>
+		</Units>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+		</Selection>
+		<Flag>InstantTrainWithRecharge</Flag>
+		<Flag>JoinAll</Flag>
+		<Flag>AlwaysAttackReviveUnits</Flag>
+		<Flag>KBAware</Flag>
+	</Squad>
 	<MergedSquads>
 		<MergedSquad>unsc_inf_marine_01</MergedSquad>
 		<MergedSquad>unsc_inf_marine_02</MergedSquad>

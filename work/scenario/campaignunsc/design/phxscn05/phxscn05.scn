@@ -1299,7 +1299,7 @@
 			<Flag>NoTieToGround</Flag>hook_bldg_PelicanMediumCover_01</Object>
 		<Object IsSquad="false" Player="0" ID="2550" TintValue="1" EditorName="hook_bldg_sniperplatform_01_2550" Position="604.9651,-40.6175,739.773" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
 		<Object IsSquad="false" Player="0" ID="2544" TintValue="1" EditorName="hook_bldg_WarthogCover_01_2544" Position="455.4048,-20.1455,569.5103" Forward="0.9996,0,-0.0292" Right="-0.0292,0,-0.9996" Group="-1" VisualVariationIndex="0">hook_bldg_WarthogCover_01</Object>
-		<Object IsSquad="false" Player="0" ID="2565" TintValue="1" EditorName="hook_bldg_WarthogCover_01_2565" Position="579.1718,-40.6175,702.4554" Forward="0.6442,0,0.7648" Right="0.7648,0,-0.6442" Group="-1" VisualVariationIndex="0">hook_bldg_WarthogCover_01</Object>
+		<Object IsSquad="false" Player="0" ID="2565" TintValue="1" EditorName="hook_bldg_WarthogCover_01_2565" Position="578.1718,-40.6175,702.4554" Forward="0.6442,0,0.7648" Right="0.7648,0,-0.6442" Group="-1" VisualVariationIndex="0">hook_bldg_WarthogCover_01</Object>
 		<Object IsSquad="false" Player="0" ID="2562" TintValue="1" EditorName="hook_bldg_WarthogCover_01_2562" Position="333.4717,-22.3442,489.0613" Forward="-0.4794,0,0.8776" Right="0.8776,0,0.4794" Group="-1" VisualVariationIndex="0">hook_bldg_WarthogCover_01</Object>
 		<Object IsSquad="false" Player="0" ID="2545" TintValue="1" EditorName="hook_bldg_WarthogCover_01_2545" Position="405.8655,-22.3442,497.1253" Forward="-0.9917,0,-0.1289" Right="-0.1289,0,0.9917" Group="-1" VisualVariationIndex="0">hook_bldg_WarthogCover_01</Object>
 		<Object IsSquad="false" Player="0" ID="2563" TintValue="1" EditorName="hook_bldg_WarthogCover_01_2563" Position="208.7776,-27.5593,617.5905" Forward="0.3197,0.2856,0.9034" Right="0.9244,0.1153,-0.3636" Group="-1" VisualVariationIndex="0">
@@ -1340,7 +1340,7 @@
 		<Object IsSquad="false" Player="0" ID="2393" TintValue="1" EditorName="rsrc_supplies_crate_01_2393" Position="226.2162,-48.6608,494.0864" Forward="0.3894,0,0.9211" Right="0.9211,0,-0.3894" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
 		<Object IsSquad="false" Player="0" ID="2384" TintValue="1" EditorName="rsrc_supplies_crate_01_2384" Position="194.5221,-38.217,603.2195" Forward="0.3894,0,0.9211" Right="0.9211,0,-0.3894" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
 		<Object IsSquad="false" Player="0" ID="2524" TintValue="1" EditorName="rsrc_supplies_crate_01_2524" Position="187.521,-40.949,604.4783" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
-		<Object IsSquad="false" Player="0" ID="2522" TintValue="1" EditorName="rsrc_supplies_crate_01_2522" Position="185.4841,-42.6349,663.1015" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="2522" TintValue="1" EditorName="rsrc_supplies_crate_01_2522" Position="185.4841,-42.6349,662.1015" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
 		<Object IsSquad="false" Player="0" ID="358" TintValue="1" EditorName="rsrc_supplies_crate_01_358" Position="520.0773,-29.818,504.5032" Forward="0.9738,0,-0.2272" Right="-0.2272,0,-0.9738" Group="4" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
 		<Object IsSquad="false" Player="0" ID="2523" TintValue="1" EditorName="rsrc_supplies_crate_01_2523" Position="183.348,-42.6095,667.3568" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
 		<Object IsSquad="false" Player="0" ID="2177" TintValue="1" EditorName="rsrc_supplies_crate_01_2177" Position="68.6362,-36.2563,744.3286" Forward="0.7174,0,0.6967" Right="0.6967,0,-0.7174" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
@@ -46649,6 +46649,7 @@
 	<SimBoundsMaxZ>2048</SimBoundsMaxZ>
 	<SoundBank>scenario_05.bnk</SoundBank>
 	<SoundBank>amb_arcadia.bnk</SoundBank>
+	<EnvironmentReverbPreset>Reverb_City_mountain</EnvironmentReverbPreset>
 	<ScenarioWorld>Arcadia</ScenarioWorld>
 	<AllowVeterancy>true</AllowVeterancy>
 </Scenario>

@@ -117,7 +117,7 @@
 			<Flag>IncludeInSimRep</Flag>env_shieldexterior_bridge_01</Object>
 		<Object IsSquad="false" Player="0" ID="10001104" TintValue="1" EditorName="env_shieldexterior_FloodLiver_01_1412" Position="645.0153,30.4358,651.7891" Forward="0.6442,0,0.7648" Right="0.7648,0,-0.6442" Group="-1" VisualVariationIndex="0">env_shieldexterior_FloodLiver_01</Object>
 		<Object IsSquad="false" Player="0" ID="10001067" TintValue="1" EditorName="env_shieldexterior_FloodNode_03_1273" Position="602.2241,29.5361,655.0447" Forward="0.7457,0,-0.6663" Right="-0.6663,0,-0.7457" Group="-1" VisualVariationIndex="0">env_shieldexterior_FloodNode_03</Object>
-		<Object IsSquad="false" Player="0" ID="10001078" TintValue="1" EditorName="env_shieldexterior_FloodNode_04_1284" Position="126.8592,35.7239,561.9735" Forward="0,0.1827,0.9841766" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+		<Object IsSquad="false" Player="0" ID="10001078" TintValue="1" EditorName="env_shieldexterior_FloodNode_04_1284" Position="126.8592,35.7239,561.9735" Forward="0,0.1827,0.9832" Right="1,0,0" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_shieldexterior_FloodNode_04</Object>
 		<Object IsSquad="false" Player="0" ID="10001070" TintValue="1" EditorName="env_shieldexterior_FloodNode_04_1276" Position="616.0666,29.8115,676.4244" Forward="0.9917,0,-0.1288" Right="-0.1288,0,-0.9917" Group="-1" VisualVariationIndex="0">env_shieldexterior_FloodNode_04</Object>
 		<Object IsSquad="false" Player="0" ID="10001099" TintValue="1" EditorName="env_shieldexterior_FloodNode_04_1291" Position="1129.055,32.4269,737.9344" Forward="-0.8504,0,0.5261" Right="0.5261,0,0.8504" Group="-1" VisualVariationIndex="0">
@@ -503,7 +503,7 @@
 		<Object IsSquad="false" Player="0" ID="10000858" TintValue="1" EditorName="env_shieldexterior_rock03Dark_01_1114" Position="310.6113,56.7096,1074.698" Forward="0.1165,0,0.9932" Right="0.9932,0,-0.1165" Group="3" VisualVariationIndex="6">
 			<Flag>NoTieToGround</Flag>
 			<Flag>IncludeInSimRep</Flag>env_shieldexterior_rock03Dark_01</Object>
-		<Object IsSquad="false" Player="0" ID="10000886" TintValue="1" EditorName="env_shieldexterior_rock03Dark_01_974" Position="1159.906,60.4265,848.3811" Forward="0.9503,-0.0263,0.3102" Right="0.3045883,0.291,-0.9071" Group="3" VisualVariationIndex="1">
+		<Object IsSquad="false" Player="0" ID="10000886" TintValue="1" EditorName="env_shieldexterior_rock03Dark_01_974" Position="1159.906,60.4265,848.3811" Forward="0.9503,-0.0263,0.3102" Right="0.3041,0.291,-0.9071" Group="3" VisualVariationIndex="1">
 			<Flag>NoTieToGround</Flag>
 			<Flag>IncludeInSimRep</Flag>env_shieldexterior_rock03Dark_01</Object>
 		<Object IsSquad="false" Player="0" ID="10000862" TintValue="1" EditorName="env_shieldexterior_rock03Dark_01_1118" Position="352.5703,31.1951,1009.73" Forward="0.9719,-0.2308,-0.046" Right="-0.0448,0.0106,-0.9989" Group="3" VisualVariationIndex="0">
@@ -824,7 +824,7 @@
 		<Object IsSquad="false" Player="0" ID="10000977" TintValue="1" EditorName="env_shieldexterior_Rock04DarkLg_03_228" Position="99.1278,57.0451,1043.882" Forward="-0.6119,0,-0.791" Right="-0.791,0,0.6119" Group="2" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>
 			<Flag>IncludeInSimRep</Flag>env_shieldexterior_Rock04DarkLg_03</Object>
-		<Object IsSquad="false" Player="0" ID="10000719" TintValue="1" EditorName="env_shieldexterior_Rock04DarkLg_03_228" Position="468.7578,29.86035,940.3161" Forward="-0.6119,0,-0.791" Right="-0.791,0,0.6119" Group="2" VisualVariationIndex="0">
+		<Object IsSquad="false" Player="0" ID="10000719" TintValue="1" EditorName="env_shieldexterior_Rock04DarkLg_03_228" Position="468.7578,29.8291,940.3161" Forward="-0.6119,0,-0.791" Right="-0.791,0,0.6119" Group="2" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>
 			<Flag>IncludeInSimRep</Flag>env_shieldexterior_Rock04DarkLg_03</Object>
 		<Object IsSquad="false" Player="0" ID="10000991" TintValue="1" EditorName="env_shieldexterior_Rock04DarkLg_03_228" Position="13.7525,62.8766,790.7726" Forward="-0.6442,0,0.7648" Right="0.7648,0,0.6442" Group="2" VisualVariationIndex="0">

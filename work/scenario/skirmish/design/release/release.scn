@@ -35954,6 +35954,7 @@
 	<SimBoundsMaxX>896</SimBoundsMaxX>
 	<SimBoundsMaxZ>896</SimBoundsMaxZ>
 	<SoundBank>amb_shield_ext.bnk</SoundBank>
+	<EnvironmentReverbPreset>Reverb_Cavern</EnvironmentReverbPreset>
 	<ScenarioWorld>SWE</ScenarioWorld>
 	<AllowVeterancy>true</AllowVeterancy>
 	<GlobalExcludeObjects />

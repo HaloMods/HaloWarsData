@@ -1020,7 +1020,7 @@
 		<Object IsSquad="false" Player="0" ID="2335" TintValue="1" EditorName="hook_bldg_sniperplatform_01_2335" Position="693.5273,-1.1259,679.7021" Forward="0.5985,0,-0.8011" Right="-0.8011,0,-0.5985" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
 		<Object IsSquad="false" Player="3" ID="2009" TintValue="1" EditorName="rsrc_ForerunnerPower_capturepoint_02_1940" Position="166.9756,-1.0055,430.9372" Forward="-0.3893,0,0.9211" Right="0.9211,0,0.3893" Group="-1" VisualVariationIndex="0">rsrc_ForerunnerPower_capturepoint_02</Object>
 		<Object IsSquad="false" Player="3" ID="1942" TintValue="1" EditorName="rsrc_ForerunnerPower_capturepoint_02_1940" Position="600.2485,-0.8686,469.1237" Forward="-0.7173,0,0.6967" Right="0.6967,0,0.7173" Group="-1" VisualVariationIndex="0">rsrc_ForerunnerPower_capturepoint_02</Object>
-		<Object IsSquad="false" Player="3" ID="2008" TintValue="1" EditorName="rsrc_ForerunnerPower_capturepoint_02_1940" Position="371.7954,-1.2008,246.7949" Forward="-0.1986,0,0.9801" Right="0.9801,0,0.1986" Group="-1" VisualVariationIndex="0">rsrc_ForerunnerPower_capturepoint_02</Object>
+		<Object IsSquad="false" Player="3" ID="2008" TintValue="1" EditorName="rsrc_ForerunnerPower_capturepoint_02_1940" Position="371.7954,-1.2008,246.5449" Forward="-0.1986,0,0.9801" Right="0.9801,0,0.1986" Group="-1" VisualVariationIndex="0">rsrc_ForerunnerPower_capturepoint_02</Object>
 		<Object IsSquad="false" Player="3" ID="2063" TintValue="1" EditorName="rsrc_ForerunnerPower_capturepoint_02_1940" Position="468.2258,-1.0058,525.1172" Forward="-0.1986,0,0.9801" Right="0.9801,0,0.1986" Group="-1" VisualVariationIndex="0">rsrc_ForerunnerPower_capturepoint_02</Object>
 		<Object IsSquad="false" Player="3" ID="1943" TintValue="1" EditorName="rsrc_ForerunnerPower_capturepoint_02_1940" Position="463.2461,-0.9064,671.1234" Forward="-0.7173,0,0.6967" Right="0.6967,0,0.7173" Group="-1" VisualVariationIndex="0">rsrc_ForerunnerPower_capturepoint_02</Object>
 		<Object IsSquad="false" Player="3" ID="2007" TintValue="1" EditorName="rsrc_ForerunnerPower_capturepoint_02_1940" Position="701.14,-1.1646,668.2341" Forward="-0.3894,0,0.9211" Right="0.9211,0,0.3894" Group="-1" VisualVariationIndex="0">rsrc_ForerunnerPower_capturepoint_02</Object>
@@ -1072,7 +1072,7 @@
 		<Object IsSquad="false" Player="0" ID="2439" TintValue="1" EditorName="rsrc_supplies_crate_01_2372" Position="259.4225,-0.8965,186.9135" Forward="-0.9613,0,-0.2756" Right="-0.2756,0,0.9613" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
 		<Object IsSquad="false" Player="0" ID="2390" TintValue="1" EditorName="rsrc_supplies_crate_01_2382" Position="192.3248,0.2571,220.1883" Forward="-0.9927,0,0.1205" Right="0.1205,0,0.9927" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
 		<Object IsSquad="false" Player="0" ID="2379" TintValue="1" EditorName="rsrc_supplies_crate_01_2379" Position="137.5209,-1.0644,430.8138" Forward="0.2955,0,0.9553" Right="0.9553,0,-0.2955" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
-		<Object IsSquad="false" Player="0" ID="2391" TintValue="1" EditorName="rsrc_supplies_crate_01_2383" Position="180.7361,0.4847,225.8828" Forward="-0.9927,0,0.1205" Right="0.1205,0,0.9927" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="2391" TintValue="1" EditorName="rsrc_supplies_crate_01_2383" Position="180.7361,0.4847,225.6328" Forward="-0.9927,0,0.1205" Right="0.1205,0,0.9927" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
 		<Object IsSquad="false" Player="0" ID="2695" TintValue="1" EditorName="rsrc_supplies_crate_01_2372" Position="743.66,-0.318,262.7737" Forward="-0.6755,0,-0.7374" Right="-0.7374,0,0.6755" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
 		<Object IsSquad="false" Player="0" ID="2440" TintValue="1" EditorName="rsrc_supplies_crate_01_2372" Position="275.1604,0.3904,179.4766" Forward="-0.7513,0,0.6599" Right="0.6599,0,0.7513" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
 		<Object IsSquad="false" Player="0" ID="2420" TintValue="1" EditorName="rsrc_supplies_crate_01_2372" Position="474.1491,-1.0058,499.1057" Forward="-0.7833,0,0.6216" Right="0.6216,0,0.7833" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
@@ -3211,7 +3211,7 @@
 			<TriggerVar ID="7906" Type="Vector" Name="FacingVar34" IsNull="true" />
 			<TriggerVar ID="7907" Type="Vector" Name="" IsNull="false">611.8063,-1.1596,516.0523</TriggerVar>
 			<TriggerVar ID="7908" Type="Vector" Name="FlyInEndVar35" IsNull="true" />
-			<TriggerVar ID="7909" Type="Vector" Name="" IsNull="false">479.6523,-1.0058,572.1713</TriggerVar>
+			<TriggerVar ID="7909" Type="Vector" Name="" IsNull="false">479.1523,-1.0058,572.1713</TriggerVar>
 			<TriggerVar ID="7910" Type="Bool" Name="" IsNull="false">True</TriggerVar>
 			<TriggerVar ID="7911" Type="SquadList" Name="" IsNull="true" />
 			<TriggerVar ID="7912" Type="SquadList" Name="AddToListVar17" IsNull="true" />
@@ -3224,7 +3224,7 @@
 			<TriggerVar ID="7920" Type="Vector" Name="FacingVar35" IsNull="true" />
 			<TriggerVar ID="7921" Type="Vector" Name="" IsNull="false">611.8063,-1.1596,516.0523</TriggerVar>
 			<TriggerVar ID="7922" Type="Vector" Name="FlyInEndVar36" IsNull="true" />
-			<TriggerVar ID="7923" Type="Vector" Name="" IsNull="false">479.6523,-1.0058,572.1713</TriggerVar>
+			<TriggerVar ID="7923" Type="Vector" Name="" IsNull="false">479.1523,-1.0058,572.1713</TriggerVar>
 			<TriggerVar ID="7924" Type="Bool" Name="" IsNull="false">True</TriggerVar>
 			<TriggerVar ID="7925" Type="SquadList" Name="" IsNull="true" />
 			<TriggerVar ID="7926" Type="SquadList" Name="AddToListVar18" IsNull="true" />
@@ -44831,7 +44831,7 @@
 				<ID>2630</ID>
 				<Group>4</Group>
 				<Radius>10</Radius>
-				<Position>479.6523,-1.0058,572.1713</Position>
+				<Position>479.1523,-1.0058,572.1713</Position>
 				<Direction>0,0,1</Direction>
 				<Color>0,0,255</Color>
 			</HelperAreaObject>
@@ -45134,6 +45134,7 @@
 	<SimBoundsMaxZ>896</SimBoundsMaxZ>
 	<SoundBank>scenario_07.bnk</SoundBank>
 	<SoundBank>amb_shield_int.bnk</SoundBank>
+	<EnvironmentReverbPreset>Reverb_Valley</EnvironmentReverbPreset>
 	<ScenarioWorld>Arcadia</ScenarioWorld>
 	<AllowVeterancy>true</AllowVeterancy>
 </Scenario>

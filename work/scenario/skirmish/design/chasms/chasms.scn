@@ -90,7 +90,7 @@
 					<Value12 />
 				</Data>
 			</Sphere>
-			<Sphere ID="1298" Name="AIDesignSphere1298" Position="204.5755,22.23535,252.6818" Radius="4">
+			<Sphere ID="1298" Name="AIDesignSphere1298" Position="204.5755,22.2041,252.6818" Radius="4">
 				<Data>
 					<Type>AIWaypoint</Type>
 					<Attract>0</Attract>
@@ -443,7 +443,7 @@
 			<Flag>NoTieToGround</Flag>env_harvest_treedead01lrg_01</Object>
 		<Object IsSquad="false" Player="0" ID="823" TintValue="1" EditorName="env_harvest_treedead01lrg_01_616" Position="-1.8576,4.8458,14.6982" Forward="0.9566,0,-0.2913" Right="-0.2913,0,-0.9566" Group="2" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_harvest_treedead01lrg_01</Object>
-		<Object IsSquad="false" Player="0" ID="842" TintValue="1" EditorName="env_harvest_treedead01lrg_01_616" Position="4.5297,17.98535,45.3346" Forward="0.9792,0,0.203" Right="0.203,0,-0.9792" Group="2" VisualVariationIndex="0">
+		<Object IsSquad="false" Player="0" ID="842" TintValue="1" EditorName="env_harvest_treedead01lrg_01_616" Position="4.5297,17.9541,45.3346" Forward="0.9792,0,0.203" Right="0.203,0,-0.9792" Group="2" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_harvest_treedead01lrg_01</Object>
 		<Object IsSquad="false" Player="0" ID="857" TintValue="1" EditorName="env_harvest_treedead01med_01_619" Position="741.1175,16.642,1.2563" Forward="0.0751,0,-0.9972" Right="-0.9972,0,-0.0751" Group="2" VisualVariationIndex="0">env_harvest_treedead01med_01</Object>
 		<Object IsSquad="false" Player="0" ID="597" TintValue="1" EditorName="env_harvest_treedead01med_01_597" Position="428.4263,33.4735,8.5947" Forward="0,0,1" Right="1,0,0" Group="2" VisualVariationIndex="0">env_harvest_treedead01med_01</Object>
@@ -558,7 +558,7 @@
 			<Flag>NoTieToGround</Flag>env_harvest_treedead01sml_01</Object>
 		<Object IsSquad="false" Player="0" ID="608" TintValue="1" EditorName="env_harvest_treedead01sml_01_608" Position="529.9664,21.1727,55.6584" Forward="0,0,1" Right="1,0,0" Group="2" VisualVariationIndex="0">env_harvest_treedead01sml_01</Object>
 		<Object IsSquad="false" Player="0" ID="888" TintValue="1" EditorName="env_harvest_treedead01sml_01_888" Position="758.7515,28.5708,159.7699" Forward="-0.9962,0,0.0875" Right="0.0875,0,0.9962" Group="2" VisualVariationIndex="0">env_harvest_treedead01sml_01</Object>
-		<Object IsSquad="false" Player="0" ID="859" TintValue="1" EditorName="env_harvest_treedead01sml_01_618" Position="732.8091,16.86865,4.9667" Forward="-0.9989,0,-0.046" Right="-0.046,0,0.9989" Group="2" VisualVariationIndex="0">env_harvest_treedead01sml_01</Object>
+		<Object IsSquad="false" Player="0" ID="859" TintValue="1" EditorName="env_harvest_treedead01sml_01_618" Position="732.8091,16.8374,4.9667" Forward="-0.9989,0,-0.046" Right="-0.046,0,0.9989" Group="2" VisualVariationIndex="0">env_harvest_treedead01sml_01</Object>
 		<Object IsSquad="false" Player="0" ID="891" TintValue="1" EditorName="env_harvest_treedead01sml_01_891" Position="728.5182,24.4727,188.6574" Forward="0,0,1" Right="1,0,0" Group="2" VisualVariationIndex="0">env_harvest_treedead01sml_01</Object>
 		<Object IsSquad="false" Player="0" ID="592" TintValue="1" EditorName="env_harvest_treedead01sml_01_586" Position="414.3441,31.2884,5.9376" Forward="0.5577,0,-0.8301" Right="-0.8301,0,-0.5577" Group="2" VisualVariationIndex="0">env_harvest_treedead01sml_01</Object>
 		<Object IsSquad="false" Player="0" ID="588" TintValue="1" EditorName="env_harvest_treedead01sml_01_585" Position="356.1797,25.5172,1.6405" Forward="0.9854,0,0.17" Right="0.17,0,-0.9854" Group="2" VisualVariationIndex="0">env_harvest_treedead01sml_01</Object>
@@ -706,7 +706,7 @@
 		<Object IsSquad="false" Player="0" ID="711" TintValue="1" EditorName="env_harvest_treedead02med_01_620" Position="-16.0844,17.2397,40.2266" Forward="-0.9989,0,-0.046" Right="-0.046,0,0.9989" Group="2" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
 		<Object IsSquad="false" Player="0" ID="863" TintValue="1" EditorName="env_harvest_treedead02med_01_620" Position="747.167,16.2505,0.4796" Forward="-0.9989,0,-0.046" Right="-0.046,0,0.9989" Group="2" VisualVariationIndex="0">env_harvest_treedead02med_01</Object>
-		<Object IsSquad="false" Player="0" ID="657" TintValue="1" EditorName="env_harvest_treedead02med_01_621" Position="-12.3366,20.1089,156.9609" Forward="-0.1826,0,0.9841766" Right="0.9841766,0,0.1826" Group="2" VisualVariationIndex="0">
+		<Object IsSquad="false" Player="0" ID="657" TintValue="1" EditorName="env_harvest_treedead02med_01_621" Position="-12.3366,20.1089,156.9609" Forward="-0.1826,0,0.9832" Right="0.9832,0,0.1826" Group="2" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_harvest_treedead02med_01</Object>
 		<Object IsSquad="false" Player="0" ID="606" TintValue="1" EditorName="env_harvest_treedead02med_01_606" Position="523.9494,28.9689,90.3308" Forward="0,0,1" Right="1,0,0" Group="2" VisualVariationIndex="0">env_harvest_treedead02med_01</Object>
 		<Object IsSquad="false" Player="0" ID="879" TintValue="1" EditorName="env_harvest_treedead02med_01_621" Position="2.558,16.8941,-6.1141" Forward="0.3111,0,0.9504" Right="0.9504,0,-0.3111" Group="2" VisualVariationIndex="0">
@@ -1942,7 +1942,7 @@
 			<TriggerVar ID="1420" Type="Bool" Name="ClearExistingVar39" IsNull="true">False</TriggerVar>
 			<TriggerVar ID="1421" Type="Vector" Name="" IsNull="false">107.019,14.3135,522.5745</TriggerVar>
 			<TriggerVar ID="1422" Type="Bool" Name="ClearExistingVar40" IsNull="true">False</TriggerVar>
-			<TriggerVar ID="1423" Type="Vector" Name="" IsNull="false">620.4073,12.99683,426.918</TriggerVar>
+			<TriggerVar ID="1423" Type="Vector" Name="" IsNull="false">620.4073,12.9812,426.918</TriggerVar>
 			<TriggerVar ID="1424" Type="Bool" Name="ClearExistingVar41" IsNull="true">False</TriggerVar>
 			<TriggerVar ID="1425" Type="Vector" Name="" IsNull="false">379.1783,12.0114,440.0785</TriggerVar>
 			<TriggerVar ID="1426" Type="Bool" Name="ClearExistingVar42" IsNull="true">False</TriggerVar>
@@ -8534,7 +8534,7 @@
 				<ID>1258</ID>
 				<Group>-1</Group>
 				<Radius>9</Radius>
-				<Position>620.4073,12.99683,426.918</Position>
+				<Position>620.4073,12.9812,426.918</Position>
 				<Direction>0,0,1</Direction>
 				<Color>255,204,0</Color>
 			</HelperAreaObject>
@@ -8633,6 +8633,7 @@
 	<SimBoundsMaxX>768</SimBoundsMaxX>
 	<SimBoundsMaxZ>768</SimBoundsMaxZ>
 	<SoundBank>amb_harvest.bnk</SoundBank>
+	<EnvironmentReverbPreset>Reverb_Frozen</EnvironmentReverbPreset>
 	<ScenarioWorld>Harvest</ScenarioWorld>
 	<AllowVeterancy>true</AllowVeterancy>
 </Scenario>

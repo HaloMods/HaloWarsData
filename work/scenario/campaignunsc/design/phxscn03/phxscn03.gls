@@ -35,8 +35,8 @@
 	<hemiTerrainIntensity>0.072</hemiTerrainIntensity>
 	<middleGrey>0.803</middleGrey>
 	<brightMaskThresh>0.854</brightMaskThresh>
-	<bloomIntensity>2.96</bloomIntensity>
-	<bloomSigma>4</bloomSigma>
+	<bloomIntensity>5</bloomIntensity>
+	<bloomSigma>5</bloomSigma>
 	<adaptationRate>0.044</adaptationRate>
 	<logAveMin>1.138</logAveMin>
 	<logAveMax>32</logAveMax>

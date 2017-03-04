@@ -16159,7 +16159,7 @@
 		<Object IsSquad="false" Player="4" ID="2177" TintValue="1" EditorName="fld_egg_dead_01_2177" Position="294.7733,26.3826,563.3696" Forward="0.5647,0,0.8253" Right="0.8253,0,-0.5647" Group="-1" VisualVariationIndex="0">fld_egg_dead_01</Object>
 		<Object IsSquad="false" Player="4" ID="2178" TintValue="1" EditorName="fld_egg_dead_01_2178" Position="196.1526,14.0284,641.379" Forward="-0.3894,0,0.9211" Right="0.9211,0,0.3894" Group="-1" VisualVariationIndex="0">fld_egg_dead_01</Object>
 		<Object IsSquad="false" Player="4" ID="2181" TintValue="1" EditorName="fld_egg_dead_01_2181" Position="195.7066,12.9419,553.8481" Forward="-0.932,0,0.3624" Right="0.3624,0,0.932" Group="-1" VisualVariationIndex="0">fld_egg_dead_01</Object>
-		<Object IsSquad="false" Player="4" ID="2179" TintValue="1" EditorName="fld_egg_dead_01_2179" Position="174.2783,14.367,607.5234" Forward="0.7174,0,0.6967" Right="0.6967,0,-0.7174" Group="-1" VisualVariationIndex="0">fld_egg_dead_01</Object>
+		<Object IsSquad="false" Player="4" ID="2179" TintValue="1" EditorName="fld_egg_dead_01_2179" Position="174.2783,14.367,606.5234" Forward="0.7174,0,0.6967" Right="0.6967,0,-0.7174" Group="-1" VisualVariationIndex="0">fld_egg_dead_01</Object>
 		<Object IsSquad="false" Player="4" ID="2180" TintValue="1" EditorName="fld_egg_dead_01_2180" Position="311.4832,24.2244,552.3508" Forward="0.8415,0,0.5403" Right="0.5403,0,-0.8415" Group="-1" VisualVariationIndex="0">fld_egg_dead_01</Object>
 		<Object IsSquad="false" Player="4" ID="2163" TintValue="1" EditorName="fld_egg_infectionForm_01_2163" Position="649.2543,24.7658,332.7796" Forward="-0.8415,0,0.5403" Right="0.5403,0,0.8415" Group="-1" VisualVariationIndex="0">fld_egg_infectionForm_01</Object>
 		<Object IsSquad="false" Player="4" ID="2168" TintValue="1" EditorName="fld_egg_infectionForm_01_2168" Position="515.8953,22.8995,290.3577" Forward="-0.3894,0,0.9211" Right="0.9211,0,0.3894" Group="-1" VisualVariationIndex="0">fld_egg_infectionForm_01</Object>
@@ -64984,6 +64984,7 @@
 	<SimBoundsMaxZ>1024</SimBoundsMaxZ>
 	<SoundBank>scenario_08.bnk</SoundBank>
 	<SoundBank>amb_shield_ext.bnk</SoundBank>
+	<EnvironmentReverbPreset>Reverb_Valley</EnvironmentReverbPreset>
 	<ScenarioWorld>SWE</ScenarioWorld>
 	<AllowVeterancy>true</AllowVeterancy>
 </Scenario>

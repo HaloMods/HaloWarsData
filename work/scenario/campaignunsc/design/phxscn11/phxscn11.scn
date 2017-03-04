@@ -21985,7 +21985,7 @@
 				<ID>353</ID>
 				<Group>3</Group>
 				<Radius>3</Radius>
-				<Position>460.6304,35.2008,5.185913</Position>
+				<Position>460.6304,35.2008,5.1781</Position>
 				<Direction>0.1987,0,0.9801</Direction>
 				<Color>0,0,255</Color>
 			</HelperAreaObject>
@@ -22737,6 +22737,7 @@
 	<SimBoundsMaxX>1024</SimBoundsMaxX>
 	<SimBoundsMaxZ>1024</SimBoundsMaxZ>
 	<SoundBank>scenario_11.bnk</SoundBank>
+	<EnvironmentReverbPreset>Reverb_Cavern</EnvironmentReverbPreset>
 	<ScenarioWorld>SWI</ScenarioWorld>
 	<AllowVeterancy>true</AllowVeterancy>
 </Scenario>

@@ -63721,6 +63721,7 @@
 	<SimBoundsMaxZ>1024</SimBoundsMaxZ>
 	<SoundBank>scenario_09.bnk</SoundBank>
 	<SoundBank>amb_shield_ext.bnk</SoundBank>
+	<EnvironmentReverbPreset>Reverb_Valley</EnvironmentReverbPreset>
 	<ScenarioWorld>SWE</ScenarioWorld>
 	<AllowVeterancy>true</AllowVeterancy>
 </Scenario>

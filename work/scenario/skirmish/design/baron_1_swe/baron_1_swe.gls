@@ -11,7 +11,7 @@
 	<sunUnitColor>197,212,167</sunUnitColor>
 	<setTerrainColor>197,212,167</setTerrainColor>
 	<SunParticleColor>220,227,211</SunParticleColor>
-	<terrainSpecularPower>64.33</terrainSpecularPower>
+	<terrainSpecularPower>100</terrainSpecularPower>
 	<terrainBumpStrength>1.324</terrainBumpStrength>
 	<TerrainAODiffuseIntensity>1</TerrainAODiffuseIntensity>
 	<TerrainSpecOnlyColor>255,251,224</TerrainSpecOnlyColor>
@@ -53,7 +53,7 @@
 	<dofEnabled>true</dofEnabled>
 	<dofNearRange>350</dofNearRange>
 	<dofFocalPlaneDist>100</dofFocalPlaneDist>
-	<dofFarRange>450</dofFarRange>
+	<dofFarRange>320</dofFarRange>
 	<dofMaxBlurriness>1</dofMaxBlurriness>
 	<Light>
 		<Name>LocalFloodAreaLight</Name>

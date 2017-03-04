@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<Objects>
-		<Object IsSquad="false" Player="0" ID="10000052" TintValue="1" EditorName="env_harvest_forebridge_01_284" Position="502.0204,-7.601,497.7773" Forward="-0.596,0,0.803" Right="0.803,0,0.596" Group="3" VisualVariationIndex="0">
+		<Object IsSquad="false" Player="0" ID="10000052" TintValue="1" EditorName="env_harvest_forebridge_01_284" Position="502.0204,-7.601,497.2773" Forward="-0.596,0,0.803" Right="0.803,0,0.596" Group="3" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>
 			<Flag>IncludeInSimRep</Flag>env_harvest_forebridge_01</Object>
 		<Object IsSquad="false" Player="0" ID="10000059" TintValue="1" EditorName="env_harvest_foreedgelip_01_266" Position="648.0995,-5.4008,624.8713" Forward="-0.7833,0,0.6216" Right="0.6216,0,0.7833" Group="-1" VisualVariationIndex="0">

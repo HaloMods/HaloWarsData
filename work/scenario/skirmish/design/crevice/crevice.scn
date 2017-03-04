@@ -40,7 +40,7 @@
 	<PlayerPlacement Type="Grouped" Spacing="0" />
 	<Positions>
 		<Position Player="-1" Number="1" Position="482.5182,24.0056,281.222" Forward="-0.9962,0,0.0875" DefaultCamera="true" CameraYaw="317.2" CameraPitch="42" CameraZoom="85" UnitStartObject1="9324" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="9326" />
-		<Position Player="-1" Number="1" Position="720.8693,22.23535,525.0316" Forward="-0.0416,0,-0.9991" DefaultCamera="true" CameraYaw="317.2" CameraPitch="42" CameraZoom="85" UnitStartObject1="9323" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="9322" />
+		<Position Player="-1" Number="1" Position="720.8693,22.2041,525.0316" Forward="-0.0416,0,-0.9991" DefaultCamera="true" CameraYaw="317.2" CameraPitch="42" CameraZoom="85" UnitStartObject1="9323" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="9322" />
 		<Position Player="-1" Number="2" Position="275.8855,40.7338,513.8625" Forward="0.0998,0,0.995" DefaultCamera="true" CameraYaw="317.2" CameraPitch="42" CameraZoom="85" UnitStartObject1="9319" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="9318" />
 		<Position Player="-1" Number="2" Position="496.4215,21.1076,749.5321" Forward="0.9999,0,-0.0125" DefaultCamera="true" CameraYaw="317.2" CameraPitch="42" CameraZoom="85" UnitStartObject1="9320" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="9321" />
 		<Position Player="5" Number="5" Position="505.4083,-8.3861,489.1218" Forward="0,0,1" DefaultCamera="true" CameraYaw="317.2" CameraPitch="42" CameraZoom="85" UnitStartObject1="-1" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1" />
@@ -647,7 +647,7 @@
 		<Object IsSquad="false" Player="1" ID="9324" TintValue="1" EditorName="sys_unitstart_01_9324" Position="489.5069,24.0059,370.0058" Forward="-0.0584,0,-0.9983" Right="-0.9983,0,0.0584" Group="-1" VisualVariationIndex="0">sys_unitstart_01</Object>
 		<Object IsSquad="false" Player="1" ID="9320" TintValue="1" EditorName="sys_unitstart_01_9320" Position="464.4489,20.6664,659.0513" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_unitstart_01</Object>
 		<Object IsSquad="false" Player="1" ID="9319" TintValue="1" EditorName="sys_unitstart_01_9319" Position="349.8752,40.7309,459.2678" Forward="-0.0584,0,-0.9983" Right="-0.9983,0,0.0584" Group="-1" VisualVariationIndex="0">sys_unitstart_01</Object>
-		<Object IsSquad="false" Player="1" ID="9323" TintValue="1" EditorName="sys_unitstart_01_9323" Position="646.3766,22.23535,559.8053" Forward="0.0584,0,-0.9983" Right="-0.9983,0,-0.0584" Group="-1" VisualVariationIndex="0">sys_unitstart_01</Object>
+		<Object IsSquad="false" Player="1" ID="9323" TintValue="1" EditorName="sys_unitstart_01_9323" Position="646.3766,22.2041,559.8053" Forward="0.0584,0,-0.9983" Right="-0.9983,0,-0.0584" Group="-1" VisualVariationIndex="0">sys_unitstart_01</Object>
 	</Objects>
 	<Lights />
 	<TriggerSystem Name="Crevice" Type="Scenario" NextTriggerVarID="936" NextTriggerID="232" NextConditionID="1167" NextEffectID="3130" External="false">
@@ -2030,6 +2030,7 @@
 	<SimBoundsMaxX>1024</SimBoundsMaxX>
 	<SimBoundsMaxZ>1024</SimBoundsMaxZ>
 	<SoundBank>amb_shield_ext.bnk</SoundBank>
+	<EnvironmentReverbPreset>Reverb_Cavern</EnvironmentReverbPreset>
 	<ScenarioWorld>SWE</ScenarioWorld>
 	<AllowVeterancy>true</AllowVeterancy>
 </Scenario>

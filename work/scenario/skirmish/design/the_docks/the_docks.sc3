@@ -13,7 +13,7 @@
 		<Object IsSquad="false" Player="0" ID="30000010" TintValue="1" EditorName="snd_play_birds_09_368" Position="233.5514,1.1567,277.9124" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_birds_09</Object>
 		<Object IsSquad="false" Player="0" ID="30000011" TintValue="1" EditorName="snd_play_birds_09_369" Position="124.5779,1.3024,472.7987" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_birds_09</Object>
 		<Object IsSquad="false" Player="0" ID="30000012" TintValue="1" EditorName="snd_play_birds_11_370" Position="297.6606,4.1902,638.0805" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_birds_11</Object>
-		<Object IsSquad="false" Player="0" ID="30000013" TintValue="1" EditorName="snd_play_birds_11_371" Position="422.4921,1.3018,811.2187" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_birds_11</Object>
+		<Object IsSquad="false" Player="0" ID="30000013" TintValue="1" EditorName="snd_play_birds_11_371" Position="422.4921,1.3018,810.2187" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_birds_11</Object>
 		<Object IsSquad="false" Player="0" ID="30000019" TintValue="1" EditorName="snd_play_fire_wreck_1149" Position="693.2187,41.7968,664.759" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>snd_play_fire_wreck</Object>
 		<Object IsSquad="false" Player="0" ID="30000018" TintValue="1" EditorName="snd_play_river_halo_01_1148" Position="696.2567,4.1883,653.3001" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_river_halo_01</Object>

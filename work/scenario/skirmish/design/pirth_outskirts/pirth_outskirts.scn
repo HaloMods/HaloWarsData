@@ -345,6 +345,7 @@
 	<SimBoundsMaxX>896</SimBoundsMaxX>
 	<SimBoundsMaxZ>896</SimBoundsMaxZ>
 	<SoundBank>amb_shield_int.bnk</SoundBank>
+	<EnvironmentReverbPreset>Reverb_Valley</EnvironmentReverbPreset>
 	<ScenarioWorld>Arcadia</ScenarioWorld>
 	<AllowVeterancy>true</AllowVeterancy>
 	<GlobalExcludeObjects />

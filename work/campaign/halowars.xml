@@ -3,21 +3,23 @@
 	<DisplayNameStringID>25029</DisplayNameStringID>
 	<RolloverStringID>25030</RolloverStringID>
 	<CampaignNode name="Logos">
-		<Filename>game:\video\Cinematic1.bik</Filename>
+		<Filename>video\Cinematic1.bik</Filename>
 		<DisplayNameStringID>25083</DisplayNameStringID>
 		<Visible>1</Visible>
 		<PostCinematic>1</PostCinematic>
 		<IntroTextStringID>25084</IntroTextStringID>
 		<PresenceMovieIndex>1</PresenceMovieIndex>
+		<ChunkID>2000</ChunkID>
 	</CampaignNode>
 	<CampaignNode name="Cinematic1">
-		<Filename>game:\video\Cinematic1.bik</Filename>
+		<Filename>video\Cinematic1.bik</Filename>
 		<DisplayNameStringID>23693</DisplayNameStringID>
 		<Visible>1</Visible>
 		<Captions>cin0.eng.xml</Captions>
 		<PostCinematic>1</PostCinematic>
 		<IntroTextStringID>24956</IntroTextStringID>
 		<PresenceMovieIndex>3</PresenceMovieIndex>
+		<ChunkID>2000</ChunkID>
 	</CampaignNode>
 	<CampaignNode name="PHXscn01">
 		<Filename>CampaignUNSC\design\PHXscn01\PHXscn01</Filename>
@@ -34,15 +36,17 @@
 		<ImageEndgame>img://art\ui\flash\shared\textures\pregame\mapimages\scn1b.ddx</ImageEndgame>
 		<MusicWorld>Harvest</MusicWorld>
 		<AmbientWorld>Harvest</AmbientWorld>
+		<ChunkID>2000</ChunkID>
 	</CampaignNode>
 	<CampaignNode name="Cinematic3">
-		<Filename>game:\video\Cinematic3.bik</Filename>
+		<Filename>video\Cinematic3.bik</Filename>
 		<DisplayNameStringID>23694</DisplayNameStringID>
 		<Visible>1</Visible>
 		<Captions>cin3.eng.xml</Captions>
 		<PostCinematic>1</PostCinematic>
 		<IntroTextStringID>24957</IntroTextStringID>
 		<PresenceMovieIndex>4</PresenceMovieIndex>
+		<ChunkID>2000</ChunkID>
 	</CampaignNode>
 	<CampaignNode name="PHXscn02">
 		<Filename>CampaignUNSC\design\PHXscn02\PHXscn02</Filename>
@@ -58,15 +62,17 @@
 		<ImageEndgame>img://art\ui\flash\shared\textures\pregame\mapimages\scn2b.ddx</ImageEndgame>
 		<MusicWorld>Harvest</MusicWorld>
 		<AmbientWorld>Harvest</AmbientWorld>
+		<ChunkID>2000</ChunkID>
 	</CampaignNode>
 	<CampaignNode name="Cinematic4">
-		<Filename>game:\video\Cinematic4.bik</Filename>
+		<Filename>video\Cinematic4.bik</Filename>
 		<DisplayNameStringID>23695</DisplayNameStringID>
 		<Visible>1</Visible>
 		<Captions>cin4.eng.xml</Captions>
 		<PostCinematic>1</PostCinematic>
 		<IntroTextStringID>24958</IntroTextStringID>
 		<PresenceMovieIndex>5</PresenceMovieIndex>
+		<ChunkID>2000</ChunkID>
 	</CampaignNode>
 	<CampaignNode name="PHXscn03">
 		<Filename>CampaignUNSC\design\PHXscn03\PHXscn03</Filename>
@@ -82,15 +88,17 @@
 		<ImageEndgame>img://art\ui\flash\shared\textures\pregame\mapimages\scn3b.ddx</ImageEndgame>
 		<MusicWorld>Harvest</MusicWorld>
 		<AmbientWorld />
+		<ChunkID>2000</ChunkID>
 	</CampaignNode>
 	<CampaignNode name="Cinematic5">
-		<Filename>game:\video\Cinematic5.bik</Filename>
+		<Filename>video\Cinematic5.bik</Filename>
 		<DisplayNameStringID>23696</DisplayNameStringID>
 		<Visible>1</Visible>
 		<Captions>cin5.eng.xml</Captions>
 		<PostCinematic>1</PostCinematic>
 		<IntroTextStringID>24959</IntroTextStringID>
 		<PresenceMovieIndex>6</PresenceMovieIndex>
+		<ChunkID>2000</ChunkID>
 	</CampaignNode>
 	<CampaignNode name="PHXscn04">
 		<Filename>CampaignUNSC\design\PHXscn04\PHXscn04</Filename>
@@ -106,6 +114,7 @@
 		<ImageEndgame>img://art\ui\flash\shared\textures\pregame\mapimages\scn4b.ddx</ImageEndgame>
 		<MusicWorld>Arcadia</MusicWorld>
 		<AmbientWorld>Arcadia</AmbientWorld>
+		<ChunkID>2000</ChunkID>
 	</CampaignNode>
 	<CampaignNode name="PHXscn05">
 		<Filename>CampaignUNSC\design\PHXscn05\PHXscn05</Filename>
@@ -120,15 +129,17 @@
 		<ImageEndgame>img://art\ui\flash\shared\textures\pregame\mapimages\scn5b.ddx</ImageEndgame>
 		<MusicWorld>Arcadia</MusicWorld>
 		<AmbientWorld>Arcadia</AmbientWorld>
+		<ChunkID>2000</ChunkID>
 	</CampaignNode>
 	<CampaignNode name="Cinematic7">
-		<Filename>game:\video\Cinematic7.bik</Filename>
+		<Filename>video\Cinematic7.bik</Filename>
 		<DisplayNameStringID>23698</DisplayNameStringID>
 		<Captions>cin7.eng.xml</Captions>
 		<Visible>1</Visible>
 		<PostCinematic>1</PostCinematic>
 		<IntroTextStringID>24961</IntroTextStringID>
 		<PresenceMovieIndex>8</PresenceMovieIndex>
+		<ChunkID>2000</ChunkID>
 	</CampaignNode>
 	<CampaignNode name="PHXscn06">
 		<Filename>CampaignUNSC\design\PHXscn06\PHXscn06</Filename>
@@ -144,15 +155,17 @@
 		<ImageEndgame>img://art\ui\flash\shared\textures\pregame\mapimages\scn6b.ddx</ImageEndgame>
 		<MusicWorld>Arcadia</MusicWorld>
 		<AmbientWorld>Shield_Int</AmbientWorld>
+		<ChunkID>2000</ChunkID>
 	</CampaignNode>
 	<CampaignNode name="Cinematic6">
-		<Filename>game:\video\Cinematic6.bik</Filename>
+		<Filename>video\Cinematic6.bik</Filename>
 		<DisplayNameStringID>23697</DisplayNameStringID>
 		<Captions>cin6.eng.xml</Captions>
 		<Visible>1</Visible>
 		<PostCinematic>1</PostCinematic>
 		<IntroTextStringID>24960</IntroTextStringID>
 		<PresenceMovieIndex>7</PresenceMovieIndex>
+		<ChunkID>2000</ChunkID>
 	</CampaignNode>
 	<CampaignNode name="PHXscn07">
 		<Filename>CampaignUNSC\design\PHXscn07\PHXscn07</Filename>
@@ -168,15 +181,17 @@
 		<ImageEndgame>img://art\ui\flash\shared\textures\pregame\mapimages\scn7b.ddx</ImageEndgame>
 		<MusicWorld>Arcadia</MusicWorld>
 		<AmbientWorld>Shield_Int</AmbientWorld>
+		<ChunkID>2000</ChunkID>
 	</CampaignNode>
 	<CampaignNode name="Cinematic8">
-		<Filename>game:\video\Cinematic8.bik</Filename>
+		<Filename>video\Cinematic8.bik</Filename>
 		<DisplayNameStringID>23699</DisplayNameStringID>
 		<Captions>cin8.eng.xml</Captions>
 		<Visible>1</Visible>
 		<PostCinematic>1</PostCinematic>
 		<IntroTextStringID>24962</IntroTextStringID>
 		<PresenceMovieIndex>9</PresenceMovieIndex>
+		<ChunkID>2000</ChunkID>
 	</CampaignNode>
 	<CampaignNode name="PHXscn08">
 		<Filename>CampaignUNSC\design\PHXscn08\PHXscn08</Filename>
@@ -192,6 +207,7 @@
 		<ImageEndgame>img://art\ui\flash\shared\textures\pregame\mapimages\scn8b.ddx</ImageEndgame>
 		<MusicWorld>Shield_Ext</MusicWorld>
 		<AmbientWorld>Shield_Ext</AmbientWorld>
+		<ChunkID>2000</ChunkID>
 	</CampaignNode>
 	<CampaignNode name="PHXscn09">
 		<Filename>CampaignUNSC\design\PHXscn09\PHXscn09</Filename>
@@ -206,15 +222,17 @@
 		<ImageEndgame>img://art\ui\flash\shared\textures\pregame\mapimages\scn9b.ddx</ImageEndgame>
 		<MusicWorld>Shield_Ext</MusicWorld>
 		<AmbientWorld>Shield_Ext</AmbientWorld>
+		<ChunkID>2000</ChunkID>
 	</CampaignNode>
 	<CampaignNode name="Cinematic9">
-		<Filename>game:\video\Cinematic9.bik</Filename>
+		<Filename>video\Cinematic9.bik</Filename>
 		<DisplayNameStringID>23700</DisplayNameStringID>
 		<Captions>cin9.eng.xml</Captions>
 		<Visible>1</Visible>
 		<PostCinematic>1</PostCinematic>
 		<IntroTextStringID>24963</IntroTextStringID>
 		<PresenceMovieIndex>10</PresenceMovieIndex>
+		<ChunkID>2000</ChunkID>
 	</CampaignNode>
 	<CampaignNode name="PHXscn10">
 		<Filename>CampaignUNSC\design\PHXscn10\PHXscn10</Filename>
@@ -230,15 +248,17 @@
 		<ImageEndgame>img://art\ui\flash\shared\textures\pregame\mapimages\scn10b.ddx</ImageEndgame>
 		<MusicWorld>Shield_Ext</MusicWorld>
 		<AmbientWorld>Shield_Ext</AmbientWorld>
+		<ChunkID>2000</ChunkID>
 	</CampaignNode>
 	<CampaignNode name="Cinematic9_5">
-		<Filename>game:\video\Cinematic9_5.bik</Filename>
+		<Filename>video\Cinematic9_5.bik</Filename>
 		<DisplayNameStringID>23701</DisplayNameStringID>
 		<Captions>cin16.eng.xml</Captions>
 		<Visible>1</Visible>
 		<PostCinematic>1</PostCinematic>
 		<IntroTextStringID>24964</IntroTextStringID>
 		<PresenceMovieIndex>11</PresenceMovieIndex>
+		<ChunkID>2000</ChunkID>
 	</CampaignNode>
 	<CampaignNode name="PHXscn11">
 		<Filename>CampaignUNSC\design\PHXscn11\PHXscn11</Filename>
@@ -254,15 +274,17 @@
 		<ImageEndgame>img://art\ui\flash\shared\textures\pregame\mapimages\scn11b.ddx</ImageEndgame>
 		<MusicWorld>Shield_Ext</MusicWorld>
 		<AmbientWorld />
+		<ChunkID>2000</ChunkID>
 	</CampaignNode>
 	<CampaignNode name="Cinematic10">
-		<Filename>game:\video\Cinematic10.bik</Filename>
+		<Filename>video\Cinematic10.bik</Filename>
 		<DisplayNameStringID>23702</DisplayNameStringID>
 		<Captions>cin10.eng.xml</Captions>
 		<Visible>1</Visible>
 		<PostCinematic>1</PostCinematic>
 		<IntroTextStringID>24965</IntroTextStringID>
 		<PresenceMovieIndex>12</PresenceMovieIndex>
+		<ChunkID>2000</ChunkID>
 	</CampaignNode>
 	<CampaignNode name="PHXscn12">
 		<Filename>CampaignUNSC\design\PHXscn12\PHXscn12</Filename>
@@ -278,15 +300,17 @@
 		<ImageEndgame>img://art\ui\flash\shared\textures\pregame\mapimages\scn12b.ddx</ImageEndgame>
 		<MusicWorld>Shield_Ext</MusicWorld>
 		<AmbientWorld />
+		<ChunkID>2000</ChunkID>
 	</CampaignNode>
 	<CampaignNode name="Cinematic11">
-		<Filename>game:\video\Cinematic11.bik</Filename>
+		<Filename>video\Cinematic11.bik</Filename>
 		<DisplayNameStringID>23703</DisplayNameStringID>
 		<Captions>cin11.eng.xml</Captions>
 		<Visible>1</Visible>
 		<PostCinematic>1</PostCinematic>
 		<IntroTextStringID>24966</IntroTextStringID>
 		<PresenceMovieIndex>13</PresenceMovieIndex>
+		<ChunkID>2000</ChunkID>
 	</CampaignNode>
 	<CampaignNode name="PHXscn13">
 		<Filename>CampaignUNSC\design\PHXscn13\PHXscn13</Filename>
@@ -303,15 +327,17 @@
 		<NoInitialWow />
 		<MusicWorld>Shield_Int</MusicWorld>
 		<AmbientWorld>Shield_Int</AmbientWorld>
+		<ChunkID>2000</ChunkID>
 	</CampaignNode>
 	<CampaignNode name="Cinematic12">
-		<Filename>game:\video\Cinematic12.bik</Filename>
+		<Filename>video\Cinematic12.bik</Filename>
 		<DisplayNameStringID>23704</DisplayNameStringID>
 		<Captions>cin12.eng.xml</Captions>
 		<Visible>1</Visible>
 		<PostCinematic>1</PostCinematic>
 		<IntroTextStringID>24967</IntroTextStringID>
 		<PresenceMovieIndex>14</PresenceMovieIndex>
+		<ChunkID>2000</ChunkID>
 	</CampaignNode>
 	<CampaignNode name="PHXscn14">
 		<Filename>CampaignUNSC\design\PHXscn14\PHXscn14</Filename>
@@ -327,15 +353,17 @@
 		<ImageEndgame>img://art\ui\flash\shared\textures\pregame\mapimages\scn14b.ddx</ImageEndgame>
 		<MusicWorld>Shield_Int</MusicWorld>
 		<AmbientWorld>Shield_Int</AmbientWorld>
+		<ChunkID>2000</ChunkID>
 	</CampaignNode>
 	<CampaignNode name="Cinematic13">
-		<Filename>game:\video\Cinematic13.bik</Filename>
+		<Filename>video\Cinematic13.bik</Filename>
 		<DisplayNameStringID>23705</DisplayNameStringID>
 		<Captions>cin13.eng.xml</Captions>
 		<Visible>1</Visible>
 		<PostCinematic>1</PostCinematic>
 		<IntroTextStringID>24968</IntroTextStringID>
 		<PresenceMovieIndex>15</PresenceMovieIndex>
+		<ChunkID>2000</ChunkID>
 	</CampaignNode>
 	<CampaignNode name="PHXscn15">
 		<Filename>CampaignUNSC\design\PHXscn15\PHXscn15</Filename>
@@ -351,36 +379,40 @@
 		<ImageEndgame>img://art\ui\flash\shared\textures\pregame\mapimages\scn15b.ddx</ImageEndgame>
 		<MusicWorld>Shield_Int</MusicWorld>
 		<AmbientWorld>Shield_Int</AmbientWorld>
+		<ChunkID>2000</ChunkID>
 	</CampaignNode>
 	<CampaignNode name="Cinematic14" endofcampaign="true">
-		<Filename>game:\video\Cinematic14.bik</Filename>
+		<Filename>video\Cinematic14.bik</Filename>
 		<DisplayNameStringID>23706</DisplayNameStringID>
 		<Captions>cin14.eng.xml</Captions>
 		<Visible>1</Visible>
 		<PostCinematic>1</PostCinematic>
 		<IntroTextStringID>24969</IntroTextStringID>
 		<PresenceMovieIndex>16</PresenceMovieIndex>
+		<ChunkID>2000</ChunkID>
 	</CampaignNode>
 	<CampaignNode name="Cinematic15">
-		<Filename>game:\video\Cinematic15.bik</Filename>
+		<Filename>video\Cinematic15.bik</Filename>
 		<DisplayNameStringID>23707</DisplayNameStringID>
 		<Captions>cin15.eng.xml</Captions>
 		<Visible>1</Visible>
 		<PostCinematic>1</PostCinematic>
 		<IntroTextStringID>24970</IntroTextStringID>
 		<PresenceMovieIndex>17</PresenceMovieIndex>
+		<ChunkID>2000</ChunkID>
 	</CampaignNode>
 	<CampaignNode name="Credits">
-		<Filename>game:\video\uiCredits.bik</Filename>
+		<Filename>video\uiCredits.bik</Filename>
 		<DisplayNameStringID>23709</DisplayNameStringID>
 		<Captions>cin17.eng.xml</Captions>
 		<Visible>1</Visible>
 		<PostCinematic>1</PostCinematic>
 		<IntroTextStringID>25370</IntroTextStringID>
 		<PresenceMovieIndex>2</PresenceMovieIndex>
+		<ChunkID>1000</ChunkID>
 	</CampaignNode>
 	<CampaignNode name="LegendaryTeaser">
-		<Filename>game:\video\uiLegendary.bik</Filename>
+		<Filename>video\uiLegendary.bik</Filename>
 		<Legendary />
 		<DisplayNameStringID>23709</DisplayNameStringID>
 		<Captions>cin18.eng.xml</Captions>
@@ -388,5 +420,6 @@
 		<PostCinematic>1</PostCinematic>
 		<IntroTextStringID>25370</IntroTextStringID>
 		<PresenceMovieIndex>2</PresenceMovieIndex>
+		<ChunkID>2000</ChunkID>
 	</CampaignNode>
 </Campaign>

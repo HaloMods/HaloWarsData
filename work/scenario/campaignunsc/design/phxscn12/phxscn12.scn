@@ -513,7 +513,7 @@
 			<TriggerVar ID="2183" Type="ObjectList" Name="AddToObjectListVar2" IsNull="true" />
 			<TriggerVar ID="2184" Type="Bool" Name="ClearExistingVar5" IsNull="true">False</TriggerVar>
 			<TriggerVar ID="2185" Type="Player" Name="" IsNull="false">1</TriggerVar>
-			<TriggerVar ID="2186" Type="Vector" Name="" IsNull="false">577.6433,152.8242,657.4001</TriggerVar>
+			<TriggerVar ID="2186" Type="Vector" Name="" IsNull="false">577.6433,152.5742,657.4001</TriggerVar>
 			<TriggerVar ID="2187" Type="Float" Name="" IsNull="false">133</TriggerVar>
 			<TriggerVar ID="2188" Type="Time" Name="LifespanVar12" IsNull="true" />
 			<TriggerVar ID="2189" Type="Object" Name="CreatedRevealerVar12" IsNull="true" />
@@ -534,7 +534,7 @@
 			<TriggerVar ID="2204" Type="ObjectList" Name="AddToObjectListVar18" IsNull="true" />
 			<TriggerVar ID="2205" Type="Bool" Name="ClearExistingVar16" IsNull="true">False</TriggerVar>
 			<TriggerVar ID="2206" Type="Player" Name="" IsNull="false">1</TriggerVar>
-			<TriggerVar ID="2207" Type="Vector" Name="" IsNull="false">525.5933,195.4573,154.7617</TriggerVar>
+			<TriggerVar ID="2207" Type="Vector" Name="" IsNull="false">525.5933,195.4573,154.5117</TriggerVar>
 			<TriggerVar ID="2208" Type="Float" Name="" IsNull="false">104</TriggerVar>
 			<TriggerVar ID="2209" Type="Time" Name="LifespanVar15" IsNull="true" />
 			<TriggerVar ID="2210" Type="Object" Name="CreatedRevealerVar15" IsNull="true" />
@@ -58071,7 +58071,7 @@ Y pos: 27</Description>
 				<ID>491</ID>
 				<Group>1</Group>
 				<Radius>104</Radius>
-				<Position>525.5933,195.4573,154.7617</Position>
+				<Position>525.5933,195.4573,154.5117</Position>
 				<Direction>-0.5646,0,0.8254</Direction>
 				<Color>255,255,0</Color>
 			</HelperAreaObject>
@@ -58638,7 +58638,7 @@ Y pos: 27</Description>
 				<ID>1688</ID>
 				<Group>1</Group>
 				<Radius>133</Radius>
-				<Position>577.6433,152.8242,657.4001</Position>
+				<Position>577.6433,152.5742,657.4001</Position>
 				<Direction>0,0,1</Direction>
 				<Color>255,242,0</Color>
 			</HelperAreaObject>
@@ -59156,6 +59156,7 @@ Y pos: 27</Description>
 	<SimBoundsMaxX>1792</SimBoundsMaxX>
 	<SimBoundsMaxZ>1792</SimBoundsMaxZ>
 	<SoundBank>scenario_12.bnk</SoundBank>
+	<EnvironmentReverbPreset />
 	<AllowVeterancy>true</AllowVeterancy>
 	<GlobalExcludeObjects />
 </Scenario>

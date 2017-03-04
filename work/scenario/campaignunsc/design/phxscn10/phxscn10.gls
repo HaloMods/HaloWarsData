@@ -1235,7 +1235,7 @@
 		<Name>LocalLightterrain</Name>
 		<Type>omni</Type>
 		<Priority>127</Priority>
-		<Position>312.8072,24.9314,171.916</Position>
+		<Position>312.8072,24.9314,171.666</Position>
 		<Radius>54.711</Radius>
 		<Specular>true</Specular>
 		<Intensity>2</Intensity>

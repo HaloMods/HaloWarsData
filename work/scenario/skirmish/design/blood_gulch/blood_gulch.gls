@@ -11,10 +11,10 @@
 	<sunUnitColor>214,188,144</sunUnitColor>
 	<setTerrainColor>214,188,144</setTerrainColor>
 	<SunParticleColor>217,201,182</SunParticleColor>
-	<terrainSpecularPower>90</terrainSpecularPower>
-	<terrainBumpStrength>0.816</terrainBumpStrength>
-	<TerrainAODiffuseIntensity>0.936</TerrainAODiffuseIntensity>
-	<TerrainSpecOnlyColor>0,0,0</TerrainSpecOnlyColor>
+	<terrainSpecularPower>99.337</terrainSpecularPower>
+	<terrainBumpStrength>1</terrainBumpStrength>
+	<TerrainAODiffuseIntensity>1</TerrainAODiffuseIntensity>
+	<TerrainSpecOnlyColor>252,252,240</TerrainSpecOnlyColor>
 	<TerrainSpecOnlyPower>100</TerrainSpecOnlyPower>
 	<TerrainSpecOnlyShadowDarkness>1</TerrainSpecOnlyShadowDarkness>
 	<TerrainSpecOnlySunInclination>68.22</TerrainSpecOnlySunInclination>

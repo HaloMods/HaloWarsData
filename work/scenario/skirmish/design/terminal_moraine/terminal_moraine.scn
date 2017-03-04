@@ -317,13 +317,13 @@
 		<Object IsSquad="false" Player="0" ID="4654" TintValue="1" EditorName="sys_marker_crate3A_01_4654" Position="1057.987,34.8858,338.5137" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
 		<Object IsSquad="false" Player="0" ID="4661" TintValue="1" EditorName="sys_marker_crate3A_01_4661" Position="673.5315,30.6231,474.4544" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
 		<Object IsSquad="false" Player="0" ID="4658" TintValue="1" EditorName="sys_marker_crate3A_01_4658" Position="324.8423,24.3845,850.3422" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
-		<Object IsSquad="false" Player="0" ID="4670" TintValue="1" EditorName="sys_marker_crate3A_01_4670" Position="523.7968,29.4981,863.3773" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="4670" TintValue="1" EditorName="sys_marker_crate3A_01_4670" Position="522.7968,29.4981,863.3773" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
 		<Object IsSquad="false" Player="0" ID="4660" TintValue="1" EditorName="sys_marker_crate3A_01_4660" Position="951.0434,36.6357,399.4224" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
 		<Object IsSquad="false" Player="0" ID="4678" TintValue="1" EditorName="sys_marker_crate3A_01_4678" Position="699.8026,17.8482,639.0035" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
 		<Object IsSquad="false" Player="0" ID="4652" TintValue="1" EditorName="sys_marker_crate3A_01_4652" Position="614.1826,33.6869,998.9653" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
 		<Object IsSquad="false" Player="0" ID="4672" TintValue="1" EditorName="sys_marker_crate3A_01_4672" Position="498.4431,28.5748,484.23" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
 		<Object IsSquad="false" Player="0" ID="4649" TintValue="1" EditorName="sys_marker_crate3A_01_4649" Position="1123.489,34.3117,1060.297" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
-		<Object IsSquad="false" Player="0" ID="4656" TintValue="1" EditorName="sys_marker_crate3A_01_4656" Position="627.289,35.33,218.4248" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="4656" TintValue="1" EditorName="sys_marker_crate3A_01_4656" Position="626.289,35.33,218.4248" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
 		<Object IsSquad="false" Player="0" ID="4675" TintValue="1" EditorName="sys_marker_crate3A_01_4675" Position="412.5447,35.1813,132.24" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
 		<Object IsSquad="false" Player="0" ID="4657" TintValue="1" EditorName="sys_marker_crate3A_01_4657" Position="161.1356,34.6884,210.7128" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
 		<Object IsSquad="false" Player="0" ID="4667" TintValue="1" EditorName="sys_marker_crate3A_01_4667" Position="851.7242,24.2268,616.5071" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
@@ -3139,6 +3139,7 @@
 	<SimBoundsMaxX>1280</SimBoundsMaxX>
 	<SimBoundsMaxZ>1280</SimBoundsMaxZ>
 	<SoundBank>amb_harvest.bnk</SoundBank>
+	<EnvironmentReverbPreset>Reverb_Frozen</EnvironmentReverbPreset>
 	<ScenarioWorld>SWI</ScenarioWorld>
 	<AllowVeterancy>true</AllowVeterancy>
 	<GlobalExcludeObjects />

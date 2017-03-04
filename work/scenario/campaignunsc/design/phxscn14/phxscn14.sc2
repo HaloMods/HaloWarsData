@@ -145,7 +145,7 @@
 		<Object IsSquad="false" Player="0" ID="10001292" TintValue="1" EditorName="env_shieldinterior_grasspatch_01_1907" Position="212.7318,17.4767,335.6913" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">env_shieldinterior_grasspatch_01</Object>
 		<Object IsSquad="false" Player="0" ID="10002851" TintValue="1" EditorName="env_shieldinterior_grasspatch_01_1753" Position="885.9506,152.644,724.4501" Forward="0.7451,0,-0.6669" Right="-0.6669,0,-0.7451" Group="-1" VisualVariationIndex="0">env_shieldinterior_grasspatch_01</Object>
 		<Object IsSquad="false" Player="0" ID="10002840" TintValue="1" EditorName="env_shieldinterior_grasspatch_01_1742" Position="910.7203,152.644,811.0754" Forward="0.106,0,0.9944" Right="0.9944,0,-0.106" Group="-1" VisualVariationIndex="0">env_shieldinterior_grasspatch_01</Object>
-		<Object IsSquad="false" Player="0" ID="10002848" TintValue="1" EditorName="env_shieldinterior_grasspatch_01_1750" Position="895.9687,152.644,739.1289" Forward="0.106,0,0.9944" Right="0.9944,0,-0.106" Group="-1" VisualVariationIndex="0">env_shieldinterior_grasspatch_01</Object>
+		<Object IsSquad="false" Player="0" ID="10002848" TintValue="1" EditorName="env_shieldinterior_grasspatch_01_1750" Position="894.9687,152.644,739.1289" Forward="0.106,0,0.9944" Right="0.9944,0,-0.106" Group="-1" VisualVariationIndex="0">env_shieldinterior_grasspatch_01</Object>
 		<Object IsSquad="false" Player="0" ID="10002847" TintValue="1" EditorName="env_shieldinterior_grasspatch_01_1749" Position="902.3558,152.644,745.7947" Forward="0.721,0,-0.6929" Right="-0.6929,0,-0.721" Group="-1" VisualVariationIndex="0">env_shieldinterior_grasspatch_01</Object>
 		<Object IsSquad="false" Player="0" ID="10002846" TintValue="1" EditorName="env_shieldinterior_grasspatch_01_1748" Position="913.6527,152.644,758.027" Forward="0.9684,0,-0.2496" Right="-0.2496,0,-0.9684" Group="-1" VisualVariationIndex="0">env_shieldinterior_grasspatch_01</Object>
 		<Object IsSquad="false" Player="0" ID="10002862" TintValue="1" EditorName="env_shieldinterior_grasspatch_01_1764" Position="765.6155,152.644,723.8026" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">env_shieldinterior_grasspatch_01</Object>
@@ -257,7 +257,7 @@
 		<Object IsSquad="false" Player="0" ID="10002066" TintValue="1" EditorName="env_shieldinterior_grasspatch_01_2681" Position="853.1726,152.644,958.9886" Forward="0.6091,0,0.7931" Right="0.7931,0,-0.6091" Group="-1" VisualVariationIndex="0">env_shieldinterior_grasspatch_01</Object>
 		<Object IsSquad="false" Player="0" ID="10002622" TintValue="1" EditorName="env_shieldinterior_grasspatch_01_1523" Position="766.9898,-56.374,326.1159" Forward="-0.3549,0,-0.9349" Right="-0.9349,0,0.3549" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_shieldinterior_grasspatch_01</Object>
-		<Object IsSquad="false" Player="0" ID="10002621" TintValue="1" EditorName="env_shieldinterior_grasspatch_01_1522" Position="765.5564,-57.9357,324.549" Forward="0.7341766,0,-0.68" Right="-0.68,0,-0.7341766" Group="-1" VisualVariationIndex="0">
+		<Object IsSquad="false" Player="0" ID="10002621" TintValue="1" EditorName="env_shieldinterior_grasspatch_01_1522" Position="765.5564,-57.9357,324.549" Forward="0.7332,0,-0.68" Right="-0.68,0,-0.7332" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_shieldinterior_grasspatch_01</Object>
 		<Object IsSquad="false" Player="0" ID="10002062" TintValue="1" EditorName="env_shieldinterior_grasspatch_01_2677" Position="840.004,152.644,951.7533" Forward="0.9894,0,-0.1455" Right="-0.1455,0,-0.9894" Group="-1" VisualVariationIndex="0">env_shieldinterior_grasspatch_01</Object>
 		<Object IsSquad="false" Player="0" ID="10002623" TintValue="1" EditorName="env_shieldinterior_grasspatch_01_1524" Position="774.0854,-58.6451,321.7258" Forward="0.1497,-0.1221,-0.9812" Right="-0.9887,-0.0168,-0.1488" Group="-1" VisualVariationIndex="0">
@@ -354,7 +354,7 @@
 			<Flag>NoTieToGround</Flag>env_shieldinterior_grasspatch_01</Object>
 		<Object IsSquad="false" Player="0" ID="10002581" TintValue="1" EditorName="env_shieldinterior_grasspatch_01_1482" Position="855.2987,-57.7555,415.3418" Forward="-0.6794,0,-0.7338" Right="-0.7338,0,0.6794" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_shieldinterior_grasspatch_01</Object>
-		<Object IsSquad="false" Player="0" ID="10002018" TintValue="1" EditorName="env_shieldinterior_grasspatch_01_2633" Position="775.2265,152.644,645.9262" Forward="0.5806,0,0.8142" Right="0.8142,0,-0.5806" Group="-1" VisualVariationIndex="0">env_shieldinterior_grasspatch_01</Object>
+		<Object IsSquad="false" Player="0" ID="10002018" TintValue="1" EditorName="env_shieldinterior_grasspatch_01_2633" Position="774.2265,152.644,645.9262" Forward="0.5806,0,0.8142" Right="0.8142,0,-0.5806" Group="-1" VisualVariationIndex="0">env_shieldinterior_grasspatch_01</Object>
 		<Object IsSquad="false" Player="0" ID="10002041" TintValue="1" EditorName="env_shieldinterior_grasspatch_01_2656" Position="578.2299,152.644,937.0462" Forward="0.1411,0,0.99" Right="0.99,0,-0.1411" Group="-1" VisualVariationIndex="0">env_shieldinterior_grasspatch_01</Object>
 		<Object IsSquad="false" Player="0" ID="10002033" TintValue="1" EditorName="env_shieldinterior_grasspatch_01_2648" Position="621.6935,152.644,903.2331" Forward="0.9766,0,-0.2151" Right="-0.2151,0,-0.9766" Group="-1" VisualVariationIndex="0">env_shieldinterior_grasspatch_01</Object>
 		<Object IsSquad="false" Player="0" ID="10002031" TintValue="1" EditorName="env_shieldinterior_grasspatch_01_2646" Position="578.2324,152.644,638.3262" Forward="0.1411,0,0.99" Right="0.99,0,-0.1411" Group="-1" VisualVariationIndex="0">env_shieldinterior_grasspatch_01</Object>
@@ -975,7 +975,7 @@
 			<Flag>NoTieToGround</Flag>env_shieldinterior_PlantChoiweed_02</Object>
 		<Object IsSquad="false" Player="0" ID="10001133" TintValue="1" EditorName="env_shieldinterior_PlantChoiweed_02_1748" Position="663.7617,-45.6648,278.7841" Forward="0.6369,0.0405,0.7698" Right="0.7709,-0.045,-0.6354" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_shieldinterior_PlantChoiweed_02</Object>
-		<Object IsSquad="false" Player="0" ID="10002674" TintValue="1" EditorName="env_shieldinterior_PlantChoiweed_02_1576" Position="583.7968,152.644,643.7182" Forward="0.9564,0,0.2921" Right="0.2921,0,-0.9564" Group="-1" VisualVariationIndex="0">env_shieldinterior_PlantChoiweed_02</Object>
+		<Object IsSquad="false" Player="0" ID="10002674" TintValue="1" EditorName="env_shieldinterior_PlantChoiweed_02_1576" Position="582.7968,152.644,643.7182" Forward="0.9564,0,0.2921" Right="0.2921,0,-0.9564" Group="-1" VisualVariationIndex="0">env_shieldinterior_PlantChoiweed_02</Object>
 		<Object IsSquad="false" Player="0" ID="10002331" TintValue="1" EditorName="env_shieldinterior_PlantChoiweed_02_2946" Position="146.3594,24.3788,314.2767" Forward="0.651,0.1326,0.7474" Right="0.7309,-0.3756,-0.5699" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_shieldinterior_PlantChoiweed_02</Object>
 		<Object IsSquad="false" Player="0" ID="10002677" TintValue="1" EditorName="env_shieldinterior_PlantChoiweed_02_1579" Position="550.2783,152.644,644.7252" Forward="0.7451,0,-0.6669" Right="-0.6669,0,-0.7451" Group="-1" VisualVariationIndex="0">env_shieldinterior_PlantChoiweed_02</Object>
@@ -1227,7 +1227,7 @@
 		<Object IsSquad="false" Player="0" ID="10001775" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2390" Position="170.6459,84.1289,783.9482" Forward="0.6368,0,0.7711" Right="0.7711,0,-0.6368" Group="-1" VisualVariationIndex="0">env_shieldinterior_PlantGrassClump_02</Object>
 		<Object IsSquad="false" Player="0" ID="10001443" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2058" Position="568.7769,16.1158,443.2321" Forward="0.6393,0.0327,0.7683" Right="0.7539,-0.2237,-0.6178" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_shieldinterior_PlantGrassClump_02</Object>
-		<Object IsSquad="false" Player="0" ID="10001837" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2452" Position="433.1646,133.7401,643.989" Forward="-0.8441,-0.155,-0.5133" Right="-0.5047,-0.0934,0.8591766" Group="-1" VisualVariationIndex="0">
+		<Object IsSquad="false" Player="0" ID="10001837" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2452" Position="433.1646,133.7401,643.989" Forward="-0.8441,-0.155,-0.5133" Right="-0.5047,-0.0934,0.8582" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_shieldinterior_PlantGrassClump_02</Object>
 		<Object IsSquad="false" Player="0" ID="10001740" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2355" Position="121.5392,84.1289,749.3746" Forward="0.6368,0,0.7711" Right="0.7711,0,-0.6368" Group="-1" VisualVariationIndex="0">env_shieldinterior_PlantGrassClump_02</Object>
 		<Object IsSquad="false" Player="0" ID="10001424" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2039" Position="517.247,-12.2175,304.5314" Forward="0.7444,-0.1492,-0.6509" Right="-0.6597,-0.0128,-0.7514" Group="-1" VisualVariationIndex="0">
@@ -1396,7 +1396,7 @@
 			<Flag>NoTieToGround</Flag>env_shieldinterior_PlantGrassClump_02</Object>
 		<Object IsSquad="false" Player="0" ID="10001882" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2497" Position="254.2587,84.7181,640.0687" Forward="0.868,0.0144,-0.4964" Right="-0.4965,0.0052,-0.868" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_shieldinterior_PlantGrassClump_02</Object>
-		<Object IsSquad="false" Player="0" ID="10001869" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2484" Position="284.621,84.1289,639.4843" Forward="0.6368,0,0.7711" Right="0.7711,0,-0.6368" Group="-1" VisualVariationIndex="0">
+		<Object IsSquad="false" Player="0" ID="10001869" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2484" Position="284.621,84.1289,638.4843" Forward="0.6368,0,0.7711" Right="0.7711,0,-0.6368" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_shieldinterior_PlantGrassClump_02</Object>
 		<Object IsSquad="false" Player="0" ID="10001848" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2463" Position="488.407,152.3571,646.2184" Forward="0.8556,0.1454,-0.4968" Right="-0.4888,-0.0887,-0.8679" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_shieldinterior_PlantGrassClump_02</Object>
@@ -1540,11 +1540,11 @@
 			<Flag>NoTieToGround</Flag>env_shieldinterior_PlantGrassClump_02</Object>
 		<Object IsSquad="false" Player="0" ID="10001840" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2455" Position="422.5327,130.0764,644.1444" Forward="0.6261,0.1157,0.7711" Right="0.7581,0.1411,-0.6367" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_shieldinterior_PlantGrassClump_02</Object>
-		<Object IsSquad="false" Player="0" ID="10001853" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2468" Position="352.7115,105.2231,643.5387" Forward="-0.8423,-0.1646,-0.5133" Right="-0.5036,-0.0992,0.8591766" Group="-1" VisualVariationIndex="0">
+		<Object IsSquad="false" Player="0" ID="10001853" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2468" Position="352.7115,105.2231,643.5387" Forward="-0.8423,-0.1646,-0.5133" Right="-0.5036,-0.0992,0.8582" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_shieldinterior_PlantGrassClump_02</Object>
 		<Object IsSquad="false" Player="0" ID="10001850" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2465" Position="365.7796,109.9802,645.5797" Forward="0.932,0.1809,-0.314" Right="-0.3084,-0.0591,-0.9494" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_shieldinterior_PlantGrassClump_02</Object>
-		<Object IsSquad="false" Player="0" ID="10002688" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_1590" Position="580.4973,152.8867,646.2927" Forward="-1,0,-0.0044" Right="-0.0044,0,1" Group="-1" VisualVariationIndex="0">env_shieldinterior_PlantGrassClump_02</Object>
+		<Object IsSquad="false" Player="0" ID="10002688" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_1590" Position="580.4973,152.6367,646.2927" Forward="-1,0,-0.0044" Right="-0.0044,0,1" Group="-1" VisualVariationIndex="0">env_shieldinterior_PlantGrassClump_02</Object>
 		<Object IsSquad="false" Player="0" ID="10001463" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2078" Position="698.4456,15.8777,503.5815" Forward="0.7518,0.0386,-0.6583" Right="-0.6592,0.0167,-0.7518" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_shieldinterior_PlantGrassClump_02</Object>
 		<Object IsSquad="false" Player="0" ID="10001372" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_1987" Position="461.6454,0.5083,296.7155" Forward="0.2462,-0.0354,-0.9686" Right="-0.959,0.1358,-0.2487" Group="-1" VisualVariationIndex="0">
@@ -1586,7 +1586,7 @@
 			<Flag>NoTieToGround</Flag>env_shieldinterior_PlantGrassClump_02</Object>
 		<Object IsSquad="false" Player="0" ID="10001542" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2157" Position="782.0128,16.5705,378.3855" Forward="-0.987,0.011,0.1602" Right="0.1605,0.0405,0.9862" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_shieldinterior_PlantGrassClump_02</Object>
-		<Object IsSquad="false" Player="0" ID="10001547" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2162" Position="716.4739,-51.0981,186.8176" Forward="-0.3052,0.0294,0.9518" Right="0.9519,0.037,0.3045883" Group="-1" VisualVariationIndex="0">
+		<Object IsSquad="false" Player="0" ID="10001547" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2162" Position="716.4739,-51.0981,186.8176" Forward="-0.3052,0.0294,0.9518" Right="0.9519,0.037,0.3041" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_shieldinterior_PlantGrassClump_02</Object>
 		<Object IsSquad="false" Player="0" ID="10001613" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2228" Position="472.873,58.3736,471.8658" Forward="0.86,-0.1183,-0.4965" Right="-0.4918,0.0682,-0.868" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_shieldinterior_PlantGrassClump_02</Object>
@@ -1672,7 +1672,7 @@
 			<Flag>NoTieToGround</Flag>env_shieldinterior_PlantGrassClump_02</Object>
 		<Object IsSquad="false" Player="0" ID="10001512" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2127" Position="667.4927,15.3462,523.9349" Forward="-0.9346,-0.0344,0.3541" Right="0.3515,0.0639,0.934" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_shieldinterior_PlantGrassClump_02</Object>
-		<Object IsSquad="false" Player="0" ID="10001406" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2021" Position="476.879,-3.5761,212.9785" Forward="0.629,-0.108,0.7699" Right="0.764,-0.0973,-0.6378" Group="-1" VisualVariationIndex="0">
+		<Object IsSquad="false" Player="0" ID="10001406" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2021" Position="476.879,-3.5761,212.7285" Forward="0.629,-0.108,0.7699" Right="0.764,-0.0973,-0.6378" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_shieldinterior_PlantGrassClump_02</Object>
 		<Object IsSquad="false" Player="0" ID="10001620" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2235" Position="404.4683,75.4048,475.7283" Forward="-0.9274,0.1225,0.3533" Right="0.3502,-0.0468,0.9355" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_shieldinterior_PlantGrassClump_02</Object>
@@ -1714,7 +1714,7 @@
 			<Flag>NoTieToGround</Flag>env_shieldinterior_PlantGrassClump_02</Object>
 		<Object IsSquad="false" Player="0" ID="10001631" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2246" Position="306.7869,84.1426,474.1606" Forward="-0.6505,0.0331,0.7588" Right="0.7564,-0.0622,0.6511" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_shieldinterior_PlantGrassClump_02</Object>
-		<Object IsSquad="false" Player="0" ID="10001523" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2138" Position="684.1946,16.7303,547.1796" Forward="0.6372,0.0259,0.7703" Right="0.7701,-0.0624,-0.6349" Group="-1" VisualVariationIndex="0">
+		<Object IsSquad="false" Player="0" ID="10001523" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2138" Position="684.1946,16.7303,546.1796" Forward="0.6372,0.0259,0.7703" Right="0.7701,-0.0624,-0.6349" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_shieldinterior_PlantGrassClump_02</Object>
 		<Object IsSquad="false" Player="0" ID="10001394" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2009" Position="412.6461,13.1328,310.4631" Forward="0.7451,-0.1026,-0.659" Right="-0.6529,0.0892,-0.7522" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_shieldinterior_PlantGrassClump_02</Object>
@@ -1784,7 +1784,7 @@
 			<Flag>NoTieToGround</Flag>env_shieldinterior_PlantGrassClump_02</Object>
 		<Object IsSquad="false" Player="0" ID="10001419" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2034" Position="609.5996,-35.965,294.1783" Forward="0.6396,0.0426,0.7675" Right="0.7571,-0.2079,-0.6194" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_shieldinterior_PlantGrassClump_02</Object>
-		<Object IsSquad="false" Player="0" ID="10001407" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2022" Position="476.1848,-3.387,218.8408" Forward="0.8592,-0.1244,-0.4963" Right="-0.4920883,0.0679,-0.8682" Group="-1" VisualVariationIndex="0">
+		<Object IsSquad="false" Player="0" ID="10001407" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2022" Position="476.1848,-3.387,218.8408" Forward="0.8592,-0.1244,-0.4963" Right="-0.4916,0.0679,-0.8682" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_shieldinterior_PlantGrassClump_02</Object>
 		<Object IsSquad="false" Player="0" ID="10001418" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2033" Position="590.6401,-34.8751,214.6632" Forward="-0.6439,0.0999,0.7585" Right="0.7497,-0.1155,0.6516" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_shieldinterior_PlantGrassClump_02</Object>
@@ -1902,7 +1902,7 @@
 			<Flag>NoTieToGround</Flag>env_shieldinterior_PlantGrassClump_02</Object>
 		<Object IsSquad="false" Player="0" ID="10001431" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2046" Position="488.8436,15.8807,358.3278" Forward="0.6368,-0.0085,0.771" Right="0.771,0.0134,-0.6367" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_shieldinterior_PlantGrassClump_02</Object>
-		<Object IsSquad="false" Player="0" ID="10001483" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2098" Position="719.4609,15.63,468.2645" Forward="0.751,0.0435,-0.6589" Right="-0.6582,-0.0315,-0.7522" Group="-1" VisualVariationIndex="0">
+		<Object IsSquad="false" Player="0" ID="10001483" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2098" Position="718.4609,15.63,468.2645" Forward="0.751,0.0435,-0.6589" Right="-0.6582,-0.0315,-0.7522" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_shieldinterior_PlantGrassClump_02</Object>
 		<Object IsSquad="false" Player="0" ID="10001599" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2214" Position="559.7485,-24.803,297.381" Forward="0.6259,-0.111,0.772" Right="0.7554,-0.1597,-0.6355" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_shieldinterior_PlantGrassClump_02</Object>
@@ -1961,7 +1961,7 @@
 		<Object IsSquad="false" Player="0" ID="10001649" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2264" Position="129.3246,84.2276,472.0556" Forward="0.2487,0,-0.9686" Right="-0.9686,0,-0.2487" Group="-1" VisualVariationIndex="0">env_shieldinterior_PlantGrassClump_02</Object>
 		<Object IsSquad="false" Player="0" ID="10001674" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2289" Position="86.4089,84.2803,545.7559" Forward="-0.9871,0,0.1604" Right="0.1604,0,0.9871" Group="-1" VisualVariationIndex="0">env_shieldinterior_PlantGrassClump_02</Object>
 		<Object IsSquad="false" Player="0" ID="10001662" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2277" Position="96.5052,84.2424,508.4163" Forward="-0.9661,0,0.2581" Right="0.2581,0,0.9661" Group="-1" VisualVariationIndex="0">env_shieldinterior_PlantGrassClump_02</Object>
-		<Object IsSquad="false" Player="0" ID="10001933" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2548" Position="409.7031,74.9118,585.4204" Forward="-0.6438,0.1516,0.75" Right="0.7583,-0.0043,0.6519" Group="-1" VisualVariationIndex="0">
+		<Object IsSquad="false" Player="0" ID="10001933" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2548" Position="409.2031,74.9118,585.4204" Forward="-0.6438,0.1516,0.75" Right="0.7583,-0.0043,0.6519" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_shieldinterior_PlantGrassClump_02</Object>
 		<Object IsSquad="false" Player="0" ID="10001729" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2344" Position="93.0206,84.9836,739.2441" Forward="0.7843,0,0.6203" Right="0.6203,0,-0.7843" Group="-1" VisualVariationIndex="0">env_shieldinterior_PlantGrassClump_02</Object>
 		<Object IsSquad="false" Player="0" ID="10001718" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2333" Position="72.3229,84.6475,708.7614" Forward="0.4361,0,-0.8999" Right="-0.8999,0,-0.4361" Group="-1" VisualVariationIndex="0">env_shieldinterior_PlantGrassClump_02</Object>
@@ -2012,7 +2012,7 @@
 		<Object IsSquad="false" Player="0" ID="10001678" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2293" Position="64.6193,84.8704,537.2289" Forward="0.9954,0,-0.0959" Right="-0.0959,0,-0.9954" Group="-1" VisualVariationIndex="0">env_shieldinterior_PlantGrassClump_02</Object>
 		<Object IsSquad="false" Player="0" ID="10001682" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2297" Position="63.4327,85.7402,526.9438" Forward="0.6368,0,0.7711" Right="0.7711,0,-0.6368" Group="-1" VisualVariationIndex="0">env_shieldinterior_PlantGrassClump_02</Object>
 		<Object IsSquad="false" Player="0" ID="10001684" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2299" Position="77.6208,84.8702,523.3251" Forward="0.9929,0,-0.1192" Right="-0.1192,0,-0.9929" Group="-1" VisualVariationIndex="0">env_shieldinterior_PlantGrassClump_02</Object>
-		<Object IsSquad="false" Player="0" ID="10001751" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2366" Position="108.5684,85.9248,801.7187" Forward="0.8868,0,0.4622" Right="0.4622,0,-0.8868" Group="-1" VisualVariationIndex="0">env_shieldinterior_PlantGrassClump_02</Object>
+		<Object IsSquad="false" Player="0" ID="10001751" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2366" Position="108.5684,85.7998,801.7187" Forward="0.8868,0,0.4622" Right="0.4622,0,-0.8868" Group="-1" VisualVariationIndex="0">env_shieldinterior_PlantGrassClump_02</Object>
 		<Object IsSquad="false" Player="0" ID="10001697" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2312" Position="43.7156,84.4358,620.004" Forward="0.7843,0,0.6203" Right="0.6203,0,-0.7843" Group="-1" VisualVariationIndex="0">env_shieldinterior_PlantGrassClump_02</Object>
 		<Object IsSquad="false" Player="0" ID="10001793" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2408" Position="182.8214,84.1289,765.2451" Forward="0.6368,0,0.7711" Right="0.7711,0,-0.6368" Group="-1" VisualVariationIndex="0">env_shieldinterior_PlantGrassClump_02</Object>
 		<Object IsSquad="false" Player="0" ID="10001796" TintValue="1" EditorName="env_shieldinterior_PlantGrassClump_02_2411" Position="184.6811,84.1289,763.208" Forward="0.7521,0,-0.659" Right="-0.659,0,-0.7521" Group="-1" VisualVariationIndex="0">env_shieldinterior_PlantGrassClump_02</Object>
@@ -2198,7 +2198,7 @@
 			<Flag>IncludeInSimRep</Flag>env_shieldinterior_Rock01Large_04</Object>
 		<Object IsSquad="false" Player="0" ID="10001018" TintValue="1" EditorName="env_shieldinterior_Rock01Medium_02_1633" Position="864.8018,-50.8534,72.5638" Forward="0.4571,0.8479,-0.2684" Right="-0.7469,0.2022,-0.6334" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_shieldinterior_Rock01Medium_02</Object>
-		<Object IsSquad="false" Player="0" ID="10001011" TintValue="1" EditorName="env_shieldinterior_Rock01Medium_02_1626" Position="738.5039,14.49683,346.9928" Forward="0.8367,0,-0.5477" Right="-0.5477,0,-0.8367" Group="-1" VisualVariationIndex="0">env_shieldinterior_Rock01Medium_02</Object>
+		<Object IsSquad="false" Player="0" ID="10001011" TintValue="1" EditorName="env_shieldinterior_Rock01Medium_02_1626" Position="738.5039,14.4812,346.9928" Forward="0.8367,0,-0.5477" Right="-0.5477,0,-0.8367" Group="-1" VisualVariationIndex="0">env_shieldinterior_Rock01Medium_02</Object>
 		<Object IsSquad="false" Player="0" ID="10000981" TintValue="1" EditorName="env_shieldinterior_Rock01Medium_03_1596" Position="981.3703,-27.235,323.4063" Forward="0.1691,0,0.9856" Right="0.9856,0,-0.1691" Group="-1" VisualVariationIndex="0">env_shieldinterior_Rock01Medium_03</Object>
 		<Object IsSquad="false" Player="0" ID="10000965" TintValue="1" EditorName="env_shieldinterior_Rock01Small_01_1580" Position="570.1746,-23.7493,309.1465" Forward="0.9564,0,0.2921" Right="0.2921,0,-0.9564" Group="-1" VisualVariationIndex="0">env_shieldinterior_Rock01Small_01</Object>
 		<Object IsSquad="false" Player="0" ID="10000966" TintValue="1" EditorName="env_shieldinterior_Rock01Small_01_1581" Position="508.6496,-4.2348,329.4014" Forward="0.2538,0,-0.9673" Right="-0.9673,0,-0.2538" Group="-1" VisualVariationIndex="0">env_shieldinterior_Rock01Small_01</Object>
@@ -2309,7 +2309,7 @@
 		<Object IsSquad="false" Player="0" ID="10000952" TintValue="1" EditorName="env_shieldinterior_Rock02Medium_04_1567" Position="648.5562,-43.5239,292.3889" Forward="0.92,0,0.3919" Right="0.3919,0,-0.92" Group="-1" VisualVariationIndex="0">env_shieldinterior_Rock02Medium_04</Object>
 		<Object IsSquad="false" Player="0" ID="10002885" TintValue="1" EditorName="env_shieldinterior_Rock02Medium_04_1606" Position="168.9443,21.9726,77.1216" Forward="0,-0.3144,0.9493" Right="1,0,0" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_shieldinterior_Rock02Medium_04</Object>
-		<Object IsSquad="false" Player="0" ID="10000993" TintValue="1" EditorName="env_shieldinterior_Rock02Small_01_1608" Position="955.9843,-51.0508,229.8226" Forward="0.9684,0,-0.2496" Right="-0.2496,0,-0.9684" Group="-1" VisualVariationIndex="0">env_shieldinterior_Rock02Small_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000993" TintValue="1" EditorName="env_shieldinterior_Rock02Small_01_1608" Position="954.9843,-51.0508,229.8226" Forward="0.9684,0,-0.2496" Right="-0.2496,0,-0.9684" Group="-1" VisualVariationIndex="0">env_shieldinterior_Rock02Small_01</Object>
 		<Object IsSquad="false" Player="0" ID="10002554" TintValue="1" EditorName="env_shieldinterior_Rock02Small_01_3169" Position="734.1748,13.941,355.544" Forward="0.721,0,-0.6929" Right="-0.6929,0,-0.721" Group="-1" VisualVariationIndex="0">env_shieldinterior_Rock02Small_01</Object>
 		<Object IsSquad="false" Player="0" ID="10000991" TintValue="1" EditorName="env_shieldinterior_Rock02Small_01_1606" Position="962.8991,-49.9527,251.2193" Forward="-0.8318,0,-0.5551" Right="-0.5551,0,0.8318" Group="-1" VisualVariationIndex="0">env_shieldinterior_Rock02Small_01</Object>
 		<Object IsSquad="false" Player="0" ID="10000992" TintValue="1" EditorName="env_shieldinterior_Rock02Small_01_1607" Position="969.8137,-48.3474,254.8894" Forward="0.9333,0,0.359" Right="0.359,0,-0.9333" Group="-1" VisualVariationIndex="0">env_shieldinterior_Rock02Small_01</Object>
@@ -2698,7 +2698,7 @@
 		<Object IsSquad="false" Player="0" ID="10000924" TintValue="1" EditorName="env_shieldinterior_TreePineSWI_01_1539" Position="499.5085,29.2714,116.9091" Forward="0.9564,0,0.2921" Right="0.2921,0,-0.9564" Group="-1" VisualVariationIndex="0">env_shieldinterior_TreePineSWI_01</Object>
 		<Object IsSquad="false" Player="0" ID="10002984" TintValue="1" EditorName="env_shieldinterior_TreePineSWI_01_1691" Position="385.8514,18.3543,145.6639" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">env_shieldinterior_TreePineSWI_01</Object>
 		<Object IsSquad="false" Player="0" ID="10002983" TintValue="1" EditorName="env_shieldinterior_TreePineSWI_01_1690" Position="407.197,18.6392,151.3996" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">env_shieldinterior_TreePineSWI_01</Object>
-		<Object IsSquad="false" Player="0" ID="10002230" TintValue="1" EditorName="env_shieldinterior_TreePineSWI_01_2845" Position="192.8203,25.7483,67.6884" Forward="-0.8318,0,-0.5551" Right="-0.5551,0,0.8318" Group="-1" VisualVariationIndex="0">env_shieldinterior_TreePineSWI_01</Object>
+		<Object IsSquad="false" Player="0" ID="10002230" TintValue="1" EditorName="env_shieldinterior_TreePineSWI_01_2845" Position="192.5703,25.7483,67.6884" Forward="-0.8318,0,-0.5551" Right="-0.5551,0,0.8318" Group="-1" VisualVariationIndex="0">env_shieldinterior_TreePineSWI_01</Object>
 		<Object IsSquad="false" Player="0" ID="10002150" TintValue="1" EditorName="env_shieldinterior_TreePineSWI_01_2765" Position="424.6021,10.4995,319.5588" Forward="-0.2879,0,-0.9577" Right="-0.9577,0,0.2879" Group="-1" VisualVariationIndex="0">env_shieldinterior_TreePineSWI_01</Object>
 		<Object IsSquad="false" Player="0" ID="10002149" TintValue="1" EditorName="env_shieldinterior_TreePineSWI_01_2764" Position="419.7174,11.6018,327.3131" Forward="-0.8318,0,-0.5551" Right="-0.5551,0,0.8318" Group="-1" VisualVariationIndex="0">env_shieldinterior_TreePineSWI_01</Object>
 		<Object IsSquad="false" Player="0" ID="10001028" TintValue="1" EditorName="env_shieldinterior_TreePineSWI_01_1643" Position="709.8118,-42.1948,67.7195" Forward="-0.8116,0,-0.5842" Right="-0.5842,0,0.8116" Group="-1" VisualVariationIndex="0">env_shieldinterior_TreePineSWI_01</Object>
@@ -2998,7 +2998,7 @@
 		<Object IsSquad="false" Player="0" ID="10002519" TintValue="1" EditorName="env_tree_bush_05_3134" Position="489.1026,-2.4955,319.8442" Forward="-0.2879,0,-0.9577" Right="-0.9577,0,0.2879" Group="-1" VisualVariationIndex="0">env_tree_bush_05</Object>
 		<Object IsSquad="false" Player="0" ID="10002532" TintValue="1" EditorName="env_tree_bush_05_3147" Position="1001.417,-32.2114,310.4988" Forward="0.1411,0,0.99" Right="0.99,0,-0.1411" Group="-1" VisualVariationIndex="0">env_tree_bush_05</Object>
 		<Object IsSquad="false" Player="0" ID="10002517" TintValue="1" EditorName="env_tree_bush_05_3132" Position="501.1683,-8.4735,208.2985" Forward="0.1411,0,0.99" Right="0.99,0,-0.1411" Group="-1" VisualVariationIndex="0">env_tree_bush_05</Object>
-		<Object IsSquad="false" Player="0" ID="10002530" TintValue="1" EditorName="env_tree_bush_05_3145" Position="1002.752,-31.74365,311.3607" Forward="0.6961,0,-0.718" Right="-0.718,0,-0.6961" Group="-1" VisualVariationIndex="0">env_tree_bush_05</Object>
+		<Object IsSquad="false" Player="0" ID="10002530" TintValue="1" EditorName="env_tree_bush_05_3145" Position="1002.752,-31.7124,311.3607" Forward="0.6961,0,-0.718" Right="-0.718,0,-0.6961" Group="-1" VisualVariationIndex="0">env_tree_bush_05</Object>
 		<Object IsSquad="false" Player="0" ID="10002525" TintValue="1" EditorName="env_tree_bush_05_3140" Position="946.0742,-44.5332,349.6266" Forward="0.0708,0,0.9975" Right="0.9975,0,-0.0708" Group="-1" VisualVariationIndex="0">env_tree_bush_05</Object>
 		<Object IsSquad="false" Player="0" ID="10002528" TintValue="1" EditorName="env_tree_bush_05_3143" Position="1001.909,-32.5243,308.7419" Forward="0.1411,0,0.99" Right="0.99,0,-0.1411" Group="-1" VisualVariationIndex="0">env_tree_bush_05</Object>
 		<Object IsSquad="false" Player="0" ID="10002515" TintValue="1" EditorName="env_tree_bush_05_3130" Position="620.0102,-37.3702,307.297" Forward="0.1498,0,-0.9887" Right="-0.9887,0,-0.1498" Group="-1" VisualVariationIndex="0">env_tree_bush_05</Object>

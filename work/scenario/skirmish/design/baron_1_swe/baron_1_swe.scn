@@ -256,7 +256,7 @@
 			<Flag>IgnoreToAO</Flag>sys_marker_baseObstruction_01</Object>
 		<Object IsSquad="false" Player="1" ID="209" TintValue="1" EditorName="sys_marker_baseObstruction_01_202" Position="547.9783,6.5091,384.1901" Forward="1,0,0" Right="0,0,-1" Group="2" VisualVariationIndex="0">
 			<Flag>IgnoreToAO</Flag>sys_marker_baseObstruction_01</Object>
-		<Object IsSquad="false" Player="1" ID="199" TintValue="1" EditorName="sys_marker_baseObstruction_01_199" Position="101.8543,4.1252,659.1484" Forward="0.9998,0,0.0214" Right="0.0214,0,-0.9998" Group="2" VisualVariationIndex="0">
+		<Object IsSquad="false" Player="1" ID="199" TintValue="1" EditorName="sys_marker_baseObstruction_01_199" Position="101.8543,4.1252,658.1484" Forward="0.9998,0,0.0214" Right="0.0214,0,-0.9998" Group="2" VisualVariationIndex="0">
 			<Flag>IgnoreToAO</Flag>sys_marker_baseObstruction_01</Object>
 		<Object IsSquad="false" Player="1" ID="208" TintValue="1" EditorName="sys_marker_baseObstruction_01_208" Position="676.7939,2.9253,671.3215" Forward="0,0,-1" Right="-1,0,0" Group="2" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>
@@ -824,6 +824,7 @@
 	<SimBoundsMaxX>768</SimBoundsMaxX>
 	<SimBoundsMaxZ>768</SimBoundsMaxZ>
 	<SoundBank>amb_shield_ext.bnk</SoundBank>
+	<EnvironmentReverbPreset>Reverb_Cavern</EnvironmentReverbPreset>
 	<ScenarioWorld>SWE</ScenarioWorld>
 	<AllowVeterancy>true</AllowVeterancy>
 	<GlobalExcludeObjects />

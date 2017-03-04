@@ -1719,13 +1719,13 @@
 		<Object IsSquad="true" Player="2" ID="1010" TintValue="1" EditorName="cov_inf_eliteCommando_01_Squad_1010" Position="432.3275,-44.9939,539.0029" Forward="-0.6442,0,0.7648" Right="0.7648,0,0.6442" Group="-1" VisualVariationIndex="0">cov_inf_eliteCommando_01</Object>
 		<Object IsSquad="true" Player="2" ID="1328" TintValue="1" EditorName="cov_inf_grunt_01_Squad_1328" Position="545.9586,-45.0062,741.2993" Forward="0.3972,0,-0.9177" Right="-0.9177,0,-0.3972" Group="-1" VisualVariationIndex="0">cov_inf_grunt_01</Object>
 		<Object IsSquad="true" Player="2" ID="1909" TintValue="1" EditorName="cov_inf_grunt_01_Squad_1909" Position="360.8228,-32.447,634.2449" Forward="-0.3893,0,0.9211" Right="0.9211,0,0.3893" Group="-1" VisualVariationIndex="0">cov_inf_grunt_01</Object>
-		<Object IsSquad="true" Player="2" ID="1910" TintValue="1" EditorName="cov_inf_grunt_01_Squad_1910" Position="368.915,-32.4873,642.537" Forward="-0.7174,0,0.6967" Right="0.6967,0,0.7174" Group="-1" VisualVariationIndex="0">cov_inf_grunt_01</Object>
+		<Object IsSquad="true" Player="2" ID="1910" TintValue="1" EditorName="cov_inf_grunt_01_Squad_1910" Position="368.915,-32.4248,642.537" Forward="-0.7174,0,0.6967" Right="0.6967,0,0.7174" Group="-1" VisualVariationIndex="0">cov_inf_grunt_01</Object>
 		<Object IsSquad="true" Player="2" ID="1597" TintValue="1" EditorName="cov_inf_grunt_01_Squad_1597" Position="481.0651,-45.0061,511.3926" Forward="-0.6442,0,0.7648" Right="0.7648,0,0.6442" Group="-1" VisualVariationIndex="0">cov_inf_grunt_01</Object>
 		<Object IsSquad="true" Player="2" ID="1599" TintValue="1" EditorName="cov_inf_grunt_01_Squad_1599" Position="500.6119,-45.0061,512.3568" Forward="-0.6442,0,0.7648" Right="0.7648,0,0.6442" Group="-1" VisualVariationIndex="0">cov_inf_grunt_01</Object>
 		<Object IsSquad="true" Player="2" ID="1329" TintValue="1" EditorName="cov_inf_grunt_01_Squad_1329" Position="539.2252,-45.0062,754.0223" Forward="0.7569,0,-0.6535" Right="-0.6535,0,-0.7569" Group="-1" VisualVariationIndex="0">cov_inf_grunt_01</Object>
 		<Object IsSquad="true" Player="2" ID="1602" TintValue="1" EditorName="cov_inf_grunt_01_Squad_1602" Position="254.596,-0.0033,793.6243" Forward="-0.4794,0,0.8776" Right="0.8776,0,0.4794" Group="-1" VisualVariationIndex="0">cov_inf_grunt_01</Object>
 		<Object IsSquad="true" Player="2" ID="1964" TintValue="1" EditorName="cov_inf_grunt_01_Squad_1964" Position="480.5031,-45.0061,546.1697" Forward="-0.8085,0,-0.5885" Right="-0.5885,0,0.8085" Group="-1" VisualVariationIndex="0">cov_inf_grunt_01</Object>
-		<Object IsSquad="true" Player="2" ID="845" TintValue="1" EditorName="cov_inf_grunt_01_Squad_845" Position="385.8281,-45.7937,599.3801" Forward="-0.4794,0,0.8776" Right="0.8776,0,0.4794" Group="-1" VisualVariationIndex="0">cov_inf_grunt_01</Object>
+		<Object IsSquad="true" Player="2" ID="845" TintValue="1" EditorName="cov_inf_grunt_01_Squad_845" Position="385.3281,-45.7937,599.3801" Forward="-0.4794,0,0.8776" Right="0.8776,0,0.4794" Group="-1" VisualVariationIndex="0">cov_inf_grunt_01</Object>
 		<Object IsSquad="true" Player="2" ID="388" TintValue="1" EditorName="cov_inf_grunt_01_Squad_388" Position="731.8907,-43.9545,444.9454" Forward="-0.9463,0,-0.3233" Right="-0.3233,0,0.9463" Group="-1" VisualVariationIndex="0">cov_inf_grunt_01</Object>
 		<Object IsSquad="true" Player="2" ID="1603" TintValue="1" EditorName="cov_inf_grunt_01_Squad_1603" Position="223.3947,0.0038,765.7986" Forward="-0.7833,0,0.6216" Right="0.6216,0,0.7833" Group="-1" VisualVariationIndex="0">cov_inf_grunt_01</Object>
 		<Object IsSquad="true" Player="2" ID="1966" TintValue="1" EditorName="cov_inf_grunt_01_Squad_1966" Position="757.0939,-43.8075,482.3325" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">cov_inf_grunt_01</Object>
@@ -1777,7 +1777,7 @@
 		<Object IsSquad="true" Player="2" ID="1631" TintValue="1" EditorName="cpgn_inf_bombGrunt_01_Squad_1631" Position="279.8284,-45.0061,349.5209" Forward="-0.9437,0,0.3308" Right="0.3308,0,0.9437" Group="-1" VisualVariationIndex="0">cpgn_inf_bombGrunt_01</Object>
 		<Object IsSquad="true" Player="2" ID="1624" TintValue="1" EditorName="cpgn_inf_bombGrunt_01_Squad_1624" Position="653.1011,-43.5225,647.3753" Forward="0.9258,0,0.378" Right="0.378,0,-0.9258" Group="-1" VisualVariationIndex="0">cpgn_inf_bombGrunt_01</Object>
 		<Object IsSquad="true" Player="2" ID="1626" TintValue="1" EditorName="cpgn_inf_bombGrunt_01_Squad_1626" Position="636.0719,-44.9221,695.0499" Forward="0.0584,0,-0.9983" Right="-0.9983,0,-0.0584" Group="-1" VisualVariationIndex="0">cpgn_inf_bombGrunt_01</Object>
-		<Object IsSquad="true" Player="2" ID="1619" TintValue="1" EditorName="cpgn_inf_bombGrunt_01_Squad_1619" Position="556.0269,-45.0062,759.8593" Forward="-0.5985,0,-0.8011" Right="-0.8011,0,0.5985" Group="-1" VisualVariationIndex="0">cpgn_inf_bombGrunt_01</Object>
+		<Object IsSquad="true" Player="2" ID="1619" TintValue="1" EditorName="cpgn_inf_bombGrunt_01_Squad_1619" Position="556.0269,-45.0062,758.8593" Forward="-0.5985,0,-0.8011" Right="-0.8011,0,0.5985" Group="-1" VisualVariationIndex="0">cpgn_inf_bombGrunt_01</Object>
 		<Object IsSquad="true" Player="2" ID="1620" TintValue="1" EditorName="cpgn_inf_bombGrunt_01_Squad_1620" Position="551.1774,-45.0062,746.303" Forward="0.5298,0,-0.8481" Right="-0.8481,0,-0.5298" Group="-1" VisualVariationIndex="0">cpgn_inf_bombGrunt_01</Object>
 		<Object IsSquad="true" Player="2" ID="1627" TintValue="1" EditorName="cpgn_inf_bombGrunt_01_Squad_1627" Position="680.4724,-43.0805,407.8478" Forward="0.9937,0,-0.1122" Right="-0.1122,0,-0.9937" Group="-1" VisualVariationIndex="0">cpgn_inf_bombGrunt_01</Object>
 		<Object IsSquad="true" Player="2" ID="1660" TintValue="1" EditorName="cpgn_inf_bombGrunt_01_Squad_1660" Position="276.0609,-15.8727,694.6754" Forward="-0.2955,0,0.9553" Right="0.9553,0,0.2955" Group="-1" VisualVariationIndex="0">cpgn_inf_bombGrunt_01</Object>
@@ -32958,7 +32958,7 @@
 				<ID>246</ID>
 				<Group>2</Group>
 				<Radius>13</Radius>
-				<Position>465.8784,-45.0061,527.5937</Position>
+				<Position>465.8784,-45.0061,526.5937</Position>
 				<Direction>-0.8415,0,0.5403</Direction>
 				<Color>0,0,255</Color>
 			</HelperAreaObject>
@@ -33948,7 +33948,7 @@
 				<ID>1345</ID>
 				<Group>2</Group>
 				<Radius>3</Radius>
-				<Position>357.308,-18.8818,919.0468</Position>
+				<Position>357.308,-18.8818,918.0468</Position>
 				<Direction>-0.9975,0,0.0708</Direction>
 				<Color>0,0,255</Color>
 			</HelperAreaObject>
@@ -34601,6 +34601,7 @@
 	<SimBoundsMaxZ>2048</SimBoundsMaxZ>
 	<SoundBank>scenario_03.bnk</SoundBank>
 	<SoundBank>amb_harvest.bnk</SoundBank>
+	<EnvironmentReverbPreset>Reverb_Cavern</EnvironmentReverbPreset>
 	<AllowVeterancy>true</AllowVeterancy>
 	<GlobalExcludeObjects />
 </Scenario>

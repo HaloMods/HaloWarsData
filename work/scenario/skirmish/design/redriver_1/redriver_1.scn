@@ -216,7 +216,7 @@
 		<Object IsSquad="false" Player="0" ID="250" TintValue="1" EditorName="env_shieldinterior_TreePineSWI_02_250" Position="286.9342,0.5635,682.5334" Forward="0.4794,0,0.8776" Right="0.8776,0,-0.4794" Group="-1" VisualVariationIndex="0">env_shieldinterior_TreePineSWI_02</Object>
 		<Object IsSquad="false" Player="0" ID="178" TintValue="1" EditorName="env_shieldinterior_TreePineSWI_02_178" Position="530.9552,44.3518,42.4807" Forward="-0.3894,0,0.9211" Right="0.9211,0,0.3894" Group="-1" VisualVariationIndex="0">env_shieldinterior_TreePineSWI_02</Object>
 		<Object IsSquad="false" Player="0" ID="177" TintValue="1" EditorName="env_shieldinterior_TreePineSWI_02_177" Position="540.5051,42.0562,10.1667" Forward="-0.1987,0,0.9801" Right="0.9801,0,0.1987" Group="-1" VisualVariationIndex="0">env_shieldinterior_TreePineSWI_02</Object>
-		<Object IsSquad="false" Player="0" ID="232" TintValue="1" EditorName="env_shieldinterior_TreePineSWI_02_232" Position="4.7121,0.0574,449.707" Forward="0.1987,0,0.9801" Right="0.9801,0,-0.1987" Group="-1" VisualVariationIndex="0">env_shieldinterior_TreePineSWI_02</Object>
+		<Object IsSquad="false" Player="0" ID="232" TintValue="1" EditorName="env_shieldinterior_TreePineSWI_02_232" Position="4.7121,0.0574,449.207" Forward="0.1987,0,0.9801" Right="0.9801,0,-0.1987" Group="-1" VisualVariationIndex="0">env_shieldinterior_TreePineSWI_02</Object>
 		<Object IsSquad="false" Player="0" ID="249" TintValue="1" EditorName="env_shieldinterior_TreePineSWI_02_249" Position="301.9902,0.0288,704.1042" Forward="0.4794,0,0.8776" Right="0.8776,0,-0.4794" Group="-1" VisualVariationIndex="0">env_shieldinterior_TreePineSWI_02</Object>
 		<Object IsSquad="false" Player="0" ID="213" TintValue="1" EditorName="env_shieldinterior_TreePineSWI_02_213" Position="216.1711,40.6364,698.9661" Forward="-0.2955,0,0.9553" Right="0.9553,0,0.2955" Group="-1" VisualVariationIndex="0">env_shieldinterior_TreePineSWI_02</Object>
 		<Object IsSquad="false" Player="0" ID="255" TintValue="1" EditorName="env_shieldinterior_TreePineSWI_03_255" Position="753.4572,0,399.6623" Forward="-0.1987,0,0.9801" Right="0.9801,0,0.1987" Group="-1" VisualVariationIndex="0">env_shieldinterior_TreePineSWI_03</Object>
@@ -265,7 +265,7 @@
 		<Object IsSquad="false" Player="0" ID="174" TintValue="1" EditorName="env_shieldinterior_TreePineSWI_06_174" Position="537.6577,42.5143,57.9562" Forward="-0.0998,0,0.995" Right="0.995,0,0.0998" Group="-1" VisualVariationIndex="0">env_shieldinterior_TreePineSWI_06</Object>
 		<Object IsSquad="false" Player="0" ID="258" TintValue="1" EditorName="env_shieldinterior_TreePineSWI_06_258" Position="750.8563,0,415.8015" Forward="0.9093,0,-0.4161" Right="-0.4161,0,-0.9093" Group="-1" VisualVariationIndex="0">env_shieldinterior_TreePineSWI_06</Object>
 		<Object IsSquad="false" Player="0" ID="199" TintValue="1" EditorName="env_shieldinterior_TreePineSWI_06_199" Position="547.73,1.0026,230.5067" Forward="-0.0998,0,0.995" Right="0.995,0,0.0998" Group="-1" VisualVariationIndex="0">env_shieldinterior_TreePineSWI_06</Object>
-		<Object IsSquad="false" Player="0" ID="218" TintValue="1" EditorName="env_shieldinterior_TreePineSWI_06_218" Position="141.8496,39.4046,572.72" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">env_shieldinterior_TreePineSWI_06</Object>
+		<Object IsSquad="false" Player="0" ID="218" TintValue="1" EditorName="env_shieldinterior_TreePineSWI_06_218" Position="141.5996,39.4046,572.72" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">env_shieldinterior_TreePineSWI_06</Object>
 		<Object IsSquad="false" Player="0" ID="181" TintValue="1" EditorName="env_shieldinterior_TreePineSWI_06_181" Position="590.0292,42.6258,183.0715" Forward="0.3894,0,0.9211" Right="0.9211,0,-0.3894" Group="-1" VisualVariationIndex="0">env_shieldinterior_TreePineSWI_06</Object>
 		<Object IsSquad="false" Player="0" ID="197" TintValue="1" EditorName="env_shieldinterior_TreePineSWI_07_197" Position="572.179,1.2504,255.1805" Forward="0.3894,0,0.9211" Right="0.9211,0,-0.3894" Group="-1" VisualVariationIndex="0">env_shieldinterior_TreePineSWI_07</Object>
 		<Object IsSquad="false" Player="0" ID="180" TintValue="1" EditorName="env_shieldinterior_TreePineSWI_07_180" Position="609.4276,43.0846,197.7805" Forward="-0.2955,0,0.9553" Right="0.9553,0,0.2955" Group="-1" VisualVariationIndex="0">env_shieldinterior_TreePineSWI_07</Object>
@@ -468,6 +468,7 @@
 	<SimBoundsMaxX>768</SimBoundsMaxX>
 	<SimBoundsMaxZ>768</SimBoundsMaxZ>
 	<SoundBank>amb_shield_int.bnk</SoundBank>
+	<EnvironmentReverbPreset>Reverb_Valley</EnvironmentReverbPreset>
 	<ScenarioWorld>SWI</ScenarioWorld>
 	<AllowVeterancy>true</AllowVeterancy>
 	<GlobalExcludeObjects />

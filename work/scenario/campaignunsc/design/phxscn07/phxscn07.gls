@@ -14,7 +14,7 @@
 	<terrainSpecularPower>100</terrainSpecularPower>
 	<terrainBumpStrength>1.523</terrainBumpStrength>
 	<TerrainAODiffuseIntensity>1</TerrainAODiffuseIntensity>
-	<TerrainSpecOnlyColor>9,214,173</TerrainSpecOnlyColor>
+	<TerrainSpecOnlyColor>232,255,246</TerrainSpecOnlyColor>
 	<TerrainSpecOnlyPower>100</TerrainSpecOnlyPower>
 	<TerrainSpecOnlyShadowDarkness>1</TerrainSpecOnlyShadowDarkness>
 	<TerrainSpecOnlySunInclination>0</TerrainSpecOnlySunInclination>

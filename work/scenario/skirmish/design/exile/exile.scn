@@ -422,7 +422,7 @@
 		<Object IsSquad="false" Player="0" ID="1313" TintValue="1" EditorName="sys_floodMarker_marine_01_1313" Position="100.8377,57.2537,393.6243" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_marine_01</Object>
 		<Object IsSquad="false" Player="0" ID="1307" TintValue="1" EditorName="sys_floodMarker_marine_01_1307" Position="490.5672,56.2155,91.2806" Forward="0.7472,0,0.6646" Right="0.6646,0,-0.7472" Group="-1" VisualVariationIndex="0">sys_floodMarker_marine_01</Object>
 		<Object IsSquad="false" Player="0" ID="1312" TintValue="1" EditorName="sys_floodMarker_marine_01_1312" Position="95.0311,57.276,387.2436" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_marine_01</Object>
-		<Object IsSquad="false" Player="0" ID="1318" TintValue="1" EditorName="sys_floodMarker_marine_01_1318" Position="41.0802,56.2373,688.8459" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_marine_01</Object>
+		<Object IsSquad="false" Player="0" ID="1318" TintValue="1" EditorName="sys_floodMarker_marine_01_1318" Position="41.0802,56.1748,688.8459" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_marine_01</Object>
 		<Object IsSquad="false" Player="0" ID="1314" TintValue="1" EditorName="sys_floodMarker_marine_01_1314" Position="100.5204,56.8563,408.6299" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_marine_01</Object>
 		<Object IsSquad="false" Player="0" ID="1294" TintValue="1" EditorName="sys_floodMarker_marine_01_1294" Position="1080.548,56.2154,1038.15" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_marine_01</Object>
 		<Object IsSquad="false" Player="0" ID="1293" TintValue="1" EditorName="sys_floodMarker_marine_01_1293" Position="1095.388,56.2154,1046.818" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_marine_01</Object>
@@ -551,11 +551,11 @@
 			<TriggerVar ID="55" Type="Squad" Name="CreatedSquadVar4" IsNull="true" />
 			<TriggerVar ID="57" Type="Bool" Name="SquadListClearExistingVar4" IsNull="true">False</TriggerVar>
 			<TriggerVar ID="58" Type="ProtoSquad" Name="" IsNull="false">fld_inf_rhinodillo_01</TriggerVar>
-			<TriggerVar ID="59" Type="Vector" Name="" IsNull="false">1223.036,58.696,643.3359</TriggerVar>
+			<TriggerVar ID="59" Type="Vector" Name="" IsNull="false">1223.036,58.696,642.3359</TriggerVar>
 			<TriggerVar ID="60" Type="Vector" Name="FacingVar5" IsNull="true" />
 			<TriggerVar ID="62" Type="Vector" Name="FlyInStartVar5" IsNull="true" />
 			<TriggerVar ID="63" Type="Vector" Name="FlyInEndVar5" IsNull="true" />
-			<TriggerVar ID="64" Type="Vector" Name="" IsNull="false">1223.036,58.696,643.3359</TriggerVar>
+			<TriggerVar ID="64" Type="Vector" Name="" IsNull="false">1223.036,58.696,642.3359</TriggerVar>
 			<TriggerVar ID="65" Type="Bool" Name="AttackMoveRallyPointVar5" IsNull="true">False</TriggerVar>
 			<TriggerVar ID="66" Type="Squad" Name="CreatedSquadVar5" IsNull="true" />
 			<TriggerVar ID="68" Type="Bool" Name="SquadListClearExistingVar5" IsNull="true">False</TriggerVar>
@@ -813,7 +813,7 @@
 			<TriggerVar ID="446" Type="ObjectList" Name="ObjectListVar4" IsNull="true" />
 			<TriggerVar ID="447" Type="ProtoObject" Name="" IsNull="false">rsrc_supplies_crate_01</TriggerVar>
 			<TriggerVar ID="448" Type="Player" Name="" IsNull="false">0</TriggerVar>
-			<TriggerVar ID="449" Type="Vector" Name="" IsNull="false">1223.036,58.696,643.3359</TriggerVar>
+			<TriggerVar ID="449" Type="Vector" Name="" IsNull="false">1223.036,58.696,642.3359</TriggerVar>
 			<TriggerVar ID="450" Type="Vector" Name="FacingVar25" IsNull="true" />
 			<TriggerVar ID="451" Type="Bool" Name="" IsNull="false">True</TriggerVar>
 			<TriggerVar ID="452" Type="Unit" Name="CreatedUnitVar1" IsNull="true" />
@@ -823,7 +823,7 @@
 			<TriggerVar ID="456" Type="Bool" Name="ClearExistingVar5" IsNull="true">False</TriggerVar>
 			<TriggerVar ID="457" Type="ProtoObject" Name="" IsNull="false">rsrc_supplies_crate_01</TriggerVar>
 			<TriggerVar ID="458" Type="Player" Name="" IsNull="false">0</TriggerVar>
-			<TriggerVar ID="459" Type="Vector" Name="" IsNull="false">1223.036,58.696,643.3359</TriggerVar>
+			<TriggerVar ID="459" Type="Vector" Name="" IsNull="false">1223.036,58.696,642.3359</TriggerVar>
 			<TriggerVar ID="460" Type="Vector" Name="FacingVar26" IsNull="true" />
 			<TriggerVar ID="461" Type="Bool" Name="" IsNull="false">True</TriggerVar>
 			<TriggerVar ID="462" Type="Unit" Name="CreatedUnitVar2" IsNull="true" />
@@ -833,7 +833,7 @@
 			<TriggerVar ID="466" Type="Bool" Name="ClearExistingVar6" IsNull="true">False</TriggerVar>
 			<TriggerVar ID="467" Type="ProtoObject" Name="" IsNull="false">rsrc_supplies_crate_01</TriggerVar>
 			<TriggerVar ID="468" Type="Player" Name="" IsNull="false">0</TriggerVar>
-			<TriggerVar ID="469" Type="Vector" Name="" IsNull="false">1223.036,58.696,643.3359</TriggerVar>
+			<TriggerVar ID="469" Type="Vector" Name="" IsNull="false">1223.036,58.696,642.3359</TriggerVar>
 			<TriggerVar ID="470" Type="Vector" Name="FacingVar27" IsNull="true" />
 			<TriggerVar ID="471" Type="Bool" Name="" IsNull="false">True</TriggerVar>
 			<TriggerVar ID="472" Type="Unit" Name="CreatedUnitVar3" IsNull="true" />
@@ -843,7 +843,7 @@
 			<TriggerVar ID="476" Type="Bool" Name="ClearExistingVar7" IsNull="true">False</TriggerVar>
 			<TriggerVar ID="477" Type="ProtoObject" Name="" IsNull="false">rsrc_supplies_crate_01</TriggerVar>
 			<TriggerVar ID="478" Type="Player" Name="" IsNull="false">0</TriggerVar>
-			<TriggerVar ID="479" Type="Vector" Name="" IsNull="false">1223.036,58.696,643.3359</TriggerVar>
+			<TriggerVar ID="479" Type="Vector" Name="" IsNull="false">1223.036,58.696,642.3359</TriggerVar>
 			<TriggerVar ID="480" Type="Vector" Name="FacingVar28" IsNull="true" />
 			<TriggerVar ID="481" Type="Bool" Name="" IsNull="false">True</TriggerVar>
 			<TriggerVar ID="482" Type="Unit" Name="CreatedUnitVar4" IsNull="true" />
@@ -853,7 +853,7 @@
 			<TriggerVar ID="486" Type="Bool" Name="ClearExistingVar8" IsNull="true">False</TriggerVar>
 			<TriggerVar ID="487" Type="ProtoObject" Name="" IsNull="false">rsrc_supplies_crate_01</TriggerVar>
 			<TriggerVar ID="488" Type="Player" Name="" IsNull="false">0</TriggerVar>
-			<TriggerVar ID="489" Type="Vector" Name="" IsNull="false">1223.036,58.696,643.3359</TriggerVar>
+			<TriggerVar ID="489" Type="Vector" Name="" IsNull="false">1223.036,58.696,642.3359</TriggerVar>
 			<TriggerVar ID="490" Type="Vector" Name="FacingVar29" IsNull="true" />
 			<TriggerVar ID="491" Type="Bool" Name="" IsNull="false">True</TriggerVar>
 			<TriggerVar ID="492" Type="Unit" Name="CreatedUnitVar5" IsNull="true" />
@@ -863,7 +863,7 @@
 			<TriggerVar ID="496" Type="Bool" Name="ClearExistingVar9" IsNull="true">False</TriggerVar>
 			<TriggerVar ID="497" Type="ProtoObject" Name="" IsNull="false">rsrc_supplies_crate_01</TriggerVar>
 			<TriggerVar ID="498" Type="Player" Name="" IsNull="false">0</TriggerVar>
-			<TriggerVar ID="499" Type="Vector" Name="" IsNull="false">1223.036,58.696,643.3359</TriggerVar>
+			<TriggerVar ID="499" Type="Vector" Name="" IsNull="false">1223.036,58.696,642.3359</TriggerVar>
 			<TriggerVar ID="500" Type="Vector" Name="FacingVar30" IsNull="true" />
 			<TriggerVar ID="501" Type="Bool" Name="" IsNull="false">True</TriggerVar>
 			<TriggerVar ID="502" Type="Unit" Name="CreatedUnitVar6" IsNull="true" />
@@ -4246,7 +4246,7 @@
 				<ID>157</ID>
 				<Group>-1</Group>
 				<Radius>3</Radius>
-				<Position>1223.036,58.696,643.3359</Position>
+				<Position>1223.036,58.696,642.3359</Position>
 				<Direction>0.5646,0,0.8254</Direction>
 				<Color>0,0,255</Color>
 			</HelperAreaObject>
@@ -4531,6 +4531,7 @@
 	<SimBoundsMaxX>1280</SimBoundsMaxX>
 	<SimBoundsMaxZ>1280</SimBoundsMaxZ>
 	<SoundBank>amb_shield_ext.bnk</SoundBank>
+	<EnvironmentReverbPreset>Reverb_Cavern</EnvironmentReverbPreset>
 	<ScenarioWorld>SWE</ScenarioWorld>
 	<AllowVeterancy>true</AllowVeterancy>
 </Scenario>

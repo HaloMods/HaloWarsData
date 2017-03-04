@@ -2440,6 +2440,7 @@
 	<SimBoundsMaxX>1024</SimBoundsMaxX>
 	<SimBoundsMaxZ>1024</SimBoundsMaxZ>
 	<SoundBank>amb_shield_int.bnk</SoundBank>
+	<EnvironmentReverbPreset>Reverb_Valley</EnvironmentReverbPreset>
 	<ScenarioWorld>SWI</ScenarioWorld>
 	<AllowVeterancy>true</AllowVeterancy>
 	<GlobalExcludeObjects />

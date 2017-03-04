@@ -58897,6 +58897,7 @@
 	<SimBoundsMaxZ>1024</SimBoundsMaxZ>
 	<SoundBank>scenario_06.bnk</SoundBank>
 	<SoundBank>amb_arcadia.bnk</SoundBank>
+	<EnvironmentReverbPreset>Reverb_City_mountain</EnvironmentReverbPreset>
 	<ScenarioWorld>Arcadia</ScenarioWorld>
 	<AllowVeterancy>true</AllowVeterancy>
 	<GlobalExcludeObjects />

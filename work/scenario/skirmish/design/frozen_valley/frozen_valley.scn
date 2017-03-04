@@ -40,7 +40,7 @@
 		<Position Player="-1" Number="1" Position="719.9761,24.1749,106.4661" Forward="-0.9996,0,-0.0292" DefaultCamera="true" CameraYaw="317.2" CameraPitch="42" CameraZoom="85" UnitStartObject1="-1" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1" />
 		<Position Player="-1" Number="1" Position="1153.582,26.3457,126.7164" Forward="-0.6434,0,-0.7655" DefaultCamera="true" CameraYaw="317.2" CameraPitch="42" CameraZoom="85" UnitStartObject1="-1" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1" />
 		<Position Player="-1" Number="2" Position="1148.218,52.5811,1136.49" Forward="0.7568,0,-0.6536" DefaultCamera="true" CameraYaw="317.2" CameraPitch="42" CameraZoom="85" UnitStartObject1="-1" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1" />
-		<Position Player="-1" Number="2" Position="548.3196,23.6883,1166.078" Forward="0.9999,0,0.0101" DefaultCamera="true" CameraYaw="317.2" CameraPitch="42" CameraZoom="85" UnitStartObject1="-1" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1" />
+		<Position Player="-1" Number="2" Position="548.3196,23.6883,1164.078" Forward="0.9999,0,0.0101" DefaultCamera="true" CameraYaw="317.2" CameraPitch="42" CameraZoom="85" UnitStartObject1="-1" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1" />
 		<Position Player="-1" Number="2" Position="123.3911,31.5571,1155.361" Forward="0.8124,0,0.5832" DefaultCamera="true" CameraYaw="317.2" CameraPitch="42" CameraZoom="85" UnitStartObject1="-1" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1" />
 		<Position Player="7" Number="7" Position="407.5058,42.3086,594.9191" Forward="0,0,1" DefaultCamera="true" CameraYaw="317.2" CameraPitch="42" CameraZoom="85" UnitStartObject1="-1" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1" />
 	</Positions>
@@ -524,7 +524,7 @@
 		<Object IsSquad="false" Player="0" ID="4585" TintValue="1" EditorName="sys_marker_crate3C_01_4585" Position="162.0927,28.6914,239.3483" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
 		<Object IsSquad="false" Player="0" ID="4592" TintValue="1" EditorName="sys_marker_crate3C_01_4592" Position="327.4584,25.8332,1112.127" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
 		<Object IsSquad="false" Player="0" ID="4589" TintValue="1" EditorName="sys_marker_crate3C_01_4589" Position="720.8643,26.3452,240.9882" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
-		<Object IsSquad="false" Player="0" ID="4586" TintValue="1" EditorName="sys_marker_crate3C_01_4586" Position="236.916,27.9101,1116.67" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="4586" TintValue="1" EditorName="sys_marker_crate3C_01_4586" Position="236.666,27.9101,1116.67" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
 		<Object IsSquad="false" Player="0" ID="4593" TintValue="1" EditorName="sys_marker_crate3C_01_4593" Position="967.6783,52.5811,993.5027" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
 		<Object IsSquad="false" Player="0" ID="4604" TintValue="1" EditorName="sys_marker_crate3C_01_4604" Position="515.6528,28.5266,443.4005" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
 		<Object IsSquad="false" Player="0" ID="4603" TintValue="1" EditorName="sys_marker_crate3C_01_4603" Position="786.3365,14.921,785.264" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
@@ -1164,7 +1164,7 @@
 			<TriggerVar ID="3715" Type="SquadList" Name="CreepArea1List" IsNull="false" />
 			<TriggerVar ID="3716" Type="Bool" Name="SquadListClearExistingVar1" IsNull="true">False</TriggerVar>
 			<TriggerVar ID="3717" Type="ProtoSquad" Name="" IsNull="false">creep_inf_sniperJackal_01</TriggerVar>
-			<TriggerVar ID="3718" Type="Vector" Name="" IsNull="false">223.791,23.7478,632.0907</TriggerVar>
+			<TriggerVar ID="3718" Type="Vector" Name="" IsNull="false">223.541,23.7478,632.0907</TriggerVar>
 			<TriggerVar ID="3719" Type="Vector" Name="FacingVar42" IsNull="true" />
 			<TriggerVar ID="3720" Type="Player" Name="" IsNull="false">0</TriggerVar>
 			<TriggerVar ID="3721" Type="Vector" Name="FlyInStartVar2" IsNull="true" />
@@ -5669,7 +5669,7 @@
 				<ID>4488</ID>
 				<Group>-1</Group>
 				<Radius>3</Radius>
-				<Position>223.791,23.7478,632.0907</Position>
+				<Position>223.541,23.7478,632.0907</Position>
 				<Direction>0,0,1</Direction>
 				<Color>0,0,255</Color>
 			</HelperAreaObject>
@@ -5777,6 +5777,7 @@
 	<SimBoundsMaxX>1280</SimBoundsMaxX>
 	<SimBoundsMaxZ>1280</SimBoundsMaxZ>
 	<SoundBank>amb_harvest.bnk</SoundBank>
+	<EnvironmentReverbPreset>Reverb_Frozen</EnvironmentReverbPreset>
 	<ScenarioWorld>Harvest</ScenarioWorld>
 	<AllowVeterancy>true</AllowVeterancy>
 </Scenario>

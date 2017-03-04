@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Fonts>
-	<SourceFile name="Courier 10" typeFace="Courier" AscentHeight="10" file="Courier_10.xpr" file640="Courier_10_640.xpr" />
-	<SourceFile name="Courier 12" typeFace="Courier" AscentHeight="12" file="Courier_12.xpr" file640="Courier_12_640.xpr" />
-	<SourceFile name="Arial 12" typeFace="Arial" AscentHeight="12" file="Arial_12.xpr" file640="Arial_12_640.xpr" />
-	<SourceFile name="Arial 16" typeFace="Arial" AscentHeight="16" file="Arial_16.xpr" file640="Arial_16_640.xpr" />
-	<SourceFile name="Arial 16 Outlined" typeFace="Arial" AscentHeight="16" file="Arial_16_Outlined.xpr" file640="Arial_16_Outlined_640.xpr" />
-	<SourceFile name="Denmark 14" typeFace="Denmark" AscentHeight="14" file="Denmark_14.xpr" file640="Denmark_14_640.xpr" />
-	<SourceFile name="Denmark 16" typeFace="Denmark" AscentHeight="16" file="Denmark_16.xpr" file640="Denmark_16_640.xpr" />
-	<SourceFile name="Denmark 18" typeFace="Denmark" AscentHeight="18" file="Denmark_18.xpr" file640="Denmark_18_640.xpr" />
-	<SourceFile name="Denmark 24" typeFace="Denmark" AscentHeight="24" file="Denmark_24.xpr" file640="Denmark_24_640.xpr" />
+	<SourceFile name="Courier 10" typeFace="Courier" AscentHeight="10" filefont="Courier_10.abc" filetex="Courier_10.tga" />
+	<SourceFile name="Courier 12" typeFace="Courier" AscentHeight="12" filefont="Courier_12.abc" filetex="Courier_12.tga" />
+	<SourceFile name="ConduitITC Light_14" typeFace="ConduitITC" AscentHeight="14" filefont="ConduitITC Light_14.abc" filetex="ConduitITC Light_14.tga" />
+	<SourceFile name="ConduitITC Light_16" typeFace="Denmark" AscentHeight="16" filefont="ConduitITC Light_16.abc" filetex="ConduitITC Light_16.tga" />
+	<SourceFile name="ConduitITC Light_18" typeFace="Denmark" AscentHeight="18" filefont="ConduitITC Light_18.abc" filetex="ConduitITC Light_18.tga" />
+	<SourceFile name="ConduitITC Light_24" typeFace="Denmark" AscentHeight="24" filefont="ConduitITC Light_24.abc" filetex="ConduitITC Light_24.tga" />
+	<SourceFile name="Denmark 24" typeFace="Denmark" AscentHeight="24" filefont="Denmark_24.abc" filetex="Denmark_24.tga" />
+	<SourceFile name="Small Fonts 7" typeFace="Small Fonts" AscentHeight="7" filefont="Small Fonts_7.abc" filetex="Small Fonts_7.tga" />
 	<Font Name="Courier 10">
 		<param SourceFile="Courier 10" />
 		<param TypeFace="Courier" />
@@ -35,48 +34,9 @@
 		<param BackgroundAlpha="0.5" />
 		<param SpacingAdjustment="0" />
 	</Font>
-	<Font Name="Arial 12">
-		<param SourceFile="Arial 12" />
-		<param TypeFace="Arial" />
-		<param AscentHeight="12" />
-		<param Antialiased="false" />
-		<param Bold="true" />
-		<param Italic="false" />
-		<param BackgroundOutline="false" />
-		<param BackgroundShadow="true" />
-		<param BackgroundOffset="1" />
-		<param BackgroundAlpha="0.5" />
-		<param SpacingAdjustment="0" />
-	</Font>
-	<Font Name="Arial 16">
-		<param SourceFile="Arial 16" />
-		<param TypeFace="Arial" />
-		<param AscentHeight="16" />
-		<param Antialiased="false" />
-		<param Bold="true" />
-		<param Italic="false" />
-		<param BackgroundOutline="false" />
-		<param BackgroundShadow="true" />
-		<param BackgroundOffset="1" />
-		<param BackgroundAlpha="0.5" />
-		<param SpacingAdjustment="0" />
-	</Font>
-	<Font Name="Arial 16 Outlined">
-		<param SourceFile="Arial 16 Outlined" />
-		<param TypeFace="Arial" />
-		<param AscentHeight="16" />
-		<param Antialiased="false" />
-		<param Bold="true" />
-		<param Italic="false" />
-		<param BackgroundOutline="false" />
-		<param BackgroundShadow="true" />
-		<param BackgroundOffset="1" />
-		<param BackgroundAlpha="0.5" />
-		<param SpacingAdjustment="0" />
-	</Font>
-	<Font Name="Denmark 14">
-		<param SourceFile="Denmark 14" />
-		<param TypeFace="Denmark" />
+	<Font Name="ConduitITC Light_14">
+		<param SourceFile="ConduitITC Light_14" />
+		<param TypeFace="ConduitITC" />
 		<param AscentHeight="14" />
 		<param Antialiased="false" />
 		<param Bold="false" />
@@ -87,9 +47,9 @@
 		<param BackgroundAlpha="0.5" />
 		<param SpacingAdjustment="0" />
 	</Font>
-	<Font Name="Denmark 16">
-		<param SourceFile="Denmark 16" />
-		<param TypeFace="Denmark" />
+	<Font Name="ConduitITC Light_16">
+		<param SourceFile="ConduitITC Light_16" />
+		<param TypeFace="ConduitITC" />
 		<param AscentHeight="16" />
 		<param Antialiased="false" />
 		<param Bold="false" />
@@ -100,10 +60,23 @@
 		<param BackgroundAlpha="0.5" />
 		<param SpacingAdjustment="0" />
 	</Font>
-	<Font Name="Denmark 18">
-		<param SourceFile="Denmark 18" />
-		<param TypeFace="Denmark" />
+	<Font Name="ConduitITC Light_18">
+		<param SourceFile="ConduitITC Light_18" />
+		<param TypeFace="ConduitITC" />
 		<param AscentHeight="18" />
+		<param Antialiased="false" />
+		<param Bold="true" />
+		<param Italic="false" />
+		<param BackgroundOutline="false" />
+		<param BackgroundShadow="true" />
+		<param BackgroundOffset="1" />
+		<param BackgroundAlpha="0.5" />
+		<param SpacingAdjustment="0" />
+	</Font>
+	<Font Name="ConduitITC Light_24">
+		<param SourceFile="ConduitITC Light_24" />
+		<param TypeFace="ConduitITC" />
+		<param AscentHeight="24" />
 		<param Antialiased="false" />
 		<param Bold="true" />
 		<param Italic="false" />
@@ -119,6 +92,19 @@
 		<param AscentHeight="24" />
 		<param Antialiased="false" />
 		<param Bold="true" />
+		<param Italic="false" />
+		<param BackgroundOutline="false" />
+		<param BackgroundShadow="true" />
+		<param BackgroundOffset="1" />
+		<param BackgroundAlpha="0.5" />
+		<param SpacingAdjustment="0" />
+	</Font>
+	<Font Name="Small Fonts 7">
+		<param SourceFile="Small Fonts 7" />
+		<param TypeFace="Small Fonts" />
+		<param AscentHeight="24" />
+		<param Antialiased="false" />
+		<param Bold="false" />
 		<param Italic="false" />
 		<param BackgroundOutline="false" />
 		<param BackgroundShadow="true" />

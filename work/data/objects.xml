@@ -19,6 +19,7 @@
 		<Visual>template\object.vis</Visual>
 		<Flag>ForceToGaiaPlayer</Flag>
 		<Flag>NoTieToGround</Flag>
+		<Flag>NoTieToGround</Flag>
 		<Flag>Doppled</Flag>
 		<Flag>GrayMapDoppled</Flag>
 	</Object>
@@ -2873,16 +2874,16 @@
 		<ObjectType>PowerSocketBase</ObjectType>
 		<ObjectType>_Settlement</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
-		<Flag>IgnoreSquadAI</Flag>
-		<Flag>ObstructsAir</Flag>
-		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>AutoExplorationGroup</Flag>
 		<Flag>CommandableByAnyPlayer</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
 		<Flag>GrayMapDoppled</Flag>
+		<Flag>IgnoreSquadAI</Flag>
 		<Flag>Immoveable</Flag>
 		<Flag>Invulnerable</Flag>
 		<Flag>Neutral</Flag>
 		<Flag>Obscurable</Flag>
-		<Flag>AutoExplorationGroup</Flag>
+		<Flag>ObstructsAir</Flag>
 	</Object>
 	<Object name="game_tool_socketObs_01" is="0" id="0" dbid="2744">
 		<ObjectClass>Building</ObjectClass>
@@ -14642,7 +14643,6 @@
 		<Flag>Neutral</Flag>
 		<Flag>NonSolid</Flag>
 		<Flag>NonCollideable</Flag>
-		<Flag>RenderBelowDecals</Flag>
 		<Flag>Update</Flag>
 		<Flag>Build</Flag>
 	</Object>
@@ -14661,7 +14661,6 @@
 		<Flag>Neutral</Flag>
 		<Flag>NonSolid</Flag>
 		<Flag>NonCollideable</Flag>
-		<Flag>RenderBelowDecals</Flag>
 		<Flag>Update</Flag>
 		<Flag>Build</Flag>
 	</Object>
@@ -15179,6 +15178,10 @@
 		<Flag>ForceUpdateContainedUnits</Flag>
 		<Flag>CommandableByAnyPlayer</Flag>
 	</Object>
+	<Object name="hook_bldg_WarthogCoverCinematic_01" is="0" id="2229" dbid="3477">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>hook\building\WarthogCover_01\WarthogCoverCinematic_01.vis</Visual>
+	</Object>
 	<Object name="hook_bldg_WarthogCover_02" is="0" id="2230" dbid="3478">
 		<ObjectClass>Building</ObjectClass>
 		<Visual>hook\building\WarthogCover_02\WarthogCover_02.vis</Visual>
@@ -15256,6 +15259,10 @@
 		<Flag>ForceToGaiaPlayer</Flag>
 		<Flag>ForceUpdateContainedUnits</Flag>
 		<Flag>CommandableByAnyPlayer</Flag>
+	</Object>
+	<Object name="hook_bldg_PelicanMediumCoverCinematic_01" is="0" id="2213" dbid="3436">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>hook\building\PelicanMediumCover_01\PelicanMediumCoverCinematic_01.vis</Visual>
 	</Object>
 	<Object name="hook_bldg_PelicanMediumCover_01" is="0" id="2213" dbid="3436">
 		<ObjectClass>Building</ObjectClass>
@@ -17130,6 +17137,93 @@
 		<HPBar>UNSC_Health</HPBar>
 		<TrueLOSHeight>6</TrueLOSHeight>
 	</Object>
+	<Object name="cpgn_npc_forgeWarthogCinematic_01" id="0" dbid="3339">
+		<PhysicsInfo>warthog</PhysicsInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>campaign\npc\forgeWarthog_01\forgeWarthogCinematic_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_warthogROF</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<DisplayNameID>10064</DisplayNameID>
+		<RolloverTextID>10065</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-30" pitchMaxAngle="60" yawattachment="turret" pitchattachment="turretgun" />
+		<Hardpoint name="PassengerTurret" autocenter="true" yawrate="180" pitchrate="180" pitchMaxAngle="60" pitchMinAngle="0" yawattachment="PassengerTop" pitchattachment="PassengerTop" />
+		<Velocity>40</Velocity>
+		<TurnRate>450</TurnRate>
+		<Hitpoints>10500</Hitpoints>
+		<AttackGradeDPS>84</AttackGradeDPS>
+		<CombatValue>10</CombatValue>
+		<Veterancy Level="1" XP="40" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="100" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="140" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LOS>75</LOS>
+		<Pop Type="Unit">1</Pop>
+		<Bounty>10</Bounty>
+		<AmmoMax>2000</AmmoMax>
+		<AmmoRegenRate>150</AmmoRegenRate>
+		<Tactics>cpgn_npc_forgeWarthog_01.tactics</Tactics>
+		<RepairPoints>150</RepairPoints>
+		<ObstructionRadiusX>5</ObstructionRadiusX>
+		<ObstructionRadiusY>3</ObstructionRadiusY>
+		<ObstructionRadiusZ>5</ObstructionRadiusZ>
+		<PickRadius>3.9</PickRadius>
+		<PickOffset>0.8</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Vehicle</GotoType>
+		<SubSelectSort>1001</SubSelectSort>
+		<SelectedRadiusX>2.7</SelectedRadiusX>
+		<SelectedRadiusZ>1</SelectedRadiusZ>
+		<Sound Type="Select">play_unsc_forgewarthog_select</Sound>
+		<Sound Type="Work">play_unsc_forgewarthog_acknowledge</Sound>
+		<Sound Type="Attack">play_unsc_forgewarthog_attack</Sound>
+		<Sound Type="Ability">play_unsc_forgewarthog_ability</Sound>
+		<Sound Type="StartMove">start_move_warthog</Sound>
+		<Sound Type="StopMove">stop_move_warthog</Sound>
+		<Sound Type="Exist">start_exist_warthog</Sound>
+		<Sound Type="StopExist">stop_exist_warthog</Sound>
+		<Sound Type="PieceThrownOff">play_warthog_damage</Sound>
+		<Sound Type="SkidOn">start_skid_warthog</Sound>
+		<Sound Type="SkidOff">stop_skid_warthog</Sound>
+		<Sound Type="Jump">play_warthog_fly</Sound>
+		<Sound Type="Land">stop_warthog_fly</Sound>
+		<Sound Type="LandHard">play_warthog_land</Sound>
+		<ExtendedSoundBank>xtnd_ui_forgewarthog.bnk</ExtendedSoundBank>
+		<DamageType direction="Full">Medium</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>GroundVehicle</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>Mechanical</ObjectType>
+		<ObjectType>EmpEffectNormal</ObjectType>
+		<ObjectType>_CampaignHero</ObjectType>
+		<ObjectType>_Hero</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<DeathSpawnSquad>cpgn_npc_forge_01</DeathSpawnSquad>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<AbilityCommand>UnscRam</AbilityCommand>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>StartAtMaxAmmo</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar>UNSC_Health</HPBar>
+		<TrueLOSHeight>6</TrueLOSHeight>
+	</Object>
 	<Object name="cpgn_npc_forge_01" id="0" dbid="2894">
 		<ObjectClass>Squad</ObjectClass>
 		<Visual>campaign\npc\forge_01\forge_01.vis</Visual>
@@ -18021,6 +18115,93 @@
 	<Object name="cpgn_scn04_ship_02" is="0" id="939" dbid="1045">
 		<ObjectClass>Squad</ObjectClass>
 		<Visual>campaign\scn04\ship_02\ship_02.vis</Visual>
+		<PhysicsInfo>env_arc_escapeShip</PhysicsInfo>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<DisplayNameID>10196</DisplayNameID>
+		<RolloverTextID>10197</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>10</Velocity>
+		<TurnRate>120</TurnRate>
+		<Hitpoints>25000</Hitpoints>
+		<LOS>80</LOS>
+		<CombatValue>20</CombatValue>
+		<ObstructionRadiusX>27</ObstructionRadiusX>
+		<ObstructionRadiusY>8</ObstructionRadiusY>
+		<ObstructionRadiusZ>16</ObstructionRadiusZ>
+		<PickRadius>6.3</PickRadius>
+		<PickOffset>1.7</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectedRadiusX>7.3</SelectedRadiusX>
+		<SelectedRadiusZ>2</SelectedRadiusZ>
+		<DamageType direction="Full">Medium</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>GroundVehicle</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<Sound Type="Death">play_unsc_pelican_death</Sound>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KillGarrisoned</Flag>
+		<Flag>HasHPBar</Flag>
+		<PhysicsReplacementInfo>aircraft_default</PhysicsReplacementInfo>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>34</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>35</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar>UNSC_Health</HPBar>
+		<SelectType>Unit</SelectType>
+		<Flag>Build</Flag>
+		<Flag>ShowRescuedCount</Flag>
+		<Flag>KBAware</Flag>
+	</Object>
+	<Object name="cpgn_scn04_shipCinematic01" is="0" id="940" dbid="1046">
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>campaign\scn04\ship_01\ship_01_cine.vis</Visual>
+		<PhysicsInfo>env_arc_escapeShip</PhysicsInfo>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<DisplayNameID>10196</DisplayNameID>
+		<RolloverTextID>10197</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>10</Velocity>
+		<TurnRate>120</TurnRate>
+		<Hitpoints>25000</Hitpoints>
+		<LOS>80</LOS>
+		<CombatValue>20</CombatValue>
+		<ObstructionRadiusX>27</ObstructionRadiusX>
+		<ObstructionRadiusY>8</ObstructionRadiusY>
+		<ObstructionRadiusZ>16</ObstructionRadiusZ>
+		<Sound Type="Death">play_unsc_pelican_death</Sound>
+		<PickRadius>6.3</PickRadius>
+		<PickOffset>1.7</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectedRadiusX>7.3</SelectedRadiusX>
+		<SelectedRadiusZ>2</SelectedRadiusZ>
+		<DamageType direction="Full">Medium</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>GroundVehicle</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>HasHPBar</Flag>
+		<Flag>KillGarrisoned</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>34</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>35</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar>UNSC_Health</HPBar>
+		<SelectType>Unit</SelectType>
+		<Flag>Build</Flag>
+		<Flag>ShowRescuedCount</Flag>
+		<Flag>KBAware</Flag>
+	</Object>
+	<Object name="cpgn_scn04_shipCinematic02" is="0" id="941" dbid="1047">
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>campaign\scn04\ship_02\ship_02_cine.vis</Visual>
 		<PhysicsInfo>env_arc_escapeShip</PhysicsInfo>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
@@ -22181,6 +22362,18 @@
 		<ObjectType>Icon</ObjectType>
 		<ObjectType>_Icon</ObjectType>
 	</Object>
+	<Object name="sys_icon_53_01" is="0" id="" dbid="4361" update="true">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Command</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>ctf star</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
 	<Object name="cpgn_unscprops_light_03" is="0" id="1006" dbid="1124">
 		<ObjectClass>Object</ObjectClass>
 		<Visual>campaign\unscprops\light_03\light_03.vis</Visual>
@@ -23206,6 +23399,42 @@
 		<Flag>ForceToGaiaPlayer</Flag>
 		<Flag>Doppled</Flag>
 		<Flag>GrayMapDoppled</Flag>
+	</Object>
+	<Object name="cine_objects_wowreactor_02" is="0" id="1176" dbid="1360">
+		<ObjectClass>Squad</ObjectClass>
+		<PhysicsInfo>reactor</PhysicsInfo>
+		<Visual>cinematic\objects\wowreactor_02\wowreactor_02.vis</Visual>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<MovementType>Land</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Velocity>12</Velocity>
+		<Acceleration>30</Acceleration>
+		<CombatValue>20</CombatValue>
+		<TurnRate>60</TurnRate>
+		<Hitpoints>26500</Hitpoints>
+		<LOS>55</LOS>
+		<Tactics>cpgn_scn14_reactor_01.tactics</Tactics>
+		<ObstructionRadiusX>10</ObstructionRadiusX>
+		<ObstructionRadiusY>6</ObstructionRadiusY>
+		<ObstructionRadiusZ>13</ObstructionRadiusZ>
+		<PickRadius>5.1</PickRadius>
+		<PickOffset>1.5</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Target</SelectType>
+		<SelectedRadiusX>7.4</SelectedRadiusX>
+		<SelectedRadiusZ>7.4</SelectedRadiusZ>
+		<DamageType direction="Full">Heavy</DamageType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>GroundVehicle</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>Towable</ObjectType>
+		<Sound Type="Death">play_death_command_center</Sound>
+		<SurfaceType>Metal</SurfaceType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>OrientUnitWithGround</Flag>
 	</Object>
 	<Object name="env_unsc_cargocontainer_01" is="0" id="1192" dbid="1400">
 		<ObjectClass>Object</ObjectClass>
@@ -25877,6 +26106,11 @@
 		<ObjectClass>Squad</ObjectClass>
 		<Hitpoints>2000</Hitpoints>
 		<Visual>cinematic\objects\particleobject_01\particleobject_01.vis</Visual>
+	</Object>
+	<Object name="cine_objects_particleobjectFlood_01" is="0" id="1586" dbid="2606">
+		<ObjectClass>Squad</ObjectClass>
+		<Hitpoints>2000</Hitpoints>
+		<Visual>cinematic\objects\particleobject_01\particleobjectFlood_02.vis</Visual>
 	</Object>
 	<Object name="env_shieldexterior_nuke_01" is="0" id="1587" dbid="2607">
 		<ObjectClass>Object</ObjectClass>
@@ -32766,6 +33000,7 @@
 		<Visual>environment\harvest\iceplane_05\iceplane_05.vis</Visual>
 		<Flag>ForceToGaiaPlayer</Flag>
 		<Flag>GrayMapDoppled</Flag>
+		<Flag>RenderBelowDecals</Flag>
 	</Object>
 	<Object name="env_arcadia_BeasleyBridge_01" is="0" dbid="4329">
 		<ObjectClass>Object</ObjectClass>
@@ -32845,6 +33080,67 @@
 	<Object name="env_shieldexterior_forerunnervent_01" is="0" dbid="4352">
 		<ObjectClass>Object</ObjectClass>
 		<Visual>environment\shieldexterior\forerunnervent_01\forerunnervent_01.vis</Visual>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>GrayMapDoppled</Flag>
+	</Object>
+	<Object name="env_shieldinterior_redriver_01" is="0" dbid="4353" update="true">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>environment\shieldinterior\redriver_01\redriver_01.vis</Visual>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>GrayMapDoppled</Flag>
+	</Object>
+	<Object name="game_CTF_flag_01" is="0" id="2061" dbid="4355" update="true">
+		<PhysicsInfo>sentinel</PhysicsInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>forerunner\air\monitor_01\monitor_01.vis</Visual>
+		<FlightLevel>25</FlightLevel>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<DisplayNameID>23944</DisplayNameID>
+		<RolloverTextID>23945</RolloverTextID>
+		<MovementType>Air</MovementType>
+		<Velocity>30</Velocity>
+		<ReverseSpeed>25.0f</ReverseSpeed>
+		<TurnRate>100</TurnRate>
+		<Hitpoints>1</Hitpoints>
+		<LOS>5</LOS>
+		<ObstructionRadiusX>1.5</ObstructionRadiusX>
+		<ObstructionRadiusY>1.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>1.5</ObstructionRadiusZ>
+		<ObjectType>Collectable</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Flying</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>AirCraft</ObjectType>
+		<ObjectType>Forerunner</ObjectType>
+		<PickPriority>Resource</PickPriority>
+		<SelectType>SingleUnit</SelectType>
+		<ResourceAmount>0.1</ResourceAmount>
+		<DeathFadeDelayTime>0</DeathFadeDelayTime>
+		<SurfaceType>Metal</SurfaceType>
+		<Flag>DieAtZeroResources</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+		<PhysicsReplacementInfo>aircraft_default</PhysicsReplacementInfo>
+	</Object>
+	<Object name="fx_env_harvest_SnowMist" is="0" id="8898" dbid="3716">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>effects\smoke\Snow_Mist.vis</Visual>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>GrayMapDoppled</Flag>
+	</Object>
+	<Object name="env_harvest_cratersmall" is="0" id="531" dbid="553">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>environment\harvest\craterheat_01\crater_small.vis</Visual>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>GrayMapDoppled</Flag>
+	</Object>
+	<Object name="env_harvest_craterTundra" is="0" id="531" dbid="553">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>effects\environment\harvest\craterTundra.vis</Visual>
 		<Flag>ForceToGaiaPlayer</Flag>
 		<Flag>GrayMapDoppled</Flag>
 	</Object>

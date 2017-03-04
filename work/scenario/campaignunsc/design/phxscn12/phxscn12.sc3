@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<Objects>
-		<Object IsSquad="false" Player="0" ID="30000003" TintValue="1" EditorName="snd_play_amb_sof_1928" Position="463.781,195.9412,637.1123" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_amb_sof</Object>
-		<Object IsSquad="false" Player="0" ID="30000004" TintValue="1" EditorName="snd_play_amb_sof_1929" Position="396.5289,210.9932,384.1989" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_amb_sof</Object>
 		<Object IsSquad="false" Player="0" ID="30000001" TintValue="1" EditorName="snd_play_amb_sof_1926" Position="427.3883,196.0386,638.9019" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_amb_sof</Object>
 		<Object IsSquad="false" Player="0" ID="30000002" TintValue="1" EditorName="snd_play_amb_sof_1927" Position="429.8398,211.0073,384.5416" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_amb_sof</Object>
+		<Object IsSquad="false" Player="0" ID="30000003" TintValue="1" EditorName="snd_play_amb_sof_1928" Position="463.781,195.9412,637.1123" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_amb_sof</Object>
+		<Object IsSquad="false" Player="0" ID="30000004" TintValue="1" EditorName="snd_play_amb_sof_1929" Position="396.5289,210.9932,384.1989" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_amb_sof</Object>
 	</Objects>
 </Scenario>

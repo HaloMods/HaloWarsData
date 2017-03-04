@@ -321,7 +321,7 @@
 		<Object IsSquad="false" Player="0" ID="217085" TintValue="1" EditorName="sys_marker_crate3B_01_217085" Position="550.1832,-7.3595,165.5641" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
 		<Object IsSquad="false" Player="0" ID="217096" TintValue="1" EditorName="sys_marker_crate3B_01_217096" Position="794.8463,-33.0449,475.1251" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
 		<Object IsSquad="false" Player="0" ID="217082" TintValue="1" EditorName="sys_marker_crate3B_01_217082" Position="731.9787,-11.0629,812.3745" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
-		<Object IsSquad="false" Player="0" ID="217099" TintValue="1" EditorName="sys_marker_crate3B_01_217099" Position="407.8867,-38.0155,755.4791" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="217099" TintValue="1" EditorName="sys_marker_crate3B_01_217099" Position="407.3867,-38.0155,755.4791" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
 		<Object IsSquad="false" Player="0" ID="217098" TintValue="1" EditorName="sys_marker_crate3B_01_217098" Position="253.2241,-5.0013,887.8213" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
 		<Object IsSquad="false" Player="0" ID="217093" TintValue="1" EditorName="sys_marker_crate3B_01_217093" Position="899.5305,-10.4571,223.8799" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
 		<Object IsSquad="false" Player="0" ID="217100" TintValue="1" EditorName="sys_marker_crate3B_01_217100" Position="288.484,-38.2068,610.1995" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
@@ -5041,6 +5041,7 @@
 	<SimBoundsMaxX>1024</SimBoundsMaxX>
 	<SimBoundsMaxZ>1024</SimBoundsMaxZ>
 	<SoundBank>amb_shield_int.bnk</SoundBank>
+	<EnvironmentReverbPreset>Reverb_Valley</EnvironmentReverbPreset>
 	<ScenarioWorld>SWI</ScenarioWorld>
 	<AllowVeterancy>true</AllowVeterancy>
 </Scenario>

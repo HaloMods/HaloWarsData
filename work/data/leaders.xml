@@ -9,7 +9,7 @@
 		<NameID>7000</NameID>
 		<DescriptionID>7001</DescriptionID>
 		<FlashImg>orbital</FlashImg>
-		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\cutter.ddx"</FlashPortrait>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\cutter.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_cutter.ddx</UIControlBackground>
 		<Resource Type="Supplies">800</Resource>
 		<Resource Type="CampaignFoo">0</Resource>
@@ -31,7 +31,7 @@
 		<NameID>7002</NameID>
 		<DescriptionID>7003</DescriptionID>
 		<FlashImg>14thdivision</FlashImg>
-		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\forge.ddx"</FlashPortrait>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\forge.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_forge.ddx</UIControlBackground>
 		<Resource Type="Supplies">800</Resource>
 		<Resource Type="Collectable">0</Resource>
@@ -53,7 +53,7 @@
 		<NameID>7004</NameID>
 		<DescriptionID>7005</DescriptionID>
 		<FlashImg>oni</FlashImg>
-		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\Anders.ddx"</FlashPortrait>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\Anders.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_anders.ddx</UIControlBackground>
 		<Resource Type="Supplies">800</Resource>
 		<Resource Type="Collectable">0</Resource>
@@ -75,7 +75,7 @@
 		<NameID>7010</NameID>
 		<DescriptionID>7011</DescriptionID>
 		<FlashImg>arbiter</FlashImg>
-		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\arbiter.ddx"</FlashPortrait>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\arbiter.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_arbiter.ddx</UIControlBackground>
 		<Resource Type="Supplies">800</Resource>
 		<Resource Type="Collectable">0</Resource>
@@ -99,7 +99,7 @@
 		<NameID>7012</NameID>
 		<DescriptionID>7013</DescriptionID>
 		<FlashImg>bruteleader</FlashImg>
-		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\brute.ddx"</FlashPortrait>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\brute.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_brutechief.ddx</UIControlBackground>
 		<Resource Type="Supplies">800</Resource>
 		<Resource Type="Collectable">0</Resource>
@@ -123,7 +123,7 @@
 		<NameID>7014</NameID>
 		<DescriptionID>7015</DescriptionID>
 		<FlashImg>prophet</FlashImg>
-		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\prophet.ddx"</FlashPortrait>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\prophet.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_prophet.ddx</UIControlBackground>
 		<Resource Type="Supplies">800</Resource>
 		<Resource Type="Collectable">0</Resource>
@@ -145,7 +145,7 @@
 		<Civ>UNSC</Civ>
 		<NameID>7020</NameID>
 		<DescriptionID>7021</DescriptionID>
-		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\randomUnsc.ddx"</FlashPortrait>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\randomUnsc.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_random_unsc.ddx</UIControlBackground>
 		<Resource Type="Supplies">800</Resource>
 		<Resource Type="Collectable">0</Resource>
@@ -164,7 +164,7 @@
 		<Civ>Covenant</Civ>
 		<NameID>7022</NameID>
 		<DescriptionID>7023</DescriptionID>
-		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\randomCov.ddx"</FlashPortrait>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\randomCov.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_random_cov.ddx</UIControlBackground>
 		<Resource Type="Supplies">800</Resource>
 		<Resource Type="Collectable">0</Resource>

@@ -14,7 +14,7 @@
 	<terrainSpecularPower>100</terrainSpecularPower>
 	<terrainBumpStrength>1.59</terrainBumpStrength>
 	<TerrainAODiffuseIntensity>1</TerrainAODiffuseIntensity>
-	<TerrainSpecOnlyColor>152,207,70</TerrainSpecOnlyColor>
+	<TerrainSpecOnlyColor>230,230,230</TerrainSpecOnlyColor>
 	<TerrainSpecOnlyPower>100</TerrainSpecOnlyPower>
 	<TerrainSpecOnlyShadowDarkness>1</TerrainSpecOnlyShadowDarkness>
 	<TerrainSpecOnlySunInclination>0</TerrainSpecOnlySunInclination>
@@ -50,10 +50,10 @@
 	<planarFogIntensity>0.426</planarFogIntensity>
 	<planarFogStart>-14.78</planarFogStart>
 	<planarFogDensity>16</planarFogDensity>
-	<dofEnabled>false</dofEnabled>
+	<dofEnabled>true</dofEnabled>
 	<dofNearRange>350</dofNearRange>
 	<dofFocalPlaneDist>100</dofFocalPlaneDist>
-	<dofFarRange>450</dofFarRange>
+	<dofFarRange>320</dofFarRange>
 	<dofMaxBlurriness>1</dofMaxBlurriness>
 	<ObjectPropertyForFLSGen>_Position21431_,_21431_</ObjectPropertyForFLSGen>
 </lightSet>

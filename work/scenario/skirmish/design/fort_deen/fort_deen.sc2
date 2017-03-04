@@ -212,7 +212,7 @@
 			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
 		<Object IsSquad="false" Player="0" ID="10004919" TintValue="1" EditorName="env_arcadia_industriallight_01_11790" Position="232.995,25.8536,482.5555" Forward="-0.9996,0,-0.0292" Right="-0.0292,0,0.9996" Group="5" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
-		<Object IsSquad="false" Player="0" ID="10004935" TintValue="1" EditorName="env_arcadia_industriallight_01_11806" Position="120.4944,25.7632,811.6562" Forward="0.9999,0,-0.0124" Right="-0.0124,0,-0.9999" Group="5" VisualVariationIndex="0">
+		<Object IsSquad="false" Player="0" ID="10004935" TintValue="1" EditorName="env_arcadia_industriallight_01_11806" Position="120.4944,25.7632,810.6562" Forward="0.9999,0,-0.0124" Right="-0.0124,0,-0.9999" Group="5" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
 		<Object IsSquad="false" Player="0" ID="10004950" TintValue="1" EditorName="env_arcadia_industriallight_01_11821" Position="450.2486,-10.7181,605.5754" Forward="0.0584,0,-0.9983" Right="-0.9983,0,-0.0584" Group="5" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>

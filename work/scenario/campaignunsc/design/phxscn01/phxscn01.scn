@@ -36513,6 +36513,7 @@
 	<SimBoundsMaxZ>1024</SimBoundsMaxZ>
 	<SoundBank>amb_harvest.bnk</SoundBank>
 	<SoundBank>scenario_01.bnk</SoundBank>
+	<EnvironmentReverbPreset>Reverb_Frozen</EnvironmentReverbPreset>
 	<ScenarioWorld>Harvest</ScenarioWorld>
 	<AllowVeterancy>false</AllowVeterancy>
 	<GlobalExcludeObjects />

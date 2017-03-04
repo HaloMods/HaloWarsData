@@ -160,7 +160,7 @@
 		<Object IsSquad="false" Player="0" ID="10000255" TintValue="1" EditorName="env_shieldexterior_deadtree_01_2056" Position="743.7106,22.6376,974.4484" Forward="-0.1987,0,0.9801" Right="0.9801,0,0.1987" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_shieldexterior_deadtree_01</Object>
 		<Object IsSquad="false" Player="0" ID="10000250" TintValue="1" EditorName="env_shieldexterior_deadtree_01_2029" Position="745,-8.3644,649.119" Forward="-0.5646,0,0.8253" Right="0.8253,0,0.5646" Group="-1" VisualVariationIndex="0">env_shieldexterior_deadtree_01</Object>
-		<Object IsSquad="false" Player="0" ID="10000242" TintValue="1" EditorName="env_shieldexterior_deadtree_01_2047" Position="643.1562,11.591,982.9111" Forward="0.1987,0,0.9801" Right="0.9801,0,-0.1987" Group="-1" VisualVariationIndex="0">env_shieldexterior_deadtree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000242" TintValue="1" EditorName="env_shieldexterior_deadtree_01_2047" Position="642.1562,11.591,982.9111" Forward="0.1987,0,0.9801" Right="0.9801,0,-0.1987" Group="-1" VisualVariationIndex="0">env_shieldexterior_deadtree_01</Object>
 		<Object IsSquad="false" Player="0" ID="10000246" TintValue="1" EditorName="env_shieldexterior_deadtree_01_2049" Position="677.1417,20.9984,1003.176" Forward="0.9975,0,0.0707" Right="0.0707,0,-0.9975" Group="-1" VisualVariationIndex="0">env_shieldexterior_deadtree_01</Object>
 		<Object IsSquad="false" Player="0" ID="10000237" TintValue="1" EditorName="env_shieldexterior_deadtree_01_2042" Position="764.9838,-3.5085,791.6866" Forward="-0.9093,0,-0.4161" Right="-0.4161,0,0.9093" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_shieldexterior_deadtree_01</Object>
