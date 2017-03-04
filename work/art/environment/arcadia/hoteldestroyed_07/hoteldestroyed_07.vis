@@ -8,7 +8,7 @@
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
 				<file>environment\arcadia\hoteldestroyed_07\hoteldestroyed_07</file>
 			</asset>
-			<attach type="ParticleFile" name="effects\environment\harvest\pelicanwreck_01" tobone="bone fire" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects/environment/harvest/wreckageFX_03" tobone="bone fire" syncanims="false" disregardorient="false" />
 		</component>
 	</model>
 </visual>

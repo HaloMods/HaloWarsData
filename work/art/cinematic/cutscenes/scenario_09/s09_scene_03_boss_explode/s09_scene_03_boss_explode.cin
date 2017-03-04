@@ -41,7 +41,7 @@
 			<animatedmodel model="particles_10" animationfile="cinematic\cutscenes\Scenario_09\S09_Scene_03_Boss_Explode\Scene_03_Particles_10" />
 			<tag type="Particle" time="3.0f" name="effects\wow_moments\s09_Scene_03_spew_01" lifespan="15.0f" tomodel="particles_10" tobone="GrannyRootBone" />
 			<tag type="Particle" time="3.5f" name="effects\wow_moments\s09_Scene_03_spew_01" lifespan="15.0f" tomodel="particles_10" tobone="GrannyRootBone" />
-			<tag type="Chat" time="0" queue="true" duration="0" stringid="23388" sound="play_scn_09_marine2_01" talkinghead="" />
+			<tag type="Chat" time="0" queue="true" duration="0" stringid="23283" sound="play_scn_09_marine2_01" talkinghead="" />
 			<tag type="Chat" time="4" queue="true" duration="0" stringid="24677" sound="play_scn_09_serina_07" talkinghead="scn_09_serina_07" />--Particles----Chats--</shot>
 	</body>
 </cinematic>

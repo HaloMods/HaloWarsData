@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FlashMovieDefinition>
-   <Resolution x="30" y="-80" width="1220" height="880" >16x9</Resolution>
-   <Resolution x="-30" y="-10" width="700" height="505" >4x3</Resolution>
-
-
    <TimelineControls>
       <Control path="_root.mTimelinePanel0.m0"/>
       <Control path="_root.mTimelinePanel0.m1"/>
@@ -36,6 +32,8 @@
       <Controls>
          <Mode name="Main">
             <Control name="ButtonB"             command="cancel"  event="start" sound="" />
+            <Control name="KeyBackSpace"        command="cancel"  event="start" sound="" />
+            <Control name="KeyEscape"           command="cancel"  event="start" sound="" />
          </Mode>
       </Controls>
    </ControlList>

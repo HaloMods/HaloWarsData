@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FlashMovieDefinition>
-   <Resolution x="30" y="-80" width="1220" height="880" >16x9</Resolution>
-   <Resolution x="-30" y="-10" width="700" height="505" >4x3</Resolution>
-   
    <!-- Controls -->
       <!-- Control name="LabelButtonX">_root.UI_btns.x_text.value</Control -->
                
@@ -22,15 +19,18 @@
    <ControlList>
       <Controls>
          <Mode name="Main">
-            <Control name="ButtonStart"             command="pause"  event="start" sound="" />
+            <Control name="ButtonStart"         command="pause" event="start" sound="" />
             <Control name="ButtonA"             command="showOrPause"  event="start" sound="" />
-            <Control name="ButtonB"             command="showOrAdvance"  event="start" sound="" />
+            <Control name="KeySpace"            command="showOrPause"  event="start" sound="" />
+            <Control name="ButtonB"             command="showOrAdvance" event="start" sound="" />
+            <Control name="KeyEnter"            command="showOrAdvance" event="start" sound="" />
             <Control name="ButtonX"             command="showOrExit"  event="start" sound="" />
+            <Control name="KeyEscape"           command="showOrExit"  event="start" sound="" />
             <Control name="ButtonY"             command="show"  event="start" sound="" />
             <Control name="StickLeftUp"         command="show"  event="start" digital="" threshold="0.10" sound="" />
             <Control name="StickLeftDown"       command="show"  event="start" digital="" threshold="0.10" sound="" />
-            <Control name="StickLeftLeft"         command="show"  event="start" digital="" threshold="0.10" sound="" />
-            <Control name="StickLeftRight"       command="show"  event="start" digital="" threshold="0.10" sound="" />
+            <Control name="StickLeftLeft"       command="show"  event="start" digital="" threshold="0.10" sound="" />
+            <Control name="StickLeftRight"      command="show"  event="start" digital="" threshold="0.10" sound="" />
             <Control name="DpadUp"              command="show"  event="start" sound="" />
             <Control name="DpadDown"            command="show"  event="start" sound="" />
             <Control name="StickRightUp"        command="show"  event="start" digital="" threshold="0.10" sound="" />

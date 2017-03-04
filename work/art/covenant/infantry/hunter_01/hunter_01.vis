@@ -105,8 +105,9 @@
 			<asset type="Anim">
 				<file>covenant\infantry\hunter_01\attack_01</file>
 				<weight>1</weight>
-				<tag type="Particle" start="0" position="0.1" end="1" name="effects\Unit_FX\cov\hunter\fuelrod_charging_01" tobone="Bip01 R Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.8" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.1" end="1" name="effects\Unit_FX\cov\hunter\fuelrod_charging_01" tobone="Bip01 R Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Sound" start="0" position="0.1" end="1" name="ani_weap_cov_hunter_charge" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.1" end="1" name="effects/Unit_FX/cov/hunter/fuelrod_postblast_01" tobone="Bip01 R Hand" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.5" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Sound" start="0" position="0.5" end="1" name="play_cov_hunter_fuel_rod_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Attack" start="0" position="0.5" end="1" tobone="Bip01 R Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Particle" start="0" position="0.5" end="1" name="effects\Unit_FX\cov\hunter\fuelrod_muzzleblast_01" tobone="Bip01 R Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
@@ -114,8 +115,9 @@
 			<asset type="Anim">
 				<file>covenant\infantry\hunter_01\attack_02</file>
 				<weight>1</weight>
-				<tag type="Particle" start="0" position="0.067" end="1" name="effects\Unit_FX\cov\hunter\fuelrod_charging_01" tobone="Bip01 R Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.29" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.067" end="1" name="effects\Unit_FX\cov\hunter\fuelrod_charging_01" tobone="Bip01 R Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.6" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Sound" start="0" position="0.07" end="1" name="ani_weap_cov_hunter_charge" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.1" end="1" name="effects/Unit_FX/cov/hunter/fuelrod_postblast_01" tobone="Bip01 R Hand" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.29" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Attack" start="0" position="0.358" end="1" tobone="Bip01 R Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Sound" start="0" position="0.36" end="1" name="play_cov_hunter_fuel_rod_cannon" tobone="Bip01 R Hand" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Particle" start="0" position="0.36" end="1" name="effects\Unit_FX\cov\hunter\fuelrod_muzzleblast_01" tobone="Bip01 R Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
@@ -123,7 +125,8 @@
 			<asset type="Anim">
 				<file>covenant\infantry\hunter_01\attack_03</file>
 				<weight>1</weight>
-				<tag type="Particle" start="0" position="0.05" end="1" name="effects\Unit_FX\cov\hunter\fuelrod_charging_01" tobone="Bip01 R Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.29" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.05" end="1" name="effects\Unit_FX\cov\hunter\fuelrod_charging_01" tobone="Bip01 R Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.3" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.1" end="1" name="effects/Unit_FX/cov/hunter/fuelrod_postblast_01" tobone="Bip01 R Hand" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.8" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Attack" start="0" position="0.32" end="1" tobone="Bip01 R Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Sound" start="0" position="0.32" end="1" name="play_cov_hunter_fuel_rod_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Particle" start="0" position="0.32" end="1" name="effects\Unit_FX\cov\hunter\fuelrod_muzzleblast_01" tobone="Bip01 R Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />

@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <FlashMovieDefinition>
-	<Resolution x="30" y="-80" width="1220" height="880">16x9</Resolution>
-	<Resolution x="-30" y="-10" width="700" height="505">4x3</Resolution>
 	<TimelineLocation type="16x9" x="530" y="130" w="570" h="425" />
 	<TimelineLocation type="4x3" x="85" y="96" w="461" h="269" />
 	<ControlList>
@@ -19,6 +17,8 @@
 			<Mode name="Main">
 				<Control name="StickRightUp" command="scrollUp" event="start stop" digital="" threshold="0.9" sound="" />
 				<Control name="StickRightDown" command="scrollDown" event="start stop" digital="" threshold="0.9" sound="" />
+				<Control name="MouseWheelUp" command="scrollUp" event="start" threshold="0.9" sound="" />
+				<Control name="MouseWheelDown" command="scrollDown" event="start" threshold="0.9" sound="" />
 				<Control name="ButtonA" command="cancel" event="start" sound="" />
 				<Control name="ButtonB" command="cancel" event="start" sound="" />
 				<Control name="ButtonX" command="cancel" event="start" sound="" />

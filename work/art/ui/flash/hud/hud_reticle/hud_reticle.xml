@@ -5,9 +5,15 @@
 	<Control name="ButtonX">_root.x_btn</Control>
 	<Control name="ButtonY">_root.y_btn</Control>
 	<ASFunction>updateButtonStates</ASFunction>
+	<ASFunction>updateCursorButtonStates</ASFunction>
+	<ASFunction>updateCursorText</ASFunction>
+	<ASFunction>setButtonState</ASFunction>
 	<KeyFrame>off</KeyFrame>
 	<KeyFrame>on</KeyFrame>
 	<KeyFrame>active</KeyFrame>
 	<KeyFrame>alert</KeyFrame>
 	<KeyFrame>pending</KeyFrame>
+	<KeyFrame>leftclick</KeyFrame>
+	<KeyFrame>scrollwheel</KeyFrame>
+	<KeyFrame>rightclick</KeyFrame>
 </FlashMovieDefinition>

@@ -23,7 +23,7 @@
 			<asset type="Anim">
 				<file>effects\Aegis_bomb\bomb_death_01</file>
 				<weight>1</weight>
-				<tag type="Particle" start="0" position="0" end="1" name="effects\Aegis_bomb\death_explosion_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="10" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0" end="1" name="effects\Aegis_bomb\death_explosion_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="60" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
 		</anim>
 	</model>

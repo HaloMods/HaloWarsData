@@ -8,7 +8,7 @@
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
 				<file>effects\projectiles\unsc\flashGrenade_01\flashGrenade_01</file>
 			</asset>
-			<attach type="ParticleFile" name="effects\projectiles\unsc\flamemortar_01\flamemortartrail_01" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects/projectiles/unsc/flamemortar_01/flamemortartrail_01" syncanims="false" disregardorient="false" />
 		</component>
 		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
 			<asset type="Anim">

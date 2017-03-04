@@ -360,7 +360,7 @@
 			<asset type="Anim">
 				<file>unsc\air\vulture_01\idle_01</file>
 				<weight>1</weight>
-				<tag type="Particle" start="0" position="0.15" end="1" name="effects\vehicle_fx\unsc\wolverine\singleblast_fire_01" tobone="BoneMissleLLP" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.15" end="1" name="effects/vehicle_fx/unsc/vulture/singleblast_fire_01" tobone="BoneMissleLLP" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Sound" start="0" position="0.15" end="1" name="play_unsc_wolverine_missile" tobone="BoneMissleLLP" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Attack" start="0" position="0.15" end="1" tobone="BoneMissleLLP" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
@@ -403,7 +403,7 @@
 			<asset type="Anim">
 				<file>unsc\air\vulture_01\idle_01</file>
 				<weight>1</weight>
-				<tag type="Particle" start="0" position="0.3" end="1" name="effects\vehicle_fx\unsc\wolverine\singleblast_fire_01" tobone="BoneMissleLLP" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.3" end="1" name="effects/vehicle_fx/unsc/vulture/singleblast_fire_01" tobone="BoneMissleLLP" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Sound" start="0" position="0.3" end="1" name="play_unsc_wolverine_missile" tobone="BoneMissleLLP" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Attack" start="0" position="0.3" end="1" tobone="BoneMissleLLP" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>

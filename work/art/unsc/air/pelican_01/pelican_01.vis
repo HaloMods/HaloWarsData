@@ -13,6 +13,8 @@
 			<attach type="ModelRef" name="Turbine FR" tobone="Bone Wing FR" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="Turbine RL" tobone="Bone Wing RL" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="Turbine RR" tobone="Bone Wing RR" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ParticleFile" name="effects/vehicle_fx/unsc/pelican/headlight_01" tobone="bone_headlight_01" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects/vehicle_fx/unsc/pelican/headlight_02" tobone="bone_headlight_02" syncanims="false" disregardorient="false" />
 			<point pointType="Impact" bone="impact_bone_01" pointData="Metal" />
 			<point pointType="Impact" bone="impact_bone_02" pointData="Metal" />
 			<point pointType="Impact" bone="impact_bone_03" pointData="Metal" />
@@ -80,6 +82,7 @@
 			<attach type="ParticleFile" name="effects\vehicle_fx\unsc\pelican\redblinkinglight_01" tobone="bone_FXlight FL" syncanims="false" disregardorient="false" />
 			<attach type="ParticleFile" name="effects\vehicle_fx\unsc\pelican\hoverjets_FL_01" tobone="Bone Flame FL 01" syncanims="false" disregardorient="false" />
 			<attach type="ParticleFile" name="effects\vehicle_fx\unsc\pelican\idlejets_FL_01" tobone="Bone Flame FL 02" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects/wow_moments/s02_scene_01_pelican_line" tobone="bone_FXlight FL" syncanims="false" disregardorient="false" />
 		</component>
 		<anim type="Walk" exitAction="Loop" tweenTime="20" tweenToAnimation="">
 			<asset type="Anim">
@@ -114,6 +117,7 @@
 			<attach type="ParticleFile" name="effects\vehicle_fx\unsc\pelican\redblinkinglight_01" tobone="bone_FXlight FR" syncanims="false" disregardorient="false" />
 			<attach type="ParticleFile" name="effects\vehicle_fx\unsc\pelican\idlejets_FR_01" tobone="Bone Flame FR02" syncanims="false" disregardorient="false" />
 			<attach type="ParticleFile" name="effects\vehicle_fx\unsc\pelican\hoverjets_FR_01" tobone="Bone Flame FR01" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects/wow_moments/s02_scene_01_pelican_line" tobone="bone_FXlight FR" syncanims="false" disregardorient="false" />
 		</component>
 		<anim type="Walk" exitAction="Loop" tweenTime="20" tweenToAnimation="">
 			<asset type="Anim">

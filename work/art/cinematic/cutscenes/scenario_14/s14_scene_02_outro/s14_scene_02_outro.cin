@@ -2,7 +2,7 @@
 <cinematic scenariofile="CampaignUNSC\wow\PHXscn14\PHXscn14" soundfile="">
 	<head>
 		<model name="elephant_01" type="proto" player="1" modelfile="unsc_veh_elephant_01" />
-		<model name="reactor_01" type="proto" modelfile="cpgn_scn14_reactor_01" />
+		<model name="reactor_01" type="proto" modelfile="cine_objects_wowreactor_02" />
 		<model name="apexring_01" type="proto" modelfile="cpgn_scn14_apexring_01" />
 		<model name="particles_01" type="proto" modelfile="cine_objects_particleobject_01" />--Particles--</head>
 	<body>

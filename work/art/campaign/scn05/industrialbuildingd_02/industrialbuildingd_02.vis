@@ -8,9 +8,9 @@
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
 				<file>campaign\scn05\industrialbuildingd_02\industrialbuildingd_02</file>
 			</asset>
-			<attach type="ParticleFile" name="effects\environment\harvest\wreckageFX_01" tobone="bone_FX01" syncanims="false" disregardorient="false" />
-			<attach type="ParticleFile" name="effects\environment\harvest\wreckageFX_01" tobone="bone_FX02" syncanims="false" disregardorient="false" />
-			<attach type="ParticleFile" name="effects\environment\harvest\wreckageFX_01" tobone="bone_FX03" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects/environment/harvest/wreckageFX_01" tobone="bone_FX01" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects/fire/smallgenFire_01" tobone="bone_FX02" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects/environment/harvest/wreckageFX_04" tobone="bone_FX03" syncanims="false" disregardorient="false" />
 			<attach type="ParticleFile" name="effects\environment\harvest\electricaldamage_01" tobone="bone_FX04" syncanims="false" disregardorient="false" />
 			<attach type="ParticleFile" name="effects\environment\harvest\electricaldamage_01" tobone="bone_FX01" syncanims="false" disregardorient="false" />
 			<attach type="ParticleFile" name="effects\environment\harvest\canisterthrustloop_01" tobone="bone_FX05" syncanims="false" disregardorient="false" />

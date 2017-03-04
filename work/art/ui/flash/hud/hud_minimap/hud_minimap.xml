@@ -2,7 +2,8 @@
 <FlashMovieDefinition>
 	<Properties>
 		<Position X="1000" Y="20" />
-		<Size Width="250" Height="250" />
+		<Size Width="1280" Height="720" SafeAreaWidth="1280" SafeAreaHeight="720" />
+		<Data type="bool" name="IgnoreSafeAreas">TRUE</Data>
 		<Data type="float" name="MapX">0.75125</Data>
 		<Data type="float" name="MapY">0.05777001</Data>
 		<Data type="float" name="MapWidth">0.1953</Data>
@@ -16,18 +17,6 @@
 		<Data type="float" name="MapViewIconStickyOffset">5</Data>
 		<Data type="float" name="MapFogScalar">0.5</Data>
 		<Data type="float" name="MapSkirtFogScalar">0.3</Data>
-		<Data type="float" name="IconScaleX">1</Data>
-		<Data type="float" name="IconScaleY">1</Data>
-		<Data type="float" name="X640">0.7265625</Data>
-		<Data type="float" name="Y640">0.04166007</Data>
-		<Data type="float" name="Width640">0.234375</Data>
-		<Data type="float" name="Height640">0.3125</Data>
-		<Data type="float" name="MapViewX640">0.84375</Data>
-		<Data type="float" name="MapViewY640">0.1979166</Data>
-		<Data type="float" name="MapViewWidth640">0.1953125</Data>
-		<Data type="float" name="MapViewHeight640">0.2604167</Data>
-		<Data type="float" name="IconScaleX640">0.65</Data>
-		<Data type="float" name="IconScaleY640">0.65</Data>
 		<Data type="float" name="FlareDuration">6</Data>
 		<Data type="float" name="AlertDuration">6</Data>
 		<Data type="float" name="SquadIconBaseSize">10.0f</Data>

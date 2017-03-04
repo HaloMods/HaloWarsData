@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FlashMovieDefinition>
-   <Resolution x="30" y="-80" width="1220" height="880" >16x9</Resolution>
-   <Resolution x="-30" y="-10" width="700" height="505" >4x3</Resolution>
-
-
-
    <ControlList>
       
       <!-- Main screen input handler -->
@@ -12,6 +7,7 @@
          <Mode name="Main">
             <Control name="ButtonA"             command="playerOptions" event="start" sound="" />
             <Control name="ButtonB"             command="cancel" event="start" sound="" />
+            <Control name="KeyEscape"           command="cancel" event="start" sound="" />
             <Control name="ButtonStart"         command="ready" event="start" sound="" />
             <Control name="ButtonY"             command="inviteFriends" event="start" sound="" />
             <Control name="ButtonBack"          command="kick" event="start" sound="" />
@@ -21,6 +17,12 @@
             <Control name="ButtonShoulderLeft"  command="changeTeamLeft" event="start" sound=""/>
             <Control name="ButtonShoulderRight" command="changeTeamRight" event="start" sound=""/>
          </Mode>
+         <Mode name="LFGGameList">
+            <Control name="ButtonA"             command="lfgListSelect" event="start" sound="" />
+            <Control name="ButtonB"             command="cancel" event="start" sound="" />
+            <Control name="KeyEscape"           command="cancel" event="start" sound="" />
+            <Control name="ButtonBack"          command="lfgListRefresh" event="start" sound="" />
+         </Mode>
       </Controls>
 
    </ControlList>
@@ -29,6 +31,15 @@
    <UIListControlCustom>
       <Controls>
          <Mode name="Main">
+            <Control name="ButtonB"             command="cancel" event="start" sound="" />
+
+            <Control name="StickLeftUp"         command="prev" event="start" digital="" threshold="0.90" repeat="" delay="0.5" rate=".20" sound="" />
+            <Control name="StickLeftDown"       command="next" event="start" digital="" threshold="0.90" repeat="" delay="0.5" rate=".20" sound="" />
+
+            <Control name="DpadUp"              command="prev"   event="start" repeat="" delay="0.5" rate=".20" sound="" />
+            <Control name="DpadDown"            command="next" event="start" repeat="" delay="0.5" rate=".20" sound="" />
+         </Mode>
+         <Mode name="LFGGameList">
             <Control name="ButtonB"             command="cancel" event="start" sound="" />
 
             <Control name="StickLeftUp"         command="prev" event="start" digital="" threshold="0.90" repeat="" delay="0.5" rate=".20" sound="" />

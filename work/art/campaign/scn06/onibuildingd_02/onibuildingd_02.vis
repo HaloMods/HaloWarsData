@@ -9,11 +9,11 @@
 				<file>campaign\scn06\onibuildingd_02\onibuildingd_02</file>
 			</asset>
 			<attach type="ParticleFile" name="effects\environment\harvest\wreckageFX_01" tobone="bone_FX01" syncanims="false" disregardorient="false" />
-			<attach type="ParticleFile" name="effects\environment\harvest\wreckageFX_01" tobone="bone_FX02" syncanims="false" disregardorient="false" />
-			<attach type="ParticleFile" name="effects\environment\harvest\wreckageFX_03" tobone="bone_FX03" syncanims="false" disregardorient="false" />
-			<attach type="ParticleFile" name="effects\environment\harvest\wreckageFX_01" tobone="bone_FX04" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects/fire/rollingfireball_01" tobone="bone_FX02" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects/environment/harvest/wreckageFX_01" tobone="bone_FX03" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects/environment/harvest/wreckageFX_04" tobone="bone_FX04" syncanims="false" disregardorient="false" />
 			<attach type="ParticleFile" name="effects\environment\harvest\wreckageFX_02" tobone="bone_FX05" syncanims="false" disregardorient="false" />
-			<attach type="ParticleFile" name="effects\environment\harvest\wreckageFX_04" tobone="bone_FX06" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects/environment/harvest/wreckageFX_02" tobone="bone_FX06" syncanims="false" disregardorient="false" />
 			<attach type="ParticleFile" name="effects\environment\harvest\electricaldamage_01" tobone="bone_FX07" syncanims="false" disregardorient="false" />
 			<attach type="ParticleFile" name="effects\environment\harvest\canisterthrustloop_01" tobone="bone_FX08" syncanims="false" disregardorient="false" />
 			<attach type="ParticleFile" name="effects\environment\harvest\canisterthrustloop_01" tobone="bone_FX09" syncanims="false" disregardorient="false" />

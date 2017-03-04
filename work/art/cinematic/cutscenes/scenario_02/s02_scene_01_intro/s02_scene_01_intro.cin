@@ -3,7 +3,7 @@
 	<head>
 		<model name="pelican_01" type="proto" player="1" modelfile="unsc_air_pelican_01" />
 		<model name="forge_01" type="gr2" player="1" modelfile="campaign\npc\forge_01\forge_01" />
-		<model name="warthog_01" type="proto" player="1" modelfile="cpgn_npc_forgeWarthog_01" />
+		<model name="warthog_01" type="proto" player="1" modelfile="cpgn_npc_forgeWarthogCinematic_01" />
 		<model name="particles_01" type="proto" modelfile="cine_objects_particleobject_01" />cameralerp mode="end" duration="3.0"/&gt;
 	depthoffield enabled="true"/&gt;</head>
 	<body>

@@ -83,6 +83,82 @@
 			<icon>ui\game\reticle\garrison\garrison</icon>
 			<flashkeyframe>transportfull</flashkeyframe>
 		</Reticle>
+		<Reticle type="MenuCursor">
+			<icon />
+			<flashkeyframe>off</flashkeyframe>
+		</Reticle>
+		<Reticle type="Cursor">
+			<icon />
+			<flashkeyframe>off</flashkeyframe>
+		</Reticle>
+		<Reticle type="CursorCov">
+			<icon />
+			<flashkeyframe>off</flashkeyframe>
+		</Reticle>
+		<Reticle type="CursorLeft">
+			<icon />
+			<flashkeyframe>cursor_left</flashkeyframe>
+		</Reticle>
+		<Reticle type="CursorRight">
+			<icon />
+			<flashkeyframe>cursor_right</flashkeyframe>
+		</Reticle>
+		<Reticle type="CursorTop">
+			<icon />
+			<flashkeyframe>cursor_top</flashkeyframe>
+		</Reticle>
+		<Reticle type="CursorBottom">
+			<icon />
+			<flashkeyframe>cursor_bottom</flashkeyframe>
+		</Reticle>
+		<Reticle type="CursorTopLeft">
+			<icon />
+			<flashkeyframe>cursor_topleft</flashkeyframe>
+		</Reticle>
+		<Reticle type="CursorTopRight">
+			<icon />
+			<flashkeyframe>cursor_topright</flashkeyframe>
+		</Reticle>
+		<Reticle type="CursorBottomRight">
+			<icon />
+			<flashkeyframe>cursor_bottomright</flashkeyframe>
+		</Reticle>
+		<Reticle type="CursorBottomLeft">
+			<icon />
+			<flashkeyframe>cursor_bottomleft</flashkeyframe>
+		</Reticle>
+		<Reticle type="CursorLeftCov">
+			<icon />
+			<flashkeyframe>cursor_left_cov</flashkeyframe>
+		</Reticle>
+		<Reticle type="CursorRightCov">
+			<icon />
+			<flashkeyframe>cursor_right_cov</flashkeyframe>
+		</Reticle>
+		<Reticle type="CursorTopCov">
+			<icon />
+			<flashkeyframe>cursor_top_cov</flashkeyframe>
+		</Reticle>
+		<Reticle type="CursorBottomCov">
+			<icon />
+			<flashkeyframe>cursor_bottom_cov</flashkeyframe>
+		</Reticle>
+		<Reticle type="CursorTopLeftCov">
+			<icon />
+			<flashkeyframe>cursor_topleft_cov</flashkeyframe>
+		</Reticle>
+		<Reticle type="CursorTopRightCov">
+			<icon />
+			<flashkeyframe>cursor_topright_cov</flashkeyframe>
+		</Reticle>
+		<Reticle type="CursorBottomRightCov">
+			<icon />
+			<flashkeyframe>cursor_bottomright_cov</flashkeyframe>
+		</Reticle>
+		<Reticle type="CursorBottomLeftCov">
+			<icon />
+			<flashkeyframe>cursor_bottomleft_cov</flashkeyframe>
+		</Reticle>
 	</Reticles>
 	<SquadModes>
 		<SquadMode type="StandGround">
@@ -300,7 +376,7 @@
 		</Decals>
 		<Hints Type="All">
 			<Flash>art\ui\flash\hud\hud_hint\hud_hint.gfx</Flash>
-			<Data />
+			<Data>art\ui\flash\hud\hud_hint\hud_hint.xml</Data>
 		</Hints>
 		<Callouts Type="All">
 			<Flash>art\ui\flash\hud\hud_callout\hud_callout.gfx</Flash>

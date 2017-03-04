@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <FlashMovieDefinition>
-	<Resolution x="30" y="-80" width="1220" height="880">16x9</Resolution>
-	<Resolution x="-30" y="-10" width="700" height="505">4x3</Resolution>
 	<ControlList>
 		<Controls>
 			<Mode name="Main">
@@ -15,6 +13,7 @@
 				<Control name="DpadRight" command="right" event="start" sound="" />
 				<Control name="ButtonA" command="continue" event="start" />
 				<Control name="ButtonB" command="quit" event="start" />
+				<Control name="KeyEscape" command="quit" event="start" sound="" />
 				<Control name="ButtonX" command="scoreDetails" event="start" />
 				<Control name="ButtonY" command="replay" event="start" />
 			</Mode>
@@ -38,9 +37,12 @@
 		<Controls>
 			<Mode name="Main">
 				<Control name="StickRightUp" command="scrollUp" event="start stop" digital="" threshold="0.9" sound="" />
+				<Control name="MouseWheelUp" command="scrollUp" event="start" threshold="0.9" sound="" />
 				<Control name="StickRightDown" command="scrollDown" event="start stop" digital="" threshold="0.9" sound="" />
+				<Control name="MouseWheelDown" command="scrollDown" event="start" threshold="0.9" sound="" />
 				<Control name="ButtonA" command="cancel" event="start" sound="" />
 				<Control name="ButtonB" command="cancel" event="start" sound="" />
+				<Control name="KeyEscape" command="cancel" event="start" sound="" />
 				<Control name="ButtonX" command="cancel" event="start" sound="" />
 				<Control name="ButtonY" command="cancel" event="start" sound="" />
 			</Mode>

@@ -8,8 +8,8 @@
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
 				<file>campaign\scn05\civbusdestroyed_02\civbusdestroyed_02</file>
 			</asset>
-			<attach type="ParticleFile" name="effects\environment\harvest\wreckageFX_01" tobone="bone_FX01" syncanims="false" disregardorient="false" />
-			<attach type="ParticleFile" name="effects\environment\harvest\wreckageFX_01" tobone="bone_FX02" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects/environment/harvest/wreckageFX_01" tobone="bone_FX01" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects/environment/harvest/wreckageFX_02" tobone="bone_FX02" syncanims="false" disregardorient="false" />
 		</component>
 	</model>
 </visual>

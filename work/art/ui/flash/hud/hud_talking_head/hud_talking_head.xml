@@ -2,7 +2,9 @@
 <FlashMovieDefinition>
 	<Properties>
 		<Size Width="1280" Height="720" SafeAreaWidth="1152" SafeAreaHeight="648" />
+		<Data type="bool" name="FitViewportToDisplay">true</Data>
 	</Properties>
 	<Resolution>
-		<Control x="0.36" y="0.09" xScale="80" yScale="80">_root.mTalkingHeadWidget</Control>4x3</Resolution>
+		<Control x="0.402" y="0.105" AnchorTop="42.5" AnchorLeft="74.5" AnchorOffsetX="312.1" AnchorOffsetY="33">_root.mTalkingHeadWidget</Control>
+	</Resolution>
 </FlashMovieDefinition>

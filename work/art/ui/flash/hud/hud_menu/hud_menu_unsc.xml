@@ -2,26 +2,29 @@
 <FlashMovieDefinition>
 	<Properties>
 		<Size Width="1280" Height="720" SafeAreaWidth="1152" SafeAreaHeight="648" />
+		<Data type="bool" name="FitViewportToDisplay">true</Data>
 		<Data type="StringID" name="CombatGradeString">22555</Data>
 		<Data type="string" name="PlaceHolderIcon">art\ui\flash\shared\textures\misc\icons\SpiritOfFire.ddx</Data>
 	</Properties>
 	<Resolution>
-		<Control x="0.67" y="0.07" xScale="80" yScale="80">_root.UI_resources</Control>
-		<Control x="-1" y="-1" xScale="80" yScale="80">_root.UI_menu</Control>
-		<Control x="-1" y="-1" xScale="80" yScale="80">_root.UI_Dpad</Control>
-		<Control x="-1" y="-1" xScale="80" yScale="80">_root.UI_btns</Control>
-		<Control x="-1" y="-1" xScale="80" yScale="80">_root.UI_timer</Control>
-		<Control x="-1" y="-1" xScale="80" yScale="80">_root.UI_unit</Control>
-		<Control x="0.5" y="0.92" xScale="80" yScale="80">_root.unitslot0INST</Control>
-		<Control x="0.28" y="0.92" xScale="80" yScale="80">_root.unitslot1INST</Control>
-		<Control x="0.34" y="0.92" xScale="80" yScale="80">_root.unitslot2INST</Control>
-		<Control x="0.4" y="0.92" xScale="80" yScale="80">_root.unitslot3INST</Control>
-		<Control x="0.46" y="0.92" xScale="80" yScale="80">_root.unitslot4INST</Control>
-		<Control x="0.52" y="0.92" xScale="80" yScale="80">_root.unitslot5INST</Control>
-		<Control x="0.58" y="0.92" xScale="80" yScale="80">_root.unitslot6INST</Control>
-		<Control x="0.64" y="0.92" xScale="80" yScale="80">_root.unitslot7INST</Control>
-		<Control x="0.7" y="0.92" xScale="80" yScale="80">_root.unitslot8INST</Control>
-		<Control x="-1" y="-1" xScale="80" yScale="80">_root.SPCLPWRSover</Control>4x3</Resolution>
+		<Control AnchorTop="0" AnchorLeft="0">_root.mPause</Control>
+		<Control x="0.75" y="0.07" AnchorTop="36" AnchorOffsetY="14.7" AnchorRight="43.5" AnchorOffsetX="270.1">_root.UI_resources</Control>
+		<Control x="-1" y="-1">_root.UI_menu</Control>
+		<Control x="-1" y="-1">_root.UI_Dpad</Control>
+		<Control x="-1" y="-1">_root.UI_btns</Control>
+		<Control x="-1" y="-1">_root.UI_timer</Control>
+		<Control x="-1" y="-1">_root.UI_unit</Control>
+		<Control x="0.5" y="0.92" AnchorBottom="54">_root.unitslot0INST</Control>
+		<Control x="0.28" y="0.92" AnchorBottom="39.45">_root.unitslot1INST</Control>
+		<Control x="0.34" y="0.92" AnchorBottom="39.45">_root.unitslot2INST</Control>
+		<Control x="0.4" y="0.92" AnchorBottom="39.45">_root.unitslot3INST</Control>
+		<Control x="0.46" y="0.92" AnchorBottom="39.45">_root.unitslot4INST</Control>
+		<Control x="0.52" y="0.92" AnchorBottom="39.45">_root.unitslot5INST</Control>
+		<Control x="0.58" y="0.92" AnchorBottom="39.45">_root.unitslot6INST</Control>
+		<Control x="0.64" y="0.92" AnchorBottom="39.45">_root.unitslot7INST</Control>
+		<Control x="0.7" y="0.92" AnchorBottom="39.45">_root.unitslot8INST</Control>
+		<Control x="-1" y="-1">_root.SPCLPWRSover</Control>
+	</Resolution>
 	<Control name="LabelButtonX">_root.UI_btns.x_text.mText.htmlText</Control>
 	<Control name="LabelButtonY">_root.UI_btns.y_text.mText.htmlText</Control>
 	<Control name="LabelButtonA">_root.UI_btns.a_text.mText.htmlText</Control>
@@ -194,6 +197,10 @@
 	<ASFunction>_root.UI_menu.yPopINST.onINST.stopScroll</ASFunction>
 	<ASFunction>_root.UI_menu.yPopINST.onINST.setText</ASFunction>
 	<ASFunction>showInfoPanelRightStick</ASFunction>
+	<ASFunction>hideGamepadButtons</ASFunction>
+	<ASFunction>hideMouseKeyboardButtons</ASFunction>
+	<ASFunction>setButtonStateMouseKeyboard</ASFunction>
+	<ASFunction>setResourcePanelTextOffset</ASFunction>
 	<KeyFrame>off</KeyFrame>
 	<KeyFrame>on</KeyFrame>
 	<KeyFrame>pending</KeyFrame>
@@ -210,6 +217,8 @@
 	<KeyFrame>cardcpgn</KeyFrame>
 	<KeyFrame>locked</KeyFrame>
 	<KeyFrame>queued</KeyFrame>
+	<KeyFrame>pc_off</KeyFrame>
+	<KeyFrame>pc_on</KeyFrame>
 	<Icon type="unitselection" name="falcon" owner="unsc_air_falcon_01">13</Icon>
 	<Icon type="unitselection" name="hawk" owner="unsc_air_hawk_01">12</Icon>
 	<Icon type="unitselection" name="shortsword" owner="unsc_air_shortsword_01">15</Icon>
@@ -641,6 +650,7 @@
 	<Icon type="uniticon" name="skull13" texture="art\ui\flash\shared\textures\unsc\icons\misc\game_collectable_skull" owner="game_collectable_skull_13">-1</Icon>
 	<Icon type="uniticon" name="skull14" texture="art\ui\flash\shared\textures\unsc\icons\misc\game_collectable_skull" owner="game_collectable_skull_14">-1</Icon>
 	<Icon type="uniticon" name="skull15" texture="art\ui\flash\shared\textures\unsc\icons\misc\game_collectable_skull" owner="game_collectable_skull_15">-1</Icon>
+	<Icon type="uniticon" name="game_CTF_monitor_01" texture="art\ui\flash\shared\textures\misc\icons\ctf_flagIcon" owner="game_CTF_monitor_01">-1</Icon>
 	<Icon type="miscicon" name="rallypnt" texture="art\ui\flash\shared\textures\unsc\icons\misc\RallyPoint" owner="RallyPoint">-1</Icon>
 	<Icon type="miscicon" name="globalrallypnt" texture="art\ui\flash\shared\textures\unsc\icons\power\GlobalRallyPoint" owner="GlobalRallyPoint">-1</Icon>
 	<Icon type="miscicon" name="selectPower" texture="" owner="SelectPower">-1</Icon>

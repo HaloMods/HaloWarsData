@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <cinematic scenariofile="CampaignUNSC\WOW\PHXscn03\PHXscn03" soundfile="">
 	<head>
-		<model name="grunt_01" type="gr2" player="7" modelfile="covenant\infantry\grunt_01\grunt_01" />
-		<model name="grunt_02" type="gr2" player="7" modelfile="covenant\infantry\grunt_01\grunt_01" />
+		<model name="grunt_01" type="gr2" player="7" modelfile="covenant\infantry\gruntFuelrod_01\gruntFuelrod_01" />
+		<model name="grunt_02" type="gr2" player="7" modelfile="covenant\infantry\gruntFuelrod_01\gruntFuelrod_01" />
 		<model name="explosion_01" type="proto" modelfile="cine_objects_particleobject_01" />
 		<model name="bomb_01" type="gr2" modelfile="campaign\objects\smallbomb_01\smallBomb_01" />
 		<model name="bomb_02" type="gr2" modelfile="campaign\objects\smallbomb_01\smallBomb_01" />

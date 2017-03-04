@@ -80,7 +80,12 @@
 				<tag type="Particle" start="0" position="0.513" end="1" name="effects\vehicle_fx\cov\scarab\megadethexplosion_01" tobone="Bone Head" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="2.28" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
 			<attach type="ParticleFile" name="effects\vehicle_fx\cov\scarab\megadethfire_01" tobone="Bone Body" syncanims="false" disregardorient="false" />
-			<attach type="ParticleFile" name="effects\vehicle_fx\cov\scarab\megadethooze_01" tobone="Bone Head" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects/vehicle_fx/cov/scarab/megadethooze_01" tobone="Bone Head" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects/building_FX/Cov/damage/teenystreamer_01" tobone="Bone_Leg_RF_01" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects/building_FX/Cov/damage/teenystreamer_01" tobone="Bone_Leg_LF_01" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects/building_FX/Cov/damage/teenystreamer_01" tobone="Bone Head" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects/building_FX/Cov/damage/teenystreamer_01" tobone="Bone Turret_Base" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects/building_FX/Cov/damage/teenystreamer_01" tobone="Bone_Leg_LR_01" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="Repair" exitAction="Loop" tweenTime="0" tweenToAnimation="">
 			<asset type="Anim">
@@ -305,15 +310,19 @@
 				<weight>1</weight>
 				<tag type="Attack" start="0" position="0.1" end="1" tobone="bone_launchpoint02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Sound" start="0" position="0.1" end="1" name="play_cov_ghost_plasma_cannon" tobone="bone launchpoint02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
-				<tag type="Particle" start="0" position="0.1" end="1" name="effects\vehicle_fx\cov\banshee\muzzleblast_01" tobone="bone_launchpoint02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.1" end="1" name="effects/vehicle_fx/cov/scarab/turretMuzzleblast_01" tobone="bone_launchpoint02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Attack" start="0" position="0.3" end="1" tobone="bone_launchpoint02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Sound" start="0" position="0.3" end="1" name="play_cov_ghost_plasma_cannon" tobone="bone_launchpoint02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.3" end="1" name="effects/vehicle_fx/cov/scarab/turretMuzzleblast_01" tobone="bone_launchpoint02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Attack" start="0" position="0.5" end="1" tobone="bone_launchpoint02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Sound" start="0" position="0.5" end="1" name="play_cov_ghost_plasma_cannon" tobone="bone_launchpoint02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.5" end="1" name="effects/vehicle_fx/cov/scarab/turretMuzzleblast_01" tobone="bone_launchpoint02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Attack" start="0" position="0.7" end="1" tobone="bone_launchpoint02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Sound" start="0" position="0.7" end="1" name="play_cov_ghost_plasma_cannon" tobone="bone_launchpoint02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.7" end="1" name="effects/vehicle_fx/cov/scarab/turretMuzzleblast_01" tobone="bone_launchpoint02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Attack" start="0" position="0.9" end="1" tobone="bone_launchpoint02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Sound" start="0" position="0.9" end="1" name="play_cov_ghost_plasma_cannon" tobone="bone_launchpoint02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.9" end="1" name="effects/vehicle_fx/cov/scarab/turretMuzzleblast_01" tobone="bone_launchpoint02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
 		</anim>
 	</model>

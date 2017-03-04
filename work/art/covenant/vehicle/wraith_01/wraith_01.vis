@@ -311,10 +311,10 @@
 			<asset type="Anim">
 				<file>covenant\vehicle\wraith_01\attack_01</file>
 				<weight>1</weight>
-				<tag type="Particle" start="0" position="0.1" end="1" name="effects\vehicle_fx\cov\banshee\muzzleblast_01" tobone="bone_launchpoint01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.64" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.1" end="1" name="effects/vehicle_fx/cov/banshee/muzzleblast_02" tobone="bone_launchpoint01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.64" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Attack" start="0" position="0.1" end="1" tobone="bone_launchpoint01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Sound" start="0" position="0.1" end="1" name="play_cov_ghost_plasma_cannon" tobone="bone_launchpoint01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
-				<tag type="Particle" start="0" position="0.6" end="1" name="effects\vehicle_fx\cov\banshee\muzzleblast_01" tobone="bone_launchpoint01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.64" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.6" end="1" name="effects/vehicle_fx/cov/banshee/muzzleblast_02" tobone="bone_launchpoint01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.64" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Attack" start="0" position="0.6" end="1" tobone="bone_launchpoint01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Sound" start="0" position="0.6" end="1" name="play_cov_ghost_plasma_cannon" tobone="bone_launchpoint01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
