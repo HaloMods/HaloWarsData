@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<DLC>
+	<GameMode>CapFlag</GameMode>
+	<GameMode>ScoreRace</GameMode>
+	<GameMode>WaveAttack</GameMode>
+	<Achievement liveIndex="59">One and Done</Achievement>
+	<Achievement liveIndex="60">Pull Hard Pull Deep</Achievement>
+	<Achievement liveIndex="61">Freak on a Streak</Achievement>
+	<Achievement liveIndex="62">Living Loving Bug</Achievement>
+</DLC>
