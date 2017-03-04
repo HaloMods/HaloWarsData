@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FlashMovieDefinition>
+   <Resolution x="30" y="-80" width="1220" height="880" >16x9</Resolution>
+   <Resolution x="-30" y="-10" width="700" height="505" >4x3</Resolution>
+   
+   <Ticker mode="Campaign"/>
+   
+   <!-- Controls -->
+      <!-- Control name="LabelButtonX">_root.UI_btns.x_text.value</Control -->
+               
+   <!-- Action Script Functions -->
+      <!-- ASFunction>setSelectedLeader</ASFunction>
+      <ASFunction>easeIn</ASFunction>
+      <ASFunction>initLeaders</ASFunction>
+      <ASFunction>loadLeader</ASFunction>
+      <ASFunction>changeSelection</ASFunction>
+      <ASFunction>setTitle</ASFunction -->
+
+   <!-- Key Frame Names -->
+      <!-- KeyFrame>off</KeyFrame -->
+
+   <!--Icons-->
+
+   <ControlList>
+      <Controls>
+         <Mode name="Main">
+            <Control name="ButtonB"             command="cancel"  event="start" sound="" />
+         </Mode>
+      </Controls>
+   </ControlList>
+
+</FlashMovieDefinition>

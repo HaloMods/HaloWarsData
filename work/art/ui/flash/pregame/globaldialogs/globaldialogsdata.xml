@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FlashMovieDefinition>
+   <Resolution>4x3
+      <Control x="-1" y="-1" xOffset="0"   yOffset="0"  width="0"   height="0"   xScale="100" yScale="100">_root.messageboxINST</Control>
+      <Control x="-1" y="-1" xOffset="0"   yOffset="0"  width="0"   height="0"   xScale="100" yScale="100">_root.loadingclipINST</Control>
+      <Control x="-1" y="-1" xOffset="0"   yOffset="0"  width="0"   height="0"   xScale="100" yScale="100">_root.mMessageBoxSmall</Control>
+      <Control x="-1" y="-1" xOffset="0"   yOffset="0"  width="0"   height="0"   xScale="100" yScale="100">_root.mMessageBoxSmallBKGND</Control>
+   </Resolution>
+   
+   <!-- Controls -->
+      <!-- Control name="LabelButtonX">_root.UI_btns.x_text.value</Control -->
+               
+   <!-- Action Script Functions -->
+      <!-- ASFunction>setSelectedLeader</ASFunction>
+      <ASFunction>easeIn</ASFunction>
+      <ASFunction>initLeaders</ASFunction>
+      <ASFunction>loadLeader</ASFunction>
+      <ASFunction>changeSelection</ASFunction>
+      <ASFunction>setTitle</ASFunction -->
+
+   <!-- Key Frame Names -->
+      <!-- KeyFrame>off</KeyFrame -->
+
+   <!--Icons-->   
+</FlashMovieDefinition>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<FlashMovieDefinition>
+	<Properties>
+		<Size Width="1280" Height="720" SafeAreaWidth="1152" SafeAreaHeight="648" />
+	</Properties>
+	<Resolution>
+		<Control x="0.72" y="0.41" xScale="80" yScale="80">_root.mObjectiveWidgets</Control>
+		<Control x="0.63" y="0.7" xScale="80" yScale="80">_root.mObjectiveProgressWidget</Control>
+		<Control x="0.5" y="0.15" xScale="80" yScale="80">_root.countdowntimer</Control>
+		<Control x="0.5" y="0.2" xScale="80" yScale="80">_root.countdowntimer2</Control>
+		<Control x="0.5" y="0.3" xScale="80" yScale="80">_root.mUserMessage</Control>4x3</Resolution>
+</FlashMovieDefinition>

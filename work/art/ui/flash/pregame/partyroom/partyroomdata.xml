@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FlashMovieDefinition>
+   <Resolution>4x3
+      <Control x="-1" y="-1" xOffset="-60" yOffset="0"  width="0"   height="0"   xScale="110" yScale="100">_root</Control>
+      <Control x="-1" y="-1" xOffset="0"   yOffset="0"  width="0"   height="0"   xScale="100" yScale="100">_root.mHelpText</Control>
+      <Control x="-1" y="-1" xOffset="0"   yOffset="0"  width="0"   height="0"   xScale="100" yScale="95">_root.mImage</Control>
+      <Control x="-1" y="-1" xOffset="0"   yOffset="0"  width="0"   height="0"   xScale="100" yScale="100">_root.mPrimaryMenuContainer</Control>
+      <Control x="-1" y="-1" xOffset="0"   yOffset="0"  width="0"   height="0"   xScale="100" yScale="100">_root.mSecondaryMenuContainer</Control>
+      <Control x="-1" y="-1" xOffset="0"   yOffset="-10"  width="0"   height="0"   xScale="100" yScale="100">_root.mPlayerListContainer</Control>
+      <Control x="-1" y="-1" xOffset="0"   yOffset="-20"  width="0"   height="0"   xScale="100" yScale="100">_root.mButtonBarContainer</Control>
+   </Resolution>
+   
+   <!-- Controls -->
+      <!-- Control name="LabelButtonX">_root.UI_btns.x_text.value</Control -->
+               
+   <!-- Action Script Functions -->
+      <!-- ASFunction>setSelectedLeader</ASFunction>
+      <ASFunction>easeIn</ASFunction>
+      <ASFunction>initLeaders</ASFunction>
+      <ASFunction>loadLeader</ASFunction>
+      <ASFunction>changeSelection</ASFunction>
+      <ASFunction>setTitle</ASFunction -->
+
+   <!-- Key Frame Names -->
+      <!-- KeyFrame>off</KeyFrame -->
+
+   <!--Icons-->   
+</FlashMovieDefinition>

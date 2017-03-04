@@ -1,0 +1,23 @@
+<Controls>
+   <Mode name="PlayerList">
+      <Control name="ButtonA"             command="playerOptions" event="start" sound="play_menu_accept_button" />
+      <Control name="ButtonX"             command="ready" event="start" sound="play_menu_accept_button" />
+      <Control name="ButtonB"             command="cancel" event="start" sound="play_menu_back_button" />
+      <Control name="ButtonBack"          command="kick" event="start" sound="play_menu_accept_button" />
+
+      <Control name="StickLeftUp"         command="navPlayersUp" event="start" digital="" threshold="0.90" repeat="" delay="0.2" rate="0.10" sound="play_partysystem_menu_up_down" />
+      <Control name="StickLeftDown"       command="navPlayersDown" event="start" digital="" threshold="0.90" repeat="" delay="0.2" rate="0.10" sound="play_partysystem_menu_up_down" />
+      <Control name="StickLeftLeft"       command="navPlayersLeft" event="start" digital="" threshold="0.90" repeat="" delay="0.2" rate="0.10" sound="play_partysystem_menu_up_down" />
+      <Control name="StickLeftRight"      command="navPlayersRight" event="start" digital="" threshold="0.90" repeat="" delay="0.2" rate="0.10" sound="play_partysystem_menu_up_down" />
+
+      <Control name="DpadUp"              command="navPlayersUp" event="start" repeat="" delay="0.2" rate="0.10" sound="play_partysystem_menu_up_down" />
+      <Control name="DpadDown"            command="navPlayersDown" event="start" repeat="" delay="0.2" rate="0.10" sound="play_partysystem_menu_up_down" />
+      <Control name="DpadLeft"            command="navPlayersLeft" event="start" repeat="" delay="0.2" rate="0.10" sound="play_partysystem_menu_up_down" />
+      <Control name="DpadRight"           command="navPlayersRight" event="start" repeat="" delay="0.2" rate="0.10" sound="play_partysystem_menu_up_down" />
+
+      <!-- Control name="TriggerLeft"         command="decrementLeader" event="stop" repeat="" delay="0.5" rate="1" sound="play_partysystem_menu_up_down" />
+      <Control name="TriggerRight"        command="incrementLeader" event="stop" repeat="" delay="0.5" rate="1" sound="play_partysystem_menu_up_down" />
+      <Control name="ButtonShoulderLeft"  command="changeTeamLeft" event="start" sound="play_partysystem_menu_teamswitch"/>
+      <Control name="ButtonShoulderRight" command="changeTeamRight" event="start" sound="play_partysystem_menu_teamswitch"/ -->
+   </Mode>
+</Controls>

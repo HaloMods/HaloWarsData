@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<FlashMovieDefinition>
+	<Properties>
+		<Size Width="1280" Height="720" SafeAreaWidth="1152" SafeAreaHeight="648" />
+	</Properties>
+	<Resolution>
+		<Control x="0.36" y="0.09" xScale="80" yScale="80">_root.mTalkingHeadWidget</Control>4x3</Resolution>
+</FlashMovieDefinition>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<FlashMovieDefinition>
+	<Resolution x="30" y="-80" width="1220" height="880">16x9</Resolution>
+	<Resolution x="-30" y="-10" width="700" height="505">4x3</Resolution>
+	<ControlList>
+		<Controls>
+			<Mode name="Main">
+				<Control name="ButtonA" command="stats" event="start" />
+				<Control name="ButtonB" command="quit" event="start" />
+			</Mode>
+		</Controls>
+	</ControlList>
+</FlashMovieDefinition>

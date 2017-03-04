@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FlashMovieDefinition>
+	<Resolution x="30" y="-80" width="1220" height="880" >16x9</Resolution>
+	<Resolution x="-30" y="-10" width="700" height="505" >4x3</Resolution>
+
+   <Ticker mode="MainMenu"/>
+   
+	<!-- Controls -->
+	<!-- Control name="LabelButtonX">_root.UI_btns.x_text.value</Control -->
+
+	<!-- Action Script Functions -->
+	<!-- ASFunction>setSelectedLeader</ASFunction>
+	<ASFunction>easeIn</ASFunction>
+	<ASFunction>initLeaders</ASFunction>
+	<ASFunction>loadLeader</ASFunction>
+	<ASFunction>changeSelection</ASFunction>
+	<ASFunction>setTitle</ASFunction -->
+
+	<!-- Key Frame Names -->
+	<!-- KeyFrame>off</KeyFrame -->
+
+	<!--Icons-->
+
+	<ControlList>
+		<Controls>
+			<Mode name="Main">
+				<Control name="ButtonB"             command="cancel"  event="start" sound="" />
+            <Control name="ButtonX"             command="defaults" event="start" sound="" />
+            <Control name="ButtonY"             command="resetHints" event="start" sound="" />
+			</Mode>
+		</Controls>
+	</ControlList>
+	<detailtext path="DetailText"/>
+   <detailimage path="DetailImage"/>
+   <tabs>
+      <tab label="$$24610$$Controls" image="img://art\ui\flash\shared\textures\options\options_controls.ddx">
+         <option label="Button Help" name="ShowButtonHelp" description="Show Button Help" config="Demo" ingame="true"><checkbox/></option>
+         <!--option label="$$24578$$Control Scheme" name="ControlScheme" description="$$24613$$Control Scheme description">
+            <list>
+               <item name="$$24579$$Control Scheme 1" value="0"/>
+               <item name="$$24580$$Control Scheme 2" value="1"/>
+               <item name="$$24581$$Control Scheme 3" value="2"/>
+               <item name="$$24582$$Control Scheme 4" value="3"/>
+               <item name="$$24583$$Control Scheme 5" value="4"/>
+            </list>
+         </option-->
+         <option label="$$24584$$Rumble" name="RumbleEnabled" description="$$24614$$Rumble description"><checkbox/></option>
+         <option label="$$24585$$Camera Rotation" name="CameraRotationEnabled" description="$$24615$$"><checkbox/></option>
+         <!--option label="$$24586$$Invert X Axis" name="XInverted" description="$$24616$$"><checkbox/></option-->
+         <!--option label="$$24587$$Invert Y Axis" name="YInverted" description="$$24617$$"><checkbox/></option-->
+         <option label="$$24588$$Default Zoom" name="DefaultZoomLevel" description="$$24618$$">
+            <slider minValue="60" maxValue="115" step="5" defaultValue="85" minLabel="$$24589$$Min" maxLabel="$$24590$$Max"/>
+         </option>
+         <option label="$$24591$$Crosshair Stickyness" name="StickyCrosshairSensitivity" description="$$24619$$">
+            <slider minValue="0" maxValue="166" step="33" defaultValue="10" minLabel="$$24592$$Off" maxLabel="$$24593$$Very Sticky"/>
+         </option>
+         <option label="$$24594$$Scroll Speed" name="ScrollSpeed" description="$$24620$$">
+            <slider minValue="0" maxValue="15" step="1" defaultValue="10" minLabel="$$24595$$Slow" maxLabel="$$24596$$Fast"/>
+         </option>
+         <option label="$$24597$$Camera Follow" name="CameraFollowEnabled" description="$$24621$$"><checkbox/></option>
+         <!--option label="$$24598$$Show Hints" name="HintsEnabled" description="$$24622$$"><checkbox/></option-->
+         <!--option label="$$24599$$Selection Speed" name="SelectionSpeed" description="$$24623$$">
+            <slider minValue="1" maxValue="2" step="1" defaultValue="1" minLabel="$$24600$$Slow" maxLabel="$$24601$$Fast"/>
+         </option-->
+      </tab>
+      <tab label="$$24611$$Audio" image="img://art\ui\flash\shared\textures\options\options_audio.ddx">
+         <option label="$$24602$$Music Volume" name="MusicVolume" description="$$24624$$">
+            <slider step="1"/>
+         </option>
+         <option label="$$24603$$Sound FX Volume" name="SFXVolume" description="$$24625$$">
+            <slider step="1"/>
+         </option>
+         <option label="$$24604$$Voice Volume" name="VoiceVolume" description="$$24626$$">
+            <slider step="1"/>
+         </option>
+         <option label="$$24605$$Subtitles" name="SubtitlesEnabled" description="$$24627$$"><checkbox/></option>
+         <option label="$$25866$$Chat Text" name="ChatTextEnabled" description="$$25867$$"><checkbox/></option>
+      </tab>
+      <tab label="$$24612$$Graphics" image="img://art\ui\flash\shared\textures\options\options_graphic.ddx">
+         <option label="$$24606$$Brightness/Gamma" name="Brightness" description="$$24628$$">
+            <slider step="5" defaultValue="100"/>
+         </option>
+         <option label="$$24607$$Friend or Foe Colors" name="FriendOrFoeColorsEnabled" description="$$24629$$"><checkbox/></option>
+         <option label="$$24608$$Zoom MiniMap" name="MiniMapZoomEnabled" description="$$24630$$"><checkbox/></option>
+      </tab>
+      <tab label="$$24609$$Game" image="img://art\ui\flash\shared\textures\options\options_game.ddx">
+         <option label="[E3 Cheat] Resource Boost" name="ResourceBoost" description="Add 10k Supplies" config="Demo" ingame="true"><button/></option>
+         <option label="[E3 Cheat] Fog of War" name="FogOfWarEnabled" description="Enable/Disable the Fog of War" config="Demo" ingame="true"><checkbox/></option>
+         <option label="$$24569$$AI Advisor" name="AIAdvisorEnabled" description="$$24570$$AI Advisor description" image=""><checkbox/></option>
+         <option label="$$24571$$Default AI" name="DefaultAISettings" description="$$24572$$Default AI description">
+            <list>
+               <item name="$$24577$$Adaptive"   value="5"/>
+               <item name="$$24573$$Easy"       value="0"/>
+               <item name="$$24574$$Normal"     value="1"/>
+               <item name="$$24575$$Heroic"     value="2"/>
+               <item name="$$24576$$Legendary"  value="3"/>
+               <!--item name="Custom"              value="4"/-->
+            </list>
+         </option>
+      </tab>
+   </tabs>
+</FlashMovieDefinition>

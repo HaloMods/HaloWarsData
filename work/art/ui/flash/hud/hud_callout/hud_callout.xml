@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<FlashMovieDefinition>
+	<Properties>
+		<Size Width="1280" Height="720" SafeAreaWidth="1280" SafeAreaHeight="720" />
+		<Data type="bool" name="IgnoreSafeAreas">TRUE</Data>
+		<Data />
+	</Properties>
+	<Resolution>
+		<Control x="0.5" y="0.2" xScale="80" yScale="80">_root.mCallout0</Control>
+		<Control x="0.5" y="0.3" xScale="80" yScale="80">_root.mCallout1</Control>
+		<Control x="0.5" y="0.4" xScale="80" yScale="80">_root.mCallout2</Control>
+		<Control x="0.5" y="0.5" xScale="80" yScale="80">_root.mCallout3</Control>
+		<Control x="0.5" y="0.6" xScale="80" yScale="80">_root.mCallout4</Control>4x3</Resolution>
+</FlashMovieDefinition>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<FlashMovieDefinition>
+	<Resolution x="30" y="-80" width="1220" height="880">16x9</Resolution>
+	<Resolution x="-30" y="-10" width="700" height="505">4x3</Resolution>
+	<MinimapLocation type="16x9">
+		<Minimap x="0.7" y="0.354" w="0.19" h="0.34" />
+		<MinimapFlash x="0.58" y="0.1458" w="0.234375" h="0.4166" />
+	</MinimapLocation>
+	<MinimapLocation type="4x3">
+		<Minimap x="0.7140625" y="0.38125" w="0.203125" h="0.270833" />
+		<MinimapFlash x="0.5859375" y="0.20833" w="0.2578125" h="0.34375" />
+	</MinimapLocation>
+	<ControlList>
+		<Controls>
+			<Mode name="Main">
+				<Control name="ButtonB" command="cancel" event="start" sound="" />
+				<Control name="ButtonBack" command="cancel" event="start" sound="" />
+				<Control name="StickLeftUp" command="prev" event="start" digital="" threshold="0.9" sound="" />
+				<Control name="StickLeftDown" command="next" event="start" digital="" threshold="0.9" sound="" />
+				<Control name="DpadUp" command="prev" event="start" sound="" />
+				<Control name="DpadDown" command="next" event="start" sound="" />
+				<Control name="StickLeftLeft" command="left" event="start" digital="" threshold="0.9" sound="" />
+				<Control name="StickLeftRight" command="right" event="start" digital="" threshold="0.9" sound="" />
+				<Control name="DpadLeft" command="left" event="start" sound="" />
+				<Control name="DpadRight" command="right" event="start" sound="" />
+			</Mode>
+		</Controls>
+		<UIGamerTagControl>
+			<Controls>
+				<Mode name="Main">
+					<Control name="ButtonA" command="showGamerTag" event="start" sound="" />
+				</Mode>
+			</Controls>
+		</UIGamerTagControl>
+	</ControlList>
+</FlashMovieDefinition>
