@@ -167,7 +167,7 @@
 		<DamageModifier rating="1" type="LightInCover">0.4</DamageModifier>
 		<DamageModifier rating="1" type="LightArmored">0.6</DamageModifier>
 		<DamageModifier rating="1" type="CovenantLeader">0.6</DamageModifier>
-		<DamageModifier rating="1" type="Medium">1.6</DamageModifier>
+		<DamageModifier rating="1" type="Medium">2</DamageModifier>
 		<DamageModifier rating="1" type="MediumAir">0.8</DamageModifier>
 		<DamageModifier rating="1" type="Heavy">1.2</DamageModifier>
 		<DamageModifier rating="1" type="Building">1.6</DamageModifier>
@@ -209,7 +209,7 @@
 		<DamageModifier rating="1" type="CovenantLeader">1.4</DamageModifier>
 		<DamageModifier rating="1" type="Medium">1.2</DamageModifier>
 		<DamageModifier rating="1" type="MediumAir">1.8</DamageModifier>
-		<DamageModifier rating="1" type="Heavy">0.8</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">0.6</DamageModifier>
 		<DamageModifier rating="1" type="Building">0.6</DamageModifier>
 		<DamageModifier rating="1" type="Shielded">1.2</DamageModifier>
 		<DamageModifier rating="1" type="Flood">1</DamageModifier>

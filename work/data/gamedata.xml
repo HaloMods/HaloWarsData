@@ -231,7 +231,7 @@
 	<FatalityPositionOffsetTolerance>15</FatalityPositionOffsetTolerance>
 	<FatalityOrientationOffsetTolerance>45</FatalityOrientationOffsetTolerance>
 	<FatalityExclusionRange>0</FatalityExclusionRange>
-	<RecyleRefundRate>1</RecyleRefundRate>
+	<RecyleRefundRate>0.5</RecyleRefundRate>
 	<BurningEffectLimits DefaultLimit="1">
 		<BurningEffectLimitEntry Limit="1">Infantry</BurningEffectLimitEntry>
 		<BurningEffectLimitEntry Limit="3">GroundVehicle</BurningEffectLimitEntry>

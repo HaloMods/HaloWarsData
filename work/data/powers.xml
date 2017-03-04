@@ -164,12 +164,13 @@
 			<DataLevel level="0">
 				<Data type="float" name="SpeedMultiplier">2</Data>
 				<Data type="float" name="NudgeMultiplier">1</Data>
+				<Data type="float" name="DamageTakenMultiplier">1.25</Data>
 			</DataLevel>
 			<DataLevel level="1">
 				<Data type="float" name="SpeedMultiplier">2</Data>
 				<Data type="float" name="HealPerKillCombatValue">150</Data>
 				<Data type="float" name="NudgeMultiplier">1.25</Data>
-				<Data type="float" name="DamageTakenMultiplier">1.25</Data>
+				<Data type="float" name="DamageTakenMultiplier">1.5</Data>
 			</DataLevel>
 			<DataLevel level="2">
 				<Data type="float" name="SpeedMultiplier">2</Data>
@@ -178,7 +179,7 @@
 				<Data type="float" name="SuppliesPerTickAttacking">4</Data>
 				<Data type="float" name="SuppliesPerJump">30</Data>
 				<Data type="float" name="NudgeMultiplier">1.5</Data>
-				<Data type="float" name="DamageTakenMultiplier">1.5</Data>
+				<Data type="float" name="DamageTakenMultiplier">1.75</Data>
 			</DataLevel>
 			<DataLevel level="3">
 				<Data type="float" name="SpeedMultiplier">2</Data>
@@ -189,7 +190,7 @@
 				<Data type="float" name="AuraRadius">60</Data>
 				<Data type="float" name="AuraDamageBonus">1.25</Data>
 				<Data type="float" name="NudgeMultiplier">1.75</Data>
-				<Data type="float" name="DamageTakenMultiplier">1.75</Data>
+				<Data type="float" name="DamageTakenMultiplier">2</Data>
 			</DataLevel>
 		</Attributes>
 	</Power>

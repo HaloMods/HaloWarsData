@@ -1,0 +1,74 @@
+<EraArchive>
+  <Files>
+    <chunk fileDateTime="2009-03-25 00:24:33Z" id="58AC369095297A41" name="art\environment\shieldinterior\redriver_01\redriver_01.vis.xmb" />
+    <chunk fileDateTime="2009-03-27 16:38:40Z" id="346260B2C1803DA5" name="art\ui\flash\controls\scrollabletextfield\scrollabletextfield.gfx" />
+    <chunk fileDateTime="2009-04-04 00:27:58Z" id="ED8BD120A7AFB9C1" name="art\ui\flash\controls\tugofwar\textures\uitugofwar_g0.ddx" Compression="DeflateRaw" />
+    <chunk fileDateTime="2009-04-04 00:27:58Z" id="6A80D8CA86FFBDC6" name="art\ui\flash\controls\tugofwar\textures\uitugofwar_g1.ddx" Compression="DeflateRaw" />
+    <chunk fileDateTime="2009-04-04 00:27:58Z" id="0054858E66917F06" name="art\ui\flash\controls\tugofwar\textures\uitugofwar_i5.ddx" />
+    <chunk fileDateTime="2009-04-04 00:27:58Z" id="D2DC0BCC1154BF10" name="art\ui\flash\controls\tugofwar\textures\uitugofwar_i6.ddx" />
+    <chunk fileDateTime="2009-04-04 00:27:58Z" id="91C3AD17059C5736" name="art\ui\flash\controls\tugofwar\uitugofwar.gfx" />
+    <chunk fileDateTime="2009-03-25 00:24:44Z" id="143E56562455C482" name="art\ui\flash\hud\hud_minimap\hud_minimap.xml.xmb" />
+    <chunk fileDateTime="2009-03-25 00:24:44Z" id="311EA9267145F6A8" name="art\ui\flash\hud\hud_minimap\hud_minimap_cov.xml.xmb" />
+    <chunk fileDateTime="2009-03-25 00:26:35Z" id="FBFF6D2F3923A484" name="art\ui\flash\hud\hud_minimap\hud_minimap_icons.ddx" Compression="DeflateRaw" />
+    <chunk fileDateTime="2009-03-25 00:26:32Z" id="9F8EBC7FFAF6818B" name="art\ui\flash\hud\hud_skirm_objective\hud_skirm_objectivescreen.gfx" />
+    <chunk fileDateTime="2009-03-25 00:26:31Z" id="2EEE9EF8DA1DD8B7" name="art\ui\flash\hud\hud_skirm_objective\textures\hud_skirm_objectivescreen_g0.ddx" Compression="DeflateRaw" />
+    <chunk fileDateTime="2009-03-25 00:26:31Z" id="9264BA3EEF3FD01D" name="art\ui\flash\hud\hud_skirm_objective\textures\hud_skirm_objectivescreen_g1.ddx" Compression="DeflateRaw" />
+    <chunk fileDateTime="2009-03-25 00:26:31Z" id="82D68BCED0E502CA" name="art\ui\flash\hud\hud_skirm_objective\textures\hud_skirm_objectivescreen_g2.ddx" Compression="DeflateRaw" />
+    <chunk fileDateTime="2009-03-25 00:26:32Z" id="091199E0C3C5842D" name="art\ui\flash\hud\hud_widgets\hud_widgets.gfx" />
+    <chunk fileDateTime="2009-03-25 00:24:45Z" id="7A4FE97624E3B134" name="art\ui\flash\hud\hud_widgets\hud_widgetsdata.xml.xmb" />
+    <chunk fileDateTime="2009-03-25 00:26:31Z" id="222127EFD8391A17" name="art\ui\flash\hud\hud_widgets\textures\abuttonemb.ddx" />
+    <chunk fileDateTime="2009-03-25 00:26:31Z" id="9632A3A1BA96630D" name="art\ui\flash\hud\hud_widgets\textures\bbuttonemb.ddx" />
+    <chunk fileDateTime="2009-03-25 00:26:31Z" id="C0A41DCA515C36EC" name="art\ui\flash\hud\hud_widgets\textures\hud_widgets_g0.ddx" Compression="DeflateRaw" />
+    <chunk fileDateTime="2009-03-25 00:26:31Z" id="A7DE28FAC810A18E" name="art\ui\flash\hud\hud_widgets\textures\hud_widgets_g2.ddx" Compression="DeflateRaw" />
+    <chunk fileDateTime="2009-03-25 00:26:31Z" id="F023BD61206F377D" name="art\ui\flash\hud\hud_widgets\textures\hud_widgets_g3.ddx" Compression="DeflateRaw" />
+    <chunk fileDateTime="2009-03-25 00:26:31Z" id="265D95ED701D0E2E" name="art\ui\flash\hud\hud_widgets\textures\hud_widgets_i8.ddx" />
+    <chunk fileDateTime="2009-03-25 00:26:31Z" id="616382ADCB85ECA0" name="art\ui\flash\hud\hud_widgets\textures\hud_widgets_ia.ddx" />
+    <chunk fileDateTime="2009-03-25 00:26:31Z" id="BEAE9F098B99CCA4" name="art\ui\flash\hud\hud_widgets\textures\xbuttonemb.ddx" Compression="DeflateRaw" />
+    <chunk fileDateTime="2009-03-25 00:26:31Z" id="F36A168DCA4C08B3" name="art\ui\flash\hud\hud_widgets\textures\ybuttonemb.ddx" Compression="DeflateRaw" />
+    <chunk fileDateTime="2009-03-25 00:25:33Z" id="B6096662E66BA80D" name="art\ui\flash\pregame\gamesetup\gamesetupscreen.gfx" />
+    <chunk fileDateTime="2009-03-27 16:38:08Z" id="C8AE8D7C477408E1" name="art\ui\flash\pregame\optionsmenu\optionsmenudata.xml.xmb" />
+    <chunk fileDateTime="2009-03-25 00:25:29Z" id="4CB20F11F8C8A0A2" name="art\ui\flash\pregame\servicerecord\textures\a_btn.ddx" />
+    <chunk fileDateTime="2009-03-25 00:25:29Z" id="062ACD124E01248E" name="art\ui\flash\pregame\servicerecord\textures\b_btn.ddx" />
+    <chunk fileDateTime="2009-03-25 00:25:29Z" id="6519EBAC46EC5136" name="art\ui\flash\pregame\servicerecord\textures\back_btn.ddx" Compression="DeflateRaw" />
+    <chunk fileDateTime="2009-03-25 00:25:29Z" id="8B84A364B1F190F0" name="art\ui\flash\pregame\servicerecord\textures\dpad.ddx" />
+    <chunk fileDateTime="2009-03-25 00:25:29Z" id="A26643202220B237" name="art\ui\flash\pregame\servicerecord\textures\lb_btn.ddx" Compression="DeflateRaw" />
+    <chunk fileDateTime="2009-03-25 00:25:29Z" id="63E296CF83D6129C" name="art\ui\flash\pregame\servicerecord\textures\lstick.ddx" />
+    <chunk fileDateTime="2009-03-25 00:25:29Z" id="C774B7F6C786766B" name="art\ui\flash\pregame\servicerecord\textures\lt_btn.ddx" Compression="DeflateRaw" />
+    <chunk fileDateTime="2009-03-25 00:25:29Z" id="9549409FF38F3C7E" name="art\ui\flash\pregame\servicerecord\textures\rb_btn.ddx" Compression="DeflateRaw" />
+    <chunk fileDateTime="2009-03-25 00:25:29Z" id="B58B9D6857242626" name="art\ui\flash\pregame\servicerecord\textures\rightstick.ddx" />
+    <chunk fileDateTime="2009-03-25 00:25:29Z" id="1E67AF38ECB43553" name="art\ui\flash\pregame\servicerecord\textures\rstick.ddx" />
+    <chunk fileDateTime="2009-03-25 00:25:29Z" id="5C5E2DEA6EF7C61C" name="art\ui\flash\pregame\servicerecord\textures\rt_btn.ddx" Compression="DeflateRaw" />
+    <chunk fileDateTime="2009-03-25 00:25:29Z" id="8C0BB51584C5FFFD" name="art\ui\flash\pregame\servicerecord\textures\start_btn.ddx" Compression="DeflateRaw" />
+    <chunk fileDateTime="2009-03-25 00:25:29Z" id="484A4B66BE8265F0" name="art\ui\flash\pregame\servicerecord\textures\uiservicerecord_g0.ddx" Compression="DeflateRaw" />
+    <chunk fileDateTime="2009-03-25 00:25:29Z" id="D8C71F23990C8CBF" name="art\ui\flash\pregame\servicerecord\textures\uiservicerecord_i21.ddx" Compression="DeflateRaw" />
+    <chunk fileDateTime="2009-03-25 00:25:29Z" id="048C71D70C2F5DF8" name="art\ui\flash\pregame\servicerecord\textures\uiservicerecord_i22.ddx" Compression="DeflateRaw" />
+    <chunk fileDateTime="2009-03-25 00:25:29Z" id="FB0A155B07AD34D4" name="art\ui\flash\pregame\servicerecord\textures\x_btn.ddx" Compression="DeflateRaw" />
+    <chunk fileDateTime="2009-03-25 00:25:29Z" id="C8C5F1E669145B98" name="art\ui\flash\pregame\servicerecord\textures\y_btn.ddx" Compression="DeflateRaw" />
+    <chunk fileDateTime="2009-03-25 00:25:33Z" id="D729C703B2DCFCA8" name="art\ui\flash\pregame\servicerecord\uiservicerecord.gfx" />
+    <chunk fileDateTime="2009-03-25 00:27:30Z" id="8A49B17B4AC4FB25" name="art\ui\flash\shared\textures\pregame\mapimages\baron.ddx" />
+    <chunk fileDateTime="2009-03-25 00:27:31Z" id="B6675F598CCA4416" name="art\ui\flash\shared\textures\pregame\mapimages\beaconhill.ddx" />
+    <chunk fileDateTime="2009-06-17 00:13:21Z" id="2AE48F8C482DC971" name="art\ui\flash\shared\textures\pregame\mapimages\glacialravine.ddx" />
+    <chunk fileDateTime="2009-03-25 00:27:32Z" id="24A5CEDF66EA9792" name="art\ui\flash\shared\textures\pregame\mapimages\redriver.ddx" />
+    <chunk fileDateTime="2009-04-08 21:32:26Z" id="5FAD15FA39810C15" name="data\achievements.xml.xmb" />
+    <chunk fileDateTime="2009-06-17 00:12:36Z" id="DD8ACC80594749EE" name="data\gamedata.xml.xmb" />
+    <chunk fileDateTime="2009-03-25 00:24:50Z" id="2BD83885BA51EBF9" name="data\gamemodes.xml.xmb" />
+    <chunk fileDateTime="2009-03-25 00:24:50Z" id="CC519C623F7C2137" name="data\hpbars.xml.xmb" Compression="DeflateRaw" />
+    <chunk fileDateTime="2009-11-18 19:28:11Z" id="8B26DF0068948332" name="data\mpgamesetsbase.xml.xmb" />
+    <chunk fileDateTime="2009-03-25 00:27:32Z" id="9FDAC1ED7500C67A" name="data\objects_update.xml.xmb" />
+    <chunk fileDateTime="2009-11-18 19:28:11Z" id="71A19B6B31AFE6BF" name="data\powers.xml.xmb" />
+    <chunk fileDateTime="2009-03-25 00:24:51Z" id="009B86F08F8FF7B5" name="data\preloadxmlfiles.xml.xmb" />
+    <chunk fileDateTime="2009-06-17 00:12:36Z" id="120B1553DA434554" name="data\scenariodescriptions.xml.xmb" />
+    <chunk fileDateTime="2009-03-25 00:24:52Z" id="5168B5A149018E54" name="data\soundfiles.xml.xmb" />
+    <chunk fileDateTime="2009-03-25 00:27:32Z" id="B59CC2A5BDCC9FB6" name="data\squads_update.xml.xmb" />
+    <chunk fileDateTime="2009-11-18 19:28:10Z" id="6931B41215211388" name="data\tactics\cov_inf_hunter_01.tactics.xmb" />
+    <chunk fileDateTime="2009-11-18 19:28:10Z" id="BC86AA36596CEB90" name="data\tactics\cov_inf_needlergrunt_01.tactics.xmb" />
+    <chunk fileDateTime="2009-11-18 19:28:10Z" id="E44CAC08FD5E215C" name="data\tactics\cov_veh_brutechopper_01.tactics.xmb" />
+    <chunk fileDateTime="2009-11-18 19:29:42Z" id="AED63AC9CA0A5BC3" name="data\techs_update.xml.xmb" />
+    <chunk fileDateTime="2009-06-10 20:06:45Z" id="97A73320BB8C2286" name="data\triggerscripts\capflagworld.triggerscript.xmb" />
+    <chunk fileDateTime="2009-06-10 20:06:45Z" id="52E28DC71530F690" name="data\triggerscripts\scoreraceworld.triggerscript.xmb" />
+    <chunk fileDateTime="2009-04-03 07:41:58Z" id="FD77313F4C7EFF9E" name="data\triggerscripts\skirmishai.triggerscript.xmb" />
+    <chunk fileDateTime="2009-06-17 00:12:36Z" id="EB0C35EE29E72CEF" name="data\triggerscripts\waveattackplayer.triggerscript.xmb" />
+    <chunk fileDateTime="2009-06-17 00:12:36Z" id="D3A0AF4155EC4203" name="data\weapontypes.xml.xmb" />
+    <chunk fileDateTime="2009-04-06 22:28:09Z" id="4BF2630EA621649C" name="startup\game.cfg" Compression="DeflateRaw" />
+  </Files>
+</EraArchive>

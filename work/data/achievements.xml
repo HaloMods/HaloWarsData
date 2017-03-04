@@ -281,4 +281,28 @@
 	<Misc name="24 Hours of Quality" LiveIndex="58">
 		<PlayedTime>86400</PlayedTime>
 	</Misc>
+	<Trigger name="One and Done" LiveIndex="0" />
+	<Skirmish name="Pull Hard Pull Deep" LiveIndex="0">
+		<WonCurrentGameMode>ScoreRace</WonCurrentGameMode>
+		<Restriction>TugOfWarNeverTrailScore</Restriction>
+	</Skirmish>
+	<Trigger name="Freak on a Streak" LiveIndex="0" />
+	<Trigger name="Living Loving Bug" LiveIndex="0" />
+	<Misc name="Tour Coming Through" LiveIndex="0">
+		<Map>Baron_1_swe</Map>
+		<Hotdrops>50</Hotdrops>
+	</Misc>
+	<Skirmish name="Never Leave a Man Behind" LiveIndex="0">
+		<Map>BeaconHill_2</Map>
+		<MinSuppliesTributed>5000</MinSuppliesTributed>
+		<Restriction>NoDeathMatch</Restriction>
+	</Skirmish>
+	<Misc name="Drain Cleaner" LiveIndex="0">
+		<Map>BeaconHill_2</Map>
+		<CovenantPowerKills>20</CovenantPowerKills>
+	</Misc>
+	<Misc name="Killjoy" LiveIndex="0">
+		<NumPowersDisrupted>5</NumPowersDisrupted>
+		<Map>redriver_1</Map>
+	</Misc>
 </Achievements>

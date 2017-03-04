@@ -20,6 +20,7 @@
 	<File dir="TriggerScripts">CrateMakerHard.triggerscript</File>
 	<File dir="TriggerScripts">Creeps.triggerscript</File>
 	<File dir="TriggerScripts">Explode_01.triggerscript</File>
+	<File dir="TriggerScripts">FlagTracker.triggerscript</File>
 	<File dir="TriggerScripts">FldInfectionArtillery.triggerscript</File>
 	<File dir="TriggerScripts">HookCoverWithLOS.triggerscript</File>
 	<File dir="TriggerScripts">HookLockDownCover.triggerscript</File>

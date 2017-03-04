@@ -84,7 +84,7 @@
 		<Data type="half4" name="Icon48">0.875,0.625,0.125,0.125</Data>
 		<Data type="half4" name="Icon49">0,0.75,0.25,0.25</Data>
 		<Data type="half4" name="Icon50">0.25,0.75,0.25,0.25</Data>
-		<Data type="half4" name="Icon51">0.5,0.75,0.25,0.25</Data>
+		<Data type="half4" name="Icon51">0.5,0.75,0.125,0.125</Data>
 		<Data type="half4" name="Icon52">0.75,0.75,0.25,0.25</Data>
 		<Data type="half4" name="AnimIcon0">0,0,0.666,1</Data>
 		<Data type="half4" name="AnimIcon1">0.666,0,0.333,0.5</Data>
@@ -278,6 +278,7 @@
 	<Icon type="objectIcon" name="Icon48" name2="AnimIcon1" owner="sys_icon_48_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
 	<Icon type="objectIcon" name="Icon49" name2="AnimIcon1" owner="sys_icon_49_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
 	<Icon type="objectIcon" name="AnimIcon0" name2="AnimIcon1" owner="sys_icon_50_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
-	<Icon type="objectIcon" name="Icon51" name2="AnimIcon1" owner="sys_icon_51_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon51" owner="game_CTF_flag_01" priority="160" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
 	<Icon type="objectIcon" name="Icon52" name2="AnimIcon1" owner="sys_icon_52_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon51" owner="sys_icon_53_01" priority="160" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
 </FlashMovieDefinition>

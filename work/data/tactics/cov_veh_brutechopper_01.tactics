@@ -4,7 +4,7 @@
 		<Name>PlasmaCannon</Name>
 		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>120</DamagePerSecond>
-		<WeaponType>SmallArms</WeaponType>
+		<WeaponType>AASmallArms</WeaponType>
 		<Projectile>fx_proj_bruteGun_01</Projectile>
 		<ImpactEffect size="Medium">cov_brutechopper_01</ImpactEffect>
 		<MaxVelocityLead>15</MaxVelocityLead>

@@ -81,7 +81,7 @@
 		<Anim>BeamAttack</Anim>
 		<Weapon>BeamCannon</Weapon>
 		<MainAttack />
-		<Strafing maxDistance="2" turnRate="180" trackingSpeed="10" jitter="0" />
+		<Strafing maxDistance="2" turnRate="360" trackingSpeed="50" jitter="0" />
 		<Beam />
 		<StartDisabled />
 	</Action>

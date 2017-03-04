@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="us-ascii"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <cinimaticCaption>
-	<caption startFrame="30" endFrame="180" color="4294967295" />
-	<caption startFrame="185" endFrame="390" color="4294967295" />
-	<caption startFrame="400" endFrame="570" color="4294967295" />
-	<caption startFrame="690" endFrame="780" color="4294967295" />
+	<caption startFrame="30" endFrame="180" color="4294967295">Ensemble Studios 谨将《光环战争》献给我们所有忠实的玩家。</caption>
+	<caption startFrame="185" endFrame="390" color="4294967295">我们的成功属于你们，很荣幸能够与你们共同见证过去十二年的历程。</caption>
+	<caption startFrame="390" endFrame="580" color="4294967295">非常感谢——让我们在 Xbox LIVE 上再会吧！</caption>
+	<caption startFrame="690" endFrame="780" color="4294967295">通讯结束……</caption>
 </cinimaticCaption>

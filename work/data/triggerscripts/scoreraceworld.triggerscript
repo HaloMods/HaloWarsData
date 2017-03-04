@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="us-ascii"?>
-<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ScoreRaceWorld.triggerscript" Type="TriggerScript" NextTriggerVarID="546" NextTriggerID="86" NextConditionID="55" NextEffectID="161" External="false">
+<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ScoreRaceWorld.triggerscript" Type="TriggerScript" NextTriggerVarID="547" NextTriggerID="87" NextConditionID="56" NextEffectID="162" External="false">
 	<TriggerGroups>
 		<Group ID="0" Name="Crate Maker">2,3,4,22,23,24,25</Group>
 		<Group ID="1" Name="Creeps">12,13,14,32,33,34</Group>
@@ -287,91 +287,91 @@
 		<TriggerVar ID="531" Type="Bool" Name="" IsNull="false">True</TriggerVar>
 		<TriggerVar ID="533" Type="Bool" Name="" IsNull="false">True</TriggerVar>
 		<TriggerVar ID="540" Type="Bool" Name="" IsNull="false">True</TriggerVar>
-		<TriggerVar ID="547" Type="Iterator" Name="UnitListIteratorVar1" IsNull="false" />
-		<TriggerVar ID="548" Type="Trigger" Name="TriggerVar20" IsNull="false">88</TriggerVar>
-		<TriggerVar ID="549" Type="Iterator" Name="UnitListIteratorVar2" IsNull="false" />
-		<TriggerVar ID="550" Type="Trigger" Name="TriggerVar21" IsNull="false">90</TriggerVar>
-		<TriggerVar ID="551" Type="Iterator" Name="UnitListIteratorVar3" IsNull="false" />
-		<TriggerVar ID="552" Type="Trigger" Name="TriggerVar29" IsNull="false">92</TriggerVar>
-		<TriggerVar ID="553" Type="Integer" Name="" IsNull="false">0</TriggerVar>
-		<TriggerVar ID="554" Type="Integer" Name="" IsNull="false">2</TriggerVar>
-		<TriggerVar ID="555" Type="Integer" Name="RandomVar1" IsNull="false" />
-		<TriggerVar ID="556" Type="Trigger" Name="TriggerVar30" IsNull="false">94</TriggerVar>
-		<TriggerVar ID="557" Type="Operator" Name="" IsNull="false">EqualTo</TriggerVar>
-		<TriggerVar ID="558" Type="Integer" Name="" IsNull="false">0</TriggerVar>
-		<TriggerVar ID="559" Type="Operator" Name="" IsNull="false">EqualTo</TriggerVar>
-		<TriggerVar ID="560" Type="Integer" Name="" IsNull="false">1</TriggerVar>
-		<TriggerVar ID="561" Type="Operator" Name="" IsNull="false">EqualTo</TriggerVar>
-		<TriggerVar ID="562" Type="Integer" Name="" IsNull="false">2</TriggerVar>
-		<TriggerVar ID="563" Type="Trigger" Name="TriggerVar31" IsNull="false">95</TriggerVar>
-		<TriggerVar ID="564" Type="Trigger" Name="TriggerVar32" IsNull="false">96</TriggerVar>
-		<TriggerVar ID="565" Type="Trigger" Name="TriggerVar33" IsNull="false">98</TriggerVar>
-		<TriggerVar ID="566" Type="Iterator" Name="PlayerListIteratorVar1" IsNull="false" />
-		<TriggerVar ID="567" Type="Trigger" Name="TriggerVar34" IsNull="false">100</TriggerVar>
-		<TriggerVar ID="568" Type="Iterator" Name="PlayerListIteratorVar2" IsNull="false" />
-		<TriggerVar ID="569" Type="Time" Name="NextActivateTimeVar1" IsNull="false" />
-		<TriggerVar ID="570" Type="Time" Name="TimeRemainingVar1" IsNull="true" />
-		<TriggerVar ID="571" Type="Trigger" Name="TriggerVar35" IsNull="false">102</TriggerVar>
-		<TriggerVar ID="572" Type="MathOperator" Name="" IsNull="false">Add</TriggerVar>
-		<TriggerVar ID="573" Type="Trigger" Name="TriggerVar36" IsNull="false">102</TriggerVar>
-		<TriggerVar ID="574" Type="Trigger" Name="TriggerVar37" IsNull="false">104</TriggerVar>
-		<TriggerVar ID="575" Type="Iterator" Name="PlayerListIteratorVar3" IsNull="false" />
-		<TriggerVar ID="576" Type="Trigger" Name="TriggerVar38" IsNull="false">106</TriggerVar>
-		<TriggerVar ID="577" Type="Iterator" Name="PlayerListIteratorVar4" IsNull="false" />
-		<TriggerVar ID="578" Type="Trigger" Name="TriggerVar39" IsNull="false">108</TriggerVar>
-		<TriggerVar ID="579" Type="Iterator" Name="TeamListIteratorVar1" IsNull="false" />
-		<TriggerVar ID="580" Type="Trigger" Name="TriggerVar40" IsNull="false">110</TriggerVar>
-		<TriggerVar ID="581" Type="Iterator" Name="PlayerListIteratorVar5" IsNull="false" />
-		<TriggerVar ID="582" Type="Trigger" Name="TriggerVar41" IsNull="false">112</TriggerVar>
-		<TriggerVar ID="583" Type="Iterator" Name="PlayerListIteratorVar6" IsNull="false" />
-		<TriggerVar ID="584" Type="Trigger" Name="TriggerVar42" IsNull="false">88</TriggerVar>
-		<TriggerVar ID="585" Type="Trigger" Name="TriggerVar43" IsNull="false">87</TriggerVar>
-		<TriggerVar ID="586" Type="Trigger" Name="TriggerVar44" IsNull="false">4</TriggerVar>
-		<TriggerVar ID="587" Type="Trigger" Name="TriggerVar45" IsNull="false">90</TriggerVar>
-		<TriggerVar ID="588" Type="Trigger" Name="TriggerVar46" IsNull="false">89</TriggerVar>
-		<TriggerVar ID="589" Type="Trigger" Name="TriggerVar47" IsNull="false">23</TriggerVar>
-		<TriggerVar ID="590" Type="Trigger" Name="TriggerVar48" IsNull="false">92</TriggerVar>
-		<TriggerVar ID="591" Type="Trigger" Name="TriggerVar49" IsNull="false">91</TriggerVar>
-		<TriggerVar ID="592" Type="Trigger" Name="TriggerVar50" IsNull="false">25</TriggerVar>
-		<TriggerVar ID="593" Type="Trigger" Name="TriggerVar51" IsNull="false">93</TriggerVar>
-		<TriggerVar ID="594" Type="Trigger" Name="TriggerVar52" IsNull="false">3</TriggerVar>
-		<TriggerVar ID="595" Type="Trigger" Name="TriggerVar53" IsNull="false">22</TriggerVar>
-		<TriggerVar ID="596" Type="Trigger" Name="TriggerVar54" IsNull="false">24</TriggerVar>
-		<TriggerVar ID="597" Type="Trigger" Name="TriggerVar55" IsNull="false">98</TriggerVar>
-		<TriggerVar ID="598" Type="Trigger" Name="TriggerVar56" IsNull="false">97</TriggerVar>
-		<TriggerVar ID="599" Type="Trigger" Name="TriggerVar57" IsNull="false">40</TriggerVar>
-		<TriggerVar ID="600" Type="Trigger" Name="TriggerVar58" IsNull="false">99</TriggerVar>
-		<TriggerVar ID="601" Type="Trigger" Name="TriggerVar59" IsNull="false">100</TriggerVar>
-		<TriggerVar ID="602" Type="Trigger" Name="TriggerVar60" IsNull="false">43</TriggerVar>
-		<TriggerVar ID="603" Type="Trigger" Name="TriggerVar61" IsNull="false">71</TriggerVar>
-		<TriggerVar ID="604" Type="Trigger" Name="TriggerVar62" IsNull="false">101</TriggerVar>
-		<TriggerVar ID="605" Type="Trigger" Name="TriggerVar63" IsNull="false">41</TriggerVar>
-		<TriggerVar ID="606" Type="Trigger" Name="TriggerVar64" IsNull="false">104</TriggerVar>
-		<TriggerVar ID="607" Type="Trigger" Name="TriggerVar65" IsNull="false">104</TriggerVar>
-		<TriggerVar ID="608" Type="Trigger" Name="TriggerVar66" IsNull="false">103</TriggerVar>
-		<TriggerVar ID="609" Type="Trigger" Name="TriggerVar67" IsNull="false">103</TriggerVar>
-		<TriggerVar ID="610" Type="Trigger" Name="TriggerVar68" IsNull="false">103</TriggerVar>
-		<TriggerVar ID="611" Type="Trigger" Name="TriggerVar69" IsNull="false">103</TriggerVar>
-		<TriggerVar ID="612" Type="Trigger" Name="TriggerVar70" IsNull="false">49</TriggerVar>
-		<TriggerVar ID="613" Type="Trigger" Name="TriggerVar71" IsNull="false">105</TriggerVar>
-		<TriggerVar ID="614" Type="Trigger" Name="TriggerVar72" IsNull="false">106</TriggerVar>
-		<TriggerVar ID="615" Type="Trigger" Name="TriggerVar73" IsNull="false">106</TriggerVar>
-		<TriggerVar ID="616" Type="Trigger" Name="TriggerVar74" IsNull="false">52</TriggerVar>
-		<TriggerVar ID="617" Type="Trigger" Name="TriggerVar75" IsNull="false">53</TriggerVar>
-		<TriggerVar ID="618" Type="Trigger" Name="TriggerVar76" IsNull="false">108</TriggerVar>
-		<TriggerVar ID="619" Type="Trigger" Name="TriggerVar77" IsNull="false">108</TriggerVar>
-		<TriggerVar ID="620" Type="Trigger" Name="TriggerVar78" IsNull="false">107</TriggerVar>
-		<TriggerVar ID="621" Type="Trigger" Name="TriggerVar79" IsNull="false">55</TriggerVar>
-		<TriggerVar ID="622" Type="Trigger" Name="TriggerVar80" IsNull="false">60</TriggerVar>
-		<TriggerVar ID="623" Type="Trigger" Name="TriggerVar81" IsNull="false">110</TriggerVar>
-		<TriggerVar ID="624" Type="Trigger" Name="TriggerVar82" IsNull="false">110</TriggerVar>
-		<TriggerVar ID="625" Type="Trigger" Name="TriggerVar83" IsNull="false">109</TriggerVar>
-		<TriggerVar ID="626" Type="Trigger" Name="TriggerVar84" IsNull="false">58</TriggerVar>
-		<TriggerVar ID="627" Type="Trigger" Name="TriggerVar85" IsNull="false">56</TriggerVar>
-		<TriggerVar ID="628" Type="Trigger" Name="TriggerVar86" IsNull="false">112</TriggerVar>
-		<TriggerVar ID="629" Type="Trigger" Name="TriggerVar87" IsNull="false">111</TriggerVar>
-		<TriggerVar ID="630" Type="Trigger" Name="TriggerVar88" IsNull="false">68</TriggerVar>
-		<TriggerVar ID="631" Type="Trigger" Name="TriggerVar89" IsNull="false">64</TriggerVar>
+		<TriggerVar ID="548" Type="Iterator" Name="UnitListIteratorVar1" IsNull="false" />
+		<TriggerVar ID="549" Type="Trigger" Name="TriggerVar20" IsNull="false">89</TriggerVar>
+		<TriggerVar ID="550" Type="Iterator" Name="UnitListIteratorVar2" IsNull="false" />
+		<TriggerVar ID="551" Type="Trigger" Name="TriggerVar21" IsNull="false">91</TriggerVar>
+		<TriggerVar ID="552" Type="Iterator" Name="UnitListIteratorVar3" IsNull="false" />
+		<TriggerVar ID="553" Type="Trigger" Name="TriggerVar29" IsNull="false">93</TriggerVar>
+		<TriggerVar ID="554" Type="Integer" Name="" IsNull="false">0</TriggerVar>
+		<TriggerVar ID="555" Type="Integer" Name="" IsNull="false">2</TriggerVar>
+		<TriggerVar ID="556" Type="Integer" Name="RandomVar1" IsNull="false" />
+		<TriggerVar ID="557" Type="Trigger" Name="TriggerVar30" IsNull="false">95</TriggerVar>
+		<TriggerVar ID="558" Type="Operator" Name="" IsNull="false">EqualTo</TriggerVar>
+		<TriggerVar ID="559" Type="Integer" Name="" IsNull="false">0</TriggerVar>
+		<TriggerVar ID="560" Type="Operator" Name="" IsNull="false">EqualTo</TriggerVar>
+		<TriggerVar ID="561" Type="Integer" Name="" IsNull="false">1</TriggerVar>
+		<TriggerVar ID="562" Type="Operator" Name="" IsNull="false">EqualTo</TriggerVar>
+		<TriggerVar ID="563" Type="Integer" Name="" IsNull="false">2</TriggerVar>
+		<TriggerVar ID="564" Type="Trigger" Name="TriggerVar31" IsNull="false">96</TriggerVar>
+		<TriggerVar ID="565" Type="Trigger" Name="TriggerVar32" IsNull="false">97</TriggerVar>
+		<TriggerVar ID="566" Type="Trigger" Name="TriggerVar33" IsNull="false">99</TriggerVar>
+		<TriggerVar ID="567" Type="Iterator" Name="PlayerListIteratorVar1" IsNull="false" />
+		<TriggerVar ID="568" Type="Trigger" Name="TriggerVar34" IsNull="false">101</TriggerVar>
+		<TriggerVar ID="569" Type="Iterator" Name="PlayerListIteratorVar2" IsNull="false" />
+		<TriggerVar ID="570" Type="Time" Name="NextActivateTimeVar1" IsNull="false" />
+		<TriggerVar ID="571" Type="Time" Name="TimeRemainingVar1" IsNull="true" />
+		<TriggerVar ID="572" Type="Trigger" Name="TriggerVar35" IsNull="false">103</TriggerVar>
+		<TriggerVar ID="573" Type="MathOperator" Name="" IsNull="false">Add</TriggerVar>
+		<TriggerVar ID="574" Type="Trigger" Name="TriggerVar36" IsNull="false">103</TriggerVar>
+		<TriggerVar ID="575" Type="Trigger" Name="TriggerVar37" IsNull="false">105</TriggerVar>
+		<TriggerVar ID="576" Type="Iterator" Name="PlayerListIteratorVar3" IsNull="false" />
+		<TriggerVar ID="577" Type="Trigger" Name="TriggerVar38" IsNull="false">107</TriggerVar>
+		<TriggerVar ID="578" Type="Iterator" Name="PlayerListIteratorVar4" IsNull="false" />
+		<TriggerVar ID="579" Type="Trigger" Name="TriggerVar39" IsNull="false">109</TriggerVar>
+		<TriggerVar ID="580" Type="Iterator" Name="TeamListIteratorVar1" IsNull="false" />
+		<TriggerVar ID="581" Type="Trigger" Name="TriggerVar40" IsNull="false">111</TriggerVar>
+		<TriggerVar ID="582" Type="Iterator" Name="PlayerListIteratorVar5" IsNull="false" />
+		<TriggerVar ID="583" Type="Trigger" Name="TriggerVar41" IsNull="false">113</TriggerVar>
+		<TriggerVar ID="584" Type="Iterator" Name="PlayerListIteratorVar6" IsNull="false" />
+		<TriggerVar ID="585" Type="Trigger" Name="TriggerVar42" IsNull="false">89</TriggerVar>
+		<TriggerVar ID="586" Type="Trigger" Name="TriggerVar43" IsNull="false">88</TriggerVar>
+		<TriggerVar ID="587" Type="Trigger" Name="TriggerVar44" IsNull="false">4</TriggerVar>
+		<TriggerVar ID="588" Type="Trigger" Name="TriggerVar45" IsNull="false">91</TriggerVar>
+		<TriggerVar ID="589" Type="Trigger" Name="TriggerVar46" IsNull="false">90</TriggerVar>
+		<TriggerVar ID="590" Type="Trigger" Name="TriggerVar47" IsNull="false">23</TriggerVar>
+		<TriggerVar ID="591" Type="Trigger" Name="TriggerVar48" IsNull="false">93</TriggerVar>
+		<TriggerVar ID="592" Type="Trigger" Name="TriggerVar49" IsNull="false">92</TriggerVar>
+		<TriggerVar ID="593" Type="Trigger" Name="TriggerVar50" IsNull="false">25</TriggerVar>
+		<TriggerVar ID="594" Type="Trigger" Name="TriggerVar51" IsNull="false">94</TriggerVar>
+		<TriggerVar ID="595" Type="Trigger" Name="TriggerVar52" IsNull="false">3</TriggerVar>
+		<TriggerVar ID="596" Type="Trigger" Name="TriggerVar53" IsNull="false">22</TriggerVar>
+		<TriggerVar ID="597" Type="Trigger" Name="TriggerVar54" IsNull="false">24</TriggerVar>
+		<TriggerVar ID="598" Type="Trigger" Name="TriggerVar55" IsNull="false">99</TriggerVar>
+		<TriggerVar ID="599" Type="Trigger" Name="TriggerVar56" IsNull="false">98</TriggerVar>
+		<TriggerVar ID="600" Type="Trigger" Name="TriggerVar57" IsNull="false">40</TriggerVar>
+		<TriggerVar ID="601" Type="Trigger" Name="TriggerVar58" IsNull="false">100</TriggerVar>
+		<TriggerVar ID="602" Type="Trigger" Name="TriggerVar59" IsNull="false">101</TriggerVar>
+		<TriggerVar ID="603" Type="Trigger" Name="TriggerVar60" IsNull="false">43</TriggerVar>
+		<TriggerVar ID="604" Type="Trigger" Name="TriggerVar61" IsNull="false">71</TriggerVar>
+		<TriggerVar ID="605" Type="Trigger" Name="TriggerVar62" IsNull="false">102</TriggerVar>
+		<TriggerVar ID="606" Type="Trigger" Name="TriggerVar63" IsNull="false">41</TriggerVar>
+		<TriggerVar ID="607" Type="Trigger" Name="TriggerVar64" IsNull="false">105</TriggerVar>
+		<TriggerVar ID="608" Type="Trigger" Name="TriggerVar65" IsNull="false">105</TriggerVar>
+		<TriggerVar ID="609" Type="Trigger" Name="TriggerVar66" IsNull="false">49</TriggerVar>
+		<TriggerVar ID="610" Type="Trigger" Name="TriggerVar67" IsNull="false">53</TriggerVar>
+		<TriggerVar ID="611" Type="Trigger" Name="TriggerVar68" IsNull="false">107</TriggerVar>
+		<TriggerVar ID="612" Type="Trigger" Name="TriggerVar69" IsNull="false">107</TriggerVar>
+		<TriggerVar ID="613" Type="Trigger" Name="TriggerVar70" IsNull="false">106</TriggerVar>
+		<TriggerVar ID="614" Type="Trigger" Name="TriggerVar71" IsNull="false">106</TriggerVar>
+		<TriggerVar ID="615" Type="Trigger" Name="TriggerVar72" IsNull="false">106</TriggerVar>
+		<TriggerVar ID="616" Type="Trigger" Name="TriggerVar73" IsNull="false">106</TriggerVar>
+		<TriggerVar ID="617" Type="Trigger" Name="TriggerVar74" IsNull="false">52</TriggerVar>
+		<TriggerVar ID="618" Type="Trigger" Name="TriggerVar75" IsNull="false">104</TriggerVar>
+		<TriggerVar ID="619" Type="Trigger" Name="TriggerVar76" IsNull="false">109</TriggerVar>
+		<TriggerVar ID="620" Type="Trigger" Name="TriggerVar77" IsNull="false">109</TriggerVar>
+		<TriggerVar ID="621" Type="Trigger" Name="TriggerVar78" IsNull="false">108</TriggerVar>
+		<TriggerVar ID="622" Type="Trigger" Name="TriggerVar79" IsNull="false">55</TriggerVar>
+		<TriggerVar ID="623" Type="Trigger" Name="TriggerVar80" IsNull="false">60</TriggerVar>
+		<TriggerVar ID="624" Type="Trigger" Name="TriggerVar81" IsNull="false">111</TriggerVar>
+		<TriggerVar ID="625" Type="Trigger" Name="TriggerVar82" IsNull="false">111</TriggerVar>
+		<TriggerVar ID="626" Type="Trigger" Name="TriggerVar83" IsNull="false">110</TriggerVar>
+		<TriggerVar ID="627" Type="Trigger" Name="TriggerVar84" IsNull="false">58</TriggerVar>
+		<TriggerVar ID="628" Type="Trigger" Name="TriggerVar85" IsNull="false">56</TriggerVar>
+		<TriggerVar ID="629" Type="Trigger" Name="TriggerVar86" IsNull="false">113</TriggerVar>
+		<TriggerVar ID="630" Type="Trigger" Name="TriggerVar87" IsNull="false">112</TriggerVar>
+		<TriggerVar ID="631" Type="Trigger" Name="TriggerVar88" IsNull="false">68</TriggerVar>
+		<TriggerVar ID="632" Type="Trigger" Name="TriggerVar89" IsNull="false">64</TriggerVar>
 	</TriggerVars>
 	<Triggers>
 		<Trigger ID="1" Name="Start" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="78" Y="174" GroupID="-1" TemplateID="-1">
@@ -414,8 +414,8 @@
 				<And />
 			</TriggerConditions>
 			<TriggerEffectsOnTrue>
-				<Effect ID="199" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">593</Input>
+				<Effect ID="200" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">594</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
@@ -443,8 +443,8 @@
 				<Effect ID="13" Type="DebugVar(String)" DBID="230" Version="1" CommentOut="false">
 					<Input Name="String" SigID="1" Optional="false">38</Input>
 				</Effect>
-				<Effect ID="191" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">585</Input>
+				<Effect ID="192" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">586</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
@@ -476,8 +476,8 @@
 				<Effect ID="14" Type="DebugVar(String)" DBID="230" Version="1" CommentOut="false">
 					<Input Name="String" SigID="1" Optional="false">39</Input>
 				</Effect>
-				<Effect ID="190" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">584</Input>
+				<Effect ID="191" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">585</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
@@ -590,8 +590,8 @@
 				<Effect ID="13" Type="DebugVar(String)" DBID="230" Version="1" CommentOut="false">
 					<Input Name="String" SigID="1" Optional="false">152</Input>
 				</Effect>
-				<Effect ID="194" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">588</Input>
+				<Effect ID="195" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">589</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
@@ -623,8 +623,8 @@
 				<Effect ID="14" Type="DebugVar(String)" DBID="230" Version="1" CommentOut="false">
 					<Input Name="String" SigID="1" Optional="false">167</Input>
 				</Effect>
-				<Effect ID="193" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">587</Input>
+				<Effect ID="194" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">588</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
@@ -652,8 +652,8 @@
 				<Effect ID="13" Type="DebugVar(String)" DBID="230" Version="1" CommentOut="false">
 					<Input Name="String" SigID="1" Optional="false">181</Input>
 				</Effect>
-				<Effect ID="197" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">591</Input>
+				<Effect ID="198" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">592</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
@@ -685,8 +685,8 @@
 				<Effect ID="14" Type="DebugVar(String)" DBID="230" Version="1" CommentOut="false">
 					<Input Name="String" SigID="1" Optional="false">196</Input>
 				</Effect>
-				<Effect ID="196" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">590</Input>
+				<Effect ID="197" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">591</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
@@ -839,8 +839,8 @@
 				<Effect ID="147" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
 					<Input Name="Trigger" SigID="1" Optional="false">525</Input>
 				</Effect>
-				<Effect ID="235" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">629</Input>
+				<Effect ID="236" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">630</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
@@ -860,8 +860,8 @@
 					<Input Name="SecondInt" SigID="3" Optional="false">273</Input>
 					<Output Name="ResultInt" SigID="4" Optional="false">276</Output>
 				</Effect>
-				<Effect ID="203" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">597</Input>
+				<Effect ID="204" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">598</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
@@ -879,8 +879,8 @@
 					<Input Name="IntSource" SigID="1" Optional="false">277</Input>
 					<Output Name="IntCopy" SigID="2" Optional="false">278</Output>
 				</Effect>
-				<Effect ID="204" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">598</Input>
+				<Effect ID="205" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">599</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
@@ -900,8 +900,8 @@
 					<Input Name="SecondInt" SigID="3" Optional="false">273</Input>
 					<Output Name="ResultInt" SigID="4" Optional="false">278</Output>
 				</Effect>
-				<Effect ID="207" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">601</Input>
+				<Effect ID="208" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">602</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
@@ -925,7 +925,7 @@
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
 		</Trigger>
-		<Trigger ID="49" Name="Set winners still playing to won" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="3839" Y="574" GroupID="3" TemplateID="-1">
+		<Trigger ID="49" Name="Set winners still playing to won" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="4205" Y="577" GroupID="3" TemplateID="-1">
 			<TriggerConditions>
 				<And>
 					<Condition ID="34" Type="PlayerInState" DBID="131" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
@@ -939,17 +939,17 @@
 					<Input Name="Player" SigID="1" Optional="false">271</Input>
 					<Input Name="PlayerState" SigID="3" Optional="false">347</Input>
 				</Effect>
-				<Effect ID="212" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">606</Input>
-				</Effect>
-			</TriggerEffectsOnTrue>
-			<TriggerEffectsOnFalse>
 				<Effect ID="213" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
 					<Input Name="Trigger" SigID="1" Optional="false">607</Input>
 				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse>
+				<Effect ID="214" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">608</Input>
+				</Effect>
 			</TriggerEffectsOnFalse>
 		</Trigger>
-		<Trigger ID="52" Name="Set losers still playing to lost" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="4164" Y="429" GroupID="3" TemplateID="-1">
+		<Trigger ID="52" Name="Set losers still playing to lost" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="3791" Y="587" GroupID="3" TemplateID="-1">
 			<TriggerConditions>
 				<And>
 					<Condition ID="35" Type="PlayerInState" DBID="131" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
@@ -963,17 +963,17 @@
 					<Input Name="Player" SigID="1" Optional="false">271</Input>
 					<Input Name="PlayerState" SigID="3" Optional="false">351</Input>
 				</Effect>
-				<Effect ID="220" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">614</Input>
+				<Effect ID="217" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">611</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse>
-				<Effect ID="221" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">615</Input>
+				<Effect ID="218" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">612</Input>
 				</Effect>
 			</TriggerEffectsOnFalse>
 		</Trigger>
-		<Trigger ID="53" Name="And we are done" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="4568" Y="285" GroupID="3" TemplateID="-1">
+		<Trigger ID="53" Name="And we are done" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="4567" Y="302" GroupID="3" TemplateID="-1">
 			<TriggerConditions>
 				<And />
 			</TriggerConditions>
@@ -995,8 +995,8 @@
 					<Input Name="BoolSource" SigID="1" Optional="false">359</Input>
 					<Output Name="BoolCopy" SigID="2" Optional="false">360</Output>
 				</Effect>
-				<Effect ID="231" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">625</Input>
+				<Effect ID="232" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">626</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
@@ -1024,13 +1024,13 @@
 					<Input Name="SecondInt" SigID="3" Optional="false">376</Input>
 					<Output Name="ResultInt" SigID="4" Optional="false">373</Output>
 				</Effect>
-				<Effect ID="224" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">618</Input>
+				<Effect ID="225" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">619</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse>
-				<Effect ID="225" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">619</Input>
+				<Effect ID="226" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">620</Input>
 				</Effect>
 			</TriggerEffectsOnFalse>
 		</Trigger>
@@ -1050,13 +1050,13 @@
 					<Input Name="BoolSource" SigID="1" Optional="false">361</Input>
 					<Output Name="BoolCopy" SigID="2" Optional="false">360</Output>
 				</Effect>
-				<Effect ID="229" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">623</Input>
+				<Effect ID="230" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">624</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse>
-				<Effect ID="230" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">624</Input>
+				<Effect ID="231" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">625</Input>
 				</Effect>
 			</TriggerEffectsOnFalse>
 		</Trigger>
@@ -1079,8 +1079,8 @@
 				<Effect ID="55" Type="GetTeams" DBID="122" Version="1" CommentOut="false">
 					<Output Name="TeamList" SigID="1" Optional="false">387</Output>
 				</Effect>
-				<Effect ID="226" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">620</Input>
+				<Effect ID="227" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">621</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
@@ -1093,8 +1093,8 @@
 				<Effect ID="157" Type="TowSetVisible" DBID="1079" Version="1" CommentOut="false">
 					<Input Name="visible" SigID="1" Optional="false">540</Input>
 				</Effect>
-				<Effect ID="210" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">604</Input>
+				<Effect ID="211" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">605</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
@@ -1164,8 +1164,8 @@
 					<Input Name="SecondInt" SigID="3" Optional="false">426</Input>
 					<Output Name="ResultInt" SigID="4" Optional="false">397</Output>
 				</Effect>
-				<Effect ID="234" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">628</Input>
+				<Effect ID="235" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">629</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
@@ -1287,8 +1287,8 @@
 					<Output Name="OutputList" SigID="4" Optional="false">332</Output>
 					<Output Name="ClearExisting" SigID="5" Optional="false">493</Output>
 				</Effect>
-				<Effect ID="217" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">611</Input>
+				<Effect ID="222" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">616</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
@@ -1316,8 +1316,8 @@
 					<Output Name="OutputList" SigID="4" Optional="false">332</Output>
 					<Output Name="ClearExisting" SigID="5" Optional="false">499</Output>
 				</Effect>
-				<Effect ID="216" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">610</Input>
+				<Effect ID="221" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">615</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
@@ -1338,143 +1338,122 @@
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
 		</Trigger>
-		<Trigger ID="87" Name="Initialize" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="80" Y="150" GroupID="-1" TemplateID="8">
+		<Trigger ID="88" Name="Initialize" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="80" Y="150" GroupID="-1" TemplateID="8">
 			<TriggerConditions>
 				<And />
 			</TriggerConditions>
 			<TriggerEffectsOnTrue>
-				<Effect ID="162" Type="IteratorUnitList" DBID="152" Version="1" CommentOut="false">
+				<Effect ID="163" Type="IteratorUnitList" DBID="152" Version="1" CommentOut="false">
 					<Input Name="UnitList" SigID="1" Optional="false">8</Input>
-					<Output Name="InitializedIterator" SigID="2" Optional="false">547</Output>
+					<Output Name="InitializedIterator" SigID="2" Optional="false">548</Output>
 				</Effect>
-				<Effect ID="163" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">548</Input>
+				<Effect ID="164" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">549</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
 		</Trigger>
-		<Trigger ID="88" Name="Loop" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="474" Y="186" GroupID="-1" TemplateID="8">
+		<Trigger ID="89" Name="Loop" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="474" Y="186" GroupID="-1" TemplateID="8">
 			<TriggerConditions>
 				<And>
-					<Condition ID="56" Type="NextUnit" DBID="140" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Input Name="UnitIterator" SigID="1" Optional="false">547</Input>
+					<Condition ID="57" Type="NextUnit" DBID="140" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="UnitIterator" SigID="1" Optional="false">548</Input>
 						<Output Name="NextUnit" SigID="2" Optional="false">14</Output>
 					</Condition>
 				</And>
 			</TriggerConditions>
 			<TriggerEffectsOnTrue>
-				<Effect ID="192" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">586</Input>
+				<Effect ID="193" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">587</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
 		</Trigger>
-		<Trigger ID="89" Name="Initialize" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="80" Y="150" GroupID="-1" TemplateID="27">
+		<Trigger ID="90" Name="Initialize" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="80" Y="150" GroupID="-1" TemplateID="27">
 			<TriggerConditions>
 				<And />
 			</TriggerConditions>
 			<TriggerEffectsOnTrue>
-				<Effect ID="164" Type="IteratorUnitList" DBID="152" Version="1" CommentOut="false">
+				<Effect ID="165" Type="IteratorUnitList" DBID="152" Version="1" CommentOut="false">
 					<Input Name="UnitList" SigID="1" Optional="false">149</Input>
-					<Output Name="InitializedIterator" SigID="2" Optional="false">549</Output>
+					<Output Name="InitializedIterator" SigID="2" Optional="false">550</Output>
 				</Effect>
-				<Effect ID="165" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">550</Input>
+				<Effect ID="166" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">551</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
 		</Trigger>
-		<Trigger ID="90" Name="Loop" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="474" Y="186" GroupID="-1" TemplateID="27">
+		<Trigger ID="91" Name="Loop" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="474" Y="186" GroupID="-1" TemplateID="27">
 			<TriggerConditions>
 				<And>
-					<Condition ID="57" Type="NextUnit" DBID="140" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Input Name="UnitIterator" SigID="1" Optional="false">549</Input>
+					<Condition ID="58" Type="NextUnit" DBID="140" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="UnitIterator" SigID="1" Optional="false">550</Input>
 						<Output Name="NextUnit" SigID="2" Optional="false">200</Output>
 					</Condition>
 				</And>
 			</TriggerConditions>
 			<TriggerEffectsOnTrue>
-				<Effect ID="195" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">589</Input>
+				<Effect ID="196" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">590</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
 		</Trigger>
-		<Trigger ID="91" Name="Initialize" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="80" Y="150" GroupID="-1" TemplateID="28">
+		<Trigger ID="92" Name="Initialize" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="80" Y="150" GroupID="-1" TemplateID="28">
 			<TriggerConditions>
 				<And />
 			</TriggerConditions>
 			<TriggerEffectsOnTrue>
-				<Effect ID="166" Type="IteratorUnitList" DBID="152" Version="1" CommentOut="false">
+				<Effect ID="167" Type="IteratorUnitList" DBID="152" Version="1" CommentOut="false">
 					<Input Name="UnitList" SigID="1" Optional="false">203</Input>
-					<Output Name="InitializedIterator" SigID="2" Optional="false">551</Output>
+					<Output Name="InitializedIterator" SigID="2" Optional="false">552</Output>
 				</Effect>
-				<Effect ID="167" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">552</Input>
+				<Effect ID="168" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">553</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
 		</Trigger>
-		<Trigger ID="92" Name="Loop" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="474" Y="186" GroupID="-1" TemplateID="28">
+		<Trigger ID="93" Name="Loop" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="474" Y="186" GroupID="-1" TemplateID="28">
 			<TriggerConditions>
 				<And>
-					<Condition ID="58" Type="NextUnit" DBID="140" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Input Name="UnitIterator" SigID="1" Optional="false">551</Input>
+					<Condition ID="59" Type="NextUnit" DBID="140" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="UnitIterator" SigID="1" Optional="false">552</Input>
 						<Output Name="NextUnit" SigID="2" Optional="false">202</Output>
 					</Condition>
 				</And>
 			</TriggerConditions>
 			<TriggerEffectsOnTrue>
-				<Effect ID="198" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">592</Input>
+				<Effect ID="199" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">593</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
 		</Trigger>
-		<Trigger ID="93" Name="newTrigger0" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="2" Y="179" GroupID="-1" TemplateID="30">
+		<Trigger ID="94" Name="newTrigger0" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="2" Y="179" GroupID="-1" TemplateID="30">
 			<TriggerConditions>
 				<And />
 			</TriggerConditions>
 			<TriggerEffectsOnTrue>
-				<Effect ID="168" Type="RandomCount" DBID="178" Version="1" CommentOut="false">
-					<Input Name="Min" SigID="1" Optional="true">553</Input>
-					<Input Name="Max" SigID="2" Optional="true">554</Input>
-					<Output Name="Random" SigID="3" Optional="false">555</Output>
+				<Effect ID="169" Type="RandomCount" DBID="178" Version="1" CommentOut="false">
+					<Input Name="Min" SigID="1" Optional="true">554</Input>
+					<Input Name="Max" SigID="2" Optional="true">555</Input>
+					<Output Name="Random" SigID="3" Optional="false">556</Output>
 				</Effect>
-				<Effect ID="169" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">556</Input>
+				<Effect ID="170" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">557</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
 		</Trigger>
-		<Trigger ID="94" Name="newTrigger1" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="372" Y="123" GroupID="-1" TemplateID="30">
-			<TriggerConditions>
-				<And>
-					<Condition ID="59" Type="CompareCount" DBID="14" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Input Name="FirstCount" SigID="1" Optional="false">555</Input>
-						<Input Name="CompareType" SigID="2" Optional="false">557</Input>
-						<Input Name="SecondCount" SigID="3" Optional="false">558</Input>
-					</Condition>
-				</And>
-			</TriggerConditions>
-			<TriggerEffectsOnTrue>
-				<Effect ID="200" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">594</Input>
-				</Effect>
-			</TriggerEffectsOnTrue>
-			<TriggerEffectsOnFalse>
-				<Effect ID="170" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">563</Input>
-				</Effect>
-			</TriggerEffectsOnFalse>
-		</Trigger>
-		<Trigger ID="95" Name="newTrigger2" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="725" Y="123" GroupID="-1" TemplateID="30">
+		<Trigger ID="95" Name="newTrigger1" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="372" Y="123" GroupID="-1" TemplateID="30">
 			<TriggerConditions>
 				<And>
 					<Condition ID="60" Type="CompareCount" DBID="14" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Input Name="FirstCount" SigID="1" Optional="false">555</Input>
-						<Input Name="CompareType" SigID="2" Optional="false">559</Input>
-						<Input Name="SecondCount" SigID="3" Optional="false">560</Input>
+						<Input Name="FirstCount" SigID="1" Optional="false">556</Input>
+						<Input Name="CompareType" SigID="2" Optional="false">558</Input>
+						<Input Name="SecondCount" SigID="3" Optional="false">559</Input>
 					</Condition>
 				</And>
 			</TriggerConditions>
@@ -1489,13 +1468,13 @@
 				</Effect>
 			</TriggerEffectsOnFalse>
 		</Trigger>
-		<Trigger ID="96" Name="newTrigger3" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="1076" Y="122" GroupID="-1" TemplateID="30">
+		<Trigger ID="96" Name="newTrigger2" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="725" Y="123" GroupID="-1" TemplateID="30">
 			<TriggerConditions>
 				<And>
 					<Condition ID="61" Type="CompareCount" DBID="14" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Input Name="FirstCount" SigID="1" Optional="false">555</Input>
-						<Input Name="CompareType" SigID="2" Optional="false">561</Input>
-						<Input Name="SecondCount" SigID="3" Optional="false">562</Input>
+						<Input Name="FirstCount" SigID="1" Optional="false">556</Input>
+						<Input Name="CompareType" SigID="2" Optional="false">560</Input>
+						<Input Name="SecondCount" SigID="3" Optional="false">561</Input>
 					</Condition>
 				</And>
 			</TriggerConditions>
@@ -1504,290 +1483,311 @@
 					<Input Name="Trigger" SigID="1" Optional="false">596</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
-			<TriggerEffectsOnFalse />
-		</Trigger>
-		<Trigger ID="97" Name="Initialize" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="80" Y="150" GroupID="-1" TemplateID="39">
-			<TriggerConditions>
-				<And />
-			</TriggerConditions>
-			<TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse>
 				<Effect ID="172" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
 					<Input Name="Trigger" SigID="1" Optional="false">565</Input>
 				</Effect>
-				<Effect ID="173" Type="IteratorPlayerList" DBID="120" Version="1" CommentOut="false">
-					<Input Name="PlayerList" SigID="1" Optional="false">263</Input>
-					<Output Name="InitializedIterator" SigID="2" Optional="false">566</Output>
-				</Effect>
-			</TriggerEffectsOnTrue>
-			<TriggerEffectsOnFalse />
+			</TriggerEffectsOnFalse>
 		</Trigger>
-		<Trigger ID="98" Name="Loop" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="474" Y="186" GroupID="-1" TemplateID="39">
+		<Trigger ID="97" Name="newTrigger3" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="1076" Y="122" GroupID="-1" TemplateID="30">
 			<TriggerConditions>
 				<And>
-					<Condition ID="62" Type="NextPlayer" DBID="118" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Input Name="PlayerIterator" SigID="1" Optional="false">566</Input>
-						<Output Name="NextPlayer" SigID="2" Optional="false">271</Output>
+					<Condition ID="62" Type="CompareCount" DBID="14" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="FirstCount" SigID="1" Optional="false">556</Input>
+						<Input Name="CompareType" SigID="2" Optional="false">562</Input>
+						<Input Name="SecondCount" SigID="3" Optional="false">563</Input>
 					</Condition>
 				</And>
 			</TriggerConditions>
 			<TriggerEffectsOnTrue>
-				<Effect ID="205" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">599</Input>
-				</Effect>
-			</TriggerEffectsOnTrue>
-			<TriggerEffectsOnFalse>
-				<Effect ID="206" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">600</Input>
-				</Effect>
-			</TriggerEffectsOnFalse>
-		</Trigger>
-		<Trigger ID="99" Name="Initialize" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="80" Y="150" GroupID="-1" TemplateID="42">
-			<TriggerConditions>
-				<And />
-			</TriggerConditions>
-			<TriggerEffectsOnTrue>
-				<Effect ID="174" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">567</Input>
-				</Effect>
-				<Effect ID="175" Type="IteratorPlayerList" DBID="120" Version="1" CommentOut="false">
-					<Input Name="PlayerList" SigID="1" Optional="false">268</Input>
-					<Output Name="InitializedIterator" SigID="2" Optional="false">568</Output>
+				<Effect ID="203" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">597</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
 		</Trigger>
-		<Trigger ID="100" Name="Loop" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="474" Y="186" GroupID="-1" TemplateID="42">
+		<Trigger ID="98" Name="Initialize" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="80" Y="150" GroupID="-1" TemplateID="39">
+			<TriggerConditions>
+				<And />
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="173" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">566</Input>
+				</Effect>
+				<Effect ID="174" Type="IteratorPlayerList" DBID="120" Version="1" CommentOut="false">
+					<Input Name="PlayerList" SigID="1" Optional="false">263</Input>
+					<Output Name="InitializedIterator" SigID="2" Optional="false">567</Output>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger ID="99" Name="Loop" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="474" Y="186" GroupID="-1" TemplateID="39">
 			<TriggerConditions>
 				<And>
 					<Condition ID="63" Type="NextPlayer" DBID="118" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Input Name="PlayerIterator" SigID="1" Optional="false">568</Input>
+						<Input Name="PlayerIterator" SigID="1" Optional="false">567</Input>
 						<Output Name="NextPlayer" SigID="2" Optional="false">271</Output>
 					</Condition>
 				</And>
 			</TriggerConditions>
 			<TriggerEffectsOnTrue>
-				<Effect ID="208" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">602</Input>
+				<Effect ID="206" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">600</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse>
+				<Effect ID="207" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">601</Input>
+				</Effect>
+			</TriggerEffectsOnFalse>
+		</Trigger>
+		<Trigger ID="100" Name="Initialize" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="80" Y="150" GroupID="-1" TemplateID="42">
+			<TriggerConditions>
+				<And />
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="175" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">568</Input>
+				</Effect>
+				<Effect ID="176" Type="IteratorPlayerList" DBID="120" Version="1" CommentOut="false">
+					<Input Name="PlayerList" SigID="1" Optional="false">268</Input>
+					<Output Name="InitializedIterator" SigID="2" Optional="false">569</Output>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger ID="101" Name="Loop" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="474" Y="186" GroupID="-1" TemplateID="42">
+			<TriggerConditions>
+				<And>
+					<Condition ID="64" Type="NextPlayer" DBID="118" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="PlayerIterator" SigID="1" Optional="false">569</Input>
+						<Output Name="NextPlayer" SigID="2" Optional="false">271</Output>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
 				<Effect ID="209" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
 					<Input Name="Trigger" SigID="1" Optional="false">603</Input>
 				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse>
+				<Effect ID="210" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">604</Input>
+				</Effect>
 			</TriggerEffectsOnFalse>
 		</Trigger>
-		<Trigger ID="101" Name="Initialize our next activate time." Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="111" Y="190" GroupID="-1" TemplateID="46">
+		<Trigger ID="102" Name="Initialize our next activate time." Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="111" Y="190" GroupID="-1" TemplateID="46">
 			<TriggerConditions>
 				<And />
 			</TriggerConditions>
 			<TriggerEffectsOnTrue>
-				<Effect ID="176" Type="GetGameTime" DBID="265" Version="1" CommentOut="false">
+				<Effect ID="177" Type="GetGameTime" DBID="265" Version="1" CommentOut="false">
 					<Input Name="DeltaTime" SigID="1" Optional="true">305</Input>
-					<Output Name="ResultTime" SigID="2" Optional="false">569</Output>
+					<Output Name="ResultTime" SigID="2" Optional="false">570</Output>
 				</Effect>
-				<Effect ID="177" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">571</Input>
+				<Effect ID="178" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">572</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
 		</Trigger>
-		<Trigger ID="102" Name="Wait, activate, and increment next time." Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="539" Y="190" GroupID="-1" TemplateID="46">
+		<Trigger ID="103" Name="Wait, activate, and increment next time." Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="539" Y="190" GroupID="-1" TemplateID="46">
 			<TriggerConditions>
 				<And>
-					<Condition ID="64" Type="GameTimeReached" DBID="268" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Input Name="TestTime" SigID="1" Optional="false">569</Input>
-						<Output Name="TimeRemaining" SigID="2" Optional="true">570</Output>
+					<Condition ID="65" Type="GameTimeReached" DBID="268" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="TestTime" SigID="1" Optional="false">570</Input>
+						<Output Name="TimeRemaining" SigID="2" Optional="true">571</Output>
 					</Condition>
 				</And>
 			</TriggerConditions>
 			<TriggerEffectsOnTrue>
-				<Effect ID="178" Type="MathTime" DBID="263" Version="1" CommentOut="false">
-					<Input Name="FirstTime" SigID="1" Optional="false">569</Input>
-					<Input Name="MathOperator" SigID="2" Optional="false">572</Input>
+				<Effect ID="179" Type="MathTime" DBID="263" Version="1" CommentOut="false">
+					<Input Name="FirstTime" SigID="1" Optional="false">570</Input>
+					<Input Name="MathOperator" SigID="2" Optional="false">573</Input>
 					<Input Name="SecondTime" SigID="3" Optional="false">305</Input>
-					<Output Name="ResultTime" SigID="4" Optional="false">569</Output>
+					<Output Name="ResultTime" SigID="4" Optional="false">570</Output>
 				</Effect>
-				<Effect ID="179" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">573</Input>
-				</Effect>
-				<Effect ID="211" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">605</Input>
-				</Effect>
-			</TriggerEffectsOnTrue>
-			<TriggerEffectsOnFalse />
-		</Trigger>
-		<Trigger ID="103" Name="Initialize" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="80" Y="150" GroupID="-1" TemplateID="50">
-			<TriggerConditions>
-				<And />
-			</TriggerConditions>
-			<TriggerEffectsOnTrue>
 				<Effect ID="180" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
 					<Input Name="Trigger" SigID="1" Optional="false">574</Input>
 				</Effect>
-				<Effect ID="181" Type="IteratorPlayerList" DBID="120" Version="1" CommentOut="false">
-					<Input Name="PlayerList" SigID="1" Optional="false">328</Input>
-					<Output Name="InitializedIterator" SigID="2" Optional="false">575</Output>
+				<Effect ID="212" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">606</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
 		</Trigger>
-		<Trigger ID="104" Name="Loop" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="474" Y="186" GroupID="-1" TemplateID="50">
-			<TriggerConditions>
-				<And>
-					<Condition ID="65" Type="NextPlayer" DBID="118" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Input Name="PlayerIterator" SigID="1" Optional="false">575</Input>
-						<Output Name="NextPlayer" SigID="2" Optional="false">271</Output>
-					</Condition>
-				</And>
-			</TriggerConditions>
-			<TriggerEffectsOnTrue>
-				<Effect ID="218" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">612</Input>
-				</Effect>
-			</TriggerEffectsOnTrue>
-			<TriggerEffectsOnFalse>
-				<Effect ID="219" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">613</Input>
-				</Effect>
-			</TriggerEffectsOnFalse>
-		</Trigger>
-		<Trigger ID="105" Name="Initialize" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="80" Y="150" GroupID="-1" TemplateID="51">
+		<Trigger ID="104" Name="Initialize" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="80" Y="150" GroupID="-1" TemplateID="50">
 			<TriggerConditions>
 				<And />
 			</TriggerConditions>
 			<TriggerEffectsOnTrue>
-				<Effect ID="182" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">576</Input>
+				<Effect ID="181" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">575</Input>
 				</Effect>
-				<Effect ID="183" Type="IteratorPlayerList" DBID="120" Version="1" CommentOut="false">
-					<Input Name="PlayerList" SigID="1" Optional="false">332</Input>
-					<Output Name="InitializedIterator" SigID="2" Optional="false">577</Output>
+				<Effect ID="182" Type="IteratorPlayerList" DBID="120" Version="1" CommentOut="false">
+					<Input Name="PlayerList" SigID="1" Optional="false">328</Input>
+					<Output Name="InitializedIterator" SigID="2" Optional="false">576</Output>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
 		</Trigger>
-		<Trigger ID="106" Name="Loop" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="474" Y="186" GroupID="-1" TemplateID="51">
+		<Trigger ID="105" Name="Loop" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="474" Y="186" GroupID="-1" TemplateID="50">
 			<TriggerConditions>
 				<And>
 					<Condition ID="66" Type="NextPlayer" DBID="118" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Input Name="PlayerIterator" SigID="1" Optional="false">577</Input>
+						<Input Name="PlayerIterator" SigID="1" Optional="false">576</Input>
 						<Output Name="NextPlayer" SigID="2" Optional="false">271</Output>
 					</Condition>
 				</And>
 			</TriggerConditions>
 			<TriggerEffectsOnTrue>
-				<Effect ID="222" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">616</Input>
+				<Effect ID="215" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">609</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse>
-				<Effect ID="223" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">617</Input>
+				<Effect ID="216" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">610</Input>
 				</Effect>
 			</TriggerEffectsOnFalse>
 		</Trigger>
-		<Trigger ID="107" Name="Initialize" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="80" Y="150" GroupID="-1" TemplateID="54">
+		<Trigger ID="106" Name="Initialize" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="80" Y="150" GroupID="-1" TemplateID="51">
 			<TriggerConditions>
 				<And />
 			</TriggerConditions>
 			<TriggerEffectsOnTrue>
-				<Effect ID="184" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">578</Input>
+				<Effect ID="183" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">577</Input>
 				</Effect>
-				<Effect ID="185" Type="IteratorTeamList" DBID="121" Version="1" CommentOut="false">
-					<Input Name="TeamList" SigID="1" Optional="false">387</Input>
-					<Output Name="InitializedIterator" SigID="2" Optional="false">579</Output>
+				<Effect ID="184" Type="IteratorPlayerList" DBID="120" Version="1" CommentOut="false">
+					<Input Name="PlayerList" SigID="1" Optional="false">332</Input>
+					<Output Name="InitializedIterator" SigID="2" Optional="false">578</Output>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
 		</Trigger>
-		<Trigger ID="108" Name="Loop" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="474" Y="186" GroupID="-1" TemplateID="54">
+		<Trigger ID="107" Name="Loop" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="474" Y="186" GroupID="-1" TemplateID="51">
 			<TriggerConditions>
 				<And>
-					<Condition ID="67" Type="NextTeam" DBID="119" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Input Name="TeamIterator" SigID="1" Optional="false">579</Input>
+					<Condition ID="67" Type="NextPlayer" DBID="118" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="PlayerIterator" SigID="1" Optional="false">578</Input>
+						<Output Name="NextPlayer" SigID="2" Optional="false">271</Output>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="223" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">617</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse>
+				<Effect ID="224" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">618</Input>
+				</Effect>
+			</TriggerEffectsOnFalse>
+		</Trigger>
+		<Trigger ID="108" Name="Initialize" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="80" Y="150" GroupID="-1" TemplateID="54">
+			<TriggerConditions>
+				<And />
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="185" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">579</Input>
+				</Effect>
+				<Effect ID="186" Type="IteratorTeamList" DBID="121" Version="1" CommentOut="false">
+					<Input Name="TeamList" SigID="1" Optional="false">387</Input>
+					<Output Name="InitializedIterator" SigID="2" Optional="false">580</Output>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger ID="109" Name="Loop" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="474" Y="186" GroupID="-1" TemplateID="54">
+			<TriggerConditions>
+				<And>
+					<Condition ID="68" Type="NextTeam" DBID="119" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="TeamIterator" SigID="1" Optional="false">580</Input>
 						<Output Name="NextTeam" SigID="2" Optional="false">353</Output>
 					</Condition>
 				</And>
 			</TriggerConditions>
 			<TriggerEffectsOnTrue>
-				<Effect ID="227" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">621</Input>
-				</Effect>
-			</TriggerEffectsOnTrue>
-			<TriggerEffectsOnFalse>
 				<Effect ID="228" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
 					<Input Name="Trigger" SigID="1" Optional="false">622</Input>
 				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse>
+				<Effect ID="229" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">623</Input>
+				</Effect>
 			</TriggerEffectsOnFalse>
 		</Trigger>
-		<Trigger ID="109" Name="Initialize" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="80" Y="150" GroupID="-1" TemplateID="57">
+		<Trigger ID="110" Name="Initialize" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="80" Y="150" GroupID="-1" TemplateID="57">
 			<TriggerConditions>
 				<And />
 			</TriggerConditions>
 			<TriggerEffectsOnTrue>
-				<Effect ID="186" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">580</Input>
+				<Effect ID="187" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">581</Input>
 				</Effect>
-				<Effect ID="187" Type="IteratorPlayerList" DBID="120" Version="1" CommentOut="false">
+				<Effect ID="188" Type="IteratorPlayerList" DBID="120" Version="1" CommentOut="false">
 					<Input Name="PlayerList" SigID="1" Optional="false">354</Input>
-					<Output Name="InitializedIterator" SigID="2" Optional="false">581</Output>
+					<Output Name="InitializedIterator" SigID="2" Optional="false">582</Output>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
 		</Trigger>
-		<Trigger ID="110" Name="Loop" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="474" Y="186" GroupID="-1" TemplateID="57">
+		<Trigger ID="111" Name="Loop" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="474" Y="186" GroupID="-1" TemplateID="57">
 			<TriggerConditions>
 				<And>
-					<Condition ID="68" Type="NextPlayer" DBID="118" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Input Name="PlayerIterator" SigID="1" Optional="false">581</Input>
+					<Condition ID="69" Type="NextPlayer" DBID="118" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="PlayerIterator" SigID="1" Optional="false">582</Input>
 						<Output Name="NextPlayer" SigID="2" Optional="false">271</Output>
 					</Condition>
 				</And>
 			</TriggerConditions>
 			<TriggerEffectsOnTrue>
-				<Effect ID="232" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">626</Input>
-				</Effect>
-			</TriggerEffectsOnTrue>
-			<TriggerEffectsOnFalse>
 				<Effect ID="233" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
 					<Input Name="Trigger" SigID="1" Optional="false">627</Input>
 				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse>
+				<Effect ID="234" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">628</Input>
+				</Effect>
 			</TriggerEffectsOnFalse>
 		</Trigger>
-		<Trigger ID="111" Name="Initialize" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="80" Y="150" GroupID="-1" TemplateID="69">
+		<Trigger ID="112" Name="Initialize" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="80" Y="150" GroupID="-1" TemplateID="69">
 			<TriggerConditions>
 				<And />
 			</TriggerConditions>
 			<TriggerEffectsOnTrue>
-				<Effect ID="188" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">582</Input>
+				<Effect ID="189" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">583</Input>
 				</Effect>
-				<Effect ID="189" Type="IteratorPlayerList" DBID="120" Version="1" CommentOut="false">
+				<Effect ID="190" Type="IteratorPlayerList" DBID="120" Version="1" CommentOut="false">
 					<Input Name="PlayerList" SigID="1" Optional="false">423</Input>
-					<Output Name="InitializedIterator" SigID="2" Optional="false">583</Output>
+					<Output Name="InitializedIterator" SigID="2" Optional="false">584</Output>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
 		</Trigger>
-		<Trigger ID="112" Name="Loop" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="474" Y="186" GroupID="-1" TemplateID="69">
+		<Trigger ID="113" Name="Loop" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="474" Y="186" GroupID="-1" TemplateID="69">
 			<TriggerConditions>
 				<And>
-					<Condition ID="69" Type="NextPlayer" DBID="118" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Input Name="PlayerIterator" SigID="1" Optional="false">583</Input>
+					<Condition ID="70" Type="NextPlayer" DBID="118" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="PlayerIterator" SigID="1" Optional="false">584</Input>
 						<Output Name="NextPlayer" SigID="2" Optional="false">429</Output>
 					</Condition>
 				</And>
 			</TriggerConditions>
 			<TriggerEffectsOnTrue>
-				<Effect ID="236" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">630</Input>
+				<Effect ID="237" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">631</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse>
-				<Effect ID="237" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">631</Input>
+				<Effect ID="238" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">632</Input>
 				</Effect>
 			</TriggerEffectsOnFalse>
 		</Trigger>
@@ -1846,21 +1846,21 @@
 				<TriggerInput Name="Stop" BindID="1,Deactivate" Color="255,0,0" />
 				<TriggerOutput Name="Activate" BindID="1,Effect.True">41,Activate;</TriggerOutput>
 			</TriggerTemplateMapping>
-			<TriggerTemplateMapping ID="50" Name="\iteratorplayerlist.xml" Image="" X="3847" Y="252" SizeX="138" SizeY="80" GroupID="3" CommentOut="false" Obsolete="false" DoNotUse="false">
+			<TriggerTemplateMapping ID="50" Name="\iteratorplayerlist.xml" Image="" X="4252" Y="260" SizeX="138" SizeY="80" GroupID="3" CommentOut="false" Obsolete="false" DoNotUse="false">
 				<InputMapping Name="PlayerList" SigID="-1" Optional="false" Type="PlayerList" BindID="26">328</InputMapping>
 				<OutputMapping Name="NextPlayer" SigID="-1" Optional="false" Type="Player" BindID="29">271</OutputMapping>
 				<TriggerInput Name="GetNext" BindID="1,Activate">49,Effect.True;49,Effect.False;</TriggerInput>
-				<TriggerInput Name="Init" BindID="0,Activate" Color="0,94,32">48,Effect.True;47,Effect.True;74,Effect.True;73,Effect.True;</TriggerInput>
+				<TriggerInput Name="Init" BindID="0,Activate" Color="0,94,32" />
 				<TriggerOutput Name="GotNext" BindID="1,Effect.True">49,Activate;</TriggerOutput>
-				<TriggerOutput Name="NoneLeft" BindID="1,Effect.False" Color="121,0,0">51,Init;</TriggerOutput>
+				<TriggerOutput Name="NoneLeft" BindID="1,Effect.False" Color="121,0,0">53,Activate;</TriggerOutput>
 			</TriggerTemplateMapping>
-			<TriggerTemplateMapping ID="51" Name="\iteratorplayerlist.xml" Image="" X="4238" Y="249" SizeX="138" SizeY="80" GroupID="3" CommentOut="false" Obsolete="false" DoNotUse="false">
+			<TriggerTemplateMapping ID="51" Name="\iteratorplayerlist.xml" Image="" X="3872" Y="259" SizeX="138" SizeY="80" GroupID="3" CommentOut="false" Obsolete="false" DoNotUse="false">
 				<InputMapping Name="PlayerList" SigID="-1" Optional="false" Type="PlayerList" BindID="26">332</InputMapping>
 				<OutputMapping Name="NextPlayer" SigID="-1" Optional="false" Type="Player" BindID="29">271</OutputMapping>
 				<TriggerInput Name="GetNext" BindID="1,Activate">52,Effect.True;52,Effect.False;</TriggerInput>
-				<TriggerInput Name="Init" BindID="0,Activate" Color="0,94,32" />
+				<TriggerInput Name="Init" BindID="0,Activate" Color="0,94,32">48,Effect.True;47,Effect.True;74,Effect.True;73,Effect.True;</TriggerInput>
 				<TriggerOutput Name="GotNext" BindID="1,Effect.True">52,Activate;</TriggerOutput>
-				<TriggerOutput Name="NoneLeft" BindID="1,Effect.False" Color="121,0,0">53,Activate;</TriggerOutput>
+				<TriggerOutput Name="NoneLeft" BindID="1,Effect.False" Color="121,0,0">50,Init;</TriggerOutput>
 			</TriggerTemplateMapping>
 			<TriggerTemplateMapping ID="54" Name="\iteratorteamlist.xml" Image="" X="1026" Y="182" SizeX="138" SizeY="80" GroupID="4" CommentOut="false" Obsolete="false" DoNotUse="false">
 				<InputMapping Name="TeamList" SigID="-1" Optional="false" Type="TeamList" BindID="31">387</InputMapping>
@@ -1896,10 +1896,10 @@
 				<GroupUI X="682" Y="264" iX="0" iY="120" oX="0" oY="183" Width="252" Height="62" GroupID="-1" InternalGroupID="1">
 					<Title>Creeps</Title>
 				</GroupUI>
-				<GroupUI X="691" Y="351" iX="-888" iY="0" oX="-888" oY="429" Width="241" Height="49" GroupID="-1" InternalGroupID="2">
+				<GroupUI X="691" Y="351" iX="-1557" iY="0" oX="-1557" oY="429" Width="241" Height="49" GroupID="-1" InternalGroupID="2">
 					<Title>ScoreRace Startup</Title>
 				</GroupUI>
-				<GroupUI X="2635" Y="273" iX="0" iY="0" oX="0" oY="305" Width="258" Height="58" GroupID="2" InternalGroupID="3">
+				<GroupUI X="2635" Y="273" iX="-3685" iY="-131" oX="-3685" oY="174" Width="258" Height="58" GroupID="2" InternalGroupID="3">
 					<Title>Score race update</Title>
 				</GroupUI>
 				<GroupUI X="737" Y="230" iX="0" iY="0" oX="1441" oY="0" Width="256" Height="61" GroupID="2" InternalGroupID="4">
@@ -1907,7 +1907,7 @@
 				</GroupUI>
 			</Groups>
 		</UIData>
-		<TriggerSystem Name="Script" Type="Scenario" NextTriggerVarID="546" NextTriggerID="86" NextConditionID="55" NextEffectID="161" External="false">
+		<TriggerSystem Name="Script" Type="Scenario" NextTriggerVarID="547" NextTriggerID="87" NextConditionID="56" NextEffectID="162" External="false">
 			<TriggerGroups />
 			<TriggerVars>
 				<TriggerVar ID="1" Type="Trigger" Name="TriggerVar1" IsNull="false">2</TriggerVar>
@@ -2824,7 +2824,7 @@
 					</TriggerEffectsOnTrue>
 					<TriggerEffectsOnFalse />
 				</Trigger>
-				<Trigger ID="49" Name="Set winners still playing to won" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="3839" Y="574" GroupID="3" TemplateID="-1">
+				<Trigger ID="49" Name="Set winners still playing to won" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="4205" Y="577" GroupID="3" TemplateID="-1">
 					<TriggerConditions>
 						<And>
 							<Condition ID="34" Type="PlayerInState" DBID="131" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
@@ -2841,7 +2841,7 @@
 					</TriggerEffectsOnTrue>
 					<TriggerEffectsOnFalse />
 				</Trigger>
-				<Trigger ID="52" Name="Set losers still playing to lost" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="4164" Y="429" GroupID="3" TemplateID="-1">
+				<Trigger ID="52" Name="Set losers still playing to lost" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="3791" Y="587" GroupID="3" TemplateID="-1">
 					<TriggerConditions>
 						<And>
 							<Condition ID="35" Type="PlayerInState" DBID="131" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
@@ -2858,7 +2858,7 @@
 					</TriggerEffectsOnTrue>
 					<TriggerEffectsOnFalse />
 				</Trigger>
-				<Trigger ID="53" Name="And we are done" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="4568" Y="285" GroupID="3" TemplateID="-1">
+				<Trigger ID="53" Name="And we are done" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="4567" Y="302" GroupID="3" TemplateID="-1">
 					<TriggerConditions>
 						<And />
 					</TriggerConditions>
