@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Abilities>
+	<Ability Name="Ungarrison" />
+	<Ability Name="Unhitch" />
+	<Ability Name="UnscRam">
+		<DisplayNameID>23621</DisplayNameID>
+		<RolloverTextID>23622</RolloverTextID>
+		<Type>Work</Type>
+		<SquadMode>HitAndRun</SquadMode>
+		<TargetType>UnitOrLocation</TargetType>
+	</Ability>
+	<Ability Name="UnscLockdown">
+		<DisplayNameID>6002</DisplayNameID>
+		<DisplayName2ID>6029</DisplayName2ID>
+		<RolloverTextID>6003</RolloverTextID>
+		<Type>ChangeMode</Type>
+		<SquadMode>Lockdown</SquadMode>
+		<TargetType>UnitOrLocation</TargetType>
+	</Ability>
+	<Ability Name="UnscSprint">
+		<DisplayNameID>6008</DisplayNameID>
+		<RolloverTextID>6009</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<SquadMode>Passive</SquadMode>
+		<MovementSpeedModifier>2</MovementSpeedModifier>
+		<RecoverStart>Move</RecoverStart>
+		<RecoverType>Attack</RecoverType>
+		<RecoverTime>3</RecoverTime>
+		<Sprinting>true</Sprinting>
+	</Ability>
+	<Ability Name="UnscUnload">
+		<DisplayNameID>6010</DisplayNameID>
+		<RolloverTextID>6011</RolloverTextID>
+		<Type>Unload</Type>
+		<TargetType>Location</TargetType>
+	</Ability>
+	<Ability Name="UnscBarrage">
+		<DisplayNameID>6012</DisplayNameID>
+		<RolloverTextID>6013</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>Location</TargetType>
+		<AttackSquadMode>Lockdown</AttackSquadMode>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>30</RecoverTime>
+		<RecoverAnimAttachment>BayDoors</RecoverAnimAttachment>
+		<RecoverStartAnim>CloseBay</RecoverStartAnim>
+		<RecoverEndAnim>OpenBay</RecoverEndAnim>
+	</Ability>
+	<Ability Name="UnscUnpackTurret">
+		<DisplayNameID>6033</DisplayNameID>
+		<RolloverTextID>6034</RolloverTextID>
+		<Type>Unpack</Type>
+		<Object>unsc_bldg_turret_01</Object>
+	</Ability>
+	<Ability Name="UnscUnpackBase">
+		<DisplayNameID>6033</DisplayNameID>
+		<RolloverTextID>6034</RolloverTextID>
+		<Type>Unpack</Type>
+		<Object>unsc_bldg_firebase_01</Object>
+	</Ability>
+	<Ability Name="CovLockdown">
+		<DisplayNameID>6016</DisplayNameID>
+		<DisplayName2ID>6030</DisplayName2ID>
+		<RolloverTextID>6017</RolloverTextID>
+		<TriggerScript>AbilityLockDown.triggerscript</TriggerScript>
+		<SquadMode>Lockdown</SquadMode>
+	</Ability>
+	<Ability Name="CovChimeraDigIn">
+		<DisplayNameID>6006</DisplayNameID>
+		<DisplayName2ID>6031</DisplayName2ID>
+		<RolloverTextID>6007</RolloverTextID>
+		<TriggerScript>CovAbilityChimeraDigIn.triggerscript</TriggerScript>
+		<SquadMode>Lockdown</SquadMode>
+	</Ability>
+	<Ability Name="CovUnpackTurret">
+		<DisplayNameID>6033</DisplayNameID>
+		<RolloverTextID>6034</RolloverTextID>
+		<Type>Unpack</Type>
+		<Object>cov_bldg_turret_01</Object>
+	</Ability>
+	<Ability Name="CovUnpackBase">
+		<DisplayNameID>6033</DisplayNameID>
+		<RolloverTextID>6034</RolloverTextID>
+		<Type>Unpack</Type>
+		<Object>cov_bldg_expander_01</Object>
+	</Ability>
+	<Ability Name="CpgnMacCannon">
+		<DisplayNameID>6020</DisplayNameID>
+		<RolloverTextID>6021</RolloverTextID>
+		<Type>Work</Type>
+	</Ability>
+	<Ability Name="cpgnUnload">
+		<DisplayNameID>6004</DisplayNameID>
+		<RolloverTextID>6005</RolloverTextID>
+		<Type>CommandMenu</Type>
+	</Ability>
+</Abilities>

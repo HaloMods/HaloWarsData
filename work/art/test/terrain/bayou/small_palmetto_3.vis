@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<file>test\terrain\bayou\small_palmetto_3</file>
+			</asset>
+		</component>
+	</model>
+</visual>

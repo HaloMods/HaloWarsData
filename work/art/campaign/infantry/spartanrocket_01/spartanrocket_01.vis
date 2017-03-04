@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<file>unsc\infantry\spartan_01\spartan_01</file>
+			</asset>
+			<attach type="ParticleFile" name="effects\special\spartan_tag_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelFile" name="unsc\infantry\weapons_01\rocket_launcher_01\spartanrocket_launcher_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<point pointType="Impact" bone="Bip01 Spine1" pointData="Metal" />
+			<point pointType="Impact" bone="Bip01 Head" pointData="Metal" />
+			<point pointType="Impact" bone="Bip01 L Forearm" pointData="Metal" />
+			<point pointType="Impact" bone="Bip01 R Forearm" pointData="Metal" />
+			<point pointType="Impact" bone="Bip01 L Thigh" pointData="Metal" />
+			<point pointType="Impact" bone="Bip01 R Thigh" pointData="Metal" />
+			<point pointType="Impact" bone="Bip01 L Calf" pointData="Metal" />
+			<point pointType="Impact" bone="Bip01 R Calf" pointData="Metal" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\infantry\spartan_01\rocket_idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\spartan_01\rocket_idle_02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\spartan_01\rocket_walk_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="play_ani_marine_walk_01" tobone="Bip01 L Foot" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+				<tag type="Sound" start="0" position="0.519" end="1" name="play_ani_marine_walk_01" tobone="Bip01 R Foot" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\spartan_01\rocket_jog_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="play_ani_marine_walk_01" tobone="Bip01 R Foot" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+				<tag type="Sound" start="0" position="0.538" end="1" name="play_ani_marine_walk_01" tobone="Bip01 L Foot" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\spartan_01\rocket_run_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.128" end="1" name="play_ani_marine_walk_01" tobone="Bip01 L Foot" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+				<tag type="Sound" start="0" position="0.61" end="1" name="play_ani_marine_walk_01" tobone="Bip01 R Foot" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+			</asset>
+		</anim>
+		<anim type="Gather" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\spartan_01\rocket_combat_idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\special\unit_hourglass_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Build" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\spartan_01\rocket_combat_idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\special\unit_hourglass_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\spartan_01\death_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\spartan_01\death_02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="ClamShell" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\spartan_01\clamshell_01_1</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\spartan_01\clamshell_01_2</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\spartan_01\clamshell_02_1</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\spartan_01\clamshell_02_2</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Flail" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\spartan_01\flail_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Spin" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\spartan_01\spin_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="GroundToGroundMissileLauncherAttack" exitAction="Transition" tweenTime="5" tweenToAnimation="GroundToGroundMissileLauncherAttack">
+			<asset type="Anim">
+				<file>unsc\infantry\spartan_01\rocket_attack_01</file>
+				<weight>80</weight>
+				<tag type="Attack" start="0" position="0.119" end="1" tobone="bone_launchpoint04" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+				<tag type="Light" start="0" position="0.119" end="1" name="unsc\infantry\marine_01\marineAttack2" tobone="bone_launchpoint04" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+				<tag type="Sound" start="0" position="0.119" end="1" name="play_weap_unsc_spartan_rocket" tobone="bone_launchpoint04" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\spartan_01\rocket_attack_02</file>
+				<weight>95</weight>
+				<tag type="Attack" start="0" position="0.119" end="1" tobone="bone_launchpoint04" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+				<tag type="Light" start="0" position="0.119" end="1" name="unsc\infantry\marine_01\marineAttack2" tobone="bone_launchpoint04" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+				<tag type="Sound" start="0" position="0.119" end="1" name="play_weap_unsc_spartan_rocket" tobone="bone_launchpoint04" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\spartan_01\rocket_attack_03</file>
+				<weight>60</weight>
+				<tag type="Attack" start="0" position="0.164" end="1" tobone="bone_launchpoint04" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+				<tag type="Light" start="0" position="0.164" end="1" name="unsc\infantry\marine_01\marineAttack2" tobone="bone_launchpoint04" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+				<tag type="Sound" start="0" position="0.164" end="1" name="play_weap_unsc_spartan_rocket" tobone="bone_launchpoint04" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\spartan_01\rocket_attack_04</file>
+				<weight>40</weight>
+				<tag type="Attack" start="0" position="0.195" end="1" tobone="bone_launchpoint04" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+				<tag type="Light" start="0" position="0.195" end="1" name="unsc\infantry\marine_01\marineAttack2" tobone="bone_launchpoint04" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+				<tag type="Sound" start="0" position="0.195" end="1" name="play_weap_unsc_spartan_rocket" tobone="bone_launchpoint04" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+			</asset>
+		</anim>
+		<anim type="GroundToAirMissileLauncherAttack" exitAction="Transition" tweenTime="5" tweenToAnimation="GroundToAirMissileLauncherAttack">
+			<asset type="Anim">
+				<file>unsc\infantry\spartan_01\rocket_attack_up_01</file>
+				<weight>80</weight>
+				<tag type="Attack" start="0" position="0.119" end="1" tobone="bone_launchpoint04" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+				<tag type="Light" start="0" position="0.119" end="1" name="unsc\infantry\marine_01\marineAttack2" tobone="bone_launchpoint04" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+				<tag type="Sound" start="0" position="0.119" end="1" name="play_weap_unsc_spartan_rocket" tobone="bone_launchpoint04" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\spartan_01\rocket_attack_up_02</file>
+				<weight>95</weight>
+				<tag type="Attack" start="0" position="0.119" end="1" tobone="bone_launchpoint04" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+				<tag type="Light" start="0" position="0.119" end="1" name="unsc\infantry\marine_01\marineAttack2" tobone="bone_launchpoint04" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+				<tag type="Sound" start="0" position="0.119" end="1" name="play_weap_unsc_spartan_rocket" tobone="bone_launchpoint04" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\spartan_01\rocket_attack_up_03</file>
+				<weight>60</weight>
+				<tag type="Attack" start="0" position="0.164" end="1" tobone="bone_launchpoint04" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+				<tag type="Light" start="0" position="0.164" end="1" name="unsc\infantry\marine_01\marineAttack2" tobone="bone_launchpoint04" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+				<tag type="Sound" start="0" position="0.164" end="1" name="play_weap_unsc_spartan_rocket" tobone="bone_launchpoint04" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+			</asset>
+			<asset type="Anim">
+				<file>unsc\infantry\spartan_01\rocket_attack_up_04</file>
+				<weight>40</weight>
+				<tag type="Attack" start="0" position="0.195" end="1" tobone="bone_launchpoint04" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+				<tag type="Light" start="0" position="0.195" end="1" name="unsc\infantry\marine_01\marineAttack2" tobone="bone_launchpoint04" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+				<tag type="Sound" start="0" position="0.195" end="1" name="play_unsc_odst_rocket_launcher" tobone="bone_launchpoint04" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+			</asset>
+		</anim>
+		<anim type="MissileLauncherReload" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\spartan_01\rocket_reload_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="CombatRocketIdle" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\spartan_01\rocket_combat_idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="CombatWalkForward" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\infantry\spartan_01\rocket_combat_walk_forward_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="PelicanUngarrison" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\pelicanDeploy_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="PelicanUngarrison2" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\pelicanDeploy_02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="PelicanUngarrison3" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\pelicanDeploy_03</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="PelicanUngarrison4" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\pelicanDeploy_04</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="PelicanUngarrison5" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\pelicanDeploy_05</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="PelicanUngarrison6" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\infantry\marine_01\pelicanDeploy_06</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+</visual>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<file>unsc\air\hawk_01\hawk_01</file>
+			</asset>
+			<attach type="ParticleFile" name="effects\vehicle_fx\unsc\hawk\rotor_01" tobone="bone_rotorFXRight" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects\vehicle_fx\unsc\hawk\rotor_01" tobone="bone_rotorFXLeft" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects\vehicle_fx\unsc\hawk\idle_01" tobone="bone_body" syncanims="false" disregardorient="false" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\hawk_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\air\hawk_01\idle_02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\hawk_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\air\hawk_01\idle_02</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\vehicle_fx\unsc\hawk\walk_01" tobone="bone_body" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\hawk_01\death_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.019" end="1" name="effects\impacts\tank_shell_impact\tank_shell_impact_01" tobone="bone_body" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+				<tag type="Particle" start="0" position="0.077" end="1" name="effects\impacts\tank_shell_impact\tank_shell_impact_01" tobone="bone_impact_03" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+				<tag type="Particle" start="0" position="0.103" end="1" name="effects\impacts\tank_shell_impact\tank_shell_impact_01" tobone="bone_turbine_R" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+			</asset>
+			<asset type="Anim">
+				<file>unsc\air\hawk_01\death_02</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.019" end="1" name="effects\impacts\tank_shell_impact\tank_shell_impact_01" tobone="bone_body" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+				<tag type="Particle" start="0" position="0.077" end="1" name="effects\impacts\tank_shell_impact\tank_shell_impact_01" tobone="bone_impact_03" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+				<tag type="Particle" start="0" position="0.103" end="1" name="effects\impacts\tank_shell_impact\tank_shell_impact_01" tobone="bone_turbine_R" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+			</asset>
+			<attach type="ParticleFile" name="effects\fire\flaming_debris_01" tobone="bone_body" syncanims="false" disregardorient="true" />
+			<attach type="ParticleFile" name="effects\fire\flaming_debris_01" tobone="bone_impact_10" syncanims="false" disregardorient="true" />
+			<attach type="ParticleFile" name="effects\fire\flaming_debris_01" tobone="bone_mgun_R" syncanims="false" disregardorient="true" />
+		</anim>
+		<anim type="CannonAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\hawk_01\idle_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.24" end="1" name="play_unsc_hawk_cannon" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+				<tag type="Attack" start="0" position="0.25" end="1" tobone="bone_launchpoint_R" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+				<tag type="Particle" start="0" position="0.25" end="1" name="effects\vehicle_fx\unsc\warthog\muzzleblast" tobone="bone_launchpoint_L" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+				<tag type="Attack" start="0" position="0.3" end="1" tobone="bone_launchpoint_L" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+				<tag type="Particle" start="0" position="0.3" end="1" name="effects\vehicle_fx\unsc\warthog\muzzleblast" tobone="bone_launchpoint_R" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+				<tag type="Attack" start="0" position="0.35" end="1" tobone="bone_launchpoint_C" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+				<tag type="Particle" start="0" position="0.35" end="1" name="effects\vehicle_fx\unsc\warthog\muzzleblast" tobone="bone_launchpoint_C" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+				<tag type="Attack" start="0" position="0.4" end="1" tobone="bone_launchpoint_MR" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+				<tag type="Attack" start="0" position="0.4" end="1" tobone="bone_launchpoint_R" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+				<tag type="Attack" start="0" position="0.45" end="1" tobone="bone_launchpoint_L" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+				<tag type="Attack" start="0" position="0.5" end="1" tobone="bone_launchpoint_ML" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+				<tag type="Attack" start="0" position="0.5" end="1" tobone="bone_launchpoint_C" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" />
+			</asset>
+			<attach type="ParticleFile" name="effects\vehicle_fx\unsc\hawk\idle_01" tobone="bone_body" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Cinematic" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\hawk_01\hawk_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+</visual>

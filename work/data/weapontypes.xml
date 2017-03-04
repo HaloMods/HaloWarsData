@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<WeaponTypes>
+	<WeaponType>
+		<Name>AntiInfantry</Name>
+		<DamageModifier rating="1" type="Light">2</DamageModifier>
+		<DamageModifier rating="1" type="Medium">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAgile">1.4</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Sprint">7.2</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>ArmorPiercing</Name>
+		<DamageModifier rating="1" type="Light">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Medium">1.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumAgile">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1.8</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">2</DamageModifier>
+		<DamageModifier rating="1" type="Building">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1.4</DamageModifier>
+		<DamageModifier rating="1" type="Sprint">1.2</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>Basic</Name>
+		<DamageModifier rating="1" type="Light">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAgile">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">1</DamageModifier>
+		<DamageModifier rating="1" type="Building">1</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+		<DamageModifier rating="1" type="Sprint">3</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>Explosive</Name>
+		<DamageModifier rating="1" type="Light">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Medium">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAgile">0.8</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">1.6</DamageModifier>
+		<DamageModifier rating="1" type="Building">1.8</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1.2</DamageModifier>
+		<DamageModifier rating="1" type="Sprint">2.8</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>SmallArms</Name>
+		<DamageModifier rating="1" type="Light">1.6</DamageModifier>
+		<DamageModifier rating="1" type="Medium">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAgile">1.2</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1.2</DamageModifier>
+		<DamageModifier rating="1" type="Sprint">3.2</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>AASmallArms</Name>
+		<DamageModifier rating="1" type="Light">1.6</DamageModifier>
+		<DamageModifier rating="1" type="Medium">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAgile">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">2</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1.2</DamageModifier>
+		<DamageModifier rating="1" type="Sprint">3.2</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>Beam</Name>
+		<DamageModifier rating="1" type="Light">0.8</DamageModifier>
+		<DamageModifier rating="1" type="Medium">0.8</DamageModifier>
+		<DamageModifier rating="1" type="MediumAgile">0.8</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">0.8</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">0.8</DamageModifier>
+		<DamageModifier rating="1" type="Building">2</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">2</DamageModifier>
+		<DamageModifier rating="1" type="Sprint">3</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>WarthogRam</Name>
+		<DamageModifier rating="1" type="Light" reflectDamageFactor="0.25" bowlable="true">2</DamageModifier>
+		<DamageModifier rating="1" type="Medium" reflectDamageFactor="1" rammable="true">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAgile" reflectDamageFactor="0.5" rammable="true">1.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Heavy" reflectDamageFactor="3.75" rammable="true">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Building" reflectDamageFactor="5" rammable="true">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1.8</DamageModifier>
+		<DamageModifier rating="1" type="Sprint">7.2</DamageModifier>
+	</WeaponType>
+</WeaponTypes>

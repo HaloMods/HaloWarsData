@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<FlashMovieDefinition>
+	<Properties>
+		<Data type="StringID" name="CombatGradeString">22555</Data>
+	</Properties>
+	<Resolution>
+		<Control x="-1" y="-1" xOffset="0" yOffset="0" width="0" height="0" xScale="115" yScale="115">_root.UI_resources</Control>
+		<Control x="-1" y="-1" xOffset="0" yOffset="0" width="0" height="0" xScale="100" yScale="80">_root.UI_menu</Control>
+		<Control x="-1" y="-1" xOffset="25" yOffset="-20" width="0" height="0" xScale="155" yScale="120">_root.UI_Dpad</Control>
+		<Control x="-1" y="-1" xOffset="-25" yOffset="-20" width="0" height="0" xScale="155" yScale="120">_root.UI_btns</Control>
+		<Control x="-1" y="-1" xOffset="0" yOffset="25" width="0" height="0" xScale="125" yScale="125">_root.UI_timer</Control>
+		<Control x="-1" y="-1" xOffset="0" yOffset="-5" width="0" height="0" xScale="85" yScale="85">_root.UI_unit</Control>4x3</Resolution>
+	<Control name="LabelButtonX">_root.UI_btns.x_text.value</Control>
+	<Control name="LabelButtonY">_root.UI_btns.y_text.value</Control>
+	<Control name="LabelButtonA">_root.UI_btns.a_text.value</Control>
+	<Control name="LabelButtonB">_root.UI_btns.b_text.value</Control>
+	<Control name="LabelDPadUp">_root.UI_Dpad.y_text.value</Control>
+	<Control name="LabelDPadDown">_root.UI_Dpad.a_text.value</Control>
+	<Control name="LabelDPadLeft">_root.UI_Dpad.x_text.value</Control>
+	<Control name="LabelDPadRight">_root.UI_Dpad.b_text.value</Control>
+	<Control name="LabelUnitSelectionSlot0">_root.UI_unit.unit1.unitCount.value</Control>
+	<Control name="LabelUnitSelectionSlot1">_root.UI_unit.unit2.unitCount.value</Control>
+	<Control name="LabelUnitSelectionSlot2">_root.UI_unit.unit3.unitCount.value</Control>
+	<Control name="LabelUnitSelectionSlot3">_root.UI_unit.unit4.unitCount.value</Control>
+	<Control name="LabelUnitSelectionSlot4">_root.UI_unit.unit5.unitCount.value</Control>
+	<Control name="LabelUnitSelectionSlot5">_root.UI_unit.unit6.unitCount.value</Control>
+	<Control name="LabelUnitSelectionSlot6">_root.UI_unit.unit7.unitCount.value</Control>
+	<Control name="LabelUnitSelectionSlot7">_root.UI_unit.unit8.unitCount.value</Control>
+	<Control name="LabelGameTime">_root.UI_timer.value</Control>
+	<Control name="LabelButtonShoulderRight">_root.UI_btns.rb_text.value</Control>
+	<Control name="LabelButtonShoulderLeft">_root.UI_Dpad.lb_text.value</Control>
+	<Control name="Player1Score">_root.player1INST.scoreText.value</Control>
+	<Control name="Player2Score">_root.player2INST.scoreText.value</Control>
+	<Control name="Player3Score">_root.player3INST.scoreText.value</Control>
+	<Control name="Player4Score">_root.player4INST.scoreText.value</Control>
+	<Control name="Player5Score">_root.player5INST.scoreText.value</Control>
+	<Control name="Player6Score">_root.player6INST.scoreText.value</Control>
+	<Control name="InfoPanelSlot1Text">_root.UI_menu.infopanel.slot1.value</Control>
+	<Control name="InfoPanelSlot1DetailText1">_root.UI_menu.infopanel.slot1.detail1.value</Control>
+	<Control name="InfoPanelSlot1DetailText2">_root.UI_menu.infopanel.slot1.detail2.value</Control>
+	<Control name="InfoPanelSlot1DetailText3">_root.UI_menu.infopanel.slot1.detail3.value</Control>
+	<Control name="InfoPanelSlot1DetailText4">_root.UI_menu.infopanel.slot1.detail4.value</Control>
+	<Control name="InfoPanelSlot1DetailText5">_root.UI_menu.infopanel.slot1.detail5.value</Control>
+	<Control name="InfoPanelSlot1DetailText6">_root.UI_menu.infopanel.slot1.detail6.value</Control>
+	<Control name="InfoPanelSlot2Text">_root.UI_menu.infopanel.slot2.value</Control>
+	<Control name="InfoPanelSlot2DetailText1">_root.UI_menu.infopanel.slot2.detail1.value</Control>
+	<Control name="InfoPanelSlot2DetailText2">_root.UI_menu.infopanel.slot2.detail2.value</Control>
+	<Control name="InfoPanelSlot2DetailText3">_root.UI_menu.infopanel.slot2.detail3.value</Control>
+	<Control name="InfoPanelSlot2DetailText4">_root.UI_menu.infopanel.slot2.detail4.value</Control>
+	<Control name="InfoPanelSlot2DetailText5">_root.UI_menu.infopanel.slot2.detail5.value</Control>
+	<Control name="InfoPanelSlot2DetailText6">_root.UI_menu.infopanel.slot2.detail6.value</Control>
+	<Control name="InfoPanelSlot3Text">_root.UI_menu.infopanel.slot3.value</Control>
+	<Control name="InfoPanelSlot3DetailText1">_root.UI_menu.infopanel.slot3.detail1.value</Control>
+	<Control name="InfoPanelSlot3DetailText2">_root.UI_menu.infopanel.slot3.detail2.value</Control>
+	<Control name="InfoPanelSlot3DetailText3">_root.UI_menu.infopanel.slot3.detail3.value</Control>
+	<Control name="InfoPanelSlot3DetailText4">_root.UI_menu.infopanel.slot3.detail4.value</Control>
+	<Control name="InfoPanelSlot3DetailText5">_root.UI_menu.infopanel.slot3.detail5.value</Control>
+	<Control name="InfoPanelSlot3DetailText6">_root.UI_menu.infopanel.slot3.detail6.value</Control>
+	<Control name="InfoPanelSlot4Text">_root.UI_menu.infopanel.slot4.value</Control>
+	<Control name="InfoPanelSlot4DetailText1">_root.UI_menu.infopanel.slot4.detail1.value</Control>
+	<Control name="InfoPanelSlot4DetailText2">_root.UI_menu.infopanel.slot4.detail2.value</Control>
+	<Control name="InfoPanelSlot4DetailText3">_root.UI_menu.infopanel.slot4.detail3.value</Control>
+	<Control name="InfoPanelSlot4DetailText4">_root.UI_menu.infopanel.slot4.detail4.value</Control>
+	<Control name="InfoPanelSlot4DetailText5">_root.UI_menu.infopanel.slot4.detail5.value</Control>
+	<Control name="InfoPanelSlot4DetailText6">_root.UI_menu.infopanel.slot4.detail6.value</Control>
+	<Control name="InfoPanelSlot5Text">_root.UI_menu.infopanel.slot5.value</Control>
+	<Control name="InfoPanelSlot5DetailText1">_root.UI_menu.infopanel.slot5.detail1.value</Control>
+	<Control name="InfoPanelSlot5DetailText2">_root.UI_menu.infopanel.slot5.detail2.value</Control>
+	<Control name="InfoPanelSlot5DetailText3">_root.UI_menu.infopanel.slot5.detail3.value</Control>
+	<Control name="InfoPanelSlot5DetailText4">_root.UI_menu.infopanel.slot5.detail4.value</Control>
+	<Control name="InfoPanelSlot5DetailText5">_root.UI_menu.infopanel.slot5.detail5.value</Control>
+	<Control name="InfoPanelSlot5DetailText6">_root.UI_menu.infopanel.slot5.detail6.value</Control>
+	<Control name="InfoPanelSlot6Text">_root.UI_menu.infopanel.slot6.value</Control>
+	<Control name="InfoPanelSlot6DetailText1">_root.UI_menu.infopanel.slot6.detail1.value</Control>
+	<Control name="InfoPanelSlot6DetailText2">_root.UI_menu.infopanel.slot6.detail2.value</Control>
+	<Control name="InfoPanelSlot6DetailText3">_root.UI_menu.infopanel.slot6.detail3.value</Control>
+	<Control name="InfoPanelSlot6DetailText4">_root.UI_menu.infopanel.slot6.detail4.value</Control>
+	<Control name="InfoPanelSlot6DetailText5">_root.UI_menu.infopanel.slot6.detail5.value</Control>
+	<Control name="InfoPanelSlot6DetailText6">_root.UI_menu.infopanel.slot6.detail6.value</Control>
+	<Control name="InfoPanelSlot7Text">_root.UI_menu.infopanel.slot7.value</Control>
+	<Control name="InfoPanelSlot7DetailText1">_root.UI_menu.infopanel.slot7.detail1.value</Control>
+	<Control name="InfoPanelSlot7DetailText2">_root.UI_menu.infopanel.slot7.detail2.value</Control>
+	<Control name="InfoPanelSlot7DetailText3">_root.UI_menu.infopanel.slot7.detail3.value</Control>
+	<Control name="InfoPanelSlot7DetailText4">_root.UI_menu.infopanel.slot7.detail4.value</Control>
+	<Control name="InfoPanelSlot7DetailText5">_root.UI_menu.infopanel.slot7.detail5.value</Control>
+	<Control name="InfoPanelSlot7DetailText6">_root.UI_menu.infopanel.slot7.detail6.value</Control>
+	<Control name="InfoPanelSlot8Text">_root.UI_menu.infopanel.slot8.value</Control>
+	<Control name="InfoPanelSlot8DetailText1">_root.UI_menu.infopanel.slot8.detail1.value</Control>
+	<Control name="InfoPanelSlot8DetailText2">_root.UI_menu.infopanel.slot8.detail2.value</Control>
+	<Control name="InfoPanelSlot8DetailText3">_root.UI_menu.infopanel.slot8.detail3.value</Control>
+	<Control name="InfoPanelSlot8DetailText4">_root.UI_menu.infopanel.slot8.detail4.value</Control>
+	<Control name="InfoPanelSlot8DetailText5">_root.UI_menu.infopanel.slot8.detail5.value</Control>
+	<Control name="InfoPanelSlot8DetailText6">_root.UI_menu.infopanel.slot8.detail6.value</Control>
+	<Control name="ResearchPos1Text">_root.UI_menu.pos1_builddata.value</Control>
+	<Control name="ResearchPos2Text">_root.UI_menu.pos2_builddata.value</Control>
+	<Control name="ResearchPos3Text">_root.UI_menu.pos3_builddata.value</Control>
+	<Control name="ResearchPos4Text">_root.UI_menu.pos4_builddata.value</Control>
+	<Control name="ResearchPos5Text">_root.UI_menu.pos5_builddata.value</Control>
+	<Control name="ResearchPos6Text">_root.UI_menu.pos6_builddata.value</Control>
+	<Control name="ResearchPos7Text">_root.UI_menu.pos7_builddata.value</Control>
+	<Control name="ResearchPos8Text">_root.UI_menu.pos8_builddata.value</Control>
+	<Control name="InfoPanelStatText1">_root.UI_menu.infopanel.slot1.stat1.value</Control>
+	<Control name="InfoPanelStatText2">_root.UI_menu.infopanel.slot1.stat2.value</Control>
+	<Control name="InfoPanelStatText3">_root.UI_menu.infopanel.slot1.stat3.value</Control>
+	<Control name="InfoPanelStatText4">_root.UI_menu.infopanel.slot1.stat4.value</Control>
+	<Control name="InfoPanelStatText5">_root.UI_menu.infopanel.slot1.stat5.value</Control>
+	<Control name="InfoPanelStatHeader">_root.UI_menu.infopanel.slot1.stat_textMC.value</Control>
+	<Control name="InfoPanelDescriptionHeader">_root.UI_menu.infopanel.slot1.descriptionMC.value</Control>
+	<Control name="InfoPanelDescriptionText">_root.UI_menu.infopanel.slot1.descriptiontext</Control>
+	<Control name="CostPanelTitleBar">_root.UI_menu.infopanel.titlebarCenter1.value</Control>
+	<Control name="CostPanelStat1Label">_root.UI_menu.infopanel.costPanelCenter.info_res1.counter.textpanel.value</Control>
+	<Control name="CostPanelStat1Icon">_root.UI_menu.infopanel.costPanelCenter.info_res1</Control>
+	<Control name="CostPanelStat2Label">_root.UI_menu.infopanel.costPanelCenter.info_res2.counter.textpanel.value</Control>
+	<Control name="CostPanelStat2Icon">_root.UI_menu.infopanel.costPanelCenter.info_res2</Control>
+	<Control name="CostPanelStat3Label">_root.UI_menu.infopanel.costPanelCenter.info_res3.counter.textpanel.value</Control>
+	<Control name="CostPanelStat3Icon">_root.UI_menu.infopanel.costPanelCenter.info_res3</Control>
+	<Control name="BaseTextLabel">_root.UI_menu.infopanel.titlebarcenter2.value</Control>
+	<Control name="Resource1">_root.UI_resources.COV_res_pop.value</Control>
+	<Control name="Resource2">_root.UI_resources.COV_res_favor.value</Control>
+	<Control name="Resource3">_root.UI_resources.COV_res_relics.value</Control>
+	<Control name="ButtonX">_root.UI_btns.x_btn</Control>
+	<Control name="ButtonY">_root.UI_btns.y_btn</Control>
+	<Control name="ButtonA">_root.UI_btns.a_btn</Control>
+	<Control name="ButtonB">_root.UI_btns.b_btn</Control>
+	<Control name="ButtonLB">_root.UI_Dpad.lb_btn</Control>
+	<Control name="ButtonRB">_root.UI_btns.rb_btn</Control>
+	<Control name="DPad">_root.UI_Dpad.dpad</Control>
+	<ASFunction>setCircleMenuUnitSlot</ASFunction>
+	<ASFunction>setCircleMenuBuildingSlot</ASFunction>
+	<ASFunction>setCircleMenuPowerSlot</ASFunction>
+	<ASFunction>setCircleMenuTechSlot</ASFunction>
+	<ASFunction>setCircleMenuMiscSlot</ASFunction>
+	<ASFunction>setCircleMenuAbilitySlot</ASFunction>
+	<ASFunction>setSelectionPad</ASFunction>
+	<ASFunction>setBuildDataSlot</ASFunction>
+	<ASFunction>setUnitSelection</ASFunction>
+	<ASFunction>setInfoPanelSlot</ASFunction>
+	<ASFunction>_root.UI_overlay.gotoAndPlay</ASFunction>
+	<ASFunction>_root.UI_resources.gotoAndPlay</ASFunction>
+	<ASFunction>_root.UI_unit.gotoAndPlay</ASFunction>
+	<ASFunction>_root.UI_timer.gotoAndPlay</ASFunction>
+	<ASFunction>_root.UI_Dpad.gotoAndPlay</ASFunction>
+	<ASFunction>_root.UI_menu.gotoAndPlay</ASFunction>
+	<ASFunction>_root.UI_menu.outer.gotoAndPlay</ASFunction>
+	<ASFunction>setButtonState</ASFunction>
+	<ASFunction>setBuildPanelSlot</ASFunction>
+	<ASFunction>setScoreVisible</ASFunction>
+	<ASFunction>_root.UI_btns.gotoAndPlay</ASFunction>
+	<ASFunction>_root.SPCLPWRSover.gotoAndPlay</ASFunction>
+	<ASFunction>setUnitStatsVisible</ASFunction>
+	<ASFunction>setUnitStatsData</ASFunction>
+	<ASFunction>setInfoPanelStat</ASFunction>
+	<ASFunction>setTechNotification</ASFunction>
+	<ASFunction>setChatDisplayVisible</ASFunction>
+	<ASFunction>setChatData</ASFunction>
+	<ASFunction>setControlDimension</ASFunction>
+	<ASFunction>setControlXY</ASFunction>
+	<ASFunction>setControlWidthHeight</ASFunction>
+	<ASFunction>setControlOffsetXY</ASFunction>
+	<ASFunction>setControlScaleXY</ASFunction>
+	<KeyFrame>off</KeyFrame>
+	<KeyFrame>on</KeyFrame>
+	<KeyFrame>pending</KeyFrame>
+	<KeyFrame>over</KeyFrame>
+	<KeyFrame>build</KeyFrame>
+	<KeyFrame>ease_in</KeyFrame>
+	<KeyFrame>ease_out</KeyFrame>
+	<KeyFrame>god</KeyFrame>
+	<KeyFrame>normal</KeyFrame>
+	<KeyFrame>UNSC_res</KeyFrame>
+	<KeyFrame>active</KeyFrame>
+	<KeyFrame>alert</KeyFrame>
+	<Icon type="unitselection" name="gruntkami" owner="cov_inf_kamikazeGrunt_01">10</Icon>
+	<Icon type="unitselection" name="grunt" owner="cov_inf_gruntHorde_01">15</Icon>
+	<Icon type="unitselection" name="grunt" owner="cov_inf_gruntHorde_02">15</Icon>
+	<Icon type="unitselection" name="gruntfuelrod" owner="cov_inf_gruntFuelrod_01">11</Icon>
+	<Icon type="unitselection" name="arbiter" owner="cov_inf_arbiter_01">13</Icon>
+	<Icon type="unitselection" name="brute" owner="cov_inf_brute_01">15</Icon>
+	<Icon type="unitselection" name="brute" owner="cov_inf_bruteGrunt_01">15</Icon>
+	<Icon type="unitselection" name="brute" owner="cov_inf_bruteGrunt_02">15</Icon>
+	<Icon type="unitselection" name="grunt" owner="cov_inf_grunt_01">15</Icon>
+	<Icon type="unitselection" name="grunt" owner="cov_inf_grunt_02">15</Icon>
+	<Icon type="unitselection" name="gruntneedler" owner="cov_inf_needlerGrunt_01">5</Icon>
+	<Icon type="unitselection" name="flyingelite" owner="cov_inf_FlyingElite_01">4</Icon>
+	<Icon type="unitselection" name="hunter" owner="cov_inf_hunter_01">17</Icon>
+	<Icon type="unitselection" name="jackal" owner="cov_inf_jackal_01">8</Icon>
+	<Icon type="unitselection" name="ghost" owner="cov_veh_gruntGhost_01">24</Icon>
+	<Icon type="unitselection" name="chimera" owner="cov_veh_gruntChimera_01">22</Icon>
+	<Icon type="unitselection" name="gorgon" owner="cov_veh_gruntGorgon_01">18</Icon>
+	<Icon type="unitselection" name="wraith" owner="cov_veh_gruntWraith_01">21</Icon>
+	<Icon type="unitselection" name="brutetank" owner="cov_veh_brutetank_01">20</Icon>
+	<Icon type="unitselection" name="ghost" owner="cov_veh_ghost_01">24</Icon>
+	<Icon type="unitselection" name="chimera" owner="cov_veh_chimera_01">22</Icon>
+	<Icon type="unitselection" name="scarab" owner="cov_veh_scarab_01">25</Icon>
+	<Icon type="unitselection" name="gorgon" owner="cov_veh_gorgon_01">18</Icon>
+	<Icon type="unitselection" name="wraith" owner="cov_veh_wraith_01">21</Icon>
+	<Icon type="unitselection" name="shieldgen" owner="cov_veh_shieldGen_01">19</Icon>
+	<Icon type="unitselection" name="artillery" owner="cov_air_artillery_01">7</Icon>
+	<Icon type="unitselection" name="banshee" owner="cov_air_banshee_01">12</Icon>
+	<Icon type="unitselection" name="drone" owner="cov_air_drone_01">3</Icon>
+	<Icon type="unitselection" name="hydra" owner="cov_air_hydra_01">16</Icon>
+	<Icon type="unitselection" name="gargoyle" owner="cov_air_gargoyle_01">14</Icon>
+	<Icon type="unitselection" name="hydra" owner="cov_air_gruntHydra_01">16</Icon>
+	<Icon type="unitselection" name="banshee" owner="cov_air_gruntBanshee_01">12</Icon>
+	<Icon type="unitselection" name="vampire" owner="cov_air_vampire_01">25</Icon>
+	<Icon type="powericon" name="arbiterdrop" owner="CovLeaderArbiterDrop">-1</Icon>
+	<Icon type="powericon" name="bombingrun" owner="CovLeaderBombingrun">-1</Icon>
+	<Icon type="powericon" name="cleansing" owner="UnscLeaderOdstDrop">-1</Icon>
+	<Icon type="powericon" name="dimgate" owner="CovLeaderDimGate">-1</Icon>
+	<Icon type="powericon" name="frenzy" owner="CovLeaderFrenzy">-1</Icon>
+	<Icon type="powericon" name="gasbomb" owner="CovLeaderGasBomb">-1</Icon>
+	<Icon type="powericon" name="alphasquad" owner="CovSupportAlphaSquadron">-1</Icon>
+	<Icon type="powericon" name="arbiterheal" owner="CovSupportArbiterHeal">-1</Icon>
+	<Icon type="powericon" name="arbiterspeed" owner="CovSupportArbiterSpeedBoost">-1</Icon>
+	<Icon type="powericon" name="arbiterteleport" owner="CovSupportArbiterTeleport">-1</Icon>
+	<Icon type="powericon" name="artillery" owner="CovSupportArtillery">-1</Icon>
+	<Icon type="powericon" name="cruiserfire" owner="CovSupportCruiserFire">-1</Icon>
+	<Icon type="powericon" name="dome" owner="CovSupportDomeOfLight">-1</Icon>
+	<Icon type="powericon" name="brutedrop" owner="CovSupportBruteDrop">-1</Icon>
+	<Icon type="powericon" name="brutetankdrop" owner="CovSupportBruteTankDrop">-1</Icon>
+	<Icon type="powericon" name="emergencyteleport" owner="CovSupportEmergencyTeleport">-1</Icon>
+	<Icon type="powericon" name="energyweb" owner="CovSupportEnergyWeb">-1</Icon>
+	<Icon type="powericon" name="infantrycloak" owner="CovSupportInfantryCloak">-1</Icon>
+	<Icon type="powericon" name="heavybomber" owner="CovSupportHeavyBomber">-1</Icon>
+	<Icon type="powericon" name="gruntdrop" owner="CovSupportGruntDrop">-1</Icon>
+	<Icon type="powericon" name="plasmastrike" owner="CovSupportPlasmaStrike">-1</Icon>
+	<Icon type="powericon" name="minefield" owner="CovSupportMineField">-1</Icon>
+	<Icon type="powericon" name="reinforcements" owner="CovSupportReinforcements">-1</Icon>
+	<Icon type="powericon" name="senorjamming" owner="CovSupportSensorJamming">-1</Icon>
+	<Icon type="powericon" name="warcry" owner="CovSupportWarCry">-1</Icon>
+	<Icon type="powericon" name="firemegaturret" owner="CovUnitMegaTurret">-1</Icon>
+	<Icon type="powericon" name="newbuilder" owner="CovCivBuilder">-1</Icon>
+	<Icon type="powericon" name="newbuilder" owner="CovCivBuilder">-1</Icon>
+	<Icon type="powericon" name="covTurretConstructor" owner="CovCivTurretConstructor">-1</Icon>
+	<Icon type="powericon" name="covtransport" owner="CovCivTransport">-1</Icon>
+	<Icon type="abilityicon" name="arbiterweapon" owner="CovArbiterWeapon">-1</Icon>
+	<Icon type="abilityicon" name="lockdown" owner="CovLockdown">-1</Icon>
+	<Icon type="abilityicon" name="shadeturret" owner="CovShadeTurret">-1</Icon>
+	<Icon type="abilityicon" name="shieldgen" owner="CovShieldGen">-1</Icon>
+	<Icon type="abilityicon" name="chimeradigin" owner="CovChimeraDigIn">-1</Icon>
+	<Icon type="abilityicon" name="jackalsniper" owner="CovJackalSniperMode">-1</Icon>
+	<Icon type="techicon" name="age2" owner="cov_age2">-1</Icon>
+	<Icon type="techicon" name="age3" owner="cov_age3">-1</Icon>
+	<Icon type="techicon" name="age4" owner="cov_age4">-1</Icon>
+	<Icon type="techicon" name="monumentUPG1" owner="cov_MonumentUpgrade1">-1</Icon>
+	<Icon type="techicon" name="monumentUPG2" owner="cov_MonumentUpgrade2">-1</Icon>
+	<Icon type="techicon" name="monumentUPG3" owner="cov_MonumentUpgrade3">-1</Icon>
+	<Icon type="techicon" name="nodemonumentUPG1" owner="cov_NodeMonumentUpgrade1">-1</Icon>
+	<Icon type="techicon" name="nodemonumentUPG2" owner="cov_NodeMonumentUpgrade2">-1</Icon>
+	<Icon type="techicon" name="capturedRelicsUPG1" owner="cov_capturedRelicsUpgrade1">-1</Icon>
+	<Icon type="techicon" name="capturedRelicsUPG2" owner="cov_capturedRelicsUpgrade2">-1</Icon>
+	<Icon type="techicon" name="gruntUPG1" owner="cov_grunt_upgrade1">-1</Icon>
+	<Icon type="techicon" name="gruntUPG2" owner="cov_grunt_upgrade2">-1</Icon>
+	<Icon type="techicon" name="gruntUPG3" owner="cov_grunt_Upgrade3">-1</Icon>
+	<Icon type="techicon" name="gruntFuelUPG1" owner="cov_gruntFuelrod_upgrade1">-1</Icon>
+	<Icon type="techicon" name="gruntFuelUPG2" owner="cov_gruntFuelrod_upgrade2">-1</Icon>
+	<Icon type="techicon" name="jackalUPG1" owner="cov_jackal_upgrade1">-1</Icon>
+	<Icon type="techicon" name="jackalUPG2" owner="cov_jackal_upgrade2">-1</Icon>
+	<Icon type="techicon" name="jackalUPG3" owner="cov_jackal_Upgrade3">-1</Icon>
+	<Icon type="techicon" name="hunterUPG1" owner="cov_hunter_upgrade1">-1</Icon>
+	<Icon type="techicon" name="hunterUPG2" owner="cov_hunter_upgrade2">-1</Icon>
+	<Icon type="techicon" name="hunterUPG3" owner="cov_hunter_upgrade3">-1</Icon>
+	<Icon type="techicon" name="ghostUPG1" owner="cov_ghost_upgrade1">-1</Icon>
+	<Icon type="techicon" name="ghostUPG2" owner="cov_ghost_upgrade2">-1</Icon>
+	<Icon type="techicon" name="ghostUPG3" owner="cov_ghost_upgrade3">-1</Icon>
+	<Icon type="techicon" name="bansheeUPG1" owner="cov_banshee_upgrade1">-1</Icon>
+	<Icon type="techicon" name="bansheeUPG2" owner="cov_banshee_upgrade2">-1</Icon>
+	<Icon type="techicon" name="bansheeUPG3" owner="cov_banshee_upgrade3">-1</Icon>
+	<Icon type="techicon" name="hydraUPG1" owner="cov_hydra_upgrade1">-1</Icon>
+	<Icon type="techicon" name="hydraUPG2" owner="cov_hydra_upgrade2">-1</Icon>
+	<Icon type="techicon" name="wraithUPG1" owner="cov_wraith_upgrade1">-1</Icon>
+	<Icon type="techicon" name="wraithUPG2" owner="cov_wraith_upgrade2">-1</Icon>
+	<Icon type="techicon" name="wraithUPG3" owner="cov_wraith_upgrade3">-1</Icon>
+	<Icon type="techicon" name="gorgonUPG1" owner="cov_gorgon_upgrade1">-1</Icon>
+	<Icon type="techicon" name="gorgonUPG2" owner="cov_gorgon_upgrade2">-1</Icon>
+	<Icon type="techicon" name="gorgonUPG3" owner="cov_gorgon_upgrade3">-1</Icon>
+	<Icon type="techicon" name="chimeraUPG1" owner="cov_chimera_upgrade1">-1</Icon>
+	<Icon type="techicon" name="chimeraUPG2" owner="cov_chimera_upgrade2">-1</Icon>
+	<Icon type="techicon" name="chimeraUPG3" owner="cov_chimera_upgrade3">-1</Icon>
+	<Icon type="techicon" name="artilleryUPG1" owner="cov_airArtillery_upgrade1">-1</Icon>
+	<Icon type="techicon" name="artilleryUPG2" owner="cov_airArtillery_upgrade2">-1</Icon>
+	<Icon type="techicon" name="artilleryUPG3" owner="cov_airArtillery_upgrade3">-1</Icon>
+	<Icon type="techicon" name="flyingEliteUPG1" owner="cov_flyingElite_upgrade1">-1</Icon>
+	<Icon type="techicon" name="flyingEliteUPG2" owner="cov_flyingElite_upgrade2">-1</Icon>
+	<Icon type="techicon" name="flyingEliteUPG3" owner="cov_flyingElite_upgrade3">-1</Icon>
+	<Icon type="techicon" name="bruteUPG1" owner="cov_brute_upgrade1">-1</Icon>
+	<Icon type="techicon" name="bruteUPG2" owner="cov_brute_upgrade2">-1</Icon>
+	<Icon type="techicon" name="bruteUPG3" owner="cov_brute_Upgrade3">-1</Icon>
+	<Icon type="techicon" name="brutetankUPG1" owner="cov_bruteTank_upgrade1">-1</Icon>
+	<Icon type="techicon" name="brutetankUPG2" owner="cov_bruteTank_upgrade2">-1</Icon>
+	<Icon type="techicon" name="brutetankUPG3" owner="cov_bruteTank_upgrade3">-1</Icon>
+	<Icon type="techicon" name="relics2favor" owner="cov_favorToRelics">-1</Icon>
+	<Icon type="techicon" name="favor2relics" owner="cov_relicsToFavor">-1</Icon>
+	<Icon type="techicon" name="UNSCcapextractUPG1" owner="unsc_capturedExractorUpgrade1">-1</Icon>
+	<Icon type="techicon" name="COVcapextractUPG1" owner="cov_capturedExractorUpgrade1">-1</Icon>
+	<Icon type="techicon" name="turretUPG1" owner="cov_nodeturretUpgrade1">-1</Icon>
+	<Icon type="techicon" name="turretUPG2" owner="cov_nodeturretUpgrade2">-1</Icon>
+	<Icon type="techicon" name="turretUPG3" owner="cov_turret_Upgrade3">-1</Icon>
+	<Icon type="techicon" name="elitecommandoUPG1" owner="cov_eliteCommando_Upgrade1">-1</Icon>
+	<Icon type="techicon" name="elitecommandoUPG2" owner="cov_eliteCommando_Upgrade2">-1</Icon>
+	<Icon type="techicon" name="elitecommandoUPG3" owner="cov_eliteCommando_Upgrade3">-1</Icon>
+	<Icon type="techicon" name="brutechopperUPG2" owner="cov_bruteChopper_upgrade2">-1</Icon>
+	<Icon type="techicon" name="brutechopperUPG3" owner="cov_bruteChopper_upgrade3">-1</Icon>
+	<Icon type="techicon" name="buildingUPG1" owner="cov_buildings_upgrade1">-1</Icon>
+	<Icon type="techicon" name="buildingUPG2" owner="cov_buildings_upgrade2">-1</Icon>
+	<Icon type="techicon" name="buildingUPG3" owner="cov_buildings_upgrade3">-1</Icon>
+	<Icon type="techicon" name="shieldUPG1" owner="cov_shield_Upgrade1">-1</Icon>
+	<Icon type="techicon" name="shieldUPG2" owner="cov_shield_Upgrade2">-1</Icon>
+	<Icon type="techicon" name="shieldUPG3" owner="cov_shield_Upgrade3">-1</Icon>
+	<Icon type="techicon" name="marketUPG1" owner="cov_market_Upgrade1">-1</Icon>
+	<Icon type="techicon" name="marketUPG2" owner="cov_market_Upgrade2">-1</Icon>
+	<Icon type="techicon" name="marketUPG3" owner="cov_market_Upgrade3">-1</Icon>
+	<Icon type="techicon" name="arbiterstealth" owner="cov_arbiter_stealth">-1</Icon>
+	<Icon type="techicon" name="arbiterunitdamage" owner="cov_arbiter_unitDamage">-1</Icon>
+	<Icon type="techicon" name="arbitertrickle" owner="cov_arbiter_trickle">-1</Icon>
+	<Icon type="techicon" name="arbiterinfantryspeed" owner="cov_arbiter_infantrySpeed">-1</Icon>
+	<Icon type="techicon" name="prophetbuildings" owner="cov_prophet_buildings">-1</Icon>
+	<Icon type="techicon" name="prophettechs" owner="cov_prophet_techs">-1</Icon>
+	<Icon type="techicon" name="prophetturrets" owner="cov_prophet_turrets">-1</Icon>
+	<Icon type="techicon" name="prophetscarab" owner="cov_prophet_scarab">-1</Icon>
+	<Icon type="techicon" name="brutespikes" owner="cov_brute_spikes">-1</Icon>
+	<Icon type="techicon" name="brutetrain" owner="cov_brute_train">-1</Icon>
+	<Icon type="techicon" name="brutecosts" owner="cov_brute_costs">-1</Icon>
+	<Icon type="techicon" name="bruteweapons" owner="cov_brute_weapons">-1</Icon>
+	<Icon type="techicon" name="cov_turret_UPG1" owner="cov_TurretUpgrade1">-1</Icon>
+	<Icon type="techicon" name="cov_turret_UPG2" owner="cov_TurretUpgrade2">-1</Icon>
+	<Icon type="techicon" name="cov_vampire_UPG1" owner="cov_vampire_upgrade1">-1</Icon>
+	<Icon type="techicon" name="cov_vampire_UPG2" owner="cov_vampire_upgrade2">-1</Icon>
+	<Icon type="techicon" name="cov_vampire_UPG3" owner="cov_vampire_upgrade3">-1</Icon>
+	<Icon type="techicon" name="cov_leader_UPG1" owner="cov_leader_upgrade1">-1</Icon>
+	<Icon type="buildingicon" name="covbuilder" owner="cov_bldg_builder_01">-1</Icon>
+	<Icon type="buildingicon" name="covbuilder" owner="cov_bldg_powerGen_01">-1</Icon>
+	<Icon type="buildingicon" name="covmonument" owner="cov_bldg_monument_01">-1</Icon>
+	<Icon type="buildingicon" name="nodemonumentUPG1" owner="cov_bldg_nodeMonument_01">-1</Icon>
+	<Icon type="buildingicon" name="covmonument" owner="cov_bldg_monument_02">-1</Icon>
+	<Icon type="buildingicon" name="nodemonumentUPG2" owner="cov_bldg_nodeMonument_02">-1</Icon>
+	<Icon type="buildingicon" name="covmonument" owner="cov_bldg_monument_03">-1</Icon>
+	<Icon type="buildingicon" name="nodemonumentUPG3" owner="cov_bldg_nodeMonument_03">-1</Icon>
+	<Icon type="buildingicon" name="cov_monument1" owner="cov_bldg_upgradedMonument_01">-1</Icon>
+	<Icon type="buildingicon" name="cov_monument2" owner="cov_bldg_upgradedMonument_02">-1</Icon>
+	<Icon type="buildingicon" name="cov_monument3" owner="cov_bldg_upgradedMonument_03">-1</Icon>
+	<Icon type="buildingicon" name="cov_monument4" owner="cov_bldg_upgradedMonument_04">-1</Icon>
+	<Icon type="buildingicon" name="cov_monument5" owner="cov_bldg_upgradedMonument_05">-1</Icon>
+	<Icon type="buildingicon" name="cov_monument5" owner="cov_bldg_upgradedMonument_06">-1</Icon>
+	<Icon type="buildingicon" name="bldg_light_factory" owner="cov_bldg_lightfactory_01">-1</Icon>
+	<Icon type="buildingicon" name="covbarracks" owner="cov_bldg_barracks_01">-1</Icon>
+	<Icon type="buildingicon" name="covheavyfact" owner="cov_bldg_heavyfactory_01">-1</Icon>
+	<Icon type="buildingicon" name="cov_shadeturret" owner="cov_bldg_shadeTurret_01">-1</Icon>
+	<Icon type="buildingicon" name="cov_turret" owner="cov_bldg_nodeturret_01">-1</Icon>
+	<Icon type="buildingicon" name="covmegaturret" owner="cov_bldg_megaTurret_01">-1</Icon>
+	<Icon type="buildingicon" name="dome" owner="cov_bldg_dome_01">-1</Icon>
+	<Icon type="buildingicon" name="cov_scarab" owner="cov_bldg_scarab_01">-1</Icon>
+	<Icon type="buildingicon" name="cov_library" owner="cov_bldg_library_01">-1</Icon>
+	<Icon type="buildingicon" name="cov_supplydepot_01" owner="cov_bldg_supplydepot_01">-1</Icon>
+	<Icon type="uniticon" name="gruntkami" owner="cov_inf_kamikazeGrunt_01">-1</Icon>
+	<Icon type="uniticon" name="grunt" owner="cov_inf_gruntHorde_01">-1</Icon>
+	<Icon type="uniticon" name="grunt" owner="cov_inf_gruntHorde_02">-1</Icon>
+	<Icon type="uniticon" name="gruntfuelrod" owner="cov_inf_gruntFuelrod_01">-1</Icon>
+	<Icon type="uniticon" name="arbiter" owner="cov_inf_arbiter_01">-1</Icon>
+	<Icon type="uniticon" name="brute" owner="cov_inf_brute_01">-1</Icon>
+	<Icon type="uniticon" name="grunt" owner="cov_inf_bruteGrunt_01">-1</Icon>
+	<Icon type="uniticon" name="brute" owner="cov_inf_bruteGrunt_02">-1</Icon>
+	<Icon type="uniticon" name="grunt" owner="cov_inf_grunt_01">-1</Icon>
+	<Icon type="uniticon" name="grunt" owner="cov_inf_grunt_02">-1</Icon>
+	<Icon type="uniticon" name="gruntneedler" owner="cov_inf_needlerGrunt_01">-1</Icon>
+	<Icon type="uniticon" name="flyingelite" owner="cov_inf_FlyingElite_01">-1</Icon>
+	<Icon type="uniticon" name="hunter" owner="cov_inf_hunter_01">-1</Icon>
+	<Icon type="uniticon" name="jackal" owner="cov_inf_jackal_01">-1</Icon>
+	<Icon type="uniticon" name="elite" owner="cov_inf_eliteCommando_01">-1</Icon>
+	<Icon type="uniticon" name="minister" owner="cov_inf_minister_01">-1</Icon>
+	<Icon type="uniticon" name="ghost" owner="cov_veh_gruntGhost_01">-1</Icon>
+	<Icon type="uniticon" name="chimera" owner="cov_veh_gruntChimera_01">-1</Icon>
+	<Icon type="uniticon" name="gorgon" owner="cov_veh_gruntGorgon_01">-1</Icon>
+	<Icon type="uniticon" name="wraith" owner="cov_veh_gruntWraith_01">-1</Icon>
+	<Icon type="uniticon" name="brutetank" owner="cov_veh_brutetank_01">-1</Icon>
+	<Icon type="uniticon" name="ghost" owner="cov_veh_ghost_01">-1</Icon>
+	<Icon type="uniticon" name="chimera" owner="cov_veh_chimera_01">-1</Icon>
+	<Icon type="uniticon" name="scarab" owner="cov_veh_scarab_01">-1</Icon>
+	<Icon type="uniticon" name="gorgon" owner="cov_veh_gorgon_01">-1</Icon>
+	<Icon type="uniticon" name="wraith" owner="cov_veh_wraith_01">-1</Icon>
+	<Icon type="uniticon" name="shieldgen" owner="cov_veh_shieldGen_01">-1</Icon>
+	<Icon type="uniticon" name="brutechopper" owner="cov_veh_bruteChopper_01">-1</Icon>
+	<Icon type="uniticon" name="artillery" owner="cov_air_artillery_01">-1</Icon>
+	<Icon type="uniticon" name="banshee" owner="cov_air_banshee_01">-1</Icon>
+	<Icon type="uniticon" name="drone" owner="cov_air_drone_01">-1</Icon>
+	<Icon type="uniticon" name="hydra" owner="cov_air_hydra_01">-1</Icon>
+	<Icon type="uniticon" name="gargoyle" owner="cov_air_gargoyle_01">-1</Icon>
+	<Icon type="uniticon" name="hydra" owner="cov_air_gruntHydra_01">-1</Icon>
+	<Icon type="uniticon" name="banshee" owner="cov_air_gruntBanshee_01">-1</Icon>
+	<Icon type="uniticon" name="vampire" owner="cov_air_vampire_01">-1</Icon>
+	<Icon type="miscicon" name="rallypnt" owner="RallyPoint">-1</Icon>
+	<Icon type="miscicon" name="selectpower" owner="SelectPower">-1</Icon>
+	<Icon type="miscicon" name="kill" owner="Kill">-1</Icon>
+	<Icon type="miscicon" name="placeholder" owner="CancelKill">-1</Icon>
+	<Icon type="miscicon" name="placeholder" owner="Tribute">-1</Icon>
+	<Icon type="miscicon" name="placeholder" owner="CustomCommand">-1</Icon>
+	<Icon type="miscicon" name="repair" owner="Repair">-1</Icon>
+	<Icon type="miscicon" name="covcivtransport" owner="CovCivTransport">-1</Icon>
+	<Icon type="miscicon" name="placeholder" owner="Unload">-1</Icon>
+	<Icon type="miscicon" name="placeholder" owner="TrainLock">-1</Icon>
+	<Icon type="staticon" name="infantry" owner="Unarmored">-1</Icon>
+	<Icon type="staticon" name="vehicle" owner="Vehicle">-1</Icon>
+	<Icon type="staticon" name="air" owner="Air">-1</Icon>
+	<Icon type="staticon" name="structure" owner="Building">-1</Icon>
+</FlashMovieDefinition>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Laser</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>183.6</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_laserBeam_01</Projectile>
+		<ImpactEffect size="Medium">cov_plasmacannon_01</ImpactEffect>
+		<MaxVelocityLead>8</MaxVelocityLead>
+		<MaxRange>45</MaxRange>
+		<Accuracy>0.4</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>0.2</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+		<TargetPriority type="TurretBuilding">-3</TargetPriority>
+		<TargetPriority type="Building">-5</TargetPriority>
+		<Dodgeable />
+	</Weapon>
+	<Action>
+		<Name>LaserAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>CannonAttack</Anim>
+		<Weapon>Laser</Weapon>
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>AvoidCollisionAir</Name>
+		<ActionType>AvoidCollisionAir</ActionType>
+		<HoverAltitude>12</HoverAltitude>
+		<MaxPitch>45.0f</MaxPitch>
+		<MaxRoll>45.0f</MaxRoll>
+	</Action>
+	<Action>
+		<Name>Chaff</Name>
+		<ActionType>Dodge</ActionType>
+		<DodgeOrBlockChanceMin>1</DodgeOrBlockChanceMin>
+		<DodgeOrBlockChanceMax>1</DodgeOrBlockChanceMax>
+		<DodgeMaxAngle>180</DodgeMaxAngle>
+		<DodgePercent>1</DodgePercent>
+		<DodgeCooldown>12</DodgeCooldown>
+		<StartDisabled />
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>LaserAttackAction</Action>
+		</TargetRule>
+		<PersistentAction>AvoidCollisionAir</PersistentAction>
+	</Tactic>
+</TacticData>

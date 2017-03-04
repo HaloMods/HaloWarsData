@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<file>campaign\scn06\sheild_01\sheild_01</file>
+			</asset>
+			<attach type="ParticleFile" name="effects\environment\arcadia\scn06domeoflightbeam_01" tobone="bone_FX01" syncanims="false" disregardorient="false" />
+			<attach type="ModelFile" name="campaign\scn06\sheild_01\sheildON_01" syncanims="false" disregardorient="false" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>campaign\scn06\sheild_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+</visual>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<PlacementRules>
+	<or>
+		<DistanceAtMostFromType player="player" errorString="None" successString="None" distance="75">cov_inf_arbiter_01</DistanceAtMostFromType>
+	</or>
+</PlacementRules>

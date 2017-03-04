@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Controls>
+	<Mode name="Root">
+		<Control name="GameSelect" />
+		<Control name="ButtonBack" modifier="TriggerLeft" modifier2="TriggerRight" command="exit(false)" event="start" />
+		<Control name="ButtonWhite" modifier="ButtonBlack" command="reloadShaders" event="start" />
+		<Control name="KeyAccent" command="configToggle(&quot;consoleRenderEnable&quot;)" event="start" />
+		<Control name="KeyTab" command="cycleConsoleRenderMode(true)" event="start" />
+	</Mode>
+	<Mode name="World">
+		<Control name="GameModifier2" command="uiForceShift(#start#)" />
+		<Control name="StickLeft" command="uiCameraScroll(#gamemodifier1#,#x#,#y#) uiCenterPointer" repeat="" />
+		<Control name="StickRight" command="uiMapPointerControl(#x#,#y#,false)" repeat="" />
+		<Control name="GameGotoMap2" command="uiMapPointerGoto(false)" event="start" />
+		<Control name="GameSelect" command="uiCircleSelect(#start#,#double#,#gamemodifier2#)" event="start,stop,double" />
+		<Control name="GameAction" command="uiWorkAtPointer" event="start" />
+		<Control name="GameUnselect" command="uiClearSelection" event="start" />
+		<Control name="GameMenu" command="showGameMenu()" event="start" />
+		<Control name="GameGotoWorker" command="uiFindCrowd(1, false)" event="start" oneway="" />
+		<Control name="GameGotoArmy" command="uiFindCrowd(0, #gamemodifier2#)" event="start" oneway="" />
+		<Control name="GameGotoBase" command="uiGotoBase(&quot;BaseCenterBuilding&quot;)" event="start" oneway="" />
+		<Control name="GameGotoEvent" command="uiZoomToMinimapEvent" event="start" oneway="" />
+		<Control name="GamePower" command="uiPowerCircleMenu(true)" event="start" />
+		<Control name="GameGlobalSelect" command="uiGlobalSelect(#gamemodifier2#)" event="start" />
+		<Control name="GameScreenSelect" command="uiScreenSelect(#gamemodifier2#)" event="start" />
+		<Control name="ButtonBack" modifier="TriggerLeft" modifier2="TriggerRight" command="exit(false)" event="start" />
+		<Control name="GameHUD" command="uiToggleAdvancedHUD" event="start" />
+		<Control name="GameFlare" command="uiFlareAtPointer(#stickleftx#,#sticklefty#)" event="start" />
+	</Mode>
+	<Mode name="CommandCircleMenu">
+		<Control name="GameModifier1" />
+		<Control name="GameModifier2" command="uiForceShift(#start#)" />
+		<Control name="GameMenu" command="uiCommandCircleMenu(false) uiClearSelection showGameMenu()" event="start" />
+		<Control name="ButtonBack" modifier="TriggerLeft" modifier2="TriggerRight" command="exit(false)" event="start" />
+		<Control name="GameHUD" command="uiToggleAdvancedHUD" event="start" />
+	</Mode>
+	<Mode name="PowerCircleMenu">
+		<Control name="GameModifier1" />
+		<Control name="GameModifier2" command="uiForceShift(#start#)" />
+		<Control name="GamePower" command="uiPowerCircleMenu(false)" event="start" />
+		<Control name="GameMenu" command="uiPowerCircleMenu(false) showGameMenu()" event="start" />
+		<Control name="ButtonBack" modifier="TriggerLeft" modifier2="TriggerRight" command="exit(false)" event="start" />
+		<Control name="GameHUD" command="uiToggleAdvancedHUD" event="start" />
+	</Mode>
+	<Mode name="MainGameMenu">
+		<Control name="GameMenu" command="hideGameMenu" event="start" />
+		<Control name="ButtonBack" modifier="TriggerLeft" modifier2="TriggerRight" command="exit(false)" event="start" />
+	</Mode>
+	<Mode name="Flare">
+		<Control name="GameConfirm" command="uiFlareAtPointer editMode(&quot;none&quot;)" event="start" />
+		<Control name="GameAlternate" command="uiFlareAtPointer editMode(&quot;none&quot;)" event="start" />
+		<Control name="GameNone" />
+		<Control name="GameCancel" command="editMode(&quot;none&quot;)" event="start" />
+		<Control name="GamePower" command="editMode(&quot;none&quot;)" event="start" />
+	</Mode>
+	<Mode name="RallyPoint">
+		<Control name="GameConfirm" command="uiSetGatherPointAtPointer(false) editMode(&quot;none&quot;)" event="start" />
+		<Control name="GameAlternate" command="uiSetGatherPointAtPointer(false) editMode(&quot;none&quot;)" event="start" />
+		<Control name="GameNone" />
+		<Control name="GameCancel" command="editMode(&quot;none&quot;)" event="start" />
+		<Control name="GamePower" command="editMode(&quot;none&quot;)" event="start" />
+	</Mode>
+	<Mode name="SetGatherPointEconomy">
+		<Control name="GameConfirm" command="uiSetGatherPointAtPointer()" event="start" />
+		<Control name="GameAlternate" command="uiSetGatherPointAtPointer()" event="start" />
+		<Control name="GameNone" />
+		<Control name="GameCancel" command="editMode(&quot;none&quot;)" event="start" />
+	</Mode>
+	<Mode name="SetGatherPoint">
+		<Control name="GameConfirm" command="uiSetGatherPointAtPointer() editMode(&quot;none&quot;)" event="start" />
+		<Control name="GameAlternate" command="uiSetGatherPointAtPointer() editMode(&quot;none&quot;)" event="start" />
+		<Control name="GameNone" />
+		<Control name="GameCancel" command="editMode(&quot;none&quot;)" event="start" />
+		<Control name="GamePower" command="editMode(&quot;none&quot;)" event="start" />
+	</Mode>
+	<Mode name="MovePoint">
+		<Control name="GamePower" />
+		<Control name="GameConfirm" command="uiSetMovePointAtPointer(&quot;ValidMilitaryMoveAll&quot;) editMode(&quot;none&quot;)" event="start" />
+		<Control name="GameAlternate" command="uiSetMovePointAtPointer(&quot;ValidMilitaryMoveAll&quot;) editMode(&quot;none&quot;)" event="start" />
+		<Control name="GameNone" />
+		<Control name="GameCancel" command="editMode(&quot;none&quot;)" event="start" />
+	</Mode>
+	<Mode name="EjectAt">
+		<Control name="GameConfirm" command="uiEjectAtPointer editMode(&quot;none&quot;)" event="start" />
+		<Control name="GameAlternate" command="uiEjectAtPointer editMode(&quot;none&quot;)" event="start" />
+		<Control name="GameNone" />
+		<Control name="GameCancel" command="editMode(&quot;none&quot;)" event="start" />
+		<Control name="GamePower" command="editMode(&quot;none&quot;)" event="start" />
+	</Mode>
+	<Mode name="CoveredWagon">
+		<Control name="GamePower" />
+		<Control name="GameConfirm" command="uiCWAtPointer editMode(&quot;none&quot;)" event="start" />
+		<Control name="GameAlternate" command="uiCWAtPointer editMode(&quot;none&quot;)" event="start" />
+		<Control name="GameCancel" command="editMode(&quot;none&quot;)" event="start" />
+	</Mode>
+	<Mode name="Building">
+		<Control name="GameConfirm" command="uiBuildAtPointer" event="start" />
+		<Control name="GameAlternate" command="uiBuildAtPointer" event="start" />
+		<Control name="GameNone" />
+		<Control name="GameCancel" command="editMode(&quot;none&quot;)" event="start" />
+		<Control name="GamePower" command="editMode(&quot;none&quot;)" event="start" />
+	</Mode>
+	<Mode name="BuildWall">
+		<Control name="GameConfirm" command="uiBuildWallAtPointer(#gamemodifier2#)" event="start" />
+		<Control name="GameAlternate" command="uiBuildWallAtPointer(#gamemodifier2#)" event="start" />
+		<Control name="GameNone" />
+		<Control name="GameCancel" command="editMode(&quot;none&quot;)" event="start" />
+		<Control name="GamePower" command="editMode(&quot;none&quot;)" event="start" />
+	</Mode>
+	<Mode name="SpecialPower">
+		<Control name="GameConfirm" command="uiSpecialPowerAtPointer" event="start" />
+		<Control name="GameAlternate" command="uiSpecialPowerAtPointer" event="start" />
+		<Control name="GameNone" />
+		<Control name="GameCancel" command="editMode(&quot;none&quot;)" event="start" />
+		<Control name="GamePower" command="editMode(&quot;none&quot;)" event="start" />
+	</Mode>
+</Controls>

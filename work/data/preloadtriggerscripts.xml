@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<PreloadTriggerScripts>
+	<ExposedScript name="TestLaunchScript" id="0">TestLaunchScript.triggerscript</ExposedScript>
+	<ExposedScript name="UnscFalconAirStrike" id="7">UnscFalconAirStrike.triggerscript</ExposedScript>
+	<ExposedScript name="artifactSpawnsSentinels" id="9">ArtifactSpawnsSentinels.triggerscript</ExposedScript>
+	<ExposedScript name="Teleporters" id="10">Teleporters.triggerscript</ExposedScript>
+	<ExposedScript name="CovBansheeAirStrike" id="11">CovBansheeAirStrike.triggerscript</ExposedScript>
+	<ExposedScript name="UnscDoOrbitalBombard" id="12">UnscDoOrbitalBombard.triggerscript</ExposedScript>
+	<ExposedScript name="UnscDoODST" id="13">UnscDoODST.triggerscript</ExposedScript>
+	<ExposedScript name="UnscCarpetBomb" id="16">UnscCarpetBomb.triggerscript</ExposedScript>
+	<ExposedScript name="ShadowAI" id="17">ShadowAI.triggerscript</ExposedScript>
+	<ExposedScript name="UnscDoRhinoBombard" id="18">UnscDoRhinoBombard.triggerscript</ExposedScript>
+	<ExposedScript name="Explode_01" id="19">Explode_01.triggerscript</ExposedScript>
+	<ExposedScript name="ScorpionRumbleController" id="20">ScorpionRumbleController.triggerscript</ExposedScript>
+	<ExposedScript name="SkirmishAI" id="4">SkirmishAI.triggerscript</ExposedScript>
+	<ExposedScript name="CivilianPanic" id="5">CivilianPanic.triggerscript</ExposedScript>
+</PreloadTriggerScripts>

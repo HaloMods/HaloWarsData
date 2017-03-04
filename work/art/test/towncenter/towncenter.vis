@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<logic type="Destruction">
+				<logicdata value="p100" modelref="">
+					<asset type="Model">
+						<file>test\towncenter\towncenter</file>
+					</asset>
+				</logicdata>
+				<logicdata value="p90" modelref="">
+					<asset type="Model">
+						<file>test\towncenter\towncenter_damaged</file>
+						<damagefile>test\towncenter\towncenter</damagefile>
+					</asset>
+				</logicdata>
+			</logic>
+			<point pointType="Impact" bone="BoneImpact00" pointData="Metal" />
+			<point pointType="Impact" bone="BoneImpact01" pointData="Metal" />
+			<point pointType="Impact" bone="BoneImpact02" pointData="Metal" />
+			<point pointType="Impact" bone="BoneImpact03" pointData="Metal" />
+			<point pointType="Impact" bone="BoneImpact04" pointData="Metal" />
+			<point pointType="Impact" bone="BoneImpact05" pointData="Metal" />
+			<point pointType="Impact" bone="BoneImpact06" pointData="Metal" />
+			<point pointType="Impact" bone="BoneImpact07" pointData="Metal" />
+			<point pointType="Impact" bone="BoneImpact08" pointData="Metal" />
+			<point pointType="Impact" bone="BoneImpact09" pointData="Metal" />
+			<point pointType="Impact" bone="BoneImpact10" pointData="Metal" />
+			<point pointType="Impact" bone="BoneImpact11" pointData="Metal" />
+			<point pointType="Impact" bone="BoneImpact12" pointData="Metal" />
+			<point pointType="Impact" bone="BoneImpact13" pointData="Metal" />
+		</component>
+	</model>
+</visual>

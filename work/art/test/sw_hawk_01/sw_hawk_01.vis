@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<file>test\sw_hawk_01\sw_hawk_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>test\sw_hawk_01\sw_idle_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.064" end="1" name="effects\impacts\small_arms_bullet\small_arms_bullet_01" tobone="bone_body" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.96" />
+				<tag type="Particle" start="0" position="0.5" end="1" name="test\sw_hawk_01\fiah_01" tobone="bone_FX02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="9.479999" />
+				<tag type="Particle" start="0" position="0.647" end="1" name="test\sw_hawk_01\fiah_01" tobone="bone_FX03" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="4" />
+				<tag type="Particle" start="0" position="0.801" end="1" name="test\sw_hawk_01\fiah_01" tobone="bone_FX04" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="3" />
+				<tag type="Particle" start="0" position="0.827" end="1" name="test\sw_hawk_01\fiah_01" tobone="bone_FX05" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="4" />
+			</asset>
+			<attach type="ParticleFile" name="test\sw_hawk_01\bulletimpact_01" tobone="bone_FX01" syncanims="false" disregardorient="false" />
+		</anim>
+	</model>
+</visual>

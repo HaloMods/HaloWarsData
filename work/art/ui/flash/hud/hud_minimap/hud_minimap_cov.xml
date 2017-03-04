@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<FlashMovieDefinition>
+	<Properties>
+		<Position X="50" Y="20" />
+		<Size Width="250" Height="250" />
+		<Data type="float" name="MapViewX">175</Data>
+		<Data type="float" name="MapViewY">145</Data>
+		<Data type="float" name="MapViewWidth">205</Data>
+		<Data type="float" name="MapViewHeight">205</Data>
+		<Data type="float" name="MapViewMinPct">0.6</Data>
+		<Data type="float" name="MapViewMaxPct">1</Data>
+		<Data type="float" name="MapViewIconStickyOffset">5</Data>
+		<Data type="float" name="MapFogScalar">0.5</Data>
+		<Data type="float" name="MapSkirtFogScalar">0.3</Data>
+		<Data type="float" name="IconScaleX">1</Data>
+		<Data type="float" name="IconScaleY">1</Data>
+		<Data type="int" name="X640">48</Data>
+		<Data type="int" name="Y640">36</Data>
+		<Data type="int" name="Width640">124</Data>
+		<Data type="int" name="Height640">124</Data>
+		<Data type="float" name="MapViewX640">110</Data>
+		<Data type="float" name="MapViewY640">98</Data>
+		<Data type="float" name="MapViewWidth640">100</Data>
+		<Data type="float" name="MapViewHeight640">100</Data>
+		<Data type="float" name="IconScaleX640">0.5</Data>
+		<Data type="float" name="IconScaleY640">0.5</Data>
+		<Data type="int" name="XSV">515</Data>
+		<Data type="int" name="YSV">20</Data>
+		<Data type="int" name="WidthSV">250</Data>
+		<Data type="int" name="HeightSV">250</Data>
+		<Data type="float" name="MapViewXSV">640</Data>
+		<Data type="float" name="MapViewYSV">145</Data>
+		<Data type="float" name="MapViewWidthSV">205</Data>
+		<Data type="float" name="MapViewHeightSV">205</Data>
+		<Data type="float" name="IconScaleXSV">0.8</Data>
+		<Data type="float" name="IconScaleYSV">0.8</Data>
+		<Data type="int" name="XSH">50</Data>
+		<Data type="int" name="YSH">235</Data>
+		<Data type="int" name="WidthSH">250</Data>
+		<Data type="int" name="HeightSH">250</Data>
+		<Data type="float" name="MapViewXSH">175</Data>
+		<Data type="float" name="MapViewYSH">360</Data>
+		<Data type="float" name="MapViewWidthSH">205</Data>
+		<Data type="float" name="MapViewHeightSH">205</Data>
+		<Data type="float" name="IconScaleXSH">0.8</Data>
+		<Data type="float" name="IconScaleYSH">0.8</Data>
+		<Data type="float" name="FlareDuration">6</Data>
+		<Data type="float" name="AlertDuration">6</Data>
+		<Data type="float" name="PlatoonIconBaseSize">10.0f</Data>
+		<Data type="float" name="RotationSpeed">0.8f</Data>
+		<Data type="float" name="PanSpeed">0.8f</Data>
+		<Data type="float" name="FullZoomOut">1.5f</Data>
+		<Data type="half4" name="Icon1">0,0,0.125,0.125</Data>
+		<Data type="half4" name="Icon2">0.125,0,0.125,0.125</Data>
+		<Data type="half4" name="Icon3">0.25,0,0.125,0.125</Data>
+		<Data type="half4" name="Icon4">0.375,0,0.125,0.125</Data>
+		<Data type="half4" name="Icon5">0.5,0,0.125,0.125</Data>
+		<Data type="half4" name="Icon6">0.625,0,0.125,0.125</Data>
+		<Data type="half4" name="Icon7">0.75,0,0.125,0.125</Data>
+		<Data type="half4" name="Icon8">0.875,0,0.125,0.125</Data>
+		<Data type="half4" name="Icon9">0,0.125,0.125,0.125</Data>
+		<Data type="half4" name="Icon10">0.125,0.125,0.125,0.125</Data>
+		<Data type="half4" name="Icon11">0.25,0.125,0.125,0.125</Data>
+		<Data type="half4" name="Icon12">0.375,0.125,0.125,0.125</Data>
+		<Data type="half4" name="Icon13">0.5,0.125,0.125,0.125</Data>
+		<Data type="half4" name="Icon14">0.625,0.125,0.125,0.125</Data>
+		<Data type="half4" name="Icon15">0.75,0.125,0.125,0.125</Data>
+		<Data type="half4" name="Icon16">0.875,0.125,0.125,0.125</Data>
+		<Data type="half4" name="Icon17">0,0.25,0.125,0.125</Data>
+		<Data type="half4" name="Icon18">0.125,0.25,0.125,0.125</Data>
+		<Data type="half4" name="Icon19">0.25,0.25,0.125,0.125</Data>
+		<Data type="half4" name="Icon20">0.375,0.25,0.125,0.125</Data>
+		<Data type="half4" name="Icon21">0.5,0.25,0.125,0.125</Data>
+		<Data type="half4" name="Icon22">0.625,0.25,0.125,0.125</Data>
+		<Data type="half4" name="Icon23">0.75,0.25,0.125,0.125</Data>
+		<Data type="half4" name="Icon24">0.875,0.25,0.125,0.125</Data>
+		<Data type="half4" name="Icon25">0,0.375,0.125,0.125</Data>
+		<Data type="half4" name="Icon26">0.125,0.375,0.125,0.125</Data>
+		<Data type="half4" name="Icon27">0.25,0.375,0.125,0.125</Data>
+		<Data type="half4" name="Icon28">0.375,0.375,0.125,0.125</Data>
+		<Data type="half4" name="Icon29">0.5,0.375,0.125,0.125</Data>
+		<Data type="half4" name="Icon30">0.625,0.375,0.125,0.125</Data>
+		<Data type="half4" name="Icon31">0.75,0.375,0.125,0.125</Data>
+		<Data type="half4" name="Icon32">0.875,0.375,0.125,0.125</Data>
+		<Data type="half4" name="Icon33">0,0.5,0.125,0.125</Data>
+		<Data type="half4" name="Icon34">0.125,0.5,0.125,0.125</Data>
+		<Data type="half4" name="Icon35">0.25,0.5,0.125,0.125</Data>
+		<Data type="half4" name="Icon36">0.375,0.5,0.125,0.125</Data>
+		<Data type="half4" name="Icon37">0.5,0.5,0.125,0.125</Data>
+		<Data type="half4" name="Icon38">0.625,0.5,0.125,0.125</Data>
+		<Data type="half4" name="Icon39">0.75,0.5,0.125,0.125</Data>
+		<Data type="half4" name="Icon40">0.875,0.5,0.125,0.125</Data>
+		<Data type="half4" name="Icon41">0,0.625,0.125,0.125</Data>
+		<Data type="half4" name="Icon42">0.125,0.625,0.125,0.125</Data>
+		<Data type="half4" name="Icon43">0.25,0.625,0.125,0.125</Data>
+		<Data type="half4" name="Icon44">0.375,0.625,0.125,0.125</Data>
+		<Data type="half4" name="Icon45">0.5,0.625,0.125,0.125</Data>
+		<Data type="half4" name="Icon46">0.625,0.625,0.125,0.125</Data>
+		<Data type="half4" name="Icon47">0.75,0.625,0.125,0.125</Data>
+		<Data type="half4" name="Icon48">0.875,0.625,0.125,0.125</Data>
+		<Data type="half4" name="Icon49">0,0.75,0.25,0.25</Data>
+		<Data type="half4" name="Icon50">0.25,0.75,0.25,0.25</Data>
+		<Data type="half4" name="Icon51">0.5,0.75,0.25,0.25</Data>
+		<Data type="half4" name="Icon52">0.75,0.75,0.25,0.25</Data>
+		<Data type="string" name="IconFlashFile">art\ui\flash\hud\hud_minimap\hud_minimap_icons.gfx</Data>
+		<Data type="string" name="MapMaskTexture">ui\flash\HUD\hud_minimap\mini_mapmask</Data>
+		<Data type="string" name="MapBackgroundTexture">ui\flash\HUD\hud_minimap\mini_mapgrid</Data>
+		<Data type="string" name="VisibilityMaskTexture">ui\flash\HUD\hud_minimap\vismask</Data>
+	</Properties>
+	<Control name="LabelButtonX">_root.UI_btns.x_text.value</Control>
+	<ASFunction>setMapPosition</ASFunction>
+	<ASFunction>setMapRotation</ASFunction>
+	<ASFunction>setMapScale</ASFunction>
+	<ASFunction>setNotification</ASFunction>
+	<KeyFrame>off</KeyFrame>
+	<KeyFrame>on</KeyFrame>
+	<KeyFrame>pending</KeyFrame>
+	<KeyFrame>over</KeyFrame>
+	<KeyFrame>build</KeyFrame>
+	<KeyFrame>ease_in</KeyFrame>
+	<KeyFrame>ease_out</KeyFrame>
+	<KeyFrame>god</KeyFrame>
+	<KeyFrame>normal</KeyFrame>
+	<KeyFrame>UNSC_res</KeyFrame>
+	<KeyFrame>COV_res</KeyFrame>
+	<Icon type="objectIcon" name="Icon1" name2="Icon2" owner="rsrc_power_capturePoint_01" priority="51" Color="255 180 0" allowPlayerColor="true" SizeX="9" SizeY="9">-1</Icon>
+	<Icon type="objectIcon" name="Icon1" name2="Icon2" owner="rsrc_power_unscUpgrade1_01" priority="51" Color="255 180 0" allowPlayerColor="true" SizeX="9" SizeY="9">-1</Icon>
+	<Icon type="objectIcon" name="Icon3" owner="rsrc_power_unscUpgrade1_01" priority="50" Color="255 255 255" SizeX="15" SizeY="15">-1</Icon>
+	<Icon type="objectIcon" name="Icon1" owner="rsrc_power_unscUpgrade2_01" priority="51" Color="255 180 0" allowPlayerColor="true" SizeX="9" SizeY="9">-1</Icon>
+	<Icon type="objectIcon" name="Icon3" owner="rsrc_power_unscUpgrade2_01" priority="50" Color="255 255 255" SizeX="18" SizeY="18">-1</Icon>
+	<Icon type="objectIcon" name="Icon1" owner="rsrc_power_covUpgrade1_01" priority="51" Color="255 180 0" allowPlayerColor="true" SizeX="9" SizeY="9">-1</Icon>
+	<Icon type="objectIcon" name="Icon3" owner="rsrc_power_covUpgrade1_01" priority="50" Color="255 255 255" SizeX="15" SizeY="15">-1</Icon>
+	<Icon type="objectIcon" name="Icon1" owner="rsrc_power_covUpgrade2_01" priority="51" Color="255 180 0" allowPlayerColor="true" SizeX="9" SizeY="9">-1</Icon>
+	<Icon type="objectIcon" name="Icon3" owner="rsrc_power_covUpgrade2_01" priority="50" Color="255 255 255" SizeX="18" SizeY="18">-1</Icon>
+	<Icon type="objectIcon" name="Icon4" owner="game_base_socket_01" priority="60" SizeX="15" SizeY="15">-1</Icon>
+	<Icon type="objectIcon" name="Icon4" owner="unsc_bldg_command_01" priority="60" SizeX="15" SizeY="15">-1</Icon>
+	<Icon type="objectIcon" name="Icon5" owner="unsc_bldg_command_02" priority="60" SizeX="18" SizeY="18">-1</Icon>
+	<Icon type="objectIcon" name="Icon6" owner="unsc_bldg_command_03" priority="60" SizeX="21" SizeY="21">-1</Icon>
+	<Icon type="objectIcon" name="Icon7" owner="unsc_bldg_command_04" priority="60" SizeX="24" SizeY="24">-1</Icon>
+	<Icon type="objectIcon" name="Icon15" owner="cov_bldg_builder_01" priority="60" SizeX="15" SizeY="15">-1</Icon>
+	<Icon type="objectIcon" name="Icon15" owner="cov_bldg_expander_01" priority="60" SizeX="15" SizeY="15">-1</Icon>
+	<Icon type="objectIcon" name="Icon9" owner="cov_inf_arbiter_01" priority="150" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon10" owner="unsc_inf_spartan_01" priority="150" SizeX="18" SizeY="18">-1</Icon>
+	<Icon type="objectIcon" name="Icon52" owner="unsc_air_shortsword_01" priority="150" SizeX="18" SizeY="18">-1</Icon>
+	<Icon type="objectIcon" name="Icon35" owner="sys_marker_rally_01" priority="60" SizeX="15" SizeY="15">-1</Icon>
+	<Icon type="objectIcon" name="Icon39" owner="unsc_bldg_firebase2_01" priority="60" SizeX="10" SizeY="10">-1</Icon>
+	<Icon type="objectIcon" name="Icon39" owner="unsc_bldg_firebase3_01" priority="60" SizeX="10" SizeY="10">-1</Icon>
+	<Icon type="objectIcon" name="Icon39" owner="unsc_bldg_firebase4_01" priority="60" SizeX="10" SizeY="10">-1</Icon>
+	<Icon type="objectIcon" name="Icon39" owner="unsc_bldg_command7_01" priority="60" SizeX="10" SizeY="10">-1</Icon>
+	<Icon type="objectIcon" name="Icon39" owner="cov_bldg_builder7_01" priority="60" SizeX="10" SizeY="10">-1</Icon>
+	<Icon type="objectIcon" name="Icon39" owner="cov_bldg_expander_01" priority="60" SizeX="10" SizeY="10">-1</Icon>
+	<Icon type="objectIcon" name="Icon39" owner="cov_bldg_expander2_01" priority="60" SizeX="10" SizeY="10">-1</Icon>
+	<Icon type="objectIcon" name="Icon39" owner="cov_bldg_expander3_01" priority="60" SizeX="10" SizeY="10">-1</Icon>
+	<Icon type="objectIcon" name="Icon39" owner="cov_bldg_expander4_01" priority="60" SizeX="10" SizeY="10">-1</Icon>
+	<Icon type="objectIcon" name="Icon37" owner="for_bldg_factory_01" priority="60" SizeX="15" SizeY="15">-1</Icon>
+	<Icon type="objectIcon" name="Icon38" owner="pow_gp_dimgate_01" priority="60" SizeX="15" SizeY="15">-1</Icon>
+	<Icon type="objectIcon" name="Icon39" owner="game_base_large7Socket_01" priority="60" SizeX="10" SizeY="10">-1</Icon>
+	<Icon type="objectIcon" name="Icon40" owner="game_base_small4Socket_01" priority="60" SizeX="10" SizeY="10">-1</Icon>
+	<Icon type="objectIcon" name="Icon41" owner="game_base_small3Socket_01" priority="60" SizeX="10" SizeY="10">-1</Icon>
+	<Icon type="objectIcon" name="Icon42" owner="game_base_small2Socket_01" priority="60" SizeX="10" SizeY="10">-1</Icon>
+	<Icon type="miscIcon" name="Icon52" owner="platoon" priority="100">-1</Icon>
+	<Icon type="miscIcon" name="Icon34" owner="alert" priority="30" allowPlayerColor="false" SizeX="40" SizeY="40">-1</Icon>
+	<Icon type="miscIcon" name="Icon50" owner="flare" priority="200" allowPlayerColor="false" SizeX="45" SizeY="45">-1</Icon>
+	<Icon type="miscIcon" name="Icon8" owner="centerpoint" priority="220" SizeX="30" SizeY="30">-1</Icon>
+	<Icon type="miscIcon" name="Icon50" owner="sensorlock" priority="200" Color="255 255 0" allowPlayerColor="false" SizeX="45" SizeY="45">-1</Icon>
+	<Icon type="objectIcon" name="Icon1" name2="Icon2" owner="sys_icon_1_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon2" name2="Icon2" owner="sys_icon_2_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon3" name2="Icon2" owner="sys_icon_3_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon4" name2="Icon2" owner="sys_icon_4_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon5" name2="Icon2" owner="sys_icon_5_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon6" name2="Icon2" owner="sys_icon_6_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon7" name2="Icon2" owner="sys_icon_7_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon8" name2="Icon2" owner="sys_icon_8_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon9" name2="Icon2" owner="sys_icon_9_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon10" name2="Icon2" owner="sys_icon_10_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon11" name2="Icon2" owner="sys_icon_11_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon12" name2="Icon2" owner="sys_icon_12_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon13" name2="Icon2" owner="sys_icon_13_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon14" name2="Icon2" owner="sys_icon_14_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon15" name2="Icon2" owner="sys_icon_15_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon16" name2="Icon2" owner="sys_icon_16_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon17" name2="Icon2" owner="sys_icon_17_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon18" name2="Icon2" owner="sys_icon_18_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon19" name2="Icon2" owner="sys_icon_19_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon20" name2="Icon2" owner="sys_icon_20_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon21" name2="Icon2" owner="sys_icon_21_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon22" name2="Icon2" owner="sys_icon_22_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon23" name2="Icon2" owner="sys_icon_23_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon24" name2="Icon2" owner="sys_icon_24_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon25" name2="Icon2" owner="sys_icon_25_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon26" name2="Icon2" owner="sys_icon_26_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon27" name2="Icon2" owner="sys_icon_27_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon28" name2="Icon2" owner="sys_icon_28_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon29" name2="Icon2" owner="sys_icon_29_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon30" name2="Icon2" owner="sys_icon_30_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon31" name2="Icon2" owner="sys_icon_31_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon32" name2="Icon2" owner="sys_icon_32_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon33" name2="Icon2" owner="sys_icon_33_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon34" name2="Icon2" owner="sys_icon_34_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon35" name2="Icon2" owner="sys_icon_35_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon36" name2="Icon2" owner="sys_icon_36_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon37" name2="Icon2" owner="sys_icon_37_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon38" name2="Icon2" owner="sys_icon_38_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon39" name2="Icon2" owner="sys_icon_39_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon40" name2="Icon2" owner="sys_icon_40_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon41" name2="Icon2" owner="sys_icon_41_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon42" name2="Icon2" owner="sys_icon_42_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon43" name2="Icon2" owner="sys_icon_43_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon44" name2="Icon2" owner="sys_icon_44_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon45" name2="Icon2" owner="sys_icon_45_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon46" name2="Icon2" owner="sys_icon_46_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon47" name2="Icon2" owner="sys_icon_47_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon48" name2="Icon2" owner="sys_icon_48_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon49" name2="Icon2" owner="sys_icon_49_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon50" name2="Icon2" owner="sys_icon_50_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon51" name2="Icon2" owner="sys_icon_51_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+	<Icon type="objectIcon" name="Icon52" name2="Icon2" owner="sys_icon_52_01" priority="180" Color="255 255 255" allowPlayerColor="true" SizeX="20" SizeY="20">-1</Icon>
+</FlashMovieDefinition>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Bomb</Name>
+		<AttackRate>1</AttackRate>
+		<WeaponType>Basic</WeaponType>
+		<DamagePerSecond>0</DamagePerSecond>
+		<ImpactCameraShake duration="0.5" strength="2" />
+		<ImpactRumble leftRumbleType="Fixed" leftStrength="1" rightRumbleType="Fixed" rightStrength="1" duration="0.5" />
+		<Projectile>pow_proj_landmine_01</Projectile>
+		<TriggerScript>UnscProjMineLayer.triggerscript</TriggerScript>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>landmineAttackAction</Name>
+		<Weapon>Bomb</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

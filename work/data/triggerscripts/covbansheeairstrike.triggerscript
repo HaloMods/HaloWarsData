@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CovBansheeAirStrike.triggerscript" Type="TriggerScript" NextTriggerVarID="791" NextTriggerID="126" NextConditionID="126" NextEffectID="273" External="false">
+	<TriggerGroups />
+	<TriggerVars>
+		<TriggerVar ID="562" Type="Player" Name="CurrentPlayer" IsNull="false" />
+		<TriggerVar ID="563" Type="Power" Name="ExternPowerVar1" IsNull="true" />
+		<TriggerVar ID="567" Type="UnitList" Name="" IsNull="true" />
+		<TriggerVar ID="568" Type="Cost" Name="ExternCostVar2" IsNull="true" />
+		<TriggerVar ID="607" Type="SquadList" Name="" IsNull="true" />
+		<TriggerVar ID="677" Type="Unit" Name="" IsNull="true" />
+		<TriggerVar ID="748" Type="Squad" Name="BansheeSquad" IsNull="false" />
+		<TriggerVar ID="749" Type="Vector" Name="StrikeLoc" IsNull="false" />
+		<TriggerVar ID="755" Type="Object" Name="IconObject" IsNull="false" />
+		<TriggerVar ID="757" Type="Trigger" Name="TriggerVar8" IsNull="false">122</TriggerVar>
+		<TriggerVar ID="763" Type="IconType" Name="" IsNull="false">sys_icon_11_01</TriggerVar>
+		<TriggerVar ID="766" Type="Color" Name="IconColorVar2" IsNull="true" />
+		<TriggerVar ID="767" Type="Bool" Name="VisibleToAllVar1" IsNull="true">False</TriggerVar>
+		<TriggerVar ID="768" Type="Bool" Name="ClearExistingVar2" IsNull="true">False</TriggerVar>
+		<TriggerVar ID="770" Type="ObjectList" Name="AddToObjectListVar2" IsNull="true" />
+		<TriggerVar ID="774" Type="Squad" Name="" IsNull="true" />
+		<TriggerVar ID="777" Type="Operator" Name="" IsNull="false">LessThan</TriggerVar>
+		<TriggerVar ID="778" Type="Float" Name="" IsNull="false">20</TriggerVar>
+		<TriggerVar ID="779" Type="Unit" Name="TestUnitVar1" IsNull="true" />
+		<TriggerVar ID="780" Type="UnitList" Name="TestUnitListVar1" IsNull="true" />
+		<TriggerVar ID="782" Type="SquadList" Name="TestSquadListVar1" IsNull="true" />
+		<TriggerVar ID="785" Type="Unit" Name="DestroyUnitVar1" IsNull="true" />
+		<TriggerVar ID="786" Type="UnitList" Name="DestroyUnitListVar1" IsNull="true" />
+		<TriggerVar ID="787" Type="Squad" Name="DestroySquadVar1" IsNull="true" />
+		<TriggerVar ID="788" Type="SquadList" Name="DestroySquadListVar1" IsNull="true" />
+		<TriggerVar ID="790" Type="ObjectList" Name="ObjectListVar1" IsNull="true" />
+	</TriggerVars>
+	<Triggers>
+		<Trigger ID="96" Name="extern handler" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="135" Y="198" GroupID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="88" Type="CanRetrieveExternals" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Output Name="ExternPlayer" SigID="1" Optional="true">562</Output>
+						<Output Name="ExternPower" SigID="2" Optional="true">563</Output>
+						<Output Name="ExternSquad" SigID="3" Optional="true">748</Output>
+						<Output Name="ExternSquadList" SigID="7" Optional="true">607</Output>
+						<Output Name="ExternUnit" SigID="4" Optional="true">677</Output>
+						<Output Name="ExternUnitList" SigID="6" Optional="true">567</Output>
+						<Output Name="ExternCost" SigID="5" Optional="true">568</Output>
+					</Condition>
+					<Condition ID="119" Type="CanRetrieveExternalLocation" DBID="440" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Output Name="Location" SigID="1" Optional="false">749</Output>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="264" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">757</Input>
+				</Effect>
+				<Effect ID="268" Type="CreateIconObject" DBID="520" Version="3" CommentOut="false">
+					<Input Name="IconType" SigID="9" Optional="false">763</Input>
+					<Input Name="Player" SigID="2" Optional="false">562</Input>
+					<Input Name="Location" SigID="3" Optional="false">749</Input>
+					<Input Name="IconColor" SigID="4" Optional="true">766</Input>
+					<Input Name="VisibleToAll" SigID="10" Optional="true">767</Input>
+					<Input Name="ClearExisting" SigID="5" Optional="true">768</Input>
+					<Output Name="IconObject" SigID="6" Optional="true">755</Output>
+					<Output Name="AddToObjectList" SigID="7" Optional="true">770</Output>
+				</Effect>
+				<Effect ID="269" Type="AirStrike" DBID="644" Version="1" CommentOut="false">
+					<Input Name="TargetSquad" SigID="1" Optional="true">774</Input>
+					<Input Name="Location" SigID="2" Optional="true">749</Input>
+					<Input Name="Squad" SigID="3" Optional="false">748</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse>
+				<Effect ID="190" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
+			</TriggerEffectsOnFalse>
+		</Trigger>
+		<Trigger ID="122" Name="newTrigger122" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="626" Y="191" GroupID="-1">
+			<TriggerConditions>
+				<Or>
+					<Condition ID="122" Type="SquadLocationDistance" DBID="238" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="Squad" SigID="1" Optional="false">748</Input>
+						<Input Name="Location" SigID="2" Optional="false">749</Input>
+						<Input Name="CompareType" SigID="3" Optional="false">777</Input>
+						<Input Name="CompareDistance" SigID="4" Optional="false">778</Input>
+					</Condition>
+					<Condition ID="123" Type="IsDead" DBID="81" Version="3" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="TestUnit" SigID="3" Optional="true">779</Input>
+						<Input Name="TestUnitList" SigID="4" Optional="true">780</Input>
+						<Input Name="TestSquad" SigID="5" Optional="true">748</Input>
+						<Input Name="TestSquadList" SigID="6" Optional="true">782</Input>
+					</Condition>
+				</Or>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="272" Type="Destroy" DBID="38" Version="4" CommentOut="false">
+					<Input Name="DestroyUnit" SigID="3" Optional="true">785</Input>
+					<Input Name="DestroyUnitList" SigID="4" Optional="true">786</Input>
+					<Input Name="DestroySquad" SigID="5" Optional="true">787</Input>
+					<Input Name="DestroySquadList" SigID="6" Optional="true">788</Input>
+					<Input Name="Object" SigID="7" Optional="true">755</Input>
+					<Input Name="ObjectList" SigID="8" Optional="true">790</Input>
+				</Effect>
+				<Effect ID="265" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+	</Triggers>
+	<EditorData>
+		<TriggerMappings />
+		<UIData>
+			<NoteNodes />
+			<Groups />
+			<UserClasses />
+		</UIData>
+		<TriggerSystem Name="Script" Type="Scenario" NextTriggerVarID="791" NextTriggerID="126" NextConditionID="126" NextEffectID="273" External="false">
+			<TriggerGroups />
+			<TriggerVars>
+				<TriggerVar ID="562" Type="Player" Name="CurrentPlayer" IsNull="false" />
+				<TriggerVar ID="563" Type="Power" Name="ExternPowerVar1" IsNull="true" />
+				<TriggerVar ID="567" Type="UnitList" Name="" IsNull="true" />
+				<TriggerVar ID="568" Type="Cost" Name="ExternCostVar2" IsNull="true" />
+				<TriggerVar ID="607" Type="SquadList" Name="" IsNull="true" />
+				<TriggerVar ID="677" Type="Unit" Name="" IsNull="true" />
+				<TriggerVar ID="748" Type="Squad" Name="BansheeSquad" IsNull="false" />
+				<TriggerVar ID="749" Type="Vector" Name="StrikeLoc" IsNull="false" />
+				<TriggerVar ID="755" Type="Object" Name="IconObject" IsNull="false" />
+				<TriggerVar ID="757" Type="Trigger" Name="TriggerVar8" IsNull="false">122</TriggerVar>
+				<TriggerVar ID="761" Type="ObjectList" Name="DestroyObjectListVar1" IsNull="true" />
+				<TriggerVar ID="763" Type="IconType" Name="" IsNull="false">sys_icon_11_01</TriggerVar>
+				<TriggerVar ID="766" Type="Color" Name="IconColorVar2" IsNull="true" />
+				<TriggerVar ID="767" Type="Bool" Name="VisibleToAllVar1" IsNull="true">False</TriggerVar>
+				<TriggerVar ID="768" Type="Bool" Name="ClearExistingVar2" IsNull="true">False</TriggerVar>
+				<TriggerVar ID="770" Type="ObjectList" Name="AddToObjectListVar2" IsNull="true" />
+				<TriggerVar ID="774" Type="Squad" Name="" IsNull="true" />
+				<TriggerVar ID="777" Type="Operator" Name="" IsNull="false">LessThan</TriggerVar>
+				<TriggerVar ID="778" Type="Float" Name="" IsNull="false">20</TriggerVar>
+				<TriggerVar ID="779" Type="Unit" Name="TestUnitVar1" IsNull="true" />
+				<TriggerVar ID="780" Type="UnitList" Name="TestUnitListVar1" IsNull="true" />
+				<TriggerVar ID="782" Type="SquadList" Name="TestSquadListVar1" IsNull="true" />
+				<TriggerVar ID="785" Type="Unit" Name="DestroyUnitVar1" IsNull="true" />
+				<TriggerVar ID="786" Type="UnitList" Name="DestroyUnitListVar1" IsNull="true" />
+				<TriggerVar ID="787" Type="Squad" Name="DestroySquadVar1" IsNull="true" />
+				<TriggerVar ID="788" Type="SquadList" Name="DestroySquadListVar1" IsNull="true" />
+				<TriggerVar ID="790" Type="ObjectList" Name="ObjectListVar1" IsNull="true" />
+			</TriggerVars>
+			<Triggers>
+				<Trigger ID="96" Name="extern handler" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="135" Y="198" GroupID="-1">
+					<TriggerConditions>
+						<And>
+							<Condition ID="88" Type="CanRetrieveExternals" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+								<Output Name="ExternPlayer" SigID="1" Optional="true">562</Output>
+								<Output Name="ExternPower" SigID="2" Optional="true">563</Output>
+								<Output Name="ExternSquad" SigID="3" Optional="true">748</Output>
+								<Output Name="ExternSquadList" SigID="7" Optional="true">607</Output>
+								<Output Name="ExternUnit" SigID="4" Optional="true">677</Output>
+								<Output Name="ExternUnitList" SigID="6" Optional="true">567</Output>
+								<Output Name="ExternCost" SigID="5" Optional="true">568</Output>
+							</Condition>
+							<Condition ID="119" Type="CanRetrieveExternalLocation" DBID="440" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+								<Output Name="Location" SigID="1" Optional="false">749</Output>
+							</Condition>
+						</And>
+					</TriggerConditions>
+					<TriggerEffectsOnTrue>
+						<Effect ID="264" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+							<Input Name="Trigger" SigID="1" Optional="false">757</Input>
+						</Effect>
+						<Effect ID="268" Type="CreateIconObject" DBID="520" Version="3" CommentOut="false">
+							<Input Name="IconType" SigID="9" Optional="false">763</Input>
+							<Input Name="Player" SigID="2" Optional="false">562</Input>
+							<Input Name="Location" SigID="3" Optional="false">749</Input>
+							<Input Name="IconColor" SigID="4" Optional="true">766</Input>
+							<Input Name="VisibleToAll" SigID="10" Optional="true">767</Input>
+							<Input Name="ClearExisting" SigID="5" Optional="true">768</Input>
+							<Output Name="IconObject" SigID="6" Optional="true">755</Output>
+							<Output Name="AddToObjectList" SigID="7" Optional="true">770</Output>
+						</Effect>
+						<Effect ID="269" Type="AirStrike" DBID="644" Version="1" CommentOut="false">
+							<Input Name="TargetSquad" SigID="1" Optional="true">774</Input>
+							<Input Name="Location" SigID="2" Optional="true">749</Input>
+							<Input Name="Squad" SigID="3" Optional="false">748</Input>
+						</Effect>
+					</TriggerEffectsOnTrue>
+					<TriggerEffectsOnFalse>
+						<Effect ID="190" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
+					</TriggerEffectsOnFalse>
+				</Trigger>
+				<Trigger ID="122" Name="newTrigger122" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="626" Y="191" GroupID="-1">
+					<TriggerConditions>
+						<Or>
+							<Condition ID="122" Type="SquadLocationDistance" DBID="238" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+								<Input Name="Squad" SigID="1" Optional="false">748</Input>
+								<Input Name="Location" SigID="2" Optional="false">749</Input>
+								<Input Name="CompareType" SigID="3" Optional="false">777</Input>
+								<Input Name="CompareDistance" SigID="4" Optional="false">778</Input>
+							</Condition>
+							<Condition ID="123" Type="IsDead" DBID="81" Version="3" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+								<Input Name="TestUnit" SigID="3" Optional="true">779</Input>
+								<Input Name="TestUnitList" SigID="4" Optional="true">780</Input>
+								<Input Name="TestSquad" SigID="5" Optional="true">748</Input>
+								<Input Name="TestSquadList" SigID="6" Optional="true">782</Input>
+							</Condition>
+						</Or>
+					</TriggerConditions>
+					<TriggerEffectsOnTrue>
+						<Effect ID="272" Type="Destroy" DBID="38" Version="4" CommentOut="false">
+							<Input Name="DestroyUnit" SigID="3" Optional="true">785</Input>
+							<Input Name="DestroyUnitList" SigID="4" Optional="true">786</Input>
+							<Input Name="DestroySquad" SigID="5" Optional="true">787</Input>
+							<Input Name="DestroySquadList" SigID="6" Optional="true">788</Input>
+							<Input Name="Object" SigID="7" Optional="true">755</Input>
+							<Input Name="ObjectList" SigID="8" Optional="true">790</Input>
+						</Effect>
+						<Effect ID="265" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
+					</TriggerEffectsOnTrue>
+					<TriggerEffectsOnFalse />
+				</Trigger>
+			</Triggers>
+			<EditorData>
+				<TriggerMappings />
+				<UIData>
+					<NoteNodes />
+					<Groups />
+					<UserClasses />
+				</UIData>
+			</EditorData>
+		</TriggerSystem>
+	</EditorData>
+</TriggerSystem>

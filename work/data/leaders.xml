@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Leaders>
+	<Leader Name="Gaia" Icon="">
+		<Civ>Gaia</Civ>
+	</Leader>
+	<Leader Name="Cutter" Icon="ui\game\icon\unsc\leader\Captain Cutter">
+		<Civ>UNSC</Civ>
+		<Tech>unsc_LeaderCutter</Tech>
+		<NameID>7000</NameID>
+		<DescriptionID>7001</DescriptionID>
+		<FlashImg>orbital</FlashImg>
+		<FlashPortrait>img://art\ui\flash\pregame\textures\cutter.ddx"</FlashPortrait>
+		<Resource Type="Supplies">600</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_02">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="true" Offset="24,0,-34">unsc_veh_warthog_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<Pop Type="Base" Max="4">4</Pop>
+		<Pop Type="Unit" Max="30">30</Pop>
+		<Pop Type="Spartan" Max="3">3</Pop>
+		<Pop Type="Vulture" Max="1">1</Pop>
+	</Leader>
+	<Leader Name="Forge" Icon="ui\game\icon\unsc\leader\Sergeant Forge">
+		<Civ>UNSC</Civ>
+		<Tech>unsc_LeaderForge</Tech>
+		<NameID>7002</NameID>
+		<DescriptionID>7003</DescriptionID>
+		<FlashImg>14thdivision</FlashImg>
+		<FlashPortrait>img://art\ui\flash\pregame\textures\forge.ddx"</FlashPortrait>
+		<Resource Type="Supplies">600</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_02">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="true" Offset="24,0,-34">unsc_veh_warthog_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<Pop Type="Base" Max="4">4</Pop>
+		<Pop Type="Unit" Max="30">30</Pop>
+		<Pop Type="Spartan" Max="3">3</Pop>
+		<Pop Type="Vulture" Max="1">1</Pop>
+	</Leader>
+	<Leader Name="Anders" Icon="ui\game\icon\unsc\leader\Serina">
+		<Civ>UNSC</Civ>
+		<Tech>unsc_LeaderAnders</Tech>
+		<NameID>7004</NameID>
+		<DescriptionID>7005</DescriptionID>
+		<FlashImg>oni</FlashImg>
+		<FlashPortrait>img://art\ui\flash\pregame\textures\Anders.ddx"</FlashPortrait>
+		<Resource Type="Supplies">600</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_02">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="true" Offset="24,0,-34">unsc_veh_warthog_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<Pop Type="Base" Max="4">4</Pop>
+		<Pop Type="Unit" Max="30">30</Pop>
+		<Pop Type="Spartan" Max="3">3</Pop>
+		<Pop Type="Vulture" Max="1">1</Pop>
+	</Leader>
+</Leaders>

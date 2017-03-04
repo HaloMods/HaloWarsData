@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Stats>
+	<ResourceGraph>
+		<Samples>420</Samples>
+		<Interval>5000</Interval>
+	</ResourceGraph>
+	<PopGraph>
+		<Samples>420</Samples>
+		<Interval>5000</Interval>
+	</PopGraph>
+	<Total id="1" name="ResearchTotals">
+		<EventType>Researched</EventType>
+		<Tech name="unsc_capturedPowerUpgrade1">
+			<Flag>Exclude</Flag>
+		</Tech>
+		<Tech name="unsc_capturedPowerUpgrade1">
+			<Flag>Exclude</Flag>
+		</Tech>
+		<Tech name="unsc_age2">
+			<Flag>Exclude</Flag>
+		</Tech>
+		<Tech name="unsc_age3">
+			<Flag>Exclude</Flag>
+		</Tech>
+		<Tech name="unsc_age4">
+			<Flag>Exclude</Flag>
+		</Tech>
+		<Tech name="cov_age2">
+			<Flag>Exclude</Flag>
+		</Tech>
+		<Tech name="cov_age3">
+			<Flag>Exclude</Flag>
+		</Tech>
+		<Tech name="cov_age4">
+			<Flag>Exclude</Flag>
+		</Tech>
+		<Tech />
+		<TrackIndividual />
+	</Total>
+	<Event id="2" name="AgeEvents">
+		<EventType>Researched</EventType>
+		<Tech name="unsc_age2" />
+		<Tech name="unsc_age3" />
+		<Tech name="unsc_age4" />
+		<Tech name="cov_age2" />
+		<Tech name="cov_age3" />
+		<Tech name="cov_age4" />
+		<TrackIndividual />
+	</Event>
+	<Total id="3" name="MilitaryTotals">
+		<EventType>Built</EventType>
+		<EventType>Lost</EventType>
+		<EventType>Destroyed</EventType>
+		<ObjectClass>Squad</ObjectClass>
+		<ObjectType>Military</ObjectType>
+		<TrackIndividual />
+		<TrackKillers />
+	</Total>
+	<Total id="4" name="BuildingTotals">
+		<EventType>Built</EventType>
+		<EventType>Lost</EventType>
+		<EventType>Destroyed</EventType>
+		<EventType>Captured</EventType>
+		<ObjectClass>Building</ObjectClass>
+		<ObjectType>_Building</ObjectType>
+		<TrackIndividual />
+		<TrackKillers />
+	</Total>
+	<Graph id="5" name="MilitaryGraph">
+		<EventType>Built</EventType>
+		<EventType>Lost</EventType>
+		<ObjectClass>Squad</ObjectClass>
+		<ObjectType>Military</ObjectType>
+		<Samples>420</Samples>
+		<Interval>5000</Interval>
+	</Graph>
+	<Total id="6" name="MilitarySquadTotals">
+		<EventType>Built</EventType>
+		<EventType>Lost</EventType>
+		<EventType>Destroyed</EventType>
+		<ObjectClass>Squad</ObjectClass>
+		<ObjectType>Military</ObjectType>
+		<TrackSquads />
+		<TrackIndividual />
+	</Total>
+</Stats>

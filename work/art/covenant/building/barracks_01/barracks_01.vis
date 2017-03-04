@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="built">
+	<model name="built">
+		<component>
+			<asset type="Model">
+				<file>covenant\building\barracks_01\barracks_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\building\barracks_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Construction Node">
+		<component>
+			<asset type="Model">
+				<file>covenant\building\barracks_01\barracks_placeholder_01</file>
+			</asset>
+			<attach type="ModelRef" name="Hologram" tobone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="Solid" tobone="GrannyRootBone" syncanims="true" disregardorient="false" />
+		</component>
+		<anim type="Idle" exitAction="Freeze" tweenTime="0" tweenToAnimation="BuildComplete">
+			<asset type="Anim">
+				<file>covenant\building\barracks_01\barracks_idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\building_FX\Cov\construction\constructionbase_01" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects\building_FX\Cov\construction\constructionstart_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+	</model>
+	<model name="Solid">
+		<component>
+			<asset type="Model">
+				<file>covenant\building\barracks_01\barracks_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Freeze" tweenTime="0" tweenToAnimation="BuildComplete">
+			<asset type="Anim">
+				<file>covenant\building\barracks_01\barracks_idle_01</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.205499991774559</Value>
+							<Alpha>0.549300014972687</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.404100000858307</Value>
+							<Alpha>0.758700013160706</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+			</asset>
+		</anim>
+	</model>
+	<model name="Hologram">
+		<component>
+			<asset type="Model">
+				<file>covenant\building\barracks_01\barracks_hologram_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Freeze" tweenTime="0" tweenToAnimation="BuildComplete">
+			<asset type="Anim">
+				<file>covenant\building\barracks_01\barracks_idle_01</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.0889999940991402</Value>
+							<Alpha>0.0728999972343445</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.267099976539612</Value>
+							<Alpha>0.146799996495247</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.616400003433228</Value>
+							<Alpha>0.187900006771088</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.102700002491474</Value>
+							<Alpha>0.84909999370575</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.116400003433228</Value>
+							<Alpha>0.898399949073792</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.267099976539612</Value>
+							<Alpha>0.918899953365326</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>0.93529999256134</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+			</asset>
+		</anim>
+	</model>
+	<logic type="BuildingCompletion">
+		<logicdata value="p0" modelref="Construction Node" />
+		<logicdata value="p100" modelref="built" />
+	</logic>
+</visual>

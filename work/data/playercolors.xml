@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<playerColors>
+	<player num="0" color1="200 200 200" color2="200 200 200" color3="200 200 200" minimap="200 200 200" />
+	<player num="1" color1="92 160 210" color2="52 239 158" color3="152 127 91" minimap="6 190 179" />
+	<player num="2" color1="186 7 33" color2="252 70 70" color3="145 112 112" minimap="255 0 0" />
+	<player num="3" color1="229 197 18" color2="255 253 68" color3="179 171 121" minimap="255 255 0" />
+	<player num="4" color1="92 124 16" color2="52 223 52" color3="101 120 101" minimap="0 255 0" />
+	<player num="5" color1="214 117 2" color2="251 179 85" color3="152 127 91" minimap="251 160 0" />
+	<player num="6" color1="185 47 146" color2="148 0 197" color3="221 0 254" minimap="148 0 197" />
+	<player num="7" color1="0 82 192" color2="0 0 0" color3="0 0 0" minimap="0 0 0" />
+	<player num="8" color1="40 40 40" color2="40 40 40" color3="124 124 124" minimap="80 80 80" />
+	<player num="9" color1="129 119 183" color2="255 0 102" color3="147 108 124" minimap="0 0 255" />
+	<player num="10" color1="188 18 18" color2="255 0 102" color3="147 108 124" minimap="188 18 18" />
+	<player num="11" color1="245 214 3" color2="255 0 102" color3="147 108 124" minimap="245 214 3" />
+	<player num="12" color1="27 132 54" color2="255 0 102" color3="147 108 124" minimap="27 132 54" />
+	<friendOrFoeSelf color1="0 0 255" color2="0 0 255" color3="0 0 255" minimap="0 0 255" />
+	<friendOrFoeAlly color1="255 255 0" color2="255 255 0" color3="255 255 25" minimap="255 255 0" />
+	<friendOrFoeEnemy color1="255 0 0" color2="255 0 0" color3="255 255 25" minimap="255 0 0" />
+	<civ>
+		<player num="0" color="0" />
+		<player num="1" color="4" />
+		<player num="2" color="3" />
+		<player num="3" color="5" />
+		<player num="4" color="1" />
+		<player num="5" color="7" />
+		<player num="6" color="2" />UNSC</civ>
+	<civ>
+		<player num="0" color="0" />
+		<player num="1" color="6" />
+		<player num="2" color="7" />
+		<player num="3" color="10" />
+		<player num="4" color="8" />
+		<player num="5" color="11" />
+		<player num="6" color="12" />Covenant</civ>
+</playerColors>

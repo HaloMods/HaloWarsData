@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>CaptureScn03Console</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Build</Anim>
+		<WorkRate>1</WorkRate>
+		<WorkRange>5</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>cpgn_scn03_foreconsole_01</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>CaptureScn03Console</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

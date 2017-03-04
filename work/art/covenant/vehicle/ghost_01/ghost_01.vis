@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<file>covenant\vehicle\ghost_01\ghost_01</file>
+				<damagefile>covenant\vehicle\ghost_01\ghost_01</damagefile>
+			</asset>
+			<point pointType="Impact" bone="bone_impact_01" pointData="Metal" />
+			<point pointType="Impact" bone="bone_impact_02" pointData="Metal" />
+			<point pointType="Impact" bone="bone_impact_03" pointData="Metal" />
+			<point pointType="Impact" bone="bone_impact_04" pointData="Metal" />
+			<point pointType="Impact" bone="bone_impact_05" pointData="Metal" />
+			<point pointType="Impact" bone="bone_impact_06" pointData="Metal" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\vehicle\ghost_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="TerrainEffect" name="effects\terraineffects\ghost_hover" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\vehicle\ghost_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="TerrainEffect" name="effects\terraineffects\ghost_hover" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="PlasmaCannonAttack" exitAction="Loop" tweenTime="20" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\vehicle\ghost_01\cannanAttack_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.199" end="1" name="play_cov_ghost_plasma_cannon" tobone="bone_launchpoint01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.2" end="1" tobone="bone_launchpoint01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.2" end="1" name="effects\vehicle_fx\cov\banshee\muzzleblast_01" tobone="bone_launchpoint01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.93" loop="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.5" end="1" name="play_cov_ghost_plasma_cannon" tobone="bone_launchpoint02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.5" end="1" tobone="bone_launchpoint02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.5" end="1" name="effects\vehicle_fx\cov\banshee\muzzleblast_01" tobone="bone_launchpoint02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.93" loop="false" checkFOW="true" />
+			</asset>
+			<attach type="TerrainEffect" name="effects\terraineffects\ghost_hover" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\vehicle\ghost_01\death_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.006" end="1" name="effects\impacts\tank_shell_impact\tank_shell_impact_01" tobone="bone_impact_10" checkvisible="false" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="0.25" loop="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.083" end="1" name="effects\impacts\tank_shell_impact\tank_shell_impact_01" tobone="bone_impact_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="0.25" loop="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.135" end="1" name="effects\impacts\tank_shell_impact\tank_shell_impact_01" tobone="bone_impact_04" checkvisible="false" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="0.25" loop="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>covenant\vehicle\ghost_01\death_02</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.006" end="1" name="effects\impacts\tank_shell_impact\tank_shell_impact_01" tobone="bone_impact_10" checkvisible="false" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="0.25" loop="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.083" end="1" name="effects\impacts\tank_shell_impact\tank_shell_impact_01" tobone="bone_impact_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="0.25" loop="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.135" end="1" name="effects\impacts\tank_shell_impact\tank_shell_impact_01" tobone="bone_impact_04" checkvisible="false" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="0.25" loop="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Repair" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\vehicle\ghost_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\Unit_FX\unsc\repair_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="TerrainEffect" name="effects\terraineffects\ghost_hover" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+	</model>
+</visual>

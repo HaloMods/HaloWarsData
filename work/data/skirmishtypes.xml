@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<SkirmishTypes>
+	<SkirmishType>
+		<Name>Skirmish</Name>
+		<WorldScript>SkirmishWorld.triggerscript</WorldScript>
+		<PlayerScript>SkirmishPlayer.triggerscript</PlayerScript>
+	</SkirmishType>
+</SkirmishTypes>

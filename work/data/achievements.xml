@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Achievements>
+	<Achievement name="Intermingler" gamerPicture="Picture1" />
+	<Accumulator name="GruntsAbound">
+		<Unit>cov_inf_grunt_01</Unit>
+		<Action>Build</Action>
+		<QuantityRequired>1000</QuantityRequired>
+		<GameType>SP</GameType>
+		<GameType>MP</GameType>
+	</Accumulator>
+	<Game name="MasterChief">
+		<Quantity>500</Quantity>
+		<GameType>MP</GameType>
+		<Restriction>Win</Restriction>
+		<Restriction>Rank</Restriction>
+	</Game>
+	<Map name="UniversalTraveler">
+		<GameType>SP</GameType>
+		<GameType>MP</GameType>
+		<MapDescription quantity="10">Halo</MapDescription>
+		<MapDescription quantity="10">Flood</MapDescription>
+		<Restriction>Win</Restriction>
+	</Map>
+	<Scenario name="Cadet">
+		<ScenarioName>Scenario1</ScenarioName>
+		<Difficulty>Moderate</Difficulty>
+	</Scenario>
+</Achievements>

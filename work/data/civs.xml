@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Civs>
+	<Civ>
+		<Name>Gaia</Name>
+	</Civ>
+	<Civ>
+		<Name>UNSC</Name>
+		<CivTech>unsc_basic</CivTech>
+		<DisplayNameID>22200</DisplayNameID>
+		<CommandAckObject>sys_marker_command_01</CommandAckObject>
+		<RallyPointObject>sys_marker_rally_01</RallyPointObject>
+		<ExpandHull>0</ExpandHull>
+		<TerrainPushOff>0</TerrainPushOff>
+		<BuildingMagnetRange>6</BuildingMagnetRange>
+		<Transport>unsc_air_pelican_01</Transport>
+		<SoundBank>ui_unsc.bnk</SoundBank>
+		<LeaderMenuNameID>118</LeaderMenuNameID>
+	</Civ>
+</Civs>

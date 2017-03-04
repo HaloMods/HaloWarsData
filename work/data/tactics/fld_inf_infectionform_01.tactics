@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>FloodMelee</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>300</DamagePerSecond>
+		<WeaponType>AntiInfantry</WeaponType>
+		<MaxRange>0.35</MaxRange>
+	</Weapon>
+	<Action>
+		<Name>FloodMeleeAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim>MeleeAttack</Anim>
+		<Weapon>FloodMelee</Weapon>
+		<MainAttack />
+		<KillSelfOnAttack />
+		<InstantAttack />
+		<MeleeRange />
+		<Infection />
+	</Action>
+	<Action>
+		<Name>GaggleMove</Name>
+		<ActionType>GaggleMove</ActionType>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>FloodMeleeAttackAction</Action>
+		</TargetRule>
+		<PersistentAction>GaggleMove</PersistentAction>
+	</Tactic>
+</TacticData>

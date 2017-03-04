@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>Transport</Name>
+		<ActionType>Transport</ActionType>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>AvoidCollisionAir</Name>
+		<ActionType>AvoidCollisionAir</ActionType>
+		<HoverAltitude>16</HoverAltitude>
+		<MaxPitch>20.0f</MaxPitch>
+		<MaxRoll>30.0f</MaxRoll>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<TargetsGround />
+			<ContainsUnits />
+			<Action>Transport</Action>
+			<Ability>UnscUnload</Ability>
+		</TargetRule>
+		<PersistentAction>AvoidCollisionAir</PersistentAction>
+	</Tactic>
+</TacticData>

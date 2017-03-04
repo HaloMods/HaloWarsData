@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<ControllerConfigs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Config name="Default" id="0">
+		<Function name="ActionModifier">
+			<Key>TriggerRight</Key>
+		</Function>
+		<Function name="SpeedModifier">
+			<Key>TriggerLeft</Key>
+		</Function>
+		<Function name="Translation">
+			<Key>StickLeft</Key>
+		</Function>
+		<Function name="Pan">
+			<Key>StickRight</Key>
+		</Function>
+		<Function name="Tilt">
+			<Key>StickRight</Key>
+			<Key>TriggerRight</Key>
+		</Function>
+		<Function name="Zoom">
+			<Key>StickRight</Key>
+		</Function>
+		<Function name="Selection">
+			<Key>ButtonA</Key>
+		</Function>
+		<Function name="DoubleClickSelect">
+			<Key>ButtonA</Key>
+			<Key>DoubleClick</Key>
+		</Function>
+		<Function name="MultiSelect">
+			<Key>ButtonA</Key>
+			<Key>Hold</Key>
+		</Function>
+		<Function name="Clear">
+			<Key>ButtonB</Key>
+		</Function>
+		<Function name="DoWork">
+			<Key>ButtonX</Key>
+		</Function>
+		<Function name="Ability">
+			<Key>ButtonY</Key>
+		</Function>
+		<Function name="ResetCamera">
+			<Key>ButtonThumbRight</Key>
+		</Function>
+		<Function name="Powers">
+			<Key>DpadUp</Key>
+		</Function>
+		<Function name="GotoBase">
+			<Key>DpadLeft</Key>
+		</Function>
+		<Function name="GotoArmy">
+			<Key>DpadDown</Key>
+		</Function>
+		<Function name="GotoHero">
+			<Key>DpadRight</Key>
+		</Function>
+		<Function name="SubSelectNext">
+			<Key>ButtonShoulderRight</Key>
+		</Function>
+		<Function name="SubSelectPrev">
+			<Key>ButtonShoulderRight</Key>
+			<Key>TriggerRight</Key>
+		</Function>
+		<Function name="ScreenSelect">
+			<Key>ButtonShoulderLeft</Key>
+		</Function>
+		<Function name="GlobalSelect">
+			<Key>ButtonShoulderLeft</Key>
+			<Key>DoubleClick</Key>
+		</Function>
+		<Function name="SetRally">
+			<Key>ButtonThumbLeft</Key>
+			<Key>TriggerRight</Key>
+		</Function>
+		<Function name="Flare">
+			<Key>ButtonThumbLeft</Key>
+		</Function>
+		<Function name="Start">
+			<Key>ButtonStart</Key>
+		</Function>
+		<Function name="Back">
+			<Key>ButtonBack</Key>
+		</Function>
+		<Function name="ExtraInfo">
+			<Key>ButtonY</Key>
+		</Function>
+	</Config>
+	<FunctionStrings>
+		<FunctionString name="ActionModifier">Modify Action</FunctionString>
+		<FunctionString name="Flare">Flare</FunctionString>
+		<FunctionString name="SpeedModifier">Modify Speed</FunctionString>
+		<FunctionString name="Start">Game Menu</FunctionString>
+		<FunctionString name="Back">Objectives Menu</FunctionString>
+		<FunctionString name="Translation">Move</FunctionString>
+		<FunctionString name="Pan">Rotate</FunctionString>
+		<FunctionString name="Tilt">Tilt</FunctionString>
+		<FunctionString name="Zoom">Zoom</FunctionString>
+		<FunctionString name="Selection">Select</FunctionString>
+		<FunctionString name="DoubleClickSelect">Double Click Select</FunctionString>
+		<FunctionString name="MultiSelect">Multi Select</FunctionString>
+		<FunctionString name="Clear">Cancel</FunctionString>
+		<FunctionString name="DoWork">Action</FunctionString>
+		<FunctionString name="Ability">Ability</FunctionString>
+		<FunctionString name="Powers">Powers Menu</FunctionString>
+		<FunctionString name="ResetCamera">Reset Camera</FunctionString>
+		<FunctionString name="AssignGroup1">Assign Group 1</FunctionString>
+		<FunctionString name="AssignGroup2">Assign Group 2</FunctionString>
+		<FunctionString name="AssignGroup3">Assign Group 3</FunctionString>
+		<FunctionString name="AssignGroup4">Assign Group 4</FunctionString>
+		<FunctionString name="SelectGroup1">Select Group 1</FunctionString>
+		<FunctionString name="SelectGroup2">Select Group 2</FunctionString>
+		<FunctionString name="SelectGroup3">Select Group 3</FunctionString>
+		<FunctionString name="SelectGroup4">Select Group 4</FunctionString>
+		<FunctionString name="GotoGroup1">Goto Group 1</FunctionString>
+		<FunctionString name="GotoGroup2">Goto Group 2</FunctionString>
+		<FunctionString name="GotoGroup3">Goto Group 3</FunctionString>
+		<FunctionString name="GotoGroup4">Goto Group 4</FunctionString>
+		<FunctionString name="GotoBase">Goto Base</FunctionString>
+		<FunctionString name="GotoAlert">Goto Alert</FunctionString>
+		<FunctionString name="GotoScout">Goto Scout</FunctionString>
+		<FunctionString name="GotoArmy">Goto Army</FunctionString>
+		<FunctionString name="GotoNode">Goto Node</FunctionString>
+		<FunctionString name="GotoHero">Goto Hero</FunctionString>
+		<FunctionString name="GotoRally">Goto Rally</FunctionString>
+		<FunctionString name="GotoSelected">Goto Selected</FunctionString>
+		<FunctionString name="ScreenSelect">Select Local</FunctionString>
+		<FunctionString name="GlobalSelect">Select Global</FunctionString>
+		<FunctionString name="LocalSelectType1">Select Type 1</FunctionString>
+		<FunctionString name="LocalSelectType2">Select Type 2</FunctionString>
+		<FunctionString name="LocalSelectType3">Select Type 3</FunctionString>
+		<FunctionString name="LocalSelectType4">Select Type 4</FunctionString>
+		<FunctionString name="LocalSelectGoodAgainst1">Select Good Against 1</FunctionString>
+		<FunctionString name="LocalSelectGoodAgainst2">Select Good Against 2</FunctionString>
+		<FunctionString name="LocalSelectGoodAgainst3">Select Good Against 3</FunctionString>
+		<FunctionString name="LocalSelectGoodAgainst4">Select Good Against 4</FunctionString>
+		<FunctionString name="SubSelectPrev">Sub Select Prev</FunctionString>
+		<FunctionString name="SubSelectNext">Sub Select Next</FunctionString>
+		<FunctionString name="SubSelectSquad">Sub Select Squad</FunctionString>
+		<FunctionString name="SubSelectType">Sub Select Type</FunctionString>
+		<FunctionString name="SubSelectTag">Sub Select Tag</FunctionString>
+		<FunctionString name="SubSelectSelect">Sub Select Select</FunctionString>
+		<FunctionString name="SubSelectGoto">Sub Select Goto</FunctionString>
+		<FunctionString name="ModeGoto">Mode Goto</FunctionString>
+		<FunctionString name="ModeSubSelectRight">Mode Sub Select Right</FunctionString>
+		<FunctionString name="ModeSubSelectLeft">Mode Sub Select Left</FunctionString>
+		<FunctionString name="ModeGroup">Mode Group</FunctionString>
+		<FunctionString name="GroupAdd">Group Add</FunctionString>
+		<FunctionString name="GroupNext">Group Next</FunctionString>
+		<FunctionString name="GroupPrev">Group Prev</FunctionString>
+		<FunctionString name="GroupGoto">Group Goto</FunctionString>
+		<FunctionString name="FlareLook">Flare Look</FunctionString>
+		<FunctionString name="FlareHelp">Flare Help</FunctionString>
+		<FunctionString name="FlareMeet">Flare Meet</FunctionString>
+		<FunctionString name="FlareAttack">Flare Attack</FunctionString>
+		<FunctionString name="MapZoom">Map Zoom</FunctionString>
+		<FunctionString name="AttackMove">Attack Move</FunctionString>
+		<FunctionString name="SetRally">Set Rally</FunctionString>
+		<FunctionString name="NoAction1">No Action 1</FunctionString>
+		<FunctionString name="NoAction2">No Action 2</FunctionString>
+		<FunctionString name="ExtraInfo">Extra Info</FunctionString>
+	</FunctionStrings>
+	<MaxControllerConfigID>3</MaxControllerConfigID>
+</ControllerConfigs>

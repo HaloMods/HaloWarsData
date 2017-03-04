@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<file>unsc\vehicle\scorpion_01\scorpion_01</file>
+			</asset>
+			<attach type="ModelRef" name="Turret" tobone="bone_turret" frombone="bone_turret" syncanims="true" disregardorient="false" />
+			<point pointType="Impact" bone="bone_impact_01" pointData="Metal" />
+			<point pointType="Impact" bone="bone_impact_02" pointData="Metal" />
+			<point pointType="Impact" bone="bone_impact_03" pointData="Metal" />
+			<point pointType="Impact" bone="bone_impact_04" pointData="Metal" />
+			<point pointType="Impact" bone="bone_impact_05" pointData="Metal" />
+			<point pointType="Impact" bone="bone_impact_06" pointData="Metal" />
+			<point pointType="Impact" bone="bone_impact_07" pointData="Metal" />
+			<point pointType="Impact" bone="bone_impact_08" pointData="Metal" />
+			<point pointType="Impact" bone="bone_impact_09" pointData="Metal" />
+			<point pointType="Impact" bone="bone_impact_10" pointData="Metal" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\scorpion_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\scorpion_01\walk_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\vehicle_fx\unsc\scorpion\drivingdust_01" tobone="bone_main" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="CannonAttack" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\scorpion_01\CannonAttack_01</file>
+				<weight>1</weight>
+				<tag type="Attack" position="0.1" checkvisible="false" disregardorient="false" lifespan="0.25" />
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\scorpion_01\death_01</file>
+				<weight>1</weight>
+				<tag type="Particle" position="0.053" name="effects\impacts\tank_shell_impact\tank_shell_impact_01" tobone="bone_impact_03" checkvisible="false" disregardorient="true" lifespan="0.25" />
+				<tag type="Particle" position="0.083" name="effects\impacts\tank_shell_impact\tank_shell_impact_01" tobone="bone_main" checkvisible="false" disregardorient="true" lifespan="0.25" />
+				<tag type="Particle" position="0.135" name="effects\impacts\tank_shell_impact\tank_shell_impact_01" tobone="bone_turret" checkvisible="false" disregardorient="true" lifespan="0.25" />
+			</asset>
+			<asset type="Anim">
+				<file>unsc\vehicle\scorpion_01\death_02</file>
+				<weight>1</weight>
+				<tag type="Particle" position="0.019" name="effects\impacts\tank_shell_impact\tank_shell_impact_01" tobone="bone_main" checkvisible="false" disregardorient="true" lifespan="0.25" />
+				<tag type="Particle" position="0.09000001" name="effects\impacts\tank_shell_impact\tank_shell_impact_01" tobone="bone_RR_tread" checkvisible="false" disregardorient="true" lifespan="0.25" />
+				<tag type="Particle" position="0.109" name="effects\impacts\tank_shell_impact\tank_shell_impact_01" tobone="bone_body" checkvisible="false" disregardorient="true" lifespan="0.25" />
+			</asset>
+			<attach type="ParticleFile" name="effects\fire\flaming_debris_01" tobone="bone_impact_07" syncanims="false" disregardorient="true" />
+			<attach type="ParticleFile" name="effects\fire\flaming_debris_01" tobone="bone_turret" syncanims="false" disregardorient="true" />
+			<attach type="ParticleFile" name="effects\fire\flaming_debris_01" tobone="bone_FL_tread" syncanims="false" disregardorient="true" />
+			<attach type="ParticleFile" name="effects\fire\flaming_debris_01" tobone="bone_impact_07" syncanims="false" disregardorient="true" />
+		</anim>
+		<anim type="MachinegunAttack" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\scorpion_01\idle_01</file>
+				<weight>1</weight>
+				<tag type="Attack" position="0.2" tobone="bone_turret" checkvisible="false" disregardorient="false" lifespan="0.25" />
+				<tag type="Attack" position="0.25" tobone="bone_turret" checkvisible="false" disregardorient="false" lifespan="0.25" />
+				<tag type="Attack" position="0.4" tobone="bone_turret" checkvisible="false" disregardorient="false" lifespan="0.25" />
+				<tag type="Attack" position="0.6" tobone="bone_turret" checkvisible="false" disregardorient="false" lifespan="0.25" />
+				<tag type="Attack" position="0.65" tobone="bone_turret" checkvisible="false" disregardorient="false" lifespan="0.25" />
+				<tag type="Attack" position="0.7" tobone="bone_turret" checkvisible="false" disregardorient="false" lifespan="0.25" />
+			</asset>
+		</anim>
+	</model>
+</visual>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<FlashMovieDefinition>
+	<Properties>
+		<Data type="flashfile" name="Infantry">art\ui\flash\HUD\hud_decal\decal_sets\HUD_unsc_infantry.gfx</Data>
+		<Data type="flashfile" name="Air">art\ui\flash\HUD\hud_decal\decal_sets\HUD_unsc_air.gfx</Data>
+		<Data type="flashfile" name="Vehicle">art\ui\flash\HUD\hud_decal\decal_sets\HUD_unsc_vehicle.gfx</Data>
+		<Data type="flashfile" name="Spartan">art\ui\flash\HUD\hud_decal\decal_sets\HUD_unsc_spartan.gfx</Data>
+		<Data type="flashfile" name="Building">art\ui\flash\HUD\hud_decal\decal_sets\HUD_unsc_building.gfx</Data>
+		<Data type="flashfile" name="Selection">art\ui\flash\HUD\hud_decal\decal_sets\HUD_selection.gfx</Data>
+		<Data type="flashfile" name="Power">art\ui\flash\HUD\hud_decal\decal_sets\HUD_unsc_special.gfx</Data>
+		<Data type="flashfile" name="SupportPower1">art\ui\flash\HUD\hud_decal\decal_sets\HUD_unsc_support.gfx</Data>
+		<Data type="flashfile" name="SupportPower2">art\ui\flash\HUD\hud_decal\decal_sets\HUD_unsc_support.gfx</Data>
+		<Data type="flashfile" name="SupportPower3">art\ui\flash\HUD\hud_decal\decal_sets\HUD_unsc_support.gfx</Data>
+		<Data type="flashfile" name="CapturePoint">art\ui\flash\HUD\hud_decal\decal_sets\HUD_capturepnt.gfx</Data>
+		<Data type="flashfile" name="Command">art\ui\flash\HUD\hud_decal\decal_sets\HUD_unsc_command.gfx</Data>
+		<Data type="Texture" name="DecalTextureAir">ui\flash\HUD\hud_decal\decal_test\inf_textures\unsc_inf1</Data>
+		<Data type="Texture" name="DecalMaskAir">ui\flash\HUD\hud_decal\decal_test\inf_textures\unsc_inf2</Data>
+		<Data type="Texture" name="DecalTextureInfantry">ui\flash\HUD\hud_decal\decal_test\inf_textures\unsc_inf1</Data>
+		<Data type="Texture" name="DecalMaskInfantry">ui\flash\HUD\hud_decal\decal_test\inf_textures\unsc_inf2</Data>
+		<Data type="Texture" name="DecalTextureVehicle">ui\flash\HUD\hud_decal\decal_test\inf_textures\unsc_inf1</Data>
+		<Data type="Texture" name="DecalMaskVehicle">ui\flash\HUD\hud_decal\decal_test\inf_textures\unsc_inf2</Data>
+		<Data type="Texture" name="DecalTextureSpartan">ui\flash\HUD\hud_decal\decal_test\inf_textures\unsc_inf1</Data>
+		<Data type="Texture" name="DecalMaskSpartan">ui\flash\HUD\hud_decal\decal_test\inf_textures\unsc_inf2</Data>
+	</Properties>
+	<Icon type="uniticon" name="Air" SizeX="7" SizeY="-2" SizeZ="7" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_air_falcon_01">-1</Icon>
+	<Icon type="uniticon" name="Air" SizeX="7" SizeY="-2" SizeZ="7" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_air_hawk_01">-1</Icon>
+	<Icon type="uniticon" name="Air" SizeX="5" SizeY="0" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_air_wasp_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="5" SizeY="-1" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_air_hornet_01">-1</Icon>
+	<Icon type="uniticon" name="Air" SizeX="7" SizeZ="7" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_air_shortsword_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="7" SizeZ="7" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_air_strategicMissile_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="9" SizeY="-1" SizeZ="9" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_air_vulture_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="9" SizeY="-2" SizeZ="9" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_air_pelican_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="7" SizeZ="7" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_inf_badger_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="7" SizeZ="7" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_veh_cobra_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_inf_flameMarine_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_inf_marine_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_inf_marine_02">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_inf_marine_03">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_inf_odst_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="4" SizeZ="4" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_inf_scout_01">-1</Icon>
+	<Icon type="uniticon" name="Spartan" SizeX="4.5" SizeZ="4.5" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_inf_spartan_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="10" SizeZ="11" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_veh_rhino_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="8" SizeZ="9" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_veh_scorpion_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="11" SizeZ="12" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_veh_tiger_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="7" SizeZ="8" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_veh_lightTank_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_veh_warthog_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="28" Intensity3="18" owner="physics_warthog_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="28" Intensity3="18" owner="demo_e3_warthog_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_veh_wolverine_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="11" SizeZ="11" Intensity1="8" Intensity2="28" Intensity3="18" owner="cpgn_veh_scn06Rhino_01">-1</Icon>
+	<Icon type="uniticon" name="Spartan" SizeX="4.5" SizeZ="4.5" Intensity1="8" Intensity2="28" Intensity3="18" owner="cpgn_inf_spartanSniper_01">-1</Icon>
+	<Icon type="uniticon" name="Spartan" SizeX="4.5" SizeZ="4.5" Intensity1="8" Intensity2="28" Intensity3="18" owner="cpgn_inf_spartanRocket_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="8" SizeZ="24" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_con_base_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="8" SizeZ="16" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_con_turret_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="8" SizeZ="9" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_con_node_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="17" SizeZ="18" Intensity1="8" Intensity2="28" Intensity3="18" owner="cpgn_scn14_reactor_01">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="28" SizeZ="28" Offset="" Intensity1="5" Intensity2="15" Intensity3="18" owner="unsc_bldg_command_01">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="28" SizeZ="28" Offset="" Intensity1="5" Intensity2="15" Intensity3="18" owner="unsc_bldg_command_02">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="28" SizeZ="28" Offset="" Intensity1="5" Intensity2="15" Intensity3="18" owner="unsc_bldg_command_03">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="28" SizeZ="28" Offset="" Intensity1="5" Intensity2="15" Intensity3="18" owner="unsc_bldg_command_04">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="28" SizeZ="28" Offset="" Intensity1="5" Intensity2="15" Intensity3="18" owner="unsc_bldg_command7_01">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="12" SizeZ="18" Offset="" Intensity1="5" Intensity2="15" Intensity3="18" owner="unsc_bldg_supplypad_01">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="12" SizeZ="18" Offset="" Intensity1="5" Intensity2="15" Intensity3="18" owner="unsc_bldg_supplypad_02">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="12" SizeZ="18" Offset="" Intensity1="5" Intensity2="15" Intensity3="18" owner="unsc_bldg_supplypad_03">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="9" SizeZ="12" Offset="" Intensity1="5" Intensity2="15" Intensity3="18" owner="unsc_bldg_repairpad_01">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="19" SizeZ="14" Offset="" Intensity1="5" Intensity2="15" Intensity3="18" owner="unsc_bldg_fieldArmory_01">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="15" SizeZ="14" Offset="" Intensity1="5" Intensity2="15" Intensity3="18" owner="unsc_bldg_barracks_01">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="15" SizeZ="27" Offset="" Intensity1="5" Intensity2="15" Intensity3="18" owner="unsc_bldg_vehicledepot_01">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="15" SizeZ="27" Offset="" Intensity1="5" Intensity2="15" Intensity3="18" owner="demo_e3_vehicledepot_01">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="16" SizeZ="22" Offset="" Intensity1="5" Intensity2="15" Intensity3="18" owner="unsc_bldg_airPad_01">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="16" SizeZ="22" Offset="" Intensity1="5" Intensity2="15" Intensity3="18" owner="unsc_bldg_airPadWithSilo_01">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="16" SizeZ="22" Offset="" Intensity1="5" Intensity2="15" Intensity3="18" owner="unsc_bldg_airPadWithVulture_01">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="16" SizeZ="22" Offset="" Intensity1="5" Intensity2="15" Intensity3="18" owner="unsc_bldg_airPadWithBomber_01">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="9" SizeZ="9" Offset="" Intensity1="5" Intensity2="15" Intensity3="18" owner="unsc_bldg_turret_01">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="9" SizeZ="9" Offset="" Intensity1="5" Intensity2="15" Intensity3="18" owner="unsc_bldg_turret_02">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="9" SizeZ="9" Offset="" Intensity1="5" Intensity2="15" Intensity3="18" owner="unsc_bldg_powerGen_01">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="9" SizeZ="9" Offset="" Intensity1="5" Intensity2="15" Intensity3="18" owner="rsrc_power_socket_01">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="4.5" SizeZ="4.5" Offset="" Intensity1="8" Intensity2="18" Intensity3="18" owner="cpgn_utility_whirlygig_01">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="4.5" SizeZ="4.5" Offset="" Intensity1="8" Intensity2="18" Intensity3="18" owner="cpgn_utility_whirlygig_02">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="4.5" SizeZ="4.5" Offset="" Intensity1="8" Intensity2="18" Intensity3="18" owner="cpgn_utility_whirlygig_03">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="4.5" SizeZ="4.5" Offset="" Intensity1="8" Intensity2="18" Intensity3="18" owner="cpgn_utility_whirlygig_04">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="12" SizeZ="18" Offset="" Intensity1="8" Intensity2="18" Intensity3="18" owner="unsc_bldg_specialOps_01">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="12" SizeZ="18" Offset="" Intensity1="8" Intensity2="18" Intensity3="18" owner="unsc_bldg_specialOps_02">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="12" SizeZ="18" Offset="" Intensity1="8" Intensity2="18" Intensity3="18" owner="unsc_bldg_specialOps_03">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="9.5" SizeZ="9.5" Offset="" Intensity1="5" Intensity2="15" Intensity3="18" owner="unsc_bldg_socket_01">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="10" SizeZ="10" Offset="" Intensity1="5" Intensity2="15" Intensity3="18" owner="unsc_bldg_parkingLot_01">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="20" SizeZ="20" Offset="" Intensity1="5" Intensity2="15" Intensity3="18" owner="game_base_small2Socket_01">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="20" SizeZ="20" Offset="" Intensity1="5" Intensity2="15" Intensity3="18" owner="game_base_small3Socket_01">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="20" SizeZ="20" Offset="" Intensity1="5" Intensity2="15" Intensity3="18" owner="game_base_small4Socket_01">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="30" SizeZ="22" Offset="" Intensity1="5" Intensity2="15" Intensity3="18" owner="game_base_large7Socket_01">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="9.5" SizeZ="9.5" Offset="" Intensity1="5" Intensity2="15" Intensity3="18" owner="unsc_bldg_watchtower_01">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="9.5" SizeZ="9.5" Offset="" Intensity1="5" Intensity2="15" Intensity3="18" owner="unsc_bldg_turretMG_01">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="9.5" SizeZ="9.5" Offset="" Intensity1="5" Intensity2="15" Intensity3="18" owner="unsc_bldg_turretMissile_01">-1</Icon>
+	<Icon type="uniticon" name="Building" SizeX="9.5" SizeZ="9.5" Offset="" Intensity1="5" Intensity2="15" Intensity3="18" owner="unsc_bldg_turretCannon_01">-1</Icon>
+	<Icon type="uniticon" name="CapturePoint" SizeX="13" SizeZ="13" owner="rsrc_power_capturePoint_01">-1</Icon>
+	<Icon type="uniticon" name="CapturePoint" SizeX="13" SizeZ="13" owner="rsrc_power_unscUpgrade1_01">-1</Icon>
+	<Icon type="uniticon" name="CapturePoint" SizeX="13" SizeZ="13" owner="rsrc_power_unscUpgrade2_01">-1</Icon>
+	<Icon type="miscicon" name="Selection" SizeX="15" SizeZ="15" owner="circleselect">-1</Icon>
+	<Icon type="miscicon" name="Power" SizeX="15" SizeZ="15" owner="placeholder">-1</Icon>
+	<Icon type="clumpdecal" name="DecalTextureAir" name2="DecalMaskAir" SizeX="7" SizeY="-2" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_air_falcon_01">-1</Icon>
+	<Icon type="clumpdecal" name="DecalTextureAir" name2="DecalMaskAir" SizeX="7" SizeY="-2" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_air_hawk_01">-1</Icon>
+	<Icon type="clumpdecal" name="DecalTextureAir" name2="DecalMaskAir" SizeX="5" SizeY="0" SizeZ="5" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_air_wasp_01">-1</Icon>
+	<Icon type="clumpdecal" name="DecalTextureAir" name2="DecalMaskAir" SizeX="7" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_air_shortsword_01">-1</Icon>
+	<Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="7" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_air_strategicMissile_01">-1</Icon>
+	<Icon type="clumpdecal" name="DecalTextureAir" name2="DecalMaskInfantry" SizeX="5" SizeY="-1" SizeZ="5" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_air_hornet_01">-1</Icon>
+	<Icon type="clumpdecal" name="DecalTextureAir" name2="DecalMaskInfantry" SizeX="9" SizeY="-1" SizeZ="9" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_air_vulture_01">-1</Icon>
+	<Icon type="clumpdecal" name="DecalTextureAir" name2="DecalMaskInfantry" SizeX="9" SizeY="-2" SizeZ="9" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_air_pelican_01">-1</Icon>
+	<Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="7" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_inf_badger_01">-1</Icon>
+	<Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="7" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_veh_cobra_01">-1</Icon>
+	<Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_inf_flameMarine_01">-1</Icon>
+	<Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_inf_marine_01">-1</Icon>
+	<Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_inf_marine_02">-1</Icon>
+	<Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_inf_marine_03">-1</Icon>
+	<Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_inf_odst_01">-1</Icon>
+	<Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="4" SizeZ="4" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_inf_scout_01">-1</Icon>
+	<Icon type="clumpdecal" name="DecalTextureSpartan" name2="DecalMaskSpartan" SizeX="4.5" SizeZ="4.5" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_inf_spartan_01">-1</Icon>
+	<Icon type="clumpdecal" name="DecalTextureVehicle" name2="DecalMaskVehicle" SizeX="10" SizeZ="11" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_veh_rhino_01">-1</Icon>
+	<Icon type="clumpdecal" name="DecalTextureVehicle" name2="DecalMaskVehicle" SizeX="8" SizeZ="9" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_veh_scorpion_01">-1</Icon>
+	<Icon type="clumpdecal" name="DecalTextureVehicle" name2="DecalMaskVehicle" SizeX="11" SizeZ="12" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_veh_tiger_01">-1</Icon>
+	<Icon type="clumpdecal" name="DecalTextureVehicle" name2="DecalMaskVehicle" SizeX="7" SizeZ="8" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_veh_lightTank_01">-1</Icon>
+	<Icon type="clumpdecal" name="DecalTextureVehicle" name2="DecalMaskVehicle" SizeX="5" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_veh_warthog_01">-1</Icon>
+	<Icon type="clumpdecal" name="DecalTextureVehicle" name2="DecalMaskVehicle" SizeX="5" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="physics_warthog_01">-1</Icon>
+	<Icon type="clumpdecal" name="DecalTextureVehicle" name2="DecalMaskVehicle" SizeX="5" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="demo_e3_warthog_01">-1</Icon>
+	<Icon type="clumpdecal" name="DecalTextureVehicle" name2="DecalMaskVehicle" SizeX="6" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_veh_wolverine_01">-1</Icon>
+	<Icon type="clumpdecal" name="DecalTextureVehicle" name2="DecalMaskVehicle" SizeX="10" SizeZ="11" Intensity1="8" Intensity2="18" Intensity3="28" owner="cpgn_veh_scn06Rhino_01">-1</Icon>
+	<Icon type="clumpdecal" name="DecalTextureSpartan" name2="DecalMaskSpartan" SizeX="4.5" SizeZ="4.5" Intensity1="8" Intensity2="18" Intensity3="28" owner="cpgn_inf_spartanSniper_01">-1</Icon>
+	<Icon type="clumpdecal" name="DecalTextureSpartan" name2="DecalMaskSpartan" SizeX="4.5" SizeZ="4.5" Intensity1="8" Intensity2="18" Intensity3="28" owner="cpgn_inf_spartanRocket_01">-1</Icon>
+	<Icon type="clumpdecal" name="DecalTextureSpartan" name2="DecalMaskSpartan" SizeX="4.5" SizeZ="4.5" Intensity1="8" Intensity2="18" Intensity3="28" owner="cpgn_npc_ForgeAndAnders_01">-1</Icon>
+</FlashMovieDefinition>

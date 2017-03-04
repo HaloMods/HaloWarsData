@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SkirmishWorld.triggerscript" Type="TriggerScript" NextTriggerVarID="0" NextTriggerID="0" NextConditionID="0" NextEffectID="0" External="false">
+	<TriggerGroups />
+	<TriggerVars />
+	<Triggers />
+	<EditorData>
+		<TriggerMappings />
+		<UIData>
+			<NoteNodes />
+			<Groups />
+			<UserClasses />
+		</UIData>
+		<TriggerSystem Name="Script" Type="Scenario" NextTriggerVarID="0" NextTriggerID="0" NextConditionID="0" NextEffectID="0" External="false">
+			<TriggerGroups />
+			<TriggerVars />
+			<Triggers />
+			<EditorData>
+				<TriggerMappings />
+				<UIData>
+					<NoteNodes />
+					<Groups />
+					<UserClasses />
+				</UIData>
+			</EditorData>
+		</TriggerSystem>
+	</EditorData>
+</TriggerSystem>

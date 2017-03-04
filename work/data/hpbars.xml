@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<HPBarDefinition>
+	<ColorStages name="DEFAULT">
+		<Hitpoint>
+			<Stage value="0.25f" intensity="1.0f">30 179 177</Stage>
+			<Stage value="0.50f" intensity="1.0f">36 216 214</Stage>
+			<Stage value="1.00f" intensity="1.0f">42 238 236</Stage>
+		</Hitpoint>
+		<Ammo>
+			<Stage value="0.25f" intensity="1.0f">219 137 31</Stage>
+			<Stage value="0.50f" intensity="1.0f">233 146 33</Stage>
+			<Stage value="1.00f" intensity="1.0f">255 155 25</Stage>
+		</Ammo>
+		<Shield>
+			<Stage value="0.25f" intensity="1.0f">174 32 169</Stage>
+			<Stage value="0.50f" intensity="1.0f">198 39 182</Stage>
+			<Stage value="1.00f" intensity="1.0f">233 43 226</Stage>
+		</Shield>
+	</ColorStages>
+	<HPBar name="UNSC_Health">
+		<Texture>ui\flash\HUD\hud_hitpntbar\unsc_unit_hptbar\unsc_unit1</Texture>
+		<MaskTexture>ui\flash\HUD\hud_hitpntbar\unsc_unit_hptbar\unsc_unit1_mask</MaskTexture>
+		<SizeX>9.0f</SizeX>
+		<SizeY>5.15f</SizeY>
+		<HitpointUV u1="0.05" u2="0.95" v1="0.23" v2="0.43" />
+		<ShieldUV u1="" u2="" v1="" v2="" />
+		<AmmoUV u1="" u2="" v1="" v2="" />
+	</HPBar>
+	<HPBar name="UNSC_HealthAmmo">
+		<Texture>ui\flash\HUD\hud_hitpntbar\unsc_unit_hptbar\unsc_unit2</Texture>
+		<MaskTexture>ui\flash\HUD\hud_hitpntbar\unsc_unit_hptbar\unsc_unit2_mask</MaskTexture>
+		<SizeX>9.0f</SizeX>
+		<SizeY>5.15f</SizeY>
+		<HitpointUV u1="0.05" u2="0.95" v1="0.23" v2="0.43" />
+		<ShieldUV u1="" u2="" v1="" v2="" />
+		<AmmoUV u1="0.12" u2="0.61" v1="0.05" v2="0.15" />
+	</HPBar>
+	<HPBar name="UNSC_HealthShield">
+		<Texture>ui\flash\HUD\hud_hitpntbar\unsc_unit_hptbar\unsc_unit3</Texture>
+		<MaskTexture>ui\flash\HUD\hud_hitpntbar\unsc_unit_hptbar\unsc_unit3_mask</MaskTexture>
+		<SizeX>9.0f</SizeX>
+		<SizeY>5.15f</SizeY>
+		<HitpointUV u1="0.05" u2="0.95" v1="0.23" v2="0.43" />
+		<ShieldUV u1="0.05" u2="0.95" v1="0.49" v2="0.69" />
+		<AmmoUV u1="" u2="" v1="" v2="" />
+	</HPBar>
+	<HPBar name="UNSC_HealthAmmoShield">
+		<Texture>ui\flash\HUD\hud_hitpntbar\unsc_unit_hptbar\unsc_unit3</Texture>
+		<MaskTexture>ui\flash\HUD\hud_hitpntbar\unsc_unit_hptbar\unsc_unit3_mask</MaskTexture>
+		<SizeX>9.0f</SizeX>
+		<SizeY>5.15f</SizeY>
+		<HitpointUV u1="0.05" u2="0.95" v1="0.23" v2="0.43" />
+		<ShieldUV u1="0.05" u2="0.95" v1="0.49" v2="0.69" />
+		<AmmoUV u1="0.12" u2="0.61" v1="0.05" v2="0.15" />
+	</HPBar>
+	<HPBar name="UNSC_Bldg_Health">
+		<Texture>ui\flash\HUD\hud_hitpntbar\unsc_bldg_hptbar\unsc_bldg1</Texture>
+		<MaskTexture>ui\flash\HUD\hud_hitpntbar\unsc_bldg_hptbar\unsc_bldg1_mask</MaskTexture>
+		<SizeX>14.0f</SizeX>
+		<SizeY>8.0f</SizeY>
+		<HitpointUV u1="0.05" u2="0.95" v1="0.1" v2="0.44" />
+		<ShieldUV u1="" u2="" v1="" v2="" />
+		<AmmoUV u1="" u2="" v1="" v2="" />
+	</HPBar>
+	<HPBar name="UNSC_Bldg_HealthAmmo">
+		<Texture>ui\flash\HUD\hud_hitpntbar\unsc_bldg_hptbar\unsc_bldg2</Texture>
+		<MaskTexture>ui\flash\HUD\hud_hitpntbar\unsc_bldg_hptbar\unsc_bldg2_mask</MaskTexture>
+		<SizeX>9.0f</SizeX>
+		<SizeY>5.15f</SizeY>
+		<HitpointUV u1="0.05" u2="0.95" v1="0.1" v2="0.44" />
+		<ShieldUV u1="" u2="" v1="" v2="" />
+		<AmmoUV u1="0.12" u2="0.88" v1="0.03" v2="0.14" />
+	</HPBar>
+	<HPBar name="UNSC_Bldg_HealthShield">
+		<Texture>ui\flash\HUD\hud_hitpntbar\unsc_bldg_hptbar\unsc_bldg3</Texture>
+		<MaskTexture>ui\flash\HUD\hud_hitpntbar\unsc_bldg_hptbar\unsc_bldg3_mask</MaskTexture>
+		<SizeX>9.0f</SizeX>
+		<SizeY>5.15f</SizeY>
+		<HitpointUV u1="0.05" u2="0.95" v1="0.1" v2="0.44" />
+		<ShieldUV u1="0.05" u2="0.95" v1="0.5" v2="0.69" />
+		<AmmoUV u1="" u2="" v1="" v2="" />
+	</HPBar>
+	<HPBar name="UNSC_Bldg_HealthShieldAmmo">
+		<Texture>ui\flash\HUD\hud_hitpntbar\unsc_bldg_hptbar\unsc_bldg4</Texture>
+		<MaskTexture>ui\flash\HUD\hud_hitpntbar\unsc_bldg_hptbar\unsc_bldg4_mask</MaskTexture>
+		<SizeX>9.0f</SizeX>
+		<SizeY>5.15f</SizeY>
+		<HitpointUV u1="0.05" u2="0.95" v1="0.1" v2="0.44" />
+		<ShieldUV u1="0.05" u2="0.95" v1="0.5" v2="0.69" />
+		<AmmoUV u1="0.12" u2="0.88" v1="0.03" v2="0.14" />
+	</HPBar>
+	<HPBar name="COV_Health">
+		<Texture>ui\flash\HUD\hud_hitpntbar\cov_unit_hptbar\cov_unit1</Texture>
+		<MaskTexture>ui\flash\HUD\hud_hitpntbar\cov_unit_hptbar\cov_rank1_mask</MaskTexture>
+		<SizeX>9.0f</SizeX>
+		<SizeY>5.15f</SizeY>
+		<HitpointUV u1="0.02" u2="0.98" v1="0.23" v2="0.43" />
+		<ShieldUV u1="" u2="" v1="" v2="" />
+		<AmmoUV u1="" u2="" v1="" v2="" />
+	</HPBar>
+	<HPBar name="COV_HealthAmmo">
+		<Texture>ui\flash\HUD\hud_hitpntbar\cov_unit_hptbar\cov_unit2</Texture>
+		<MaskTexture>ui\flash\HUD\hud_hitpntbar\cov_unit_hptbar\cov_rank2_mask</MaskTexture>
+		<SizeX>9.0f</SizeX>
+		<SizeY>5.15f</SizeY>
+		<HitpointUV u1="0.02" u2="0.98" v1="0.23" v2="0.43" />
+		<ShieldUV u1="" u2="" v1="" v2="" />
+		<AmmoUV u1="0.34" u2="0.66" v1="0.05" v2="0.13" />
+	</HPBar>
+	<HPBar name="COV_HealthShield">
+		<Texture>ui\flash\HUD\hud_hitpntbar\cov_unit_hptbar\cov_unit3</Texture>
+		<MaskTexture>ui\flash\HUD\hud_hitpntbar\cov_unit_hptbar\cov_rank3_mask</MaskTexture>
+		<SizeX>9.0f</SizeX>
+		<SizeY>5.15f</SizeY>
+		<HitpointUV u1="0.02" u2="0.98" v1="0.47" v2="0.67" />
+		<ShieldUV u1="0.02" u2="0.98" v1="0.2" v2="0.44" />
+		<AmmoUV u1="" u2="" v1="" v2="" />
+	</HPBar>
+	<HPBar name="COV_HealthAmmoShield">
+		<Texture>ui\flash\HUD\hud_hitpntbar\cov_unit_hptbar\cov_unit4</Texture>
+		<MaskTexture>ui\flash\HUD\hud_hitpntbar\cov_unit_hptbar\cov_rank4_mask</MaskTexture>
+		<SizeX>9.0f</SizeX>
+		<SizeY>5.15f</SizeY>
+		<HitpointUV u1="0.02" u2="0.98" v1="0.47" v2="0.67" />
+		<ShieldUV u1="0.02" u2="0.98" v1="0.2" v2="0.44" />
+		<AmmoUV u1="0.34" u2="0.66" v1="0.05" v2="0.13" />
+	</HPBar>
+	<HPBar name="COV_Bldg_Health">
+		<Texture>ui\flash\HUD\hud_hitpntbar\cov_bldg_hptbar\cov_bldg1</Texture>
+		<MaskTexture>ui\flash\HUD\hud_hitpntbar\cov_unit_hptbar\cov_rank1_mask</MaskTexture>
+		<SizeX>14.0f</SizeX>
+		<SizeY>8.0f</SizeY>
+		<HitpointUV u1="0.02" u2="0.98" v1="0.23" v2="0.43" />
+		<ShieldUV u1="" u2="" v1="" v2="" />
+		<AmmoUV u1="" u2="" v1="" v2="" />
+	</HPBar>
+	<HPBar name="COV_Bldg_HealthAmmo">
+		<Texture>ui\flash\HUD\hud_hitpntbar\cov_bldg_hptbar\cov_bldg2</Texture>
+		<MaskTexture>ui\flash\HUD\hud_hitpntbar\cov_unit_hptbar\cov_rank2_mask</MaskTexture>
+		<SizeX>14.0f</SizeX>
+		<SizeY>8.0f</SizeY>
+		<HitpointUV u1="0.02" u2="0.98" v1="0.23" v2="0.43" />
+		<ShieldUV u1="" u2="" v1="" v2="" />
+		<AmmoUV u1="0.34" u2="0.66" v1="0.05" v2="0.13" />
+	</HPBar>
+	<HPBar name="COV_Bldg_HealthShield">
+		<Texture>ui\flash\HUD\hud_hitpntbar\cov_bldg_hptbar\cov_bldg3</Texture>
+		<MaskTexture>ui\flash\HUD\hud_hitpntbar\cov_unit_hptbar\cov_rank3_mask</MaskTexture>
+		<SizeX>9.0f</SizeX>
+		<SizeY>5.15f</SizeY>
+		<HitpointUV u1="0.02" u2="0.98" v1="0.47" v2="0.67" />
+		<ShieldUV u1="0.02" u2="0.98" v1="0.2" v2="0.44" />
+		<AmmoUV u1="" u2="" v1="" v2="" />
+	</HPBar>
+	<HPBar name="COV_Bldg_HealthAmmoShield">
+		<Texture>ui\flash\HUD\hud_hitpntbar\cov_bldg_hptbar\cov_bldg4</Texture>
+		<MaskTexture>ui\flash\HUD\hud_hitpntbar\cov_unit_hptbar\cov_rank4_mask</MaskTexture>
+		<SizeX>9.0f</SizeX>
+		<SizeY>5.15f</SizeY>
+		<HitpointUV u1="0.02" u2="0.98" v1="0.47" v2="0.67" />
+		<ShieldUV u1="0.02" u2="0.98" v1="0.28" v2="0.33" />
+		<AmmoUV u1="0.34" u2="0.66" v1="0.05" v2="0.13" />
+	</HPBar>
+</HPBarDefinition>

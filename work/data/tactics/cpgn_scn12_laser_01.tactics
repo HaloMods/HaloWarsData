@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>scarabBeam</Name>
+		<AttackRate>0.1</AttackRate>
+		<DamagePerSecond>1369.4</DamagePerSecond>
+		<WeaponType>Explosive</WeaponType>
+		<Projectile>fx_proj_scarabBeam_01</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxVelocityLead>4</MaxVelocityLead>
+		<MaxRange>100</MaxRange>
+		<Hardpoint>Turret</Hardpoint>
+		<EnableHeightBonusDamage />
+		<AOERadius>4</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.75</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>600</PhysicsForceMax>
+		<TargetPriority type="Scn12BeamTarget">50</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<TargetPriority type="Infantry">-3</TargetPriority>
+		<TargetPriority type="Vehicle">-3</TargetPriority>
+		<Beam activationSpeed="120" trackingSpeed="20" turnRate="90" waitTime="5" searchRadius="30" />
+	</Weapon>
+	<Action>
+		<Name>scarabBeamAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>scarabBeamAttack</Anim>
+		<Weapon>scarabBeam</Weapon>
+		<MainAttack />
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Scn12BeamTarget</TargetType>
+			<Action>scarabBeamAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

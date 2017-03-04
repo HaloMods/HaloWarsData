@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<file>test\construction_01\contestBase_02</file>
+			</asset>
+			<attach type="ModelFile" name="test\construction_01\contestRig_02" tobone="BoneRig" frombone="BoneRig" syncanims="false" disregardorient="false" />
+			<attach type="ModelFile" name="test\construction_01\contestBuild_02" tobone="BuildingBone" frombone="BuildingBone" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects\building_FX\unsc\constructionHeat_02" tobone="BoneJet" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects\building_FX\unsc\constructionHeat_02" tobone="BoneJet01" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects\building_FX\unsc\constructionHeat_02" tobone="BoneJet02" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects\building_FX\unsc\constructionHeat_02" tobone="BoneJet03" syncanims="false" disregardorient="false" />
+			<attach type="ModelRef" name="Arm1" tobone="BoneArmConnector01" frombone="BoneArmConnector01" syncanims="false" disregardorient="false" />
+			<attach type="ModelRef" name="Arm2" tobone="BoneArmConnector02" frombone="BoneArmConnector01" syncanims="false" disregardorient="false" />
+			<attach type="ModelFile" name="test\construction_01\bot_01" tobone="BoneBot1" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelFile" name="test\construction_01\bot_01" tobone="BoneBot02" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>test\construction_01\contestAnim_02</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.391" end="1" name="effects\building_FX\unsc\constructionSpark_01" tobone="BoneArm02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="7" />
+				<tag type="Particle" start="0" position="0.396" end="1" name="effects\building_FX\unsc\constructionSpark_01" tobone="BoneArm04" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="8" />
+				<tag type="Particle" start="0" position="0.703" end="1" name="effects\building_FX\unsc\constructionSpark_01" tobone="BoneBot1" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="1" />
+				<tag type="Particle" start="0" position="0.8" end="1" name="effects\building_FX\unsc\constructionSpark_01" tobone="BoneBot02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="1" />
+			</asset>
+		</anim>
+	</model>
+</visual>

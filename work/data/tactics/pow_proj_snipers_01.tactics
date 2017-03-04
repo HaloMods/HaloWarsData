@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>SniperShots</Name>
+		<WeaponType>AntiInfantry</WeaponType>
+		<DamagePerSecond>500</DamagePerSecond>
+		<ImpactEffect size="Medium">SmallArmsBullet</ImpactEffect>
+		<Projectile>pow_proj_snipers_01</Projectile>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>GenericInfoAttackAction</Name>
+		<Weapon>SniperShots</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

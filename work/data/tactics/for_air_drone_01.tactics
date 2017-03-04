@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>CloakDetector</Name>
+		<ActionType>CloakDetector</ActionType>
+	</Action>
+	<Action>
+		<Name>Cloak</Name>
+		<ActionType>Cloak</ActionType>
+	</Action>
+	<Action>
+		<Name>AvoidCollisionAir</Name>
+		<ActionType>AvoidCollisionAir</ActionType>
+		<HoverAltitude>14</HoverAltitude>
+		<MaxTgtDepressionAngle>45</MaxTgtDepressionAngle>
+		<MaxPitch>50.0f</MaxPitch>
+		<MaxRoll>75.0f</MaxRoll>
+	</Action>
+	<Tactic>
+		<PersistentAction>CloakDetector</PersistentAction>
+		<PersistentAction>Cloak</PersistentAction>
+		<PersistentAction>AvoidCollisionAir</PersistentAction>
+	</Tactic>
+</TacticData>

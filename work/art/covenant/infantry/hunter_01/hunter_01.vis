@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>covenant\infantry\hunter_01\hunter_01</file>
+			</asset>
+			<attach type="ModelRef" name="SquadModes" syncanims="false" disregardorient="false" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\lockdown_idle_01</file>
+				<weight>60</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\lockdown_walk_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.327" end="1" name="play_ani_cov_hunter_footstep" tobone="Bip01 L Foot" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.84" end="1" name="play_ani_cov_hunter_footstep" tobone="Bip01 R Foot" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\run_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.647" end="1" name="play_ani_cov_hunter_footstep" tobone="Bip01 R Foot" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.994" end="1" name="play_ani_cov_hunter_footstep" tobone="Bip01 L Foot" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\run_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.647" end="1" name="play_ani_cov_hunter_footstep" tobone="Bip01 R Foot" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.994" end="1" name="play_ani_cov_hunter_footstep" tobone="Bip01 L Foot" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="FuelRodAttack" exitAction="Transition" tweenTime="4" tweenToAnimation="FuelRodAttack">
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\attack_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.168" end="1" name="effects\Unit_FX\cov\hunter\fuelrod_charging_01" tobone="Bip01 R Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.8" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.211" end="1" name="ani_weap_cov_hunter_charge" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.572" end="1" name="play_cov_hunter_fuel_rod_cannon" tobone="Bip01 R Hand" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.572" end="1" tobone="Bip01 R Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.572" end="1" name="effects\Unit_FX\cov\hunter\fuelrod_muzzleblast_01" tobone="Bip01 R Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\attack_02</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.067" end="1" name="effects\Unit_FX\cov\hunter\fuelrod_charging_01" tobone="Bip01 R Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.29" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.358" end="1" tobone="Bip01 R Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.36" end="1" name="play_cov_hunter_fuel_rod_cannon" tobone="Bip01 R Hand" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.36" end="1" name="effects\Unit_FX\cov\hunter\fuelrod_muzzleblast_01" tobone="Bip01 R Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="CombatWalkForward" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\lockdown_walkForward_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="CombatWalkBack" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\lockdown_walkBack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="CombatWalkLeft" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\lockdown_walkLeft_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="CombatWalkRight" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\lockdown_walkRight_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="CombatWalkForwardFuelRodAttack" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\lockdown_walkForward_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.186" end="1" name="effects\vehicle_fx\for\sentinel\muzzleblast_01" tobone="Bip01 R Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.269" end="1" name="effects\vehicle_fx\for\sentinel\muzzleblast_01" tobone="Bip01 R Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.5" end="1" name="play_cov_hunter_fuel_rod_cannon" tobone="Bip01 R Hand" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.5" end="1" tobone="Bip01 R Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.5" end="1" name="effects\vehicle_fx\for\sentinel\muzzleblast_01" tobone="Bip01 R Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="CombatWalkBackFuelRodAttack" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\lockdown_walkBack_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.186" end="1" name="effects\vehicle_fx\for\sentinel\muzzleblast_01" tobone="Bip01 R Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.269" end="1" name="effects\vehicle_fx\for\sentinel\muzzleblast_01" tobone="Bip01 R Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.5" end="1" name="play_cov_hunter_fuel_rod_cannon" tobone="Bip01 R Hand" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.5" end="1" tobone="Bip01 R Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.5" end="1" name="effects\vehicle_fx\for\sentinel\muzzleblast_01" tobone="Bip01 R Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="CombatWalkLeftFuelRodAttack" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\lockdown_walkLeft_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.186" end="1" name="effects\vehicle_fx\for\sentinel\muzzleblast_01" tobone="Bip01 R Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.269" end="1" name="effects\vehicle_fx\for\sentinel\muzzleblast_01" tobone="Bip01 R Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.5" end="1" name="play_cov_hunter_fuel_rod_cannon" tobone="Bip01 R Hand" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.5" end="1" tobone="Bip01 R Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.5" end="1" name="effects\vehicle_fx\for\sentinel\muzzleblast_01" tobone="Bip01 R Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="CombatWalkRightFuelRodAttack" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\lockdown_walkRight_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.186" end="1" name="effects\vehicle_fx\for\sentinel\muzzleblast_01" tobone="Bip01 R Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.269" end="1" name="effects\vehicle_fx\for\sentinel\muzzleblast_01" tobone="Bip01 R Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.5" end="1" name="play_cov_hunter_fuel_rod_cannon" tobone="Bip01 R Hand" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.5" end="1" tobone="Bip01 R Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.5" end="1" name="effects\vehicle_fx\for\sentinel\muzzleblast_01" tobone="Bip01 R Hand" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\death_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Gather" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\lockdown_idle_01</file>
+				<weight>60</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\special\unit_hourglass_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Build" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\lockdown_idle_01</file>
+				<weight>60</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\special\unit_hourglass_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Repair" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\lockdown_idle_01</file>
+				<weight>60</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\Unit_FX\unsc\repair_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Clamshell" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\clamshell_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\clamshell_02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="EvadeRight" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\evadeRight_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\evadeRight_02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="EvadeLeft" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\evadeLeft_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\evadeLeft_02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="EvadeFront" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\evadeFront_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\evadeFront_02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="EvadeBack" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\evadeBack_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\evadeBack_02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Block" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\block_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Deflect" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>covenant\infantry\hunter_01\deflect_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="SquadModes">
+		<component>
+			<logic type="SquadMode">
+				<logicdata value="Normal" modelref="">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>effects\fxdummy</file>
+					</asset>
+				</logicdata>
+				<logicdata value="Sprint" modelref="SprintSquadMode">
+					<asset type="Particle">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>effects\special\unit_serenaWisp_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="Recover" modelref="">
+					<asset type="Particle">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>effects\Unit_FX\unsc\generic\weldingsparks_01</file>
+					</asset>
+				</logicdata>
+			</logic>
+		</component>
+	</model>
+</visual>

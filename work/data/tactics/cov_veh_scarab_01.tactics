@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>FrontShadeTurret</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>250</DamagePerSecond>
+		<WeaponType>SmallArms</WeaponType>
+		<Projectile>fx_proj_shadePlasma_01</Projectile>
+		<ImpactEffect size="Medium">smallGreenPlasma</ImpactEffect>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>100</MaxRange>
+		<Hardpoint>FrontShadeTurret</Hardpoint>
+		<DamageRatingOverride type="Vehicle">0</DamageRatingOverride>
+		<DamageRatingOverride type="Building">0</DamageRatingOverride>
+		<DamageRatingOverride type="Unarmored">0</DamageRatingOverride>
+		<TargetPriority type="Aircraft">1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>RearShadeTurret</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>250</DamagePerSecond>
+		<WeaponType>SmallArms</WeaponType>
+		<Projectile>fx_proj_shadePlasma_01</Projectile>
+		<ImpactEffect size="Medium">smallGreenPlasma</ImpactEffect>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>100</MaxRange>
+		<Hardpoint>RearShadeTurret</Hardpoint>
+		<DamageRatingOverride type="Vehicle">0</DamageRatingOverride>
+		<DamageRatingOverride type="Building">0</DamageRatingOverride>
+		<DamageRatingOverride type="Unarmored">0</DamageRatingOverride>
+		<TargetPriority type="Aircraft">1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>scarabBeam</Name>
+		<AttackRate>0.1</AttackRate>
+		<DamagePerSecond>1523</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_scarabBeam_01</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxVelocityLead>4</MaxVelocityLead>
+		<MaxRange>100</MaxRange>
+		<Hardpoint>Turret</Hardpoint>
+		<EnableHeightBonusDamage />
+		<AOERadius>6</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.75</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>600</PhysicsForceMax>
+		<TargetPriority type="TurretBuilding">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Flying">2</TargetPriority>
+		<TargetPriority type="Infantry">1</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+	</Weapon>
+	<Action>
+		<Name>FrontShadeTurretAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>FrontShadeTurretAttack</Anim>
+		<Weapon>FrontShadeTurret</Weapon>
+		<Strafing maxDistance="35" turnRate="90" trackingSpeed="35" jitter="20" />
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>RearShadeTurretAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>RearShadeTurretAttack</Anim>
+		<Weapon>RearShadeTurret</Weapon>
+		<Strafing maxDistance="35" turnRate="90" trackingSpeed="35" jitter="20" />
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>scarabBeamAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>scarabBeamAttack</Anim>
+		<Weapon>scarabBeam</Weapon>
+		<Strafing maxDistance="45" turnRate="90" trackingSpeed="25" jitter="20" />
+		<Beam />
+		<MainAttack />
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>scarabBeamAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>FrontShadeTurretAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>RearShadeTurretAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

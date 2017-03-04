@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<file>test\Juan_01\MarineTest_02</file>
+			</asset>
+		</component>
+		<anim type="Deploy_01">
+			<asset type="Anim">
+				<file>test\Juan_01\pelicanDeploy_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Deploy_02">
+			<asset type="Anim">
+				<file>test\Juan_01\pelicanDeploy_02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Deploy_03">
+			<asset type="Anim">
+				<file>test\Juan_01\pelicanDeploy_03</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Deploy_04">
+			<asset type="Anim">
+				<file>test\Juan_01\pelicanDeploy_04</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Deploy_05">
+			<asset type="Anim">
+				<file>test\Juan_01\pelicanDeploy_05</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Deploy_06">
+			<asset type="Anim">
+				<file>test\Juan_01\pelicanDeploy_06</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+</visual>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<PlacementRules>
+	<or>
+		<DistanceAtLeastFromType player="player" errorString="None" successString="None" distance="100">pow_gp_dimgate_01</DistanceAtLeastFromType>
+	</or>
+</PlacementRules>

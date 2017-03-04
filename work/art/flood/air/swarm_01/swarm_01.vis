@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<file>environment\creatures\spacebat_01\spacebat_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="60" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>environment\creatures\spacebat_01\fly_01_nopath</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="stop_ani_flyflood_slow" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" loop="false" />
+			</asset>
+			<asset type="Anim">
+				<file>environment\creatures\spacebat_01\fly_02_nopath</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="ani_flyflood_slow" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" loop="false" />
+			</asset>
+			<asset type="Anim">
+				<file>environment\creatures\spacebat_01\fly_03_nopath</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="stop_ani_flyflood_slow" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" loop="false" />
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="60" tweenToAnimation="">
+			<asset type="Anim">
+				<file>environment\creatures\spacebat_01\fly_01_nopath</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="stop_ani_flyflood_slow" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" loop="false" />
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="60" tweenToAnimation="">
+			<asset type="Anim">
+				<file>environment\creatures\spacebat_01\fly_02_nopath</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="ani_flyflood_slow" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" loop="false" />
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="60" tweenToAnimation="">
+			<asset type="Anim">
+				<file>environment\creatures\spacebat_01\fly_03_nopath</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="stop_ani_flyflood_slow" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" loop="false" />
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>environment\creatures\spacebat_01\death_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="stop_ani_flyflood_slow" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" loop="false" />
+			</asset>
+		</anim>
+		<anim type="PlasmaRifleAttack" exitAction="Loop" tweenTime="1" tweenToAnimation="PlasmaRifleAttack">
+			<asset type="Anim">
+				<file>environment\creatures\spacebat_01\attack_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="stop_ani_flyflood_slow" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" loop="false" />
+				<tag type="Sound" start="0" position="0" end="1" name="ani_flyflood_attack_spit" tobone="bone_jaw" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" loop="false" />
+				<tag type="Attack" start="0" position="0.314" end="1" tobone="bone_jaw" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" loop="false" />
+			</asset>
+		</anim>
+		<anim type="KamikazeAttack" exitAction="Loop" tweenTime="1" tweenToAnimation="PlasmaRifleAttack">
+			<asset type="Anim">
+				<file>environment\creatures\spacebat_01\kamikaze_attack_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="stop_ani_flyflood_slow" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" loop="false" />
+			</asset>
+		</anim>
+	</model>
+</visual>

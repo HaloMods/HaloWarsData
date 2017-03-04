@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>ShadeTurret</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>1481.5</DamagePerSecond>
+		<WeaponType>SmallArms</WeaponType>
+		<Projectile>fx_proj_shadePlasma_01</Projectile>
+		<ImpactEffect size="Medium">smallGreenPlasma</ImpactEffect>
+		<MaxVelocityLead>32</MaxVelocityLead>
+		<MaxRange>50</MaxRange>
+		<Hardpoint>ShadeTurret</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>scarabBeam</Name>
+		<AttackRate>0.1</AttackRate>
+		<DamagePerSecond>6500</DamagePerSecond>
+		<WeaponType>Explosive</WeaponType>
+		<Projectile>fx_proj_scarabBeam_01</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxVelocityLead>4</MaxVelocityLead>
+		<MaxRange>750</MaxRange>
+		<Hardpoint>Turret</Hardpoint>
+		<EnableHeightBonusDamage />
+		<AOERadius>4</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.75</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>600</PhysicsForceMax>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<Beam activationSpeed="1200" trackingSpeed="200" turnRate="90" waitTime="5" searchRadius="30" />
+	</Weapon>
+	<Weapon>
+		<Name>scarabFoot</Name>
+		<DamagePerSecond>1</DamagePerSecond>
+		<AOERadius>25</AOERadius>
+		<PhysicsForceMin>150</PhysicsForceMin>
+		<PhysicsForceMax>150</PhysicsForceMax>
+		<ThrowUnits />
+	</Weapon>
+	<Action>
+		<Name>ShadeTurretAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>ShadeTurretAttack</Anim>
+		<Weapon>ShadeTurret</Weapon>
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>scarabSpearAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim>leftSpearAttack</Anim>
+		<Weapon>scarabSpear</Weapon>
+		<FacingRestriction>120</FacingRestriction>
+		<WorkRange>15</WorkRange>
+		<MainAttack />
+		<Stationary />
+	</Action>
+	<Action>
+		<Name>scarabBeamAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>scarabBeamAttack</Anim>
+		<Weapon>scarabBeam</Weapon>
+		<FacingRestriction>120</FacingRestriction>
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>scarabStepAttackAction</Name>
+		<Weapon>scarabFoot</Weapon>
+		<TrampleAttack />
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>ShadeTurretAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>scarabBeamAttackAction</Action>
+			<TargetsGround />
+		</TargetRule>
+	</Tactic>
+</TacticData>

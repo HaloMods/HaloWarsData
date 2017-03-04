@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<ImpactSounds>
+	<ImpactSoundSet name="fx_proj_rifle_01">
+		<Sound type="Metal">play_fx_bullet_hit_metal</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_rifle_02">
+		<Sound type="Metal">play_fx_bullet_hit_metal</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_machineGun_01">
+		<Sound type="Metal">play_fx_bullet_hit_metal2</Sound>
+		<Sound type="Water">play_fx_bullet_hit_water</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_machineGun_02">
+		<Sound type="Metal">play_fx_bullet_hit_metal2</Sound>
+		<Sound type="Water">play_fx_bullet_hit_water</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_rotaryMG_01">
+		<Sound type="Metal">play_fx_bullet_hit_metal2</Sound>
+		<Sound type="Water">play_fx_bullet_hit_water</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_cannon_01">
+		<Sound type="metalground_01_df">play_fx_cannon</Sound>
+		<Sound type="Sand">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Earth">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Turf">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Rock">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Metal">play_fx_cannon_hit_metal</Sound>
+		<Sound type="Mud">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Water">play_fx_cannon_hit_water</Sound>
+		<Sound type="Snow">play_fx_cannon_hit_snow</Sound>
+		<Sound type="Ice">play_fx_cannon</Sound>
+		<Sound type="Flesh">play_fx_cannon</Sound>
+		<Sound type="Wood">play_fx_cannon</Sound>
+		<Sound type="Lava">play_fx_cannon</Sound>
+		<Sound type="Crystal">play_fx_cannon_hit_metal</Sound>
+		<Sound type="Plasma">play_fx_cannon</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_cannon_02">
+		<Sound type="metalground_01_df" checkMaxDist="false">play_fx_cannon</Sound>
+		<Sound type="Sand" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Earth" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Turf" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Rock" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Metal" checkMaxDist="false">play_fx_cannon_hit_metal</Sound>
+		<Sound type="Mud" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Water" checkMaxDist="false">play_fx_cannon_hit_water</Sound>
+		<Sound type="Snow" checkMaxDist="false">play_fx_cannon_hit_snow</Sound>
+		<Sound type="Ice" checkMaxDist="false">play_fx_cannon</Sound>
+		<Sound type="Flesh" checkMaxDist="false">play_fx_cannon</Sound>
+		<Sound type="Wood" checkMaxDist="false">play_fx_cannon</Sound>
+		<Sound type="Lava" checkMaxDist="false">play_fx_cannon</Sound>
+		<Sound type="Crystal" checkMaxDist="false">play_fx_cannon_hit_metal</Sound>
+		<Sound type="Plasma" checkMaxDist="false">play_fx_cannon</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_cannon_03">
+		<Sound type="metalground_01_df" checkMaxDist="false">play_fx_cannon</Sound>
+		<Sound type="Sand" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Earth" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Turf" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Rock" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Metal" checkMaxDist="false">play_fx_cannon_hit_metal</Sound>
+		<Sound type="Mud" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Water" checkMaxDist="false">play_fx_cannon_hit_water</Sound>
+		<Sound type="Snow" checkMaxDist="false">play_fx_cannon_hit_snow</Sound>
+		<Sound type="Ice" checkMaxDist="false">play_fx_cannon</Sound>
+		<Sound type="Flesh" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Wood" checkMaxDist="false">play_fx_cannon</Sound>
+		<Sound type="Lava" checkMaxDist="false">play_fx_cannon</Sound>
+		<Sound type="Crystal" checkMaxDist="false">play_fx_cannon_hit_metal</Sound>
+		<Sound type="Plasma" checkMaxDist="false">play_fx_cannon</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_lightCannon_01">
+		<Sound type="metalground_01_df">play_fx_proj_lightcannon_01</Sound>
+		<Sound type="Sand">play_fx_proj_odst_missile_earth</Sound>
+		<Sound type="Earth">play_fx_proj_odst_missile_earth</Sound>
+		<Sound type="Turf">play_fx_proj_odst_missile_earth</Sound>
+		<Sound type="Rock">play_fx_proj_odst_missile</Sound>
+		<Sound type="Metal">play_fx_proj_lightcannon_01_metal</Sound>
+		<Sound type="Water">play_fx_proj_lightcannon_01</Sound>
+		<Sound type="Snow">play_fx_proj_odst_missile_snow</Sound>
+		<Sound type="Ice">play_fx_proj_lightcannon_01</Sound>
+		<Sound type="Flesh">play_fx_proj_lightcannon_01</Sound>
+		<Sound type="Wood">play_fx_proj_lightcannon_01</Sound>
+		<Sound type="Lava">play_fx_proj_lightcannon_01</Sound>
+		<Sound type="Crystal">play_fx_proj_lightcannon_01</Sound>
+		<Sound type="Plasma">play_fx_proj_lightcannon_01</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_heavyCannon_01">
+		<Sound type="metalground_01_df" checkMaxDist="false">play_fx_cannon</Sound>
+		<Sound type="Sand" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Earth" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Turf" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Rock" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Metal" checkMaxDist="false">play_fx_cannon_hit_metal</Sound>
+		<Sound type="Mud" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Water" checkMaxDist="false">play_fx_cannon_hit_water</Sound>
+		<Sound type="Snow" checkMaxDist="false">play_fx_cannon_hit_snow</Sound>
+		<Sound type="Ice" checkMaxDist="false">play_fx_cannon</Sound>
+		<Sound type="Flesh" checkMaxDist="false">play_fx_cannon</Sound>
+		<Sound type="Wood" checkMaxDist="false">play_fx_cannon</Sound>
+		<Sound type="Lava" checkMaxDist="false">play_fx_cannon</Sound>
+		<Sound type="Crystal" checkMaxDist="false">play_fx_cannon_hit_metal</Sound>
+		<Sound type="Plasma" checkMaxDist="false">play_fx_cannon</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="pow_sp_artillery_01">
+		<Sound type="metalground_01_df" checkMaxDist="false">play_fx_cannon</Sound>
+		<Sound type="Sand" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Earth" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Turf" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Rock" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Metal" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Mud" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Water" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Snow" checkMaxDist="false">play_fx_cannon_hit_snow</Sound>
+		<Sound type="Ice" checkMaxDist="false">play_fx_cannon</Sound>
+		<Sound type="Flesh" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Wood" checkMaxDist="false">play_fx_cannon</Sound>
+		<Sound type="Lava" checkMaxDist="false">play_fx_cannon_earth</Sound>
+		<Sound type="Crystal" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Plasma" checkMaxDist="false">play_fx_cannon_earth</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_lightArtillery_01">
+		<Sound type="metalground_01_df" checkMaxDist="false">play_fx_cannon</Sound>
+		<Sound type="Sand" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Earth" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Turf" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Rock" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Metal" checkMaxDist="false">play_fx_cannon_hit_metal</Sound>
+		<Sound type="Mud" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Water" checkMaxDist="false">play_fx_cannon_hit_water</Sound>
+		<Sound type="Snow" checkMaxDist="false">play_fx_cannon_hit_snow</Sound>
+		<Sound type="Ice" checkMaxDist="false">play_fx_cannon</Sound>
+		<Sound type="Flesh" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Wood" checkMaxDist="false">play_fx_cannon</Sound>
+		<Sound type="Lava" checkMaxDist="false">play_fx_cannon</Sound>
+		<Sound type="Crystal" checkMaxDist="false">play_fx_cannon_hit_metal</Sound>
+		<Sound type="Plasma" checkMaxDist="false">play_fx_cannon</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_grenade_01">
+		<Sound type="Sand">play_fx_explosion_frag_grenade</Sound>
+		<Sound type="Earth">play_fx_explosion_frag_grenade</Sound>
+		<Sound type="Turf">play_fx_explosion_frag_grenade</Sound>
+		<Sound type="Rock">play_fx_explosion_frag_grenade</Sound>
+		<Sound type="Metal">play_fx_explosion_frag_grenade_metal</Sound>
+		<Sound type="Mud">play_fx_explosion_frag_grenade</Sound>
+		<Sound type="Water">play_fx_explosion_frag_grenade</Sound>
+		<Sound type="Snow">play_fx_explosion_frag_grenade</Sound>
+		<Sound type="Ice">play_fx_explosion_frag_grenade</Sound>
+		<Sound type="Flesh">play_fx_explosion_frag_grenade</Sound>
+		<Sound type="Wood">play_fx_explosion_frag_grenade</Sound>
+		<Sound type="Lava">play_fx_explosion_frag_grenade</Sound>
+		<Sound type="Crystal">play_fx_explosion_frag_grenade</Sound>
+		<Sound type="Plasma">play_fx_explosion_frag_grenade</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_artillery_01">
+		<Sound type="metalground_01_df" checkMaxDist="false">play_fx_artillery</Sound>
+		<Sound type="Sand" checkMaxDist="false">play_fx_artillery_hit_earth</Sound>
+		<Sound type="Earth" checkMaxDist="false">play_fx_artillery_hit_earth</Sound>
+		<Sound type="Turf" checkMaxDist="false">play_fx_artillery_hit_earth</Sound>
+		<Sound type="Rock" checkMaxDist="false">play_fx_artillery_hit_earth</Sound>
+		<Sound type="Metal" checkMaxDist="false">play_fx_artillery_hit_metal</Sound>
+		<Sound type="Mud" checkMaxDist="false">play_fx_artillery_hit_earth</Sound>
+		<Sound type="Water" checkMaxDist="false">play_fx_artillery_hit_earth</Sound>
+		<Sound type="Snow" checkMaxDist="false">play_fx_artillery_hit_snow</Sound>
+		<Sound type="Ice" checkMaxDist="false">play_fx_artillery_hit_snow</Sound>
+		<Sound type="Flesh" checkMaxDist="false">play_fx_artillery</Sound>
+		<Sound type="Wood" checkMaxDist="false">play_fx_artillery_hit_earth</Sound>
+		<Sound type="Lava" checkMaxDist="false">play_fx_explosion_artillery_earth</Sound>
+		<Sound type="Crystal" checkMaxDist="false">play_fx_artillery_hit_earth</Sound>
+		<Sound type="Plasma" checkMaxDist="false">play_fx_explosion_artillery_earth</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_vultureMissile_01">
+		<Sound type="metalground_01_df" checkMaxDist="false">play_fx_artillery</Sound>
+		<Sound type="Sand" checkMaxDist="false">play_fx_artillery_hit_earth</Sound>
+		<Sound type="Earth" checkMaxDist="false">play_fx_artillery_hit_earth</Sound>
+		<Sound type="Turf" checkMaxDist="false">play_fx_artillery_hit_earth</Sound>
+		<Sound type="Rock" checkMaxDist="false">play_fx_artillery_hit_earth</Sound>
+		<Sound type="Metal" checkMaxDist="false">play_fx_artillery_hit_metal</Sound>
+		<Sound type="Mud" checkMaxDist="false">play_fx_artillery_hit_earth</Sound>
+		<Sound type="Water" checkMaxDist="false">play_fx_artillery_hit_earth</Sound>
+		<Sound type="Snow" checkMaxDist="false">play_fx_artillery_hit_snow</Sound>
+		<Sound type="Ice" checkMaxDist="false">play_fx_artillery_hit_snow</Sound>
+		<Sound type="Flesh" checkMaxDist="false">play_fx_artillery</Sound>
+		<Sound type="Wood" checkMaxDist="false">play_fx_artillery_hit_earth</Sound>
+		<Sound type="Lava" checkMaxDist="false">play_fx_explosion_artillery_earth</Sound>
+		<Sound type="Crystal" checkMaxDist="false">play_fx_artillery_hit_earth</Sound>
+		<Sound type="Plasma" checkMaxDist="false">play_fx_explosion_artillery_earth</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="pow_e3_orbitalbombardment">
+		<Sound type="metalground_01_df" checkMaxDist="false">play_explosion_orbitalbombardment</Sound>
+		<Sound type="Sand" checkMaxDist="false">play_explosion_orbitalbombardment</Sound>
+		<Sound type="Earth" checkMaxDist="false">play_explosion_orbitalbombardment</Sound>
+		<Sound type="Turf" checkMaxDist="false">play_explosion_orbitalbombardment</Sound>
+		<Sound type="Rock" checkMaxDist="false">play_explosion_orbitalbombardment</Sound>
+		<Sound type="Metal" checkMaxDist="false">play_explosion_orbitalbombardment</Sound>
+		<Sound type="Mud" checkMaxDist="false">play_explosion_orbitalbombardment</Sound>
+		<Sound type="Water" checkMaxDist="false">play_explosion_orbitalbombardment</Sound>
+		<Sound type="Snow" checkMaxDist="false">play_explosion_orbitalbombardment</Sound>
+		<Sound type="Ice" checkMaxDist="false">play_explosion_orbitalbombardment</Sound>
+		<Sound type="Flesh" checkMaxDist="false">play_explosion_orbitalbombardment</Sound>
+		<Sound type="Wood" checkMaxDist="false">play_explosion_orbitalbombardment</Sound>
+		<Sound type="Lava" checkMaxDist="false">play_explosion_orbitalbombardment</Sound>
+		<Sound type="Crystal" checkMaxDist="false">play_explosion_orbitalbombardment</Sound>
+		<Sound type="Plasma" checkMaxDist="false">play_explosion_orbitalbombardment</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_artillery_02">
+		<Sound type="metalground_01_df" checkMaxDist="false">play_fx_artillery</Sound>
+		<Sound type="Sand" checkMaxDist="false">play_fx_artillery_hit_earth</Sound>
+		<Sound type="Earth" checkMaxDist="false">play_fx_artillery_hit_earth</Sound>
+		<Sound type="Turf" checkMaxDist="false">play_fx_artillery_hit_earth</Sound>
+		<Sound type="Rock" checkMaxDist="false">play_fx_artillery_hit_earth</Sound>
+		<Sound type="Metal" checkMaxDist="false">play_fx_artillery_hit_metal</Sound>
+		<Sound type="Mud" checkMaxDist="false">play_fx_artillery_hit_earth</Sound>
+		<Sound type="Water" checkMaxDist="false">play_fx_artillery_hit_water</Sound>
+		<Sound type="Snow" checkMaxDist="false">play_fx_artillery_hit_snow</Sound>
+		<Sound type="Ice" checkMaxDist="false">play_fx_artillery_hit_snow</Sound>
+		<Sound type="Flesh" checkMaxDist="false">play_fx_artillery_hit_earth</Sound>
+		<Sound type="Wood" checkMaxDist="false">play_fx_artillery</Sound>
+		<Sound type="Lava" checkMaxDist="false">play_fx_explosion_artillery</Sound>
+		<Sound type="Crystal" checkMaxDist="false">play_fx_artillery_hit_metal</Sound>
+		<Sound type="Plasma" checkMaxDist="false">play_fx_explosion_artillery</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_ballisticRocket_01">
+		<Sound type="metalground_01_df" checkMaxDist="false">play_fx_proj_ballisticrocket_01</Sound>
+		<Sound type="Sand" checkMaxDist="false">play_fx_proj_ballisticrocket_01_earth</Sound>
+		<Sound type="Earth" checkMaxDist="false">play_fx_proj_ballisticrocket_01_earth</Sound>
+		<Sound type="Turf" checkMaxDist="false">play_fx_proj_ballisticrocket_01_earth</Sound>
+		<Sound type="Rock" checkMaxDist="false">play_fx_proj_ballisticrocket_01</Sound>
+		<Sound type="Metal" checkMaxDist="false">play_fx_proj_ballisticrocket_01</Sound>
+		<Sound type="Mud" checkMaxDist="false">play_fx_proj_ballisticrocket_01</Sound>
+		<Sound type="Water" checkMaxDist="false">play_fx_proj_ballisticrocket_01</Sound>
+		<Sound type="Snow" checkMaxDist="false">play_fx_proj_ballisticrocket_01</Sound>
+		<Sound type="Ice" checkMaxDist="false">play_fx_proj_ballisticrocket_01</Sound>
+		<Sound type="Flesh" checkMaxDist="false">play_fx_proj_ballisticrocket_01</Sound>
+		<Sound type="Wood" checkMaxDist="false">play_fx_proj_ballisticrocket_01_earth</Sound>
+		<Sound type="Lava" checkMaxDist="false">play_fx_proj_ballisticrocket_01</Sound>
+		<Sound type="Crystal" checkMaxDist="false">play_fx_proj_ballisticrocket_01</Sound>
+		<Sound type="Plasma" checkMaxDist="false">play_fx_proj_ballisticrocket_01</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_rocket_01">
+		<Sound type="metalground_01_df">play_explosion_odst_missile</Sound>
+		<Sound type="Sand">play_fx_proj_odst_missile_earth</Sound>
+		<Sound type="Earth">play_fx_proj_odst_missile_earth</Sound>
+		<Sound type="Turf">play_fx_proj_odst_missile_earth</Sound>
+		<Sound type="Rock">play_fx_proj_odst_missile</Sound>
+		<Sound type="Metal">play_fx_proj_odst_missile_metal</Sound>
+		<Sound type="Water">play_fx_proj_odst_missile</Sound>
+		<Sound type="Snow">play_fx_proj_odst_missile_snow</Sound>
+		<Sound type="Ice">play_fx_proj_odst_missile</Sound>
+		<Sound type="Flesh">play_fx_proj_odst_missile</Sound>
+		<Sound type="Wood">play_fx_proj_odst_missile</Sound>
+		<Sound type="Lava">play_fx_proj_odst_missile</Sound>
+		<Sound type="Crystal">play_fx_proj_odst_missile</Sound>
+		<Sound type="Plasma">play_fx_proj_odst_missile</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_rocket_02">
+		<Sound type="metalground_01_df">play_explosion_odst_missile</Sound>
+		<Sound type="Sand">play_fx_proj_odst_missile_earth</Sound>
+		<Sound type="Earth">play_fx_proj_odst_missile_earth</Sound>
+		<Sound type="Turf">play_fx_proj_odst_missile_earth</Sound>
+		<Sound type="Rock">play_fx_proj_odst_missile</Sound>
+		<Sound type="Metal">play_fx_proj_odst_missile_metal</Sound>
+		<Sound type="Water">play_fx_proj_odst_missile</Sound>
+		<Sound type="Snow">play_fx_proj_odst_missile_snow</Sound>
+		<Sound type="Ice">play_fx_proj_odst_missile</Sound>
+		<Sound type="Flesh">play_fx_proj_odst_missile</Sound>
+		<Sound type="Wood">play_fx_proj_odst_missile</Sound>
+		<Sound type="Lava">play_fx_proj_odst_missile</Sound>
+		<Sound type="Crystal">play_fx_proj_odst_missile</Sound>
+		<Sound type="Plasma">play_fx_proj_odst_missile</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_rocket_03">
+		<Sound type="metalground_01_df">play_explosion_odst_missile</Sound>
+		<Sound type="Sand">play_fx_proj_odst_missile_earth</Sound>
+		<Sound type="Earth">play_fx_proj_odst_missile_earth</Sound>
+		<Sound type="Turf">play_fx_proj_odst_missile_earth</Sound>
+		<Sound type="Rock">play_fx_proj_odst_missile</Sound>
+		<Sound type="Metal">play_fx_proj_odst_missile_metal</Sound>
+		<Sound type="Water">play_fx_proj_odst_missile</Sound>
+		<Sound type="Snow">play_fx_proj_odst_missile_snow</Sound>
+		<Sound type="Ice">play_fx_proj_odst_missile</Sound>
+		<Sound type="Flesh">play_fx_proj_odst_missile</Sound>
+		<Sound type="Wood">play_fx_proj_odst_missile</Sound>
+		<Sound type="Lava">play_fx_proj_odst_missile</Sound>
+		<Sound type="Crystal">play_fx_proj_odst_missile</Sound>
+		<Sound type="Plasma">play_fx_proj_odst_missile</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_missile_01">
+		<Sound type="metalground_01_df" checkMaxDist="false">play_fx_proj_missile_01_impact</Sound>
+		<Sound type="Sand" checkMaxDist="false">play_fx_proj_missile_01_impact</Sound>
+		<Sound type="Earth" checkMaxDist="false">play_fx_proj_missile_01_impact</Sound>
+		<Sound type="Turf" checkMaxDist="false">play_fx_proj_missile_01_impact</Sound>
+		<Sound type="Rock" checkMaxDist="false">play_fx_proj_missile_01_impact</Sound>
+		<Sound type="Metal" checkMaxDist="false">play_fx_proj_missile_01_impact</Sound>
+		<Sound type="Mud" checkMaxDist="false">play_fx_proj_missile_01_impact</Sound>
+		<Sound type="Water" checkMaxDist="false">play_fx_proj_missile_01_impact</Sound>
+		<Sound type="Snow" checkMaxDist="false">play_fx_proj_missile_01_impact</Sound>
+		<Sound type="Ice" checkMaxDist="false">play_fx_proj_missile_01_impact</Sound>
+		<Sound type="Flesh" checkMaxDist="false">play_fx_proj_missile_01_impact</Sound>
+		<Sound type="Wood" checkMaxDist="false">play_fx_proj_missile_01_impact</Sound>
+		<Sound type="Lava" checkMaxDist="false">play_fx_proj_missile_01_impact</Sound>
+		<Sound type="Crystal" checkMaxDist="false">play_fx_proj_missile_01_impact</Sound>
+		<Sound type="Plasma" checkMaxDist="false">play_fx_proj_missile_01_impact</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_missile_02">
+		<Sound type="metalground_01_df" checkMaxDist="false">play_fx_explosion_missile</Sound>
+		<Sound type="Sand" checkMaxDist="false">play_fx_missile_hit_earth</Sound>
+		<Sound type="Earth" checkMaxDist="false">play_fx_missile_hit_earth</Sound>
+		<Sound type="Turf" checkMaxDist="false">play_fx_missile_hit_earth</Sound>
+		<Sound type="Rock" checkMaxDist="false">play_fx_missile_hit_earth</Sound>
+		<Sound type="Metal" checkMaxDist="false">play_fx_missile_hit_metal</Sound>
+		<Sound type="Mud" checkMaxDist="false">play_fx_missile_hit_earth</Sound>
+		<Sound type="Water" checkMaxDist="false">play_fx_missile_hit_water</Sound>
+		<Sound type="Snow" checkMaxDist="false">play_fx_missile_hit_snow</Sound>
+		<Sound type="Ice" checkMaxDist="false">play_fx_explosion_missile</Sound>
+		<Sound type="Flesh" checkMaxDist="false">play_fx_explosion_missile</Sound>
+		<Sound type="Wood" checkMaxDist="false">play_fx_explosion_missile</Sound>
+		<Sound type="Lava" checkMaxDist="false">play_fx_explosion_missile</Sound>
+		<Sound type="Crystal" checkMaxDist="false">play_fx_missile_hit_metal</Sound>
+		<Sound type="Plasma" checkMaxDist="false">play_fx_explosion_missile</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="proj_wolverine_missile_02">
+		<Sound type="metalground_01_df">play_fx_explosion_missile</Sound>
+		<Sound type="Sand">play_fx_missile_hit_earth</Sound>
+		<Sound type="Earth">play_fx_missile_hit_earth</Sound>
+		<Sound type="Turf">play_fx_missile_hit_earth</Sound>
+		<Sound type="Rock">play_fx_missile_hit_earth</Sound>
+		<Sound type="Metal">play_fx_missile_hit_metal</Sound>
+		<Sound type="Mud">play_fx_missile_hit_earth</Sound>
+		<Sound type="Water">play_fx_missile_hit_water</Sound>
+		<Sound type="Snow">play_fx_missile_hit_snow</Sound>
+		<Sound type="Ice">play_fx_missile_hit_snow</Sound>
+		<Sound type="Flesh">play_fx_missile_hit_earth</Sound>
+		<Sound type="Wood">play_fx_explosion_missile</Sound>
+		<Sound type="Lava">play_fx_explosion_missile</Sound>
+		<Sound type="Crystal">play_fx_missile_hit_metal</Sound>
+		<Sound type="Plasma">play_fx_explosion_missile</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_plasmaGrenade_01">
+		<Sound type="Sand">play_plasma_grenade_explosion</Sound>
+		<Sound type="Earth">play_plasma_grenade_explosion</Sound>
+		<Sound type="Turf">play_plasma_grenade_explosion</Sound>
+		<Sound type="Rock">play_plasma_grenade_explosion</Sound>
+		<Sound type="Metal">play_plasma_grenade_explosion</Sound>
+		<Sound type="Mud">play_plasma_grenade_explosion</Sound>
+		<Sound type="Water">play_plasma_grenade_explosion</Sound>
+		<Sound type="Snow">play_plasma_grenade_explosion</Sound>
+		<Sound type="Ice">play_plasma_grenade_explosion</Sound>
+		<Sound type="Flesh">play_plasma_grenade_explosion</Sound>
+		<Sound type="Wood">play_plasma_grenade_explosion</Sound>
+		<Sound type="Lava">play_plasma_grenade_explosion</Sound>
+		<Sound type="Crystal">play_plasma_grenade_explosion</Sound>
+		<Sound type="Plasma">play_plasma_grenade_explosion</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_plasmaPistol_01">
+		<Sound type="Sand">play_fx_proj_plasma</Sound>
+		<Sound type="Earth">play_fx_proj_plasma</Sound>
+		<Sound type="Turf">play_fx_proj_plasma</Sound>
+		<Sound type="Rock">play_fx_proj_plasma</Sound>
+		<Sound type="Metal">play_fx_proj_plasma</Sound>
+		<Sound type="Mud">play_fx_proj_plasma</Sound>
+		<Sound type="Water">play_fx_proj_plasma</Sound>
+		<Sound type="Snow">play_fx_proj_plasma</Sound>
+		<Sound type="Ice">play_fx_proj_plasma</Sound>
+		<Sound type="Wood">play_fx_proj_plasma</Sound>
+		<Sound type="Lava">play_fx_proj_plasma</Sound>
+		<Sound type="Crystal">play_fx_proj_plasma</Sound>
+		<Sound type="Plasma">play_fx_proj_plasma</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_plasmaRifle_01">
+		<Sound type="Sand">play_fx_proj_plasma</Sound>
+		<Sound type="Earth">play_fx_proj_plasma</Sound>
+		<Sound type="Turf">play_fx_proj_plasma</Sound>
+		<Sound type="Rock">play_fx_proj_plasma</Sound>
+		<Sound type="Metal">play_fx_proj_plasma</Sound>
+		<Sound type="Mud">play_fx_proj_plasma</Sound>
+		<Sound type="Water">play_fx_proj_plasma</Sound>
+		<Sound type="Snow">play_fx_proj_plasma</Sound>
+		<Sound type="Ice">play_fx_proj_plasma</Sound>
+		<Sound type="Wood">play_fx_proj_plasma</Sound>
+		<Sound type="Lava">play_fx_proj_plasma</Sound>
+		<Sound type="Crystal">play_fx_proj_plasma</Sound>
+		<Sound type="Plasma">play_fx_proj_plasma</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_bruteGun_01">
+		<Sound type="Sand">play_fx_explosion_frag_grenade</Sound>
+		<Sound type="Earth">play_fx_explosion_frag_grenade</Sound>
+		<Sound type="Turf">play_fx_explosion_frag_grenade</Sound>
+		<Sound type="Rock">play_fx_explosion_frag_grenade</Sound>
+		<Sound type="Metal">play_fx_explosion_frag_grenade</Sound>
+		<Sound type="Mud">play_fx_explosion_frag_grenade</Sound>
+		<Sound type="Water">play_fx_explosion_frag_grenade</Sound>
+		<Sound type="Snow">play_fx_explosion_frag_grenade</Sound>
+		<Sound type="Ice">play_fx_explosion_frag_grenade</Sound>
+		<Sound type="Flesh">play_fx_explosion_frag_grenade</Sound>
+		<Sound type="Wood">play_fx_explosion_frag_grenade</Sound>
+		<Sound type="Lava">play_fx_explosion_frag_grenade</Sound>
+		<Sound type="Crystal">play_fx_explosion_frag_grenade</Sound>
+		<Sound type="Plasma">play_fx_explosion_frag_grenade</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_needler_01">
+		<Sound type="Sand">play_fx_needle_hit_metal</Sound>
+		<Sound type="Earth">play_fx_needle_hit_metal</Sound>
+		<Sound type="Turf">play_fx_needle_hit_metal</Sound>
+		<Sound type="Rock">play_fx_needle_hit_metal</Sound>
+		<Sound type="Metal">play_fx_needle_hit_metal</Sound>
+		<Sound type="Mud">play_fx_needle_hit_metal</Sound>
+		<Sound type="Water">play_fx_needle_hit_metal</Sound>
+		<Sound type="Snow">play_fx_needle_hit_metal</Sound>
+		<Sound type="Ice">play_fx_needle_hit_metal</Sound>
+		<Sound type="Flesh">play_fx_needle_hit_metal</Sound>
+		<Sound type="Wood">play_fx_needle_hit_metal</Sound>
+		<Sound type="Lava">play_fx_needle_hit_metal</Sound>
+		<Sound type="Crystal">play_fx_needle_hit_metal</Sound>
+		<Sound type="Plasma">play_fx_needle_hit_metal</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_heavyNeedler_01">
+		<Sound type="Sand">play_fx_needle_hit_metal</Sound>
+		<Sound type="Earth">play_fx_needle_hit_metal</Sound>
+		<Sound type="Turf">play_fx_needle_hit_metal</Sound>
+		<Sound type="Rock">play_fx_needle_hit_metal</Sound>
+		<Sound type="Metal">play_fx_needle_hit_metal</Sound>
+		<Sound type="Mud">play_fx_needle_hit_metal</Sound>
+		<Sound type="Water">play_fx_needle_hit_metal</Sound>
+		<Sound type="Snow">play_fx_needle_hit_metal</Sound>
+		<Sound type="Ice">play_fx_needle_hit_metal</Sound>
+		<Sound type="Flesh">play_fx_bullet_hit_metal</Sound>
+		<Sound type="Wood">play_fx_needle_hit_metal</Sound>
+		<Sound type="Lava">play_fx_needle_hit_metal</Sound>
+		<Sound type="Crystal">play_fx_needle_hit_metal</Sound>
+		<Sound type="Plasma">play_fx_needle_hit_metal</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_smallplasma_01">
+		<Sound type="Sand">play_fx_proj_plasma</Sound>
+		<Sound type="Earth">play_fx_proj_plasma</Sound>
+		<Sound type="Turf">play_fx_proj_plasma</Sound>
+		<Sound type="Rock">play_fx_proj_plasma</Sound>
+		<Sound type="Metal">play_fx_proj_plasma</Sound>
+		<Sound type="Mud">play_fx_proj_plasma</Sound>
+		<Sound type="Water">play_fx_proj_plasma</Sound>
+		<Sound type="Snow">play_fx_proj_plasma</Sound>
+		<Sound type="Ice">play_fx_proj_plasma</Sound>
+		<Sound type="Flesh">play_fx_proj_plasma</Sound>
+		<Sound type="Wood">play_fx_proj_plasma</Sound>
+		<Sound type="Lava">play_fx_proj_plasma</Sound>
+		<Sound type="Crystal">play_fx_proj_plasma</Sound>
+		<Sound type="Plasma">play_fx_proj_plasma</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_mediumplasma_01">
+		<Sound type="Sand">play_fx_proj_plasma</Sound>
+		<Sound type="Earth">play_fx_proj_plasma</Sound>
+		<Sound type="Turf">play_fx_proj_plasma</Sound>
+		<Sound type="Rock">play_fx_proj_plasma</Sound>
+		<Sound type="Metal">play_fx_proj_plasma</Sound>
+		<Sound type="Mud">play_fx_proj_plasma</Sound>
+		<Sound type="Water">play_fx_proj_plasma</Sound>
+		<Sound type="Snow">play_fx_proj_plasma</Sound>
+		<Sound type="Ice">play_fx_proj_plasma</Sound>
+		<Sound type="Flesh">play_fx_proj_plasma</Sound>
+		<Sound type="Wood">play_fx_proj_plasma</Sound>
+		<Sound type="Lava">play_fx_proj_plasma</Sound>
+		<Sound type="Crystal">play_fx_proj_plasma</Sound>
+		<Sound type="Plasma">play_fx_proj_plasma</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_plasmaCannon_01">
+		<Sound type="Sand">play_fx_proj_plasmacannon</Sound>
+		<Sound type="Earth">play_fx_proj_plasmacannon</Sound>
+		<Sound type="Turf">play_fx_proj_plasmacannon</Sound>
+		<Sound type="Rock">play_fx_proj_plasmacannon</Sound>
+		<Sound type="Metal">play_fx_plasmacannon</Sound>
+		<Sound type="Mud">play_fx_proj_plasmacannon</Sound>
+		<Sound type="Water">play_fx_proj_plasmacannon</Sound>
+		<Sound type="Snow">play_fx_proj_plasmacannon</Sound>
+		<Sound type="Ice">play_fx_proj_plasmacannon</Sound>
+		<Sound type="Flesh">play_fx_proj_plasmacannon</Sound>
+		<Sound type="Wood">play_fx_proj_plasmacannon</Sound>
+		<Sound type="Lava">play_fx_proj_plasmacannon</Sound>
+		<Sound type="Crystal">play_fx_proj_plasmacannon</Sound>
+		<Sound type="Plasma">play_fx_proj_plasmacannon</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_plasmaMortar_01">
+		<Sound type="Sand">play_fx_proj_plasmamortar_01</Sound>
+		<Sound type="Earth">play_fx_proj_plasmamortar_01</Sound>
+		<Sound type="Turf">play_fx_proj_plasmamortar_01</Sound>
+		<Sound type="Rock">play_fx_proj_plasmamortar_01</Sound>
+		<Sound type="Metal">play_fx_proj_plasmamortar_01</Sound>
+		<Sound type="Mud">play_fx_proj_plasmamortar_01</Sound>
+		<Sound type="Water">play_fx_proj_plasmamortar_01</Sound>
+		<Sound type="Snow">play_fx_proj_plasmamortar_01</Sound>
+		<Sound type="Ice">play_fx_proj_plasmamortar_01</Sound>
+		<Sound type="Flesh">play_fx_proj_plasmamortar_01</Sound>
+		<Sound type="Wood">play_fx_proj_plasmamortar_01</Sound>
+		<Sound type="Lava">play_fx_proj_plasmamortar_01</Sound>
+		<Sound type="Crystal">play_fx_proj_plasmamortar_01</Sound>
+		<Sound type="Plasma">play_fx_proj_plasmamortar_01</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_shadeplasma_01">
+		<Sound type="Sand">play_shade_turret_impact</Sound>
+		<Sound type="Earth">play_shade_turret_impact</Sound>
+		<Sound type="Turf">play_shade_turret_impact</Sound>
+		<Sound type="Rock">play_shade_turret_impact</Sound>
+		<Sound type="Metal">play_shade_turret_impact</Sound>
+		<Sound type="Mud">play_shade_turret_impact</Sound>
+		<Sound type="Water">play_shade_turret_impact</Sound>
+		<Sound type="Snow">play_shade_turret_impact</Sound>
+		<Sound type="Ice">play_shade_turret_impact</Sound>
+		<Sound type="Flesh">play_shade_turret_impact</Sound>
+		<Sound type="Wood">play_shade_turret_impact</Sound>
+		<Sound type="Lava">play_shade_turret_impact</Sound>
+		<Sound type="Crystal">play_shade_turret_impact</Sound>
+		<Sound type="Plasma">play_shade_turret_impact</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_beam_01">
+		<Sound type="Sand">play_fx_proj_plasma</Sound>
+		<Sound type="Earth">play_fx_proj_plasma</Sound>
+		<Sound type="Turf">play_fx_proj_plasma</Sound>
+		<Sound type="Rock">play_fx_proj_plasma</Sound>
+		<Sound type="Metal">play_fx_proj_plasma</Sound>
+		<Sound type="Mud">play_fx_proj_plasma</Sound>
+		<Sound type="Water">play_fx_proj_plasma</Sound>
+		<Sound type="Snow">play_fx_proj_plasma</Sound>
+		<Sound type="Ice">play_fx_proj_plasma</Sound>
+		<Sound type="Flesh">play_fx_proj_plasma</Sound>
+		<Sound type="Wood">play_fx_proj_plasma</Sound>
+		<Sound type="Lava">play_fx_proj_plasma</Sound>
+		<Sound type="Crystal">play_fx_proj_plasma</Sound>
+		<Sound type="Plasma">play_fx_proj_plasma</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_proj_fuelRod_01">
+		<Sound type="Sand">play_fx_proj_fuelRod_01</Sound>
+		<Sound type="Earth">play_fx_proj_fuelRod_01</Sound>
+		<Sound type="Turf">play_fx_proj_fuelRod_01</Sound>
+		<Sound type="Rock">play_fx_proj_fuelRod_01</Sound>
+		<Sound type="Metal">play_fx_proj_fuelRod_01</Sound>
+		<Sound type="Mud">play_fx_proj_fuelRod_01</Sound>
+		<Sound type="Water">play_fx_proj_fuelRod_01</Sound>
+		<Sound type="Snow">play_fx_proj_fuelRod_01</Sound>
+		<Sound type="Ice">play_fx_proj_fuelRod_01</Sound>
+		<Sound type="Flesh">play_fx_proj_fuelRod_01</Sound>
+		<Sound type="Wood">play_fx_proj_fuelRod_01</Sound>
+		<Sound type="Lava">play_fx_proj_fuelRod_01</Sound>
+		<Sound type="Crystal">play_fx_proj_fuelRod_01</Sound>
+		<Sound type="Plasma">play_fx_proj_fuelRod_01</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="pow_gp_orbitalbombardment">
+		<Sound type="metalground_01_df" checkMaxDist="false">play_explosion_orbitalbombardment</Sound>
+		<Sound type="Sand" checkMaxDist="false">play_explosion_orbitalbombardment</Sound>
+		<Sound type="Earth" checkMaxDist="false">play_explosion_orbitalbombardment</Sound>
+		<Sound type="Turf" checkMaxDist="false">play_explosion_orbitalbombardment</Sound>
+		<Sound type="Rock" checkMaxDist="false">play_explosion_orbitalbombardment</Sound>
+		<Sound type="Metal" checkMaxDist="false">play_explosion_orbitalbombardment</Sound>
+		<Sound type="Mud" checkMaxDist="false">play_explosion_orbitalbombardment</Sound>
+		<Sound type="Water" checkMaxDist="false">play_explosion_orbitalbombardment</Sound>
+		<Sound type="Snow" checkMaxDist="false">play_explosion_orbitalbombardment</Sound>
+		<Sound type="Ice" checkMaxDist="false">play_explosion_orbitalbombardment</Sound>
+		<Sound type="Flesh" checkMaxDist="false">play_explosion_orbitalbombardment</Sound>
+		<Sound type="Wood" checkMaxDist="false">play_explosion_orbitalbombardment</Sound>
+		<Sound type="Lava" checkMaxDist="false">play_explosion_orbitalbombardment</Sound>
+		<Sound type="Crystal" checkMaxDist="false">play_explosion_orbitalbombardment</Sound>
+		<Sound type="Plasma" checkMaxDist="false">play_explosion_orbitalbombardment</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="pow_gp_carpetbomb">
+		<Sound type="Sand" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Earth" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Turf" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Rock" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Metal" checkMaxDist="false">play_fx_cannon_hit_metal</Sound>
+		<Sound type="Mud" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Water" checkMaxDist="false">play_fx_cannon_hit_water</Sound>
+		<Sound type="Snow" checkMaxDist="false">play_fx_cannon_hit_snow</Sound>
+		<Sound type="Ice" checkMaxDist="false">play_fx_cannon</Sound>
+		<Sound type="Flesh" checkMaxDist="false">play_fx_cannon</Sound>
+		<Sound type="Wood" checkMaxDist="false">play_fx_cannon_hit_earth</Sound>
+		<Sound type="Lava" checkMaxDist="false">play_fx_cannon</Sound>
+		<Sound type="Crystal" checkMaxDist="false">play_fx_cannon_hit_metal</Sound>
+		<Sound type="Plasma" checkMaxDist="false">play_fx_cannon</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="pow_gp_bombingRun">
+		<Sound type="Sand" checkMaxDist="false">play_fx_artillery_hit_earth</Sound>
+		<Sound type="Earth" checkMaxDist="false">play_fx_artillery_hit_earth</Sound>
+		<Sound type="Turf" checkMaxDist="false">play_fx_artillery_hit_earth</Sound>
+		<Sound type="Rock" checkMaxDist="false">play_fx_artillery_hit_earth</Sound>
+		<Sound type="Metal" checkMaxDist="false">play_fx_artillery_hit_metal</Sound>
+		<Sound type="Mud" checkMaxDist="false">play_fx_artillery_hit_earth</Sound>
+		<Sound type="Water" checkMaxDist="false">play_fx_artillery_hit_water</Sound>
+		<Sound type="Snow" checkMaxDist="false">play_fx_artillery_hit_snow</Sound>
+		<Sound type="Ice" checkMaxDist="false">play_fx_artillery_hit_snow</Sound>
+		<Sound type="Flesh" checkMaxDist="false">play_fx_artillery_hit_earth</Sound>
+		<Sound type="Wood" checkMaxDist="false">play_fx_artillery_hit_earth</Sound>
+		<Sound type="Lava" checkMaxDist="false">play_fx_artillery_hit_earth</Sound>
+		<Sound type="Crystal" checkMaxDist="false">play_fx_artillery_hit_metal</Sound>
+		<Sound type="Plasma" checkMaxDist="false">play_fx_explosion_artillery</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="pow_gp_tacticalMissile">
+		<Sound type="Sand" checkMaxDist="false">play_weapon_unsc_tactical_missile</Sound>
+		<Sound type="Earth" checkMaxDist="false">play_weapon_unsc_tactical_missile</Sound>
+		<Sound type="Turf" checkMaxDist="false">play_weapon_unsc_tactical_missile</Sound>
+		<Sound type="Rock" checkMaxDist="false">play_weapon_unsc_tactical_missile</Sound>
+		<Sound type="Metal" checkMaxDist="false">play_weapon_unsc_tactical_missile</Sound>
+		<Sound type="Mud" checkMaxDist="false">play_weapon_unsc_tactical_missile</Sound>
+		<Sound type="Water" checkMaxDist="false">play_weapon_unsc_tactical_missile</Sound>
+		<Sound type="Snow" checkMaxDist="false">play_weapon_unsc_tactical_missile</Sound>
+		<Sound type="Ice" checkMaxDist="false">play_weapon_unsc_tactical_missile</Sound>
+		<Sound type="Flesh" checkMaxDist="false">play_weapon_unsc_tactical_missile</Sound>
+		<Sound type="Wood" checkMaxDist="false">play_weapon_unsc_tactical_missile</Sound>
+		<Sound type="Lava" checkMaxDist="false">play_weapon_unsc_tactical_missile</Sound>
+		<Sound type="Crystal" checkMaxDist="false">play_weapon_unsc_tactical_missile</Sound>
+		<Sound type="Plasma" checkMaxDist="false">play_weapon_unsc_tactical_missile</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="pow_gp_EmpPulse">
+		<Sound type="Metal">play_fx_gp_emp_pulse</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="fx_CpuHack">
+		<Sound type="Metal">play_fx_proj_heavycannon</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="pow_gp_megaTurret">
+		<Sound type="metalground_01_df" checkMaxDist="false">play_explosion_orbitalbombardment</Sound>
+		<Sound type="Sand" checkMaxDist="false">play_pow_gp_megaturret</Sound>
+		<Sound type="Earth" checkMaxDist="false">play_pow_gp_megaturret</Sound>
+		<Sound type="Turf" checkMaxDist="false">play_pow_gp_megaturret</Sound>
+		<Sound type="Rock" checkMaxDist="false">play_pow_gp_megaturret</Sound>
+		<Sound type="Metal" checkMaxDist="false">play_pow_gp_megaturret</Sound>
+		<Sound type="Mud" checkMaxDist="false">play_pow_gp_megaturret</Sound>
+		<Sound type="Water" checkMaxDist="false">play_pow_gp_megaturret</Sound>
+		<Sound type="Snow" checkMaxDist="false">play_pow_gp_megaturret</Sound>
+		<Sound type="Ice" checkMaxDist="false">play_pow_gp_megaturret</Sound>
+		<Sound type="Flesh" checkMaxDist="false">play_pow_gp_megaturret</Sound>
+		<Sound type="Wood" checkMaxDist="false">play_pow_gp_megaturret</Sound>
+		<Sound type="Lava" checkMaxDist="false">play_pow_gp_megaturret</Sound>
+		<Sound type="Crystal" checkMaxDist="false">play_pow_gp_megaturret</Sound>
+		<Sound type="Plasma" checkMaxDist="false">play_pow_gp_megaturret</Sound>
+	</ImpactSoundSet>
+	<ImpactSoundSet name="cov_brutegun_01">
+		<Sound type="Sand">play_impact_brute_shot</Sound>
+		<Sound type="Earth">play_impact_brute_shot</Sound>
+		<Sound type="Turf">play_impact_brute_shot</Sound>
+		<Sound type="Rock">play_impact_brute_shot</Sound>
+		<Sound type="Metal">play_impact_brute_shot</Sound>
+		<Sound type="Mud">play_impact_brute_shot</Sound>
+		<Sound type="Water">play_impact_brute_shot</Sound>
+		<Sound type="Snow">play_impact_brute_shot</Sound>
+		<Sound type="Ice">play_impact_brute_shot</Sound>
+		<Sound type="Flesh">play_impact_brute_shot</Sound>
+		<Sound type="Wood">play_impact_brute_shot</Sound>
+		<Sound type="Lava">play_impact_brute_shot</Sound>
+		<Sound type="Crystal">play_impact_brute_shot</Sound>
+		<Sound type="Plasma">play_impact_brute_shot</Sound>
+	</ImpactSoundSet>pow_proj_snipers_01</ImpactSounds>

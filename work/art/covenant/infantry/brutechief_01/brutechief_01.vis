@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>covenant\infantry\brute_01\brute_01</file>
+			</asset>
+			<attach type="ParticleFile" name="effects\special\arbiter_tag_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<point pointType="Launch" bone="Bip01 R Hand" pointData="Metal" />
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="8" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\idle_01</file>
+				<weight>40</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\idle_02</file>
+				<weight>30</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\idle_03</file>
+				<weight>20</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\idle_04</file>
+				<weight>50</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\idle_05</file>
+				<weight>40</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\idle_06</file>
+				<weight>20</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\idle_07</file>
+				<weight>40</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\idle_08</file>
+				<weight>40</weight>
+			</asset>
+			<attach type="ModelFile" name="covenant\infantry\weapons_01\brutehammer_01\brutehammer_01" tobone="Bip01 Prop1" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\walk_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\walk_02</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ModelFile" name="covenant\infantry\weapons_01\brutehammer_01\brutehammer_01" tobone="Bip01 Prop1" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\run_01</file>
+				<weight>5</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\run_02</file>
+				<weight>2</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\run_03</file>
+				<weight>5</weight>
+			</asset>
+			<attach type="ModelFile" name="covenant\infantry\weapons_01\brutehammer_01\brutehammer_01" tobone="Bip01 Prop1" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\run_01</file>
+				<weight>5</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\run_02</file>
+				<weight>2</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\run_03</file>
+				<weight>5</weight>
+			</asset>
+			<attach type="ModelFile" name="covenant\infantry\weapons_01\brutehammer_01\brutehammer_01" tobone="Bip01 Prop1" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="BruteGunAttack" exitAction="Transition" tweenTime="6" tweenToAnimation="BruteGunAttack">
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\bruteGunAttack_01</file>
+				<weight>50</weight>
+				<tag type="Attack" start="0" position="0.1" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.1" end="1" name="play_cov_brute_shot" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.1" end="1" name="effects\Unit_FX\cov\brute\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.66" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\bruteGunAttack_02</file>
+				<weight>50</weight>
+				<tag type="Attack" start="0" position="0.15" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.15" end="1" name="play_cov_brute_shot" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.15" end="1" name="effects\Unit_FX\cov\brute\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.66" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\bruteGunAttack_07</file>
+				<weight>50</weight>
+				<tag type="Attack" start="0" position="0.1" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.1" end="1" name="play_cov_brute_shot" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.1" end="1" name="effects\Unit_FX\cov\brute\muzzleblast" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.66" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<attach type="ModelFile" name="covenant\infantry\weapons_01\bruteshot_01\bruteshot_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="BruteGunReload" exitAction="Transition" tweenTime="6" tweenToAnimation="BruteGunAttack">
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\bruteGunAttack_03</file>
+				<weight>20</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\bruteGunAttack_04</file>
+				<weight>20</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\bruteGunAttack_05</file>
+				<weight>20</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\bruteGunAttack_06</file>
+				<weight>20</weight>
+			</asset>
+			<attach type="ModelFile" name="covenant\infantry\weapons_01\bruteshot_01\bruteshot_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="MeleeAttack" exitAction="Transition" tweenTime="5" tweenToAnimation="MeleeAttack">
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\hand_attack_01</file>
+				<weight>50</weight>
+				<tag type="Sound" start="0" position="0.141" end="1" name="play_hammer_swing" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.292" end="1" name="effects\Unit_FX\cov\brute\hammertrail_01" tobone="bone_launchpoint02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.71" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.359" end="1" name="play_hammer_impact" tobone="bone_launchpoint02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.36" end="1" tobone="bone_launchpoint02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\hand_attack_03</file>
+				<weight>50</weight>
+				<tag type="Sound" start="0" position="0.231" end="1" name="play_hammer_swing" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.341" end="1" name="effects\Unit_FX\cov\brute\hammertrail_01" tobone="bone_launchpoint02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.28" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.449" end="1" name="play_hammer_impact" tobone="bone_launchpoint02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.45" end="1" tobone="bone_launchpoint02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\hand_attack_02</file>
+				<weight>40</weight>
+			</asset>
+			<attach type="ModelFile" name="covenant\infantry\weapons_01\brutehammer_01\brutehammer_01" tobone="Bip01 Prop1" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="CombatWalkForward" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\combatWalkForward_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ModelFile" name="covenant\infantry\weapons_01\bruteshot_01\bruteshot_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="CombatWalkBack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\combatWalkBack_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ModelFile" name="covenant\infantry\weapons_01\bruteshot_01\bruteshot_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="CombatWalkLeft" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\combatWalkLeft_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ModelFile" name="covenant\infantry\weapons_01\bruteshot_01\bruteshot_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="CombatWalkRight" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\combatWalkRight_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ModelFile" name="covenant\infantry\weapons_01\bruteshot_01\bruteshot_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="CombatWalkForwardBruteGunAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\combatWalkForward_01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.5" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.5" end="1" name="play_cov_brute_shot" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<attach type="ModelFile" name="covenant\infantry\weapons_01\bruteshot_01\bruteshot_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="CombatWalkBackBruteGunAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\combatWalkBack_01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.5" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.5" end="1" name="play_cov_brute_shot" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<attach type="ModelFile" name="covenant\infantry\weapons_01\bruteshot_01\bruteshot_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="CombatWalkLeftBruteGunAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\combatWalkLeft_01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.5" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.5" end="1" name="play_cov_brute_shot" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<attach type="ModelFile" name="covenant\infantry\weapons_01\bruteshot_01\bruteshot_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="CombatWalkRightBruteGunAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\combatWalkRight_01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.5" end="1" tobone="bone_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.5" end="1" name="play_cov_brute_shot" tobone="bone_launchpoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<attach type="ModelFile" name="covenant\infantry\weapons_01\bruteshot_01\bruteshot_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="EvadeLeft" exitAction="Loop" tweenTime="3" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\evadeLeft_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ModelFile" name="covenant\infantry\weapons_01\bruteshot_01\bruteshot_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="EvadeRight" exitAction="Loop" tweenTime="3" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\evadeRight_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ModelFile" name="covenant\infantry\weapons_01\bruteshot_01\bruteshot_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\death_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\death_02</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ModelFile" name="covenant\infantry\weapons_01\brutehammer_01\brutehammer_01" tobone="Bip01 Prop1" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Clamshell" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\clamshell_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\clamshell_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\clamshell_03</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\clamshell_04</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ModelFile" name="covenant\infantry\weapons_01\brutehammer_01\brutehammer_01" tobone="Bip01 Prop1" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Gather" exitAction="Transition" tweenTime="8" tweenToAnimation="Gather">
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\idle_01</file>
+				<weight>40</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\idle_02</file>
+				<weight>30</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\idle_03</file>
+				<weight>20</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\idle_04</file>
+				<weight>50</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\idle_05</file>
+				<weight>40</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\idle_06</file>
+				<weight>20</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\idle_07</file>
+				<weight>40</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\idle_08</file>
+				<weight>40</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\special\unit_hourglass_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelFile" name="covenant\infantry\weapons_01\brutehammer_01\brutehammer_01" tobone="Bip01 Prop1" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Build" exitAction="Transition" tweenTime="8" tweenToAnimation="Build">
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\idle_01</file>
+				<weight>40</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\idle_02</file>
+				<weight>30</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\idle_03</file>
+				<weight>20</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\idle_04</file>
+				<weight>50</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\idle_05</file>
+				<weight>40</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\idle_06</file>
+				<weight>20</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\idle_07</file>
+				<weight>40</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\brute_01\idle_08</file>
+				<weight>40</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\special\unit_hourglass_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelFile" name="covenant\infantry\weapons_01\brutehammer_01\brutehammer_01" tobone="Bip01 Prop1" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+	</model>
+</visual>

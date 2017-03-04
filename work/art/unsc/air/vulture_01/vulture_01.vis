@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\vulture_01\vulture_01</file>
+			</asset>
+			<attach type="LightFile" name="unsc\air\vulture_01\vulturelight_01" tobone="bone_main" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects\vehicle_fx\unsc\pelican\exhaustheat_01" tobone="Bone FX01" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects\vehicle_fx\unsc\pelican\exhaustheat_01" tobone="Bone FX02" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects\vehicle_fx\unsc\pelican\exhaustheat_01" tobone="Bone FX03" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects\vehicle_fx\unsc\pelican\exhaustheat_01" tobone="Bone FX04" syncanims="false" disregardorient="false" />
+			<attach type="ModelRef" name="RightMissileTurret" tobone="GrannyRootBone" frombone="Bone Cougar Cannon" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="LeftMissileTurret" tobone="GrannyRootBone" frombone="Bone Cougar Cannon" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="BayDoors" tobone="GrannyRootBone" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="30" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\vulture_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="30" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\vulture_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="_Death" exitAction="Freeze" tweenTime="30" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\vulture_01\death_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\fire\flaming_debris_01" tobone="Bone Thruster03" syncanims="false" disregardorient="true" />
+			<attach type="ParticleFile" name="effects\fire\flaming_debris_01" tobone="Bone Thruster01" syncanims="false" disregardorient="true" />
+			<attach type="ParticleFile" name="effects\fire\flaming_debris_01" tobone="bone_missletest" syncanims="false" disregardorient="true" />
+		</anim>
+		<anim type="MissileAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\vulture_01\CannonAttack_01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.1" end="1" tobone="Bone Thruster01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.3" end="1" tobone="Bone Thruster02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="VLSMissileAttack" exitAction="Loop" tweenTime="30" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\vulture_01\CannonAttack_01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.05" end="1" tobone="bone_missletest01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.05" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>unsc\air\vulture_01\CannonAttack_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.045" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.05" end="1" tobone="bone_missletest02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="VLSMissileReload" exitAction="Loop" tweenTime="30" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\vulture_01\CannonAttack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Repair" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\vulture_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\Unit_FX\unsc\repair_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="BarrageAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="BarrageAttack">
+			<asset type="Anim">
+				<file>unsc\air\vulture_01\barrage_01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.1" end="1" tobone="bone_missletest01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.25" end="1" tobone="bone_missletest02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.4" end="1" tobone="bone_missletest01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.55" end="1" tobone="bone_missletest02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.7" end="1" tobone="bone_missletest01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.85" end="1" tobone="bone_missletest02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="CloseBay" exitAction="Freeze" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\air\vulture_01\barrage_close_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="OpenBay" exitAction="Freeze" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\air\vulture_01\barrage_open_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Turret">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\vehicle\cougar_01\cougar_turret_01</file>
+			</asset>
+			<attach type="ModelRef" name="Cannon" tobone="Bone Cougar Cannon" frombone="Bone Cougar Cannon" syncanims="true" disregardorient="false" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\cougar_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\cougar_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="_Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\cougar_01\death_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.006" end="1" name="effects\impacts\tank_shell_impact\tank_shell_impact_01" tobone="bone_impact_10" checkvisible="false" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.083" end="1" name="effects\impacts\tank_shell_impact\tank_shell_impact_01" tobone="bone_impact_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.135" end="1" name="effects\impacts\tank_shell_impact\tank_shell_impact_01" tobone="bone_impact_04" checkvisible="false" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<attach type="ParticleFile" name="effects\fire\flaming_debris_01" tobone="bone_turretgun" syncanims="false" disregardorient="true" />
+			<attach type="ParticleFile" name="effects\fire\flaming_debris_01" tobone="bone_wench" syncanims="false" disregardorient="true" />
+			<attach type="ParticleFile" name="effects\fire\flaming_debris_01" tobone="bone_fender" syncanims="false" disregardorient="true" />
+		</anim>
+		<anim type="MissileAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\vulture_01\CannonAttack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="VLSMissileAttack" exitAction="Loop" tweenTime="30" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\vulture_01\CannonAttack_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\air\vulture_01\CannonAttack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="VLSMissileReload" exitAction="Loop" tweenTime="30" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\vulture_01\CannonAttack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Repair" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\vulture_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="BarrageAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="BarrageAttack">
+			<asset type="Anim">
+				<file>unsc\air\vulture_01\barrage_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="LeftMissileTurret">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\vehicle\cougar_01\cougar_cannon_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\cougar_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\cougar_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="_Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\cougar_01\death_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.006" end="1" name="effects\impacts\tank_shell_impact\tank_shell_impact_01" tobone="bone_impact_10" checkvisible="false" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.083" end="1" name="effects\impacts\tank_shell_impact\tank_shell_impact_01" tobone="bone_impact_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.135" end="1" name="effects\impacts\tank_shell_impact\tank_shell_impact_01" tobone="bone_impact_04" checkvisible="false" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<attach type="ParticleFile" name="effects\fire\flaming_debris_01" tobone="bone_turretgun" syncanims="false" disregardorient="true" />
+			<attach type="ParticleFile" name="effects\fire\flaming_debris_01" tobone="bone_wench" syncanims="false" disregardorient="true" />
+			<attach type="ParticleFile" name="effects\fire\flaming_debris_01" tobone="bone_fender" syncanims="false" disregardorient="true" />
+		</anim>
+		<anim type="LeftMissileAttack" exitAction="Loop" tweenTime="30" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\vulture_01\CannonAttack_01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.05" end="1" tobone="bone_launchpoint_02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.051" end="1" name="play_unsc_vulture_missile" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.3" end="1" tobone="bone_launchpoint_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.3" end="1" name="play_unsc_vulture_missile" tobone="bone_launchpoint_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.55" end="1" tobone="bone_launchpoint_02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.55" end="1" name="play_unsc_vulture_missile" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.8" end="1" tobone="bone_launchpoint_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.8" end="1" name="play_unsc_vulture_missile" tobone="bone_launchpoint_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="VLSMissileAttack" exitAction="Loop" tweenTime="30" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\vulture_01\CannonAttack_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\air\vulture_01\CannonAttack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="VLSMissileReload" exitAction="Loop" tweenTime="30" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\vulture_01\CannonAttack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Repair" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\vulture_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="BarrageAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="BarrageAttack">
+			<asset type="Anim">
+				<file>unsc\air\vulture_01\barrage_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="RightMissileTurret">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\vehicle\cougar_01\cougar_cannon_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\cougar_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\cougar_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="_Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\cougar_01\death_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.006" end="1" name="effects\impacts\tank_shell_impact\tank_shell_impact_01" tobone="bone_impact_10" checkvisible="false" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.083" end="1" name="effects\impacts\tank_shell_impact\tank_shell_impact_01" tobone="bone_impact_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.135" end="1" name="effects\impacts\tank_shell_impact\tank_shell_impact_01" tobone="bone_impact_04" checkvisible="false" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<attach type="ParticleFile" name="effects\fire\flaming_debris_01" tobone="bone_turretgun" syncanims="false" disregardorient="true" />
+			<attach type="ParticleFile" name="effects\fire\flaming_debris_01" tobone="bone_wench" syncanims="false" disregardorient="true" />
+			<attach type="ParticleFile" name="effects\fire\flaming_debris_01" tobone="bone_fender" syncanims="false" disregardorient="true" />
+		</anim>
+		<anim type="RightMissileAttack" exitAction="Loop" tweenTime="30" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\vulture_01\CannonAttack_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.15" end="1" name="play_unsc_vulture_missile" tobone="bone_launchpoint_02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.15" end="1" tobone="bone_launchpoint_02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.4" end="1" name="play_unsc_vulture_missile" tobone="bone_launchpoint_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.4" end="1" tobone="bone_launchpoint_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.65" end="1" name="play_unsc_vulture_missile" tobone="bone_launchpoint_02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.65" end="1" tobone="bone_launchpoint_02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.9" end="1" name="play_unsc_vulture_missile" tobone="bone_launchpoint_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.9" end="1" tobone="bone_launchpoint_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="VLSMissileAttack" exitAction="Loop" tweenTime="30" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\vulture_01\CannonAttack_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\air\vulture_01\CannonAttack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="VLSMissileReload" exitAction="Loop" tweenTime="30" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\vulture_01\CannonAttack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Repair" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\vulture_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="BarrageAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="BarrageAttack">
+			<asset type="Anim">
+				<file>unsc\air\vulture_01\barrage_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="BayDoors">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\vulture_01\vulture_baydoors_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\air\vulture_01\barrage_idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="CloseBay" exitAction="Freeze" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\air\vulture_01\barrage_close_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="OpenBay" exitAction="Freeze" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\air\vulture_01\barrage_open_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+</visual>

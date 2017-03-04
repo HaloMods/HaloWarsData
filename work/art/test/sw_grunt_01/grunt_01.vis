@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<file>covenant\infantry\grunt_01\grunt_01</file>
+			</asset>
+			<point pointType="HitpointBar" bone="Bip01 R Hand" pointData="Metal" />
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\idle_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\idle_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\crouch_idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\crouch_idle_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\idle_03</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ModelFile" name="covenant\infantry\weapons_01\plasma_pistol_01\plasma_pistol_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\walk_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\walk_02</file>
+				<weight>5</weight>
+			</asset>
+			<attach type="ModelFile" name="covenant\infantry\weapons_01\plasma_pistol_01\plasma_pistol_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\jog_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\jog_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\jog_03</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\jog_05</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ModelFile" name="covenant\infantry\weapons_01\plasma_pistol_01\plasma_pistol_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\run_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\run_02</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ModelFile" name="covenant\infantry\weapons_01\plasma_pistol_01\plasma_pistol_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="PlasmaPistolAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\attack_01</file>
+				<weight>1</weight>
+				<tag type="Attack" position="0.45" tobone="bone_launchpoint" checkvisible="false" disregardorient="false" lifespan="0.25" />
+				<tag type="Sound" position="0.45" name="play_cov_grunt_plasma_pistol" tobone="bone_launchpoint" checkvisible="true" disregardorient="false" lifespan="0.25" />
+				<tag type="Particle" position="0.455" name="effects\Unit_FX\cov\jackal\muzzleblast" tobone="bone_launchpoint" checkvisible="false" disregardorient="false" lifespan="1.2" />
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\attack_03</file>
+				<weight>1</weight>
+				<tag type="Attack" position="0.176" tobone="bone_launchpoint" checkvisible="false" disregardorient="false" lifespan="0.25" />
+				<tag type="Sound" position="0.176" name="play_cov_grunt_plasma_pistol" tobone="bone_launchpoint" checkvisible="true" disregardorient="false" lifespan="0.25" />
+				<tag type="Particle" position="1" name="effects\Unit_FX\cov\jackal\muzzleblast" tobone="bone_launchpoint" checkvisible="false" disregardorient="false" lifespan="1.2" />
+			</asset>
+			<attach type="ModelFile" name="covenant\infantry\weapons_01\plasma_pistol_01\plasma_pistol_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="NeedlerAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\attack_02</file>
+				<weight>1</weight>
+				<tag type="Attack" position="0.12" tobone="bone_launchpoint2" checkvisible="false" disregardorient="false" lifespan="0.25" />
+				<tag type="Sound" position="0.12" name="play_cov_grunt_needler" tobone="bone_launchpoint2" checkvisible="true" disregardorient="false" lifespan="0.25" />
+				<tag type="Attack" position="0.17" tobone="bone_launchpoint2" checkvisible="false" disregardorient="false" lifespan="0.25" />
+				<tag type="Attack" position="0.22" tobone="bone_launchpoint2" checkvisible="false" disregardorient="false" lifespan="0.25" />
+				<tag type="Attack" position="0.27" tobone="bone_launchpoint2" checkvisible="false" disregardorient="false" lifespan="0.25" />
+				<tag type="Attack" position="0.32" tobone="bone_launchpoint2" checkvisible="false" disregardorient="false" lifespan="0.25" />
+			</asset>
+			<attach type="ModelFile" name="covenant\infantry\weapons_01\needler_01\needler_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\death_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\death_02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Gather" exitAction="Transition" tweenTime="10" tweenToAnimation="Gather">
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\idle_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\idle_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\crouch_idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\crouch_idle_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\idle_03</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ModelFile" name="covenant\infantry\weapons_01\plasma_pistol_01\plasma_pistol_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects\special\unit_hourglass_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Build" exitAction="Transition" tweenTime="10" tweenToAnimation="Build">
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\idle_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\idle_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\crouch_idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\crouch_idle_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>covenant\infantry\grunt_01\idle_03</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ModelFile" name="covenant\infantry\weapons_01\plasma_pistol_01\plasma_pistol_01" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects\special\unit_hourglass_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</anim>
+	</model>
+</visual>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<UIGame>
+	<Minimap>
+		<NumFlares>5</NumFlares>
+		<FlareDuration>5000</FlareDuration>
+		<FlareStartSize>100</FlareStartSize>
+		<FlareSmallSize>35</FlareSmallSize>
+		<FlareBigSize>45</FlareBigSize>
+		<FlareStartSpeed>-0.08</FlareStartSpeed>
+		<FlareGrowSpeed>0.01</FlareGrowSpeed>
+		<FlareShrinkSpeed>-0.01</FlareShrinkSpeed>
+		<AlertSize>30</AlertSize>
+		<NumActiveAlerts>3</NumActiveAlerts>
+		<NumQueuedAlerts>5</NumQueuedAlerts>
+		<AlertCooldown>3000</AlertCooldown>
+		<Position>0 0 150 150</Position>
+		<BackgroundColor>0.27,0.55,0.612</BackgroundColor>
+		<BorderMin>0</BorderMin>
+		<BorderMax>1</BorderMax>
+		<BorderActive>false</BorderActive>
+		<BorderTexture>ui\game\minimap\border\border</BorderTexture>
+		<IconTexture>ui\game\minimap\ui_minimap_icons</IconTexture>
+		<RadarTexture>ui\game\minimap\ui_minimap_sweep</RadarTexture>
+		<OverlayTexture>ui\game\minimap\ui_minimap_bezel</OverlayTexture>
+		<Icons>
+			<Icon u="0" v="0" size="64">Flare</Icon>
+			<Icon u="0.25" v="0" size="64">Building</Icon>
+			<Icon u="0.5" v="0" size="64">Command</Icon>
+			<Icon u="0.75" v="0" size="64">Flag</Icon>
+			<Icon u="0" v="0.25" size="64">Circle</Icon>
+			<Icon u="0.25" v="0.25" size="64">Square</Icon>
+			<Icon u="0.5" v="0.25" size="64">Triangle</Icon>
+		</Icons>
+		<Opacity>1</Opacity>
+	</Minimap>
+	<Help>
+		<Position>-400 0 -1 160</Position>
+		<Font>Denmark 14</Font>
+	</Help>
+	<Reticles>
+		<Size size4x3="72">128</Size>
+		<Reticle type="Normal">
+			<icon>ui\game\reticle\base\base</icon>
+			<visual>ui\default_tech_01.vis</visual>
+			<flashkeyframe>reticule</flashkeyframe>
+		</Reticle>
+		<Reticle type="Attack">
+			<icon>ui\game\reticle\attack\attack</icon>
+			<visual>ui\default_tech_01.vis</visual>
+			<flashkeyframe>attack</flashkeyframe>
+		</Reticle>
+		<Reticle type="Garrison">
+			<icon>ui\game\reticle\garrison\garrison</icon>
+			<visual>ui\default_tech_01.vis</visual>
+			<flashkeyframe>garrison</flashkeyframe>
+		</Reticle>
+		<Reticle type="Hitch">
+			<icon>ui\game\reticle\hitch\hitch</icon>
+			<visual>ui\default_tech_01.vis</visual>
+			<flashkeyframe>garrison</flashkeyframe>
+		</Reticle>
+		<Reticle type="Build">
+			<icon>ui\game\reticle\build\build</icon>
+			<visual>ui\default_tech_01.vis</visual>
+			<flashkeyframe>base</flashkeyframe>
+		</Reticle>
+		<Reticle type="Capture">
+			<icon>ui\game\reticle\capture\capture</icon>
+			<visual>ui\default_tech_01.vis</visual>
+			<flashkeyframe>capture</flashkeyframe>
+		</Reticle>
+		<Reticle type="Repair">
+			<icon>ui\game\reticle\repair\repair</icon>
+			<visual>ui\default_tech_01.vis</visual>
+			<flashkeyframe>repair</flashkeyframe>
+		</Reticle>
+		<Reticle type="PowerValid">
+			<icon>ui\game\reticle\power_valid\power_valid</icon>
+			<visual>ui\default_tech_01.vis</visual>
+			<flashkeyframe>valid</flashkeyframe>
+		</Reticle>
+		<Reticle type="PowerInvalid">
+			<icon>ui\game\reticle\power_invalid\power_invalid</icon>
+			<visual>ui\default_tech_01.vis</visual>
+			<flashkeyframe>invalid</flashkeyframe>
+		</Reticle>
+		<Reticle type="Base">
+			<icon>ui\game\reticle\base\base</icon>
+			<visual>ui\default_tech_01.vis</visual>
+			<flashkeyframe>base</flashkeyframe>
+		</Reticle>
+		<Reticle type="TransportFull">
+			<icon>ui\game\reticle\garrison\garrison</icon>
+			<visual>ui\default_tech_01.vis</visual>
+			<flashkeyframe>transportfull</flashkeyframe>
+		</Reticle>
+	</Reticles>
+	<SquadModes>
+		<SquadMode type="StandGround">
+			<icon>ui\game\icon\general\command\stand_ground\stand_ground</icon>
+			<visual>ui\default_squadmode_01.vis</visual>
+		</SquadMode>
+		<SquadMode type="Guard">
+			<icon>ui\game\icon\general\command\guard\guard</icon>
+			<visual>ui\default_squadmode_01.vis</visual>
+		</SquadMode>
+		<SquadMode type="Lockdown">
+			<icon>ui\game\icon\general\command\lock_down\lock_down</icon>
+			<visual>ui\default_squadmode_01.vis</visual>
+		</SquadMode>
+		<SquadMode type="Normal">
+			<icon>ui\game\icon\general\command\normal\normal</icon>
+			<visual>ui\default_squadmode_01.vis</visual>
+		</SquadMode>
+	</SquadModes>
+	<ObjectCommands>
+		<ObjectCommand type="Unload">
+			<icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</icon>
+			<visual>ui\default_objectcommand_01.vis</visual>
+		</ObjectCommand>
+		<ObjectCommand type="Kill">
+			<icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</icon>
+			<visual>ui\default_objectcommand_01.vis</visual>
+		</ObjectCommand>
+	</ObjectCommands>
+	<GameCommands>
+		<GameCommand type="RallyPoint">ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\rallypnt</GameCommand>
+		<GameCommand type="SelectPower">ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</GameCommand>
+		<GameCommand type="Repair">ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\repair</GameCommand>
+	</GameCommands>
+	<Resources>
+		<Resource>
+			<HudIcon>ui\game\resource\supplies\supplies_hud</HudIcon>
+			<TextIcon>ui\game\resource\supplies\supplies_text</TextIcon>
+			<FloatyIcon>ui\game\resource\supplies\supplies_floaty</FloatyIcon>
+			<Reticle flashkeyframe="gather">ui\game\reticle\gather_supplies\gather_supplies</Reticle>
+			<TextVisual>ui\game\resource\supplies\supplies</TextVisual>
+			<TextVisualBucketSize>5</TextVisualBucketSize>
+			<FlashUI>
+				<CostPanelFrame>7</CostPanelFrame>
+			</FlashUI>Supplies</Resource>
+		<Resource>
+			<HudIcon>ui\game\resource\power\power_hud</HudIcon>
+			<TextIcon>ui\game\resource\power\power_text</TextIcon>
+			<FloatyIcon>ui\game\resource\power\power_floaty</FloatyIcon>
+			<Reticle flashkeyframe="gather">ui\game\reticle\gather_power\gather_power</Reticle>
+			<TextVisual>ui\game\resource\power\power</TextVisual>
+			<TextVisualBucketSize>5</TextVisualBucketSize>
+			<FlashUI>
+				<CostPanelFrame>8</CostPanelFrame>
+			</FlashUI>Power</Resource>
+		<Resource>
+			<HudIcon>ui\game\resource\relics\relics_hud</HudIcon>
+			<TextIcon>ui\game\resource\relics\relics_text</TextIcon>
+			<FloatyIcon>ui\game\resource\relics\relics_floaty</FloatyIcon>
+			<Reticle flashkeyframe="gather">ui\game\reticle\gather_relics\gather_relics</Reticle>
+			<TextVisual>ui\game\resource\relics\relics</TextVisual>
+			<TextVisualBucketSize>5</TextVisualBucketSize>
+			<FlashUI>
+				<CostPanelFrame>7</CostPanelFrame>
+			</FlashUI>Relics</Resource>
+		<Resource>
+			<HudIcon>ui\game\resource\favor\favor_hud</HudIcon>
+			<TextIcon>ui\game\resource\favor\favor_text</TextIcon>
+			<FloatyIcon>ui\game\resource\favor\favor_floaty</FloatyIcon>
+			<Reticle flashkeyframe="gather">ui\game\reticle\gather_favor\gather_favor</Reticle>
+			<TextVisual>ui\game\resource\favor\favor</TextVisual>
+			<TextVisualBucketSize>5</TextVisualBucketSize>
+			<FlashUI>
+				<CostPanelFrame>8</CostPanelFrame>
+			</FlashUI>Favor</Resource>
+	</Resources>
+	<Pops>
+		<Pop>
+			<HudIcon>ui\game\resource\population\population_hud</HudIcon>
+			<TextIcon>ui\game\resource\population\population_text</TextIcon>
+			<FlashUI>
+				<CostPanelFrame>6</CostPanelFrame>
+			</FlashUI>Unit</Pop>
+	</Pops>
+	<Floaty>
+		<IconSize>30 30</IconSize>
+	</Floaty>
+	<PlayerStats>
+		<Font>Denmark 14</Font>
+		<Stats>
+			<Stat type="Pop">
+				<IconPosition>344 0 374 30</IconPosition>
+				<ValuePosition>378 2 478 28</ValuePosition>
+				<IconPositionSV1>31 0 61 30</IconPositionSV1>
+				<ValuePositionSV1>65 2 125 28</ValuePositionSV1>
+				<IconPositionSV2>711 0 741 30</IconPositionSV2>
+				<ValuePositionSV2>745 2 805 28</ValuePositionSV2>
+				<IconPositionSH1>681 0 711 30</IconPositionSH1>
+				<ValuePositionSH1>715 2 775 28</ValuePositionSH1>
+				<IconPositionSH2>681 320 711 350</IconPositionSH2>
+				<ValuePositionSH2>715 322 775 348</ValuePositionSH2>Unit</Stat>
+			<Stat type="Resource">
+				<IconPosition>532 0 562 30</IconPosition>
+				<ValuePosition>566 2 666 28</ValuePosition>
+				<IconPositionSV1>126 0 156 30</IconPositionSV1>
+				<ValuePositionSV1>160 2 260 28</ValuePositionSV1>
+				<IconPositionSV2>806 0 836 30</IconPositionSV2>
+				<ValuePositionSV2>840 2 940 28</ValuePositionSV2>
+				<IconPositionSH1>776 0 806 30</IconPositionSH1>
+				<ValuePositionSH1>810 2 910 28</ValuePositionSH1>
+				<IconPositionSH2>776 320 806 350</IconPositionSH2>
+				<ValuePositionSH2>810 322 910 348</ValuePositionSH2>Power</Stat>
+			<Stat type="Resource">
+				<IconPosition>680 0 710 30</IconPosition>
+				<ValuePosition>714 2 814 28</ValuePosition>
+				<IconPositionSV1>274 0 304 30</IconPositionSV1>
+				<ValuePositionSV1>308 2 408 28</ValuePositionSV1>
+				<IconPositionSV2>954 0 984 30</IconPositionSV2>
+				<ValuePositionSV2>988 2 1088 28</ValuePositionSV2>
+				<IconPositionSH1>924 0 954 30</IconPositionSH1>
+				<ValuePositionSH1>958 2 1058 28</ValuePositionSH1>
+				<IconPositionSH2>924 320 954 350</IconPositionSH2>
+				<ValuePositionSH2>958 322 1058 348</ValuePositionSH2>Supplies</Stat>UNSC</Stats>
+	</PlayerStats>
+	<CircleMenu>
+		<FadeTime>0.25</FadeTime>
+		<DisplayOnUp>true</DisplayOnUp>
+		<CircleCount>8</CircleCount>
+		<CircleWidth>384</CircleWidth>
+		<ItemRadius>180</ItemRadius>
+		<ItemWidth>96</ItemWidth>
+		<CircleWidthSV>384</CircleWidthSV>
+		<ItemRadiusSV>180</ItemRadiusSV>
+		<ItemWidthSV>96</ItemWidthSV>
+		<CircleWidthSH>250</CircleWidthSH>
+		<ItemRadiusSH>118</ItemRadiusSH>
+		<ItemWidthSH>80</ItemWidthSH>
+		<ButtonFont>Denmark 14</ButtonFont>
+		<HelpTextFont>Denmark 14</HelpTextFont>
+		<HelpTextIconSize>30 30</HelpTextIconSize>
+		<Backgrounds>
+			<Background civ="UNSC">ui\game\circle_menu\unsc\background\background</Background>
+		</Backgrounds>
+	</CircleMenu>
+	<HoverDecal>ui\flash\HUD\reticule_gnddecal</HoverDecal>
+	<FlashResources>
+		<Reticle Type="UNSC">
+			<Flash>art\ui\flash\hud\hud_reticle\hud_reticle.gfx</Flash>
+			<Data />
+		</Reticle>
+		<HUD Type="UNSC">
+			<Flash>art\ui\flash\hud\hud_menu\hud_menu.gfx</Flash>
+			<Data>art\ui\flash\hud\hud_menu\hud_menu.xml</Data>
+		</HUD>
+		<Minimap Type="UNSC">
+			<Flash>art\ui\flash\hud\hud_minimap\hud_minimap.gfx</Flash>
+			<Data>art\ui\flash\hud\hud_minimap\hud_minimap.xml</Data>
+		</Minimap>
+		<Decals Type="UNSC">
+			<Flash>art\ui\flash\hud\hud_decal\UI_decal.swf</Flash>
+			<Data>art\ui\flash\hud\hud_decal\hud_decal.xml</Data>
+		</Decals>
+		<Objectives Type="UNSC">
+			<Flash>art\ui\flash\hud\hud_objective\hud_objective.gfx</Flash>
+			<Data />
+		</Objectives>
+		<Hints Type="All">
+			<Flash>art\ui\flash\hud\hud_hint\hud_hint.gfx</Flash>
+			<Data />
+		</Hints>
+		<Callouts Type="All">
+			<Flash>art\ui\flash\hud\hud_callout\hud_callout.gfx</Flash>
+			<Data />
+		</Callouts>
+		<Widgets Type="UNSC">
+			<Flash>art\ui\flash\hud\hud_objective\hud_widgets.gfx</Flash>
+			<Data />
+		</Widgets>
+	</FlashResources>
+	<LocalSelect>
+		<LocalSelectType ObjectType="Infantry" DamageType="Unarmored" />
+		<LocalSelectType ObjectType="AirCraft" DamageType="Air" />
+		<LocalSelectType ObjectType="GroundVehicle" DamageType="Vehicle" />
+		<LocalSelectType ObjectType="Building" DamageType="Building" />
+	</LocalSelect>
+	<Tribute>
+		<Resource ItemStringID="20000" DetailStringID="20004" ReceivedStringID="22008" ItemLoc1="7" ItemLoc2="5" ItemLoc3="6">Power</Resource>
+		<Resource ItemStringID="20001" DetailStringID="20005" ReceivedStringID="22009" ItemLoc1="1" ItemLoc2="3" ItemLoc3="2">Supplies</Resource>
+	</Tribute>
+</UIGame>

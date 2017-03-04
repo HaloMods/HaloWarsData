@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Maps>
+	<Map name="GameSelect" control="ButtonA" />
+	<Map name="GameAction" control="ButtonX" />
+	<Map name="GameUnselect" control="ButtonB" />
+	<Map name="GamePower" control="ButtonY" />
+	<Map name="GameConfirm" control="ButtonA" />
+	<Map name="GameCancel" control="ButtonB" />
+	<Map name="GameAlternate" control="ButtonX" />
+	<Map name="GameNone" control="" />
+	<Map name="GameGlobalSelect" control="ButtonShoulderLeft" />
+	<Map name="GameScreenSelect" control="ButtonShoulderRight" />
+	<Map name="GameHUD" control="ButtonBack" />
+	<Map name="GameMenu" control="ButtonStart" />
+	<Map name="GameFlare" control="ButtonThumbLeft" />
+	<Map name="GameGotoMap1" control="ButtonThumbLeft" />
+	<Map name="GameGotoMap2" control="ButtonThumbRight" />
+	<Map name="GameGotoWorker" control="DpadUp" />
+	<Map name="GameGotoArmy" control="DpadDown" />
+	<Map name="GameGotoBase" control="DpadLeft" />
+	<Map name="GameGotoEvent" control="DpadRight" />
+	<Map name="GameModifier1" control="TriggerLeft" />
+	<Map name="GameModifier2" control="TriggerRight" />
+	<Map name="MenuOK" control="ButtonA" />
+	<Map name="MenuCancel" control="ButtonB" />
+	<Map name="MenuAlternate" control="ButtonX" />
+	<Map name="MenuRally" control="ButtonY" />
+</Maps>

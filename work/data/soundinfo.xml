@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<SoundInfo>
+	<PainRate>0.1</PainRate>
+	<ListenerDistance>55</ListenerDistance>
+	<MaxChatterTime>30</MaxChatterTime>
+	<MinChatterTime>15</MinChatterTime>
+	<MaxChatterTime type="idle">30</MaxChatterTime>
+	<MinChatterTime type="idle">15</MinChatterTime>
+	<MaxChatterTime type="move">30</MaxChatterTime>
+	<MinChatterTime type="move">15</MinChatterTime>
+	<MaxChatterTime type="moveAttack">30</MaxChatterTime>
+	<MinChatterTime type="moveAttack">15</MinChatterTime>
+	<MaxChatterTime type="attack">30</MaxChatterTime>
+	<MinChatterTime type="attack">15</MinChatterTime>
+	<AlertInfo>
+		<AttackSev1Value>10</AttackSev1Value>
+		<AttackSev2Value>50</AttackSev2Value>
+	</AlertInfo>
+	<Music>
+		<WorldIntro switchTimer="5000">set_state_world_intros</WorldIntro>
+		<StandardCue switchTimer="5000">set_state_standard</StandardCue>
+		<BattleWon switchTimer="20000">set_state_battle_won</BattleWon>
+		<BattleLost switchTimer="10000">set_state_battle_lost</BattleLost>
+		<BattleMusicCue sev="1" commandedAllyValue="10" commandedEnemyValue="10" attackedAllyValue="10" attackedEnemyValue="34" totalAllyValue="5" totalEnemyValue="5" switchTimer="10000">set_state_battle_level_1</BattleMusicCue>
+		<BattleMusicCue sev="2" commandedAllyValue="20" commandedEnemyValue="20" attackedAllyValue="10" attackedEnemyValue="100" totalAllyValue="10" totalEnemyValue="10" switchTimer="10000">set_state_battle_level_2</BattleMusicCue>
+		<BattleMusicCue sev="3" commandedAllyValue="80" commandedEnemyValue="30" attackedAllyValue="10" attackedEnemyValue="150" totalAllyValue="40" totalEnemyValue="15" switchTimer="10000">set_state_battle_level_3</BattleMusicCue>
+		<MaxTargetDist>55</MaxTargetDist>
+		<StandardTimer>70000</StandardTimer>
+		<CombatValueReturnPct>0.5</CombatValueReturnPct>
+		<MinCombatValueLostPct>0.5</MinCombatValueLostPct>
+		<BattleEndedWaitTimer>10000</BattleEndedWaitTimer>
+	</Music>
+	<SoundBanks>
+		<StaticBank>static.bnk</StaticBank>
+		<StaticBank>music.bnk</StaticBank>
+		<StaticBank>chatter.bnk</StaticBank>
+		<StaticBank>stop.bnk</StaticBank>
+	</SoundBanks>
+	<Objectives>
+		<OnDisplay>play_ui_game_menu_scroll</OnDisplay>
+	</Objectives>
+</SoundInfo>

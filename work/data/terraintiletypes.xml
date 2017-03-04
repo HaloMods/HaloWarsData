@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TerrainTileTypes>
+	<TerrainTileType name="UNDEFINED" />
+	<TerrainTileType name="Sand" />
+	<TerrainTileType name="Earth">
+		<ImpactEffect>effects\impacts\dirt\dirt.vis</ImpactEffect>
+	</TerrainTileType>
+	<TerrainTileType name="Turf" />
+	<TerrainTileType name="Rock" />
+	<TerrainTileType name="Metal" />
+	<TerrainTileType name="Mud" />
+	<TerrainTileType name="Water" />
+	<TerrainTileType name="Snow" />
+	<TerrainTileType name="Ice" />
+	<TerrainTileType name="Flesh">
+		<ImpactEffect>effects\impacts\flesh\flesh.vis</ImpactEffect>
+	</TerrainTileType>
+	<TerrainTileType name="Wood" />
+	<TerrainTileType name="Lava" />
+	<TerrainTileType name="Shield" />
+	<TerrainTileType name="Crystal" />
+	<TerrainTileType name="Plasma" />
+	<TerrainTileType name="GruntFlesh">
+		<ImpactEffect>effects\impacts\flesh\gruntflesh.vis</ImpactEffect>
+	</TerrainTileType>
+	<TerrainTileType name="EliteFlesh">
+		<ImpactEffect>effects\impacts\flesh\eliteflesh.vis</ImpactEffect>
+	</TerrainTileType>
+	<TerrainTileType name="FloodFlesh">
+		<ImpactEffect>effects\impacts\flesh\floodflesh.vis</ImpactEffect>
+	</TerrainTileType>
+</TerrainTileTypes>

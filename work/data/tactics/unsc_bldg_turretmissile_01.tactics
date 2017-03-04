@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>AirToAirMissileLauncher</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>262</DamagePerSecond>
+		<WeaponType>ArmorPircing</WeaponType>
+		<Projectile>fx_proj_missile_01</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>120</MaxRange>
+		<Hardpoint>Turret</Hardpoint>
+		<TargetPriority type="Aircraft">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<Dodgeable />
+	</Weapon>
+	<Action>
+		<Name>AirToAirMissileAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MissileAttack</Anim>
+		<Weapon>AirToAirMissileLauncher</Weapon>
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>CloakDetector</Name>
+		<ActionType>CloakDetector</ActionType>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>AirToAirMissileAttackAction</Action>
+		</TargetRule>
+		<PersistentAction>CloakDetector</PersistentAction>
+	</Tactic>
+</TacticData>

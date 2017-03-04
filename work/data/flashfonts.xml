@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<FontManager>
+	<Language name="Default">
+		<FontFile name="art\ui\flash\fontlibrary\EnglishFonts1.swf" />
+		<FontMap fontTitle="$HWTitle" fontName="ConduitMdITC TT" style="Normal" />
+		<FontMap fontTitle="$HWNormal" fontName="ConduitMdITC TT" style="Normal" />
+		<FontMap fontTitle="$HWMenu" fontName="ConduitMdITC TT" style="Normal" />
+		<FontMap fontTitle="$HWNormalBold" fontName="ConduitMdITC TT" style="Bold" />
+	</Language>
+	<Language name="English">
+		<FontFile name="art\ui\flash\fontlibrary\EnglishFonts.swf" />
+		<FontMap fontTitle="$HWTitle" fontName="ConduitMdITC TT" style="Normal" />
+		<FontMap fontTitle="$HWNormal" fontName="ConduitMdITC TT" style="Normal" />
+		<FontMap fontTitle="$HWMenu" fontName="ConduitMdITC TT" style="Normal" />
+		<FontMap fontTitle="$HWNormalBold" fontName="ConduitMdITC TT" style="Bold" />
+	</Language>
+	<Language name="Spanish">
+		<FontFile name="art\ui\flash\fontlibrary\ArialUnicode.swf" />
+		<FontMap fontTitle="$HWTitle" fontName="Arial Unicode MS" style="Normal" />
+		<FontMap fontTitle="$HWNormal" fontName="Arial Unicode MS" style="Normal" />
+		<FontMap fontTitle="$HWMenu" fontName="Arial Unicode MS" style="Normal" />
+		<FontMap fontTitle="$HWNormalBold" fontName="Arial Unicode MS" style="Bold" />
+	</Language>
+</FontManager>

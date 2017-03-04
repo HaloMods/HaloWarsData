@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Powers>
+	<Power name="_Repair">
+		<Attributes>
+			<AutoRecharge>1</AutoRecharge>
+			<DisplayNameID>355</DisplayNameID>
+			<RolloverTextID>356</RolloverTextID>
+			<PrereqTextID>356</PrereqTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\repair</Icon>
+			<IconLocation>6</IconLocation>
+		</Attributes>
+	</Power>
+	<Power name="_RallyPoint">
+		<Attributes>
+			<AutoRecharge>1</AutoRecharge>
+			<DisplayNameID>350</DisplayNameID>
+			<RolloverTextID>351</RolloverTextID>
+			<PrereqTextID>351</PrereqTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\rallypnt</Icon>
+			<IconLocation>4</IconLocation>
+		</Attributes>
+	</Power>
+	<Power name="UnscCivTransport">
+		<Attributes>
+			<Cost Supplies="50" Power="0" />
+			<AutoRecharge>60000</AutoRecharge>
+			<UIRadius>45</UIRadius>
+			<DisplayNameID>5010</DisplayNameID>
+			<RolloverTextID>5011</RolloverTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\pelicandrp</Icon>
+			<IconLocation>5</IconLocation>
+			<UIVisual />
+			<FlashUI>
+				<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>UnscCivTransport.triggerscript</TriggerScript>
+	</Power>
+	<Power name="CovCivTransport">
+		<Attributes>
+			<Cost Supplies="50" />
+			<UIRadius>45</UIRadius>
+			<AutoRecharge>60000</AutoRecharge>
+			<DisplayNameID>5016</DisplayNameID>
+			<RolloverTextID>5017</RolloverTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\pelicandrp</Icon>
+			<IconLocation>5</IconLocation>
+			<UIVisual />
+			<FlashUI>
+				<CircleMenuFrameIDNormal />
+				<CircleMenuFrameIDHighlight />
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>CovCivTransport.triggerscript</TriggerScript>
+	</Power>
+	<Power name="CovUnitMegaTurret">
+		<Attributes>
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>5050</DisplayNameID>
+			<RolloverTextID>5051</RolloverTextID>
+			<PrereqTextID>250</PrereqTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+			<IconLocation>3</IconLocation>
+			<AutoRecharge>60000</AutoRecharge>
+			<UnitPower />
+			<UIVisual />
+			<FlashUI>
+				<CircleMenuFrameIDNormal>8</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>9</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>CovUnitMegaTurret.triggerscript</TriggerScript>
+	</Power>
+	<Power name="UnscUnitCarpetBomb">
+		<Attributes>
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>5036</DisplayNameID>
+			<RolloverTextID>5037</RolloverTextID>
+			<PrereqTextID>233</PrereqTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\carpet_bomb</Icon>
+			<IconLocation>3</IconLocation>
+			<AutoRecharge>45000</AutoRecharge>
+			<UnitPower />
+			<UIVisual />
+			<Action>CarpetBomb</Action>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>8</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>9</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>UnscUnitCarpetBomb.triggerscript</TriggerScript>
+		<CommandTriggerScript>UnscCarpetBomb.triggerscript</CommandTriggerScript>
+	</Power>
+	<Power name="CovLeaderGlassing">
+		<Attributes>
+			<Cost Supplies="0" Power="6" />
+			<UIRadius>5</UIRadius>
+			<UIRadius>5</UIRadius>
+			<DisplayNameID>5040</DisplayNameID>
+			<RolloverTextID>5041</RolloverTextID>
+			<PrereqTextID>242</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+			<IconLocation>0</IconLocation>
+			<UIVisual />
+		</Attributes>
+		<TriggerScript>CovLeaderGlassing.triggerscript</TriggerScript>
+	</Power>
+	<Power name="UnscLeaderRepair">
+		<Attributes>
+			<Cost Supplies="800" Power="0" />
+			<AutoRecharge>60000</AutoRecharge>
+			<UIRadius>35</UIRadius>
+			<DisplayNameID>5000</DisplayNameID>
+			<RolloverTextID>5001</RolloverTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>1</IconLocation>
+			<UIVisual />
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>UnscLeaderRepair.triggerscript</TriggerScript>
+	</Power>
+	<Power name="UnscOdstDrop">
+		<Attributes>
+			<Cost Supplies="300" Power="5" />
+			<AutoRecharge>30000</AutoRecharge>
+			<SequentialRecharge />
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>5012</DisplayNameID>
+			<RolloverTextID>5013</RolloverTextID>
+			<PrereqTextID>232</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>2</IconLocation>
+			<UIVisual />
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>UnscOdstDrop.triggerscript</TriggerScript>
+	</Power>
+	<Power name="UnscLeaderOrbitalBombard">
+		<Attributes>
+			<Cost Supplies="3000" Power="6" />
+			<AutoRecharge>240000</AutoRecharge>
+			<UIRadius>18</UIRadius>
+			<DisplayNameID>5026</DisplayNameID>
+			<RolloverTextID>5027</RolloverTextID>
+			<PrereqTextID>232</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\orbital_b</Icon>
+			<IconLocation>0</IconLocation>
+			<UIVisual />
+			<FlashUI>
+				<CircleMenuFrameIDNormal>14</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>15</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>UnscLeaderOrbitalBombard.triggerscript</TriggerScript>
+	</Power>
+	<Power name="UnscE3OrbitalBombard">
+		<Attributes>
+			<Cost Supplies="0" Power="0" />
+			<AutoRecharge>1000</AutoRecharge>
+			<UIRadius>60</UIRadius>
+			<DisplayNameID>5028</DisplayNameID>
+			<RolloverTextID>5029</RolloverTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\orbital_b</Icon>
+			<IconLocation>0</IconLocation>
+			<UIVisual />
+			<FlashUI>
+				<CircleMenuFrameIDNormal>14</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>15</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>UnscE3OrbitalBombard.triggerscript</TriggerScript>
+	</Power>
+	<Power name="UnscCpgn1OrbitalBombard">
+		<Attributes>
+			<Cost Supplies="0" Power="200" />
+			<AutoRecharge>43000</AutoRecharge>
+			<UIRadius>8</UIRadius>
+			<DisplayNameID>22300</DisplayNameID>
+			<RolloverTextID>5027</RolloverTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\orbital_b</Icon>
+			<IconLocation>0</IconLocation>
+			<UIVisual />
+			<FlashUI>
+				<CircleMenuFrameIDNormal>14</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>15</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>UnscCpgn1OrbitalBombard.triggerscript</TriggerScript>
+	</Power>
+	<Power name="UnscCpgn06OdstDrop">
+		<Attributes>
+			<UIRadius>5</UIRadius>
+			<DisplayNameID>5012</DisplayNameID>
+			<RolloverTextID>5013</RolloverTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>0</IconLocation>
+			<UIVisual />
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>UnscCpgn06OdstDrop.triggerscript</TriggerScript>
+	</Power>
+	<Power name="UnscCpgn8TacticalMissile">
+		<Attributes>
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>5046</DisplayNameID>
+			<RolloverTextID>5047</RolloverTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+			<IconLocation>0</IconLocation>
+			<AutoRecharge>5000</AutoRecharge>
+			<UnitPower />
+			<UIVisual />
+			<FlashUI>
+				<CircleMenuFrameIDNormal>8</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>9</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>cpgn8TacticalMissile.triggerscript</TriggerScript>
+	</Power>
+	<Power name="UnscCpgn12Missile">
+		<Attributes>
+			<Cost Supplies="0" Power="0" />
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>5046</DisplayNameID>
+			<RolloverTextID>5047</RolloverTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+			<IconLocation>0</IconLocation>
+			<MultiRechargePower />
+			<ShowLimit />
+			<UIVisual />
+			<FlashUI>
+				<CircleMenuFrameIDNormal>8</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>9</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>UnscCpgn12Missile.triggerscript</TriggerScript>
+	</Power>
+	<Power name="UnscCpgn11Transport">
+		<Attributes>
+			<Cost Supplies="0" Power="0" />
+			<AutoRecharge>5000</AutoRecharge>
+			<UIRadius>15</UIRadius>
+			<DisplayNameID>5010</DisplayNameID>
+			<RolloverTextID>5011</RolloverTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\pelicandrp</Icon>
+			<IconLocation>5</IconLocation>
+			<UIVisual />
+			<FlashUI>
+				<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>UnscCpgn11Transport.triggerscript</TriggerScript>
+	</Power>
+	<Power name="UnscCpgn13SlipStream">
+		<Attributes>
+			<Cost Supplies="0" Power="0" />
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>5014</DisplayNameID>
+			<RolloverTextID>5015</RolloverTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+			<IconLocation>0</IconLocation>
+			<MultiRechargePower />
+			<ShowLimit />
+			<UIVisual />
+			<LeaderPower />
+		</Attributes>
+		<TriggerScript>UnscCpgn13SlipStream.triggerscript</TriggerScript>
+	</Power>
+	<Power name="UnscCpgn13OrbitalBombard">
+		<Attributes>
+			<TechPrereq>unsc_age4</TechPrereq>
+			<UIRadius>18</UIRadius>
+			<DisplayNameID>5026</DisplayNameID>
+			<RolloverTextID>5027</RolloverTextID>
+			<PrereqTextID>232</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\orbital_b</Icon>
+			<IconLocation>1</IconLocation>
+			<UIVisual />
+			<FlashUI>
+				<CircleMenuFrameIDNormal>14</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>15</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>UnscCpgn13OrbitalBombard.triggerscript</TriggerScript>
+	</Power>
+</Powers>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>RocketLauncher</Name>
+		<AttackRate>6</AttackRate>
+		<DamagePerSecond>70.2</DamagePerSecond>
+		<WeaponType>Explosive</WeaponType>
+		<Projectile>fx_proj_missile_01</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxVelocityLead>5</MaxVelocityLead>
+		<MaxRange>35</MaxRange>
+		<AOERadius>5</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>Machinegun</Name>
+		<AttackRate>0.125</AttackRate>
+		<DamagePerSecond>70.2</DamagePerSecond>
+		<WeaponType>SmallArms</WeaponType>
+		<Projectile>fx_proj_rotaryMG_01</Projectile>
+		<ImpactEffect size="Medium">SmallArmsBullet</ImpactEffect>
+		<MaxVelocityLead>15</MaxVelocityLead>
+		<MaxRange>35</MaxRange>
+		<Hardpoint>Turret</Hardpoint>
+		<Accuracy>0.1</Accuracy>
+		<MaxDeviation>4</MaxDeviation>
+		<MovingAccuracy>0.05</MovingAccuracy>
+		<MovingMaxDeviation>6</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+		<Hardpoint>Turret</Hardpoint>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="Aircraft">7</TargetPriority>
+		<TargetPriority type="TuretBuilding">5</TargetPriority>
+		<TargetPriority type="GroundVehicle">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+	</Weapon>
+	<Action>
+		<Name>MachinegunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>MachinegunAttack</Anim>
+		<Weapon>Machinegun</Weapon>
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>RocketLauncherAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>RocketAttack</Anim>
+		<Weapon>RocketLauncher</Weapon>
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>AvoidCollisionAir</Name>
+		<ActionType>AvoidCollisionAir</ActionType>
+		<HoverAltitude>14</HoverAltitude>
+		<MaxTgtDepressionAngle>50</MaxTgtDepressionAngle>
+		<MaxPitch>30.0f</MaxPitch>
+		<MaxRoll>45.0f</MaxRoll>
+	</Action>
+	<Action>
+		<Name>Chaff</Name>
+		<ActionType>Dodge</ActionType>
+		<DodgeOrBlockChanceMin>1</DodgeOrBlockChanceMin>
+		<DodgeOrBlockChanceMax>1</DodgeOrBlockChanceMax>
+		<DodgeMaxAngle>180</DodgeMaxAngle>
+		<DodgePercent>1</DodgePercent>
+		<DodgeCooldown>12</DodgeCooldown>
+		<StartDisabled />
+	</Action>
+	<Tactic>
+		<PersistentAction>Chaff</PersistentAction>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>RocketLauncherAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>MachinegunAttackAction</Action>
+		</TargetRule>
+		<PersistentAction>AvoidCollisionAir</PersistentAction>
+	</Tactic>
+</TacticData>

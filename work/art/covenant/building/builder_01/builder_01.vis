@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Built">
+	<model name="ConstructionComponant_1">
+		<component>
+			<asset type="Model">
+				<file>covenant\building\builder_01\builder_02</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="0" tweenToAnimation="BuildComplete">
+			<asset type="Anim">
+				<file>covenant\building\builder_01\builder_idle_01</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.999999977648258</Value>
+							<Alpha>0.0543999987840652</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0.999999977648258</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\building\builder_01\builder_idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="BuildComplete" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\building\builder_01\builder_placeholder_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="ConstructionComponant_2">
+		<component>
+			<asset type="Model">
+				<file>covenant\building\builder_01\builder_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="0" tweenToAnimation="BuildComplete">
+			<asset type="Anim">
+				<file>covenant\building\builder_01\builder_idle_01</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.171199996173382</Value>
+							<Alpha>0.185799995847046</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.999999910593036</Value>
+							<Alpha>0.999999910593036</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+				<tag type="TerrainAlpha" start="0" position="0.596" end="1" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" userData="sizeX=50 sizeZ=1 value=off type=circle" />
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\building\builder_01\builder_idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="BuildComplete" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\building\builder_01\builder_placeholder_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Construcion">
+		<component>
+			<asset type="Model">
+				<file>covenant\building\builder_01\builder_placeholder_01</file>
+			</asset>
+			<attach type="ModelRef" name="ConstructionComponant_1" tobone="GrannyRootBone" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="ConstructionComponant_2" tobone="GrannyRootBone" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="0" tweenToAnimation="BuildComplete">
+			<asset type="Anim">
+				<file>covenant\building\builder_01\builder_idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\building\builder_01\builder_idle_01</file>
+				<weight>1</weight>
+				<tag type="TerrainAlpha" start="0" position="0" end="1" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" userData="sizeX=60 sizeZ=1 value=on type=circle" />
+			</asset>
+		</anim>
+		<anim type="BuildComplete" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\building\builder_01\builder_placeholder_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Built">
+		<component>
+			<asset type="Model">
+				<file>covenant\building\builder_01\builder_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\building\builder_01\builder_idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\building\builder_01\builder_idle_01</file>
+				<weight>1</weight>
+				<tag type="TerrainAlpha" start="0" position="0" end="1" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" userData="sizeX=60 sizeZ=1 value=on type=circle" />
+			</asset>
+		</anim>
+	</model>
+	<model name="Death">
+		<component>
+			<asset type="Model">
+				<file>covenant\building\builder_01\builder_01</file>
+			</asset>
+		</component>
+		<anim type="Death" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\building\builder_01\builder_idle_01</file>
+				<weight>1</weight>
+				<tag type="TerrainAlpha" start="0" position="0" end="1" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" lifespan="0.25" userData="sizeX=60 sizeZ=1 value=on type=circle" />
+			</asset>
+		</anim>
+	</model>
+	<logic type="BuildingCompletion">
+		<logicdata value="p0" modelref="Construcion" />
+		<logicdata value="p100" modelref="Built" />
+	</logic>
+</visual>

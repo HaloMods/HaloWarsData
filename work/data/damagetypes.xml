@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<DamageTypes>
+	<DamageType AttackRating="true" BaseType="true">Light</DamageType>
+	<DamageType AttackRating="true" BaseType="true">Medium</DamageType>
+	<DamageType AttackRating="true" BaseType="true">MediumAgile</DamageType>
+	<DamageType AttackRating="true" BaseType="true">MediumAir</DamageType>
+	<DamageType AttackRating="true" BaseType="true">Heavy</DamageType>
+	<DamageType AttackRating="true" BaseType="true">Building</DamageType>
+	<DamageType Shielded="true">Shielded</DamageType>
+	<DamageType>Sprint</DamageType>
+</DamageTypes>

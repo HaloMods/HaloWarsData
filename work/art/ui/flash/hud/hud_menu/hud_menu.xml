@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<FlashMovieDefinition>
+	<Properties>
+		<Data type="StringID" name="CombatGradeString">22555</Data>
+	</Properties>
+	<Resolution>
+		<Control x="-1" y="-1" xOffset="0" yOffset="0" width="0" height="0" xScale="115" yScale="115">_root.UI_resources</Control>
+		<Control x="-1" y="-1" xOffset="0" yOffset="0" width="0" height="0" xScale="100" yScale="80">_root.UI_menu</Control>
+		<Control x="-1" y="-1" xOffset="25" yOffset="-20" width="0" height="0" xScale="155" yScale="120">_root.UI_Dpad</Control>
+		<Control x="-1" y="-1" xOffset="-25" yOffset="-20" width="0" height="0" xScale="155" yScale="120">_root.UI_btns</Control>
+		<Control x="-1" y="-1" xOffset="0" yOffset="25" width="0" height="0" xScale="125" yScale="125">_root.UI_timer</Control>
+		<Control x="-1" y="-1" xOffset="0" yOffset="-5" width="0" height="0" xScale="85" yScale="85">_root.UI_unit</Control>4x3</Resolution>
+	<Control name="LabelButtonX">_root.UI_btns.x_text.value</Control>
+	<Control name="LabelButtonY">_root.UI_btns.y_text.value</Control>
+	<Control name="LabelButtonA">_root.UI_btns.a_text.value</Control>
+	<Control name="LabelButtonB">_root.UI_btns.b_text.value</Control>
+	<Control name="LabelDPadUp">_root.UI_Dpad.y_text.value</Control>
+	<Control name="LabelDPadDown">_root.UI_Dpad.a_text.value</Control>
+	<Control name="LabelDPadLeft">_root.UI_Dpad.x_text.value</Control>
+	<Control name="LabelDPadRight">_root.UI_Dpad.b_text.value</Control>
+	<Control name="LabelUnitSelectionSlot0">_root.UI_unit.unit1.unitCount.value</Control>
+	<Control name="LabelUnitSelectionSlot1">_root.UI_unit.unit2.unitCount.value</Control>
+	<Control name="LabelUnitSelectionSlot2">_root.UI_unit.unit3.unitCount.value</Control>
+	<Control name="LabelUnitSelectionSlot3">_root.UI_unit.unit4.unitCount.value</Control>
+	<Control name="LabelUnitSelectionSlot4">_root.UI_unit.unit5.unitCount.value</Control>
+	<Control name="LabelUnitSelectionSlot5">_root.UI_unit.unit6.unitCount.value</Control>
+	<Control name="LabelUnitSelectionSlot6">_root.UI_unit.unit7.unitCount.value</Control>
+	<Control name="LabelUnitSelectionSlot7">_root.UI_unit.unit8.unitCount.value</Control>
+	<Control name="LabelGameTime">_root.UI_timer.value</Control>
+	<Control name="LabelButtonShoulderRight">_root.UI_btns.rb_text.value</Control>
+	<Control name="LabelButtonShoulderLeft">_root.UI_Dpad.lb_text.value</Control>
+	<Control name="Player1Score">_root.player1INST.scoreText.value</Control>
+	<Control name="Player2Score">_root.player2INST.scoreText.value</Control>
+	<Control name="Player3Score">_root.player3INST.scoreText.value</Control>
+	<Control name="Player4Score">_root.player4INST.scoreText.value</Control>
+	<Control name="Player5Score">_root.player5INST.scoreText.value</Control>
+	<Control name="Player6Score">_root.player6INST.scoreText.value</Control>
+	<Control name="InfoPanelSlot1Text">_root.UI_menu.infopanel.slot1.value</Control>
+	<Control name="InfoPanelSlot1DetailText1">_root.UI_menu.infopanel.slot1.detail1.value</Control>
+	<Control name="InfoPanelSlot1DetailText2">_root.UI_menu.infopanel.slot1.detail2.value</Control>
+	<Control name="InfoPanelSlot1DetailText3">_root.UI_menu.infopanel.slot1.detail3.value</Control>
+	<Control name="InfoPanelSlot1DetailText4">_root.UI_menu.infopanel.slot1.detail4.value</Control>
+	<Control name="InfoPanelSlot1DetailText5">_root.UI_menu.infopanel.slot1.detail5.value</Control>
+	<Control name="InfoPanelSlot1DetailText6">_root.UI_menu.infopanel.slot1.detail6.value</Control>
+	<Control name="InfoPanelSlot2Text">_root.UI_menu.infopanel.slot2.value</Control>
+	<Control name="InfoPanelSlot2DetailText1">_root.UI_menu.infopanel.slot2.detail1.value</Control>
+	<Control name="InfoPanelSlot2DetailText2">_root.UI_menu.infopanel.slot2.detail2.value</Control>
+	<Control name="InfoPanelSlot2DetailText3">_root.UI_menu.infopanel.slot2.detail3.value</Control>
+	<Control name="InfoPanelSlot2DetailText4">_root.UI_menu.infopanel.slot2.detail4.value</Control>
+	<Control name="InfoPanelSlot2DetailText5">_root.UI_menu.infopanel.slot2.detail5.value</Control>
+	<Control name="InfoPanelSlot2DetailText6">_root.UI_menu.infopanel.slot2.detail6.value</Control>
+	<Control name="InfoPanelSlot3Text">_root.UI_menu.infopanel.slot3.value</Control>
+	<Control name="InfoPanelSlot3DetailText1">_root.UI_menu.infopanel.slot3.detail1.value</Control>
+	<Control name="InfoPanelSlot3DetailText2">_root.UI_menu.infopanel.slot3.detail2.value</Control>
+	<Control name="InfoPanelSlot3DetailText3">_root.UI_menu.infopanel.slot3.detail3.value</Control>
+	<Control name="InfoPanelSlot3DetailText4">_root.UI_menu.infopanel.slot3.detail4.value</Control>
+	<Control name="InfoPanelSlot3DetailText5">_root.UI_menu.infopanel.slot3.detail5.value</Control>
+	<Control name="InfoPanelSlot3DetailText6">_root.UI_menu.infopanel.slot3.detail6.value</Control>
+	<Control name="InfoPanelSlot4Text">_root.UI_menu.infopanel.slot4.value</Control>
+	<Control name="InfoPanelSlot4DetailText1">_root.UI_menu.infopanel.slot4.detail1.value</Control>
+	<Control name="InfoPanelSlot4DetailText2">_root.UI_menu.infopanel.slot4.detail2.value</Control>
+	<Control name="InfoPanelSlot4DetailText3">_root.UI_menu.infopanel.slot4.detail3.value</Control>
+	<Control name="InfoPanelSlot4DetailText4">_root.UI_menu.infopanel.slot4.detail4.value</Control>
+	<Control name="InfoPanelSlot4DetailText5">_root.UI_menu.infopanel.slot4.detail5.value</Control>
+	<Control name="InfoPanelSlot4DetailText6">_root.UI_menu.infopanel.slot4.detail6.value</Control>
+	<Control name="InfoPanelSlot5Text">_root.UI_menu.infopanel.slot5.value</Control>
+	<Control name="InfoPanelSlot5DetailText1">_root.UI_menu.infopanel.slot5.detail1.value</Control>
+	<Control name="InfoPanelSlot5DetailText2">_root.UI_menu.infopanel.slot5.detail2.value</Control>
+	<Control name="InfoPanelSlot5DetailText3">_root.UI_menu.infopanel.slot5.detail3.value</Control>
+	<Control name="InfoPanelSlot5DetailText4">_root.UI_menu.infopanel.slot5.detail4.value</Control>
+	<Control name="InfoPanelSlot5DetailText5">_root.UI_menu.infopanel.slot5.detail5.value</Control>
+	<Control name="InfoPanelSlot5DetailText6">_root.UI_menu.infopanel.slot5.detail6.value</Control>
+	<Control name="InfoPanelSlot6Text">_root.UI_menu.infopanel.slot6.value</Control>
+	<Control name="InfoPanelSlot6DetailText1">_root.UI_menu.infopanel.slot6.detail1.value</Control>
+	<Control name="InfoPanelSlot6DetailText2">_root.UI_menu.infopanel.slot6.detail2.value</Control>
+	<Control name="InfoPanelSlot6DetailText3">_root.UI_menu.infopanel.slot6.detail3.value</Control>
+	<Control name="InfoPanelSlot6DetailText4">_root.UI_menu.infopanel.slot6.detail4.value</Control>
+	<Control name="InfoPanelSlot6DetailText5">_root.UI_menu.infopanel.slot6.detail5.value</Control>
+	<Control name="InfoPanelSlot6DetailText6">_root.UI_menu.infopanel.slot6.detail6.value</Control>
+	<Control name="InfoPanelSlot7Text">_root.UI_menu.infopanel.slot7.value</Control>
+	<Control name="InfoPanelSlot7DetailText1">_root.UI_menu.infopanel.slot7.detail1.value</Control>
+	<Control name="InfoPanelSlot7DetailText2">_root.UI_menu.infopanel.slot7.detail2.value</Control>
+	<Control name="InfoPanelSlot7DetailText3">_root.UI_menu.infopanel.slot7.detail3.value</Control>
+	<Control name="InfoPanelSlot7DetailText4">_root.UI_menu.infopanel.slot7.detail4.value</Control>
+	<Control name="InfoPanelSlot7DetailText5">_root.UI_menu.infopanel.slot7.detail5.value</Control>
+	<Control name="InfoPanelSlot7DetailText6">_root.UI_menu.infopanel.slot7.detail6.value</Control>
+	<Control name="InfoPanelSlot8Text">_root.UI_menu.infopanel.slot8.value</Control>
+	<Control name="InfoPanelSlot8DetailText1">_root.UI_menu.infopanel.slot8.detail1.value</Control>
+	<Control name="InfoPanelSlot8DetailText2">_root.UI_menu.infopanel.slot8.detail2.value</Control>
+	<Control name="InfoPanelSlot8DetailText3">_root.UI_menu.infopanel.slot8.detail3.value</Control>
+	<Control name="InfoPanelSlot8DetailText4">_root.UI_menu.infopanel.slot8.detail4.value</Control>
+	<Control name="InfoPanelSlot8DetailText5">_root.UI_menu.infopanel.slot8.detail5.value</Control>
+	<Control name="InfoPanelSlot8DetailText6">_root.UI_menu.infopanel.slot8.detail6.value</Control>
+	<Control name="ResearchPos1Text">_root.UI_menu.pos1_builddata.value</Control>
+	<Control name="ResearchPos2Text">_root.UI_menu.pos2_builddata.value</Control>
+	<Control name="ResearchPos3Text">_root.UI_menu.pos3_builddata.value</Control>
+	<Control name="ResearchPos4Text">_root.UI_menu.pos4_builddata.value</Control>
+	<Control name="ResearchPos5Text">_root.UI_menu.pos5_builddata.value</Control>
+	<Control name="ResearchPos6Text">_root.UI_menu.pos6_builddata.value</Control>
+	<Control name="ResearchPos7Text">_root.UI_menu.pos7_builddata.value</Control>
+	<Control name="ResearchPos8Text">_root.UI_menu.pos8_builddata.value</Control>
+	<Control name="InfoPanelStatText1">_root.UI_menu.infopanel.slot1.stat1.value</Control>
+	<Control name="InfoPanelStatText2">_root.UI_menu.infopanel.slot1.stat2.value</Control>
+	<Control name="InfoPanelStatText3">_root.UI_menu.infopanel.slot1.stat3.value</Control>
+	<Control name="InfoPanelStatText4">_root.UI_menu.infopanel.slot1.stat4.value</Control>
+	<Control name="InfoPanelStatText5">_root.UI_menu.infopanel.slot1.stat5.value</Control>
+	<Control name="InfoPanelStatHeader">_root.UI_menu.infopanel.slot1.stat_textMC.value</Control>
+	<Control name="InfoPanelDescriptionHeader">_root.UI_menu.yPopINST.descriptionMC.value</Control>
+	<Control name="InfoPanelDescriptionText">_root.UI_menu.yPopINST.descriptiontext</Control>
+	<Control name="CostPanelTitleBar">_root.UI_menu.infopanel.titlebarCenter1.value</Control>
+	<Control name="CostPanelStat1Label">_root.UI_menu.infopanel.costPanelCenter.info_res1.counter.textpanel.value</Control>
+	<Control name="CostPanelStat1Icon">_root.UI_menu.infopanel.costPanelCenter.info_res1</Control>
+	<Control name="CostPanelStat2Label">_root.UI_menu.infopanel.costPanelCenter.info_res2.counter.textpanel.value</Control>
+	<Control name="CostPanelStat2Icon">_root.UI_menu.infopanel.costPanelCenter.info_res2</Control>
+	<Control name="CostPanelStat3Label">_root.UI_menu.infopanel.costPanelCenter.info_res3.counter.textpanel.value</Control>
+	<Control name="CostPanelStat3Icon">_root.UI_menu.infopanel.costPanelCenter.info_res3</Control>
+	<Control name="BaseTextLabel">_root.UI_menu.infopanel.titlebarcenter2.value</Control>
+	<Control name="Resource1">_root.UI_resources.UNSC_res_pop.value</Control>
+	<Control name="Resource2">_root.UI_resources.UNSC_res_power.value</Control>
+	<Control name="Resource3">_root.UI_resources.UNSC_res_supplies.value</Control>
+	<Control name="ButtonX">_root.UI_btns.x_btn</Control>
+	<Control name="ButtonY">_root.UI_btns.y_btn</Control>
+	<Control name="ButtonA">_root.UI_btns.a_btn</Control>
+	<Control name="ButtonB">_root.UI_btns.b_btn</Control>
+	<Control name="ButtonLB">_root.UI_Dpad.lb_btn</Control>
+	<Control name="ButtonRB">_root.UI_btns.rb_btn</Control>
+	<Control name="DPad">_root.UI_Dpad.dpad</Control>
+	<ASFunction>setCircleMenuUnitSlot</ASFunction>
+	<ASFunction>setCircleMenuBuildingSlot</ASFunction>
+	<ASFunction>setCircleMenuPowerSlot</ASFunction>
+	<ASFunction>setCircleMenuTechSlot</ASFunction>
+	<ASFunction>setCircleMenuMiscSlot</ASFunction>
+	<ASFunction>setCircleMenuAbilitySlot</ASFunction>
+	<ASFunction>setSelectionPad</ASFunction>
+	<ASFunction>setBuildDataSlot</ASFunction>
+	<ASFunction>setUnitSelection</ASFunction>
+	<ASFunction>setInfoPanelSlot</ASFunction>
+	<ASFunction>_root.UI_overlay.gotoAndPlay</ASFunction>
+	<ASFunction>_root.UI_resources.gotoAndPlay</ASFunction>
+	<ASFunction>_root.UI_unit.gotoAndPlay</ASFunction>
+	<ASFunction>_root.UI_timer.gotoAndPlay</ASFunction>
+	<ASFunction>_root.UI_Dpad.gotoAndPlay</ASFunction>
+	<ASFunction>_root.UI_menu.gotoAndPlay</ASFunction>
+	<ASFunction>_root.UI_menu.outer.gotoAndPlay</ASFunction>
+	<ASFunction>setButtonState</ASFunction>
+	<ASFunction>setBuildPanelSlot</ASFunction>
+	<ASFunction>setScoreVisible</ASFunction>
+	<ASFunction>_root.UI_btns.gotoAndPlay</ASFunction>
+	<ASFunction>setPowerOverlayVisible</ASFunction>
+	<ASFunction>setUnitStatsVisible</ASFunction>
+	<ASFunction>setUnitStatsData</ASFunction>
+	<ASFunction>setInfoPanelStat</ASFunction>
+	<ASFunction>setTechNotification</ASFunction>
+	<ASFunction>setChatDisplayVisible</ASFunction>
+	<ASFunction>setChatData</ASFunction>
+	<ASFunction>setControlDimension</ASFunction>
+	<ASFunction>setControlXY</ASFunction>
+	<ASFunction>setControlWidthHeight</ASFunction>
+	<ASFunction>setControlOffsetXY</ASFunction>
+	<ASFunction>setControlScaleXY</ASFunction>
+	<ASFunction>_root.UI_menu.yPopINST.gotoAndPlay</ASFunction>
+	<KeyFrame>off</KeyFrame>
+	<KeyFrame>on</KeyFrame>
+	<KeyFrame>pending</KeyFrame>
+	<KeyFrame>over</KeyFrame>
+	<KeyFrame>build</KeyFrame>
+	<KeyFrame>ease_in</KeyFrame>
+	<KeyFrame>ease_out</KeyFrame>
+	<KeyFrame>god</KeyFrame>
+	<KeyFrame>normal</KeyFrame>
+	<KeyFrame>UNSC_res</KeyFrame>
+	<KeyFrame>active</KeyFrame>
+	<KeyFrame>alert</KeyFrame>
+	<Icon type="unitselection" name="falcon" owner="unsc_air_falcon_01">13</Icon>
+	<Icon type="unitselection" name="hawk" owner="unsc_air_hawk_01">12</Icon>
+	<Icon type="unitselection" name="shortsword" owner="unsc_air_shortsword_01">15</Icon>
+	<Icon type="unitselection" name="vulture" owner="unsc_air_vulture_01">16</Icon>
+	<Icon type="unitselection" name="flamemarine" owner="unsc_inf_flameMarine_01">3</Icon>
+	<Icon type="unitselection" name="marine" owner="unsc_inf_marine_01">2</Icon>
+	<Icon type="unitselection" name="marine" owner="unsc_inf_marine_02">2</Icon>
+	<Icon type="unitselection" name="marine" owner="unsc_inf_marine_03">2</Icon>
+	<Icon type="unitselection" name="snowmarine" owner="unsc_inf_snowmarine_02">2</Icon>
+	<Icon type="unitselection" name="marine" owner="unsc_inf_lightMarine_01">2</Icon>
+	<Icon type="unitselection" name="marine" owner="unsc_inf_heavyMarine_01">2</Icon>
+	<Icon type="unitselection" name="badger" owner="unsc_inf_badger_01">19</Icon>
+	<Icon type="unitselection" name="odst" owner="unsc_inf_odst_01">4</Icon>
+	<Icon type="unitselection" name="mongoose" owner="unsc_inf_scout_01">6</Icon>
+	<Icon type="unitselection" name="spartan" owner="unsc_inf_spartan_01">5</Icon>
+	<Icon type="unitselection" name="fox" owner="unsc_veh_cobra_01">7</Icon>
+	<Icon type="unitselection" name="rhino" owner="unsc_veh_rhino_01">11</Icon>
+	<Icon type="unitselection" name="scorpion" owner="unsc_veh_scorpion_01">10</Icon>
+	<Icon type="unitselection" name="warthog" owner="unsc_veh_warthog_01">8</Icon>
+	<Icon type="unitselection" name="warthog" owner="physics_warthog_01">8</Icon>
+	<Icon type="unitselection" name="warthog" owner="demo_e3_warthog_01">8</Icon>
+	<Icon type="unitselection" name="wolverine" owner="unsc_veh_wolverine_01">9</Icon>
+	<Icon type="unitselection" name="tiger" owner="unsc_veh_tiger_01">18</Icon>
+	<Icon type="unitselection" name="cougar" owner="unsc_veh_lightTank_01">20</Icon>
+	<Icon type="unitselection" name="pelican" owner="unsc_air_pelican_01">14</Icon>
+	<Icon type="unitselection" name="sentinel" owner="for_air_sentinel_01">17</Icon>
+	<Icon type="unitselection" name="wasp" owner="unsc_air_wasp_01">17</Icon>
+	<Icon type="unitselection" name="hornet" owner="unsc_air_hornet_01">24</Icon>
+	<Icon type="unitselection" name="mark1suit" owner="unsc_inf_mark1suit_01">25</Icon>
+	<Icon type="powericon" name="analyze" name2="specialPWR1" owner="PowerUNSCReveal">-1</Icon>
+	<Icon type="powericon" name="carpetbomb" name2="specialPWR2" owner="UnscUnitCarpetBomb">-1</Icon>
+	<Icon type="powericon" name="odstdrp" name2="specialPWR3" owner="UnscLeaderOdstDrop">-1</Icon>
+	<Icon type="powericon" name="orbital" name2="specialPWR1" owner="UnscLeaderOrbitalBombard">-1</Icon>
+	<Icon type="powericon" name="repair" name2="specialPWR5" owner="UnscLeaderRepair">-1</Icon>
+	<Icon type="powericon" name="pel_drop" name2="specialPWR1" owner="UnscCivTransport">-1</Icon>
+	<Icon type="powericon" name="spartandrp" name2="specialPWR2" owner="PowerSpartans">-1</Icon>
+	<Icon type="powericon" name="cmddrp" name2="specialPWR3" owner="UnscCivCommandCenter">-1</Icon>
+	<Icon type="powericon" name="tacticalmissile" name2="specialPWR4" owner="UnscUnitTacticalMissile">-1</Icon>
+	<Icon type="powericon" name="emp" name2="specialPWR5" owner="UnscLeaderEmpPulse">-1</Icon>
+	<Icon type="powericon" name="cpuhack" name2="specialPWR1" owner="UnscLeaderCpuHack">-1</Icon>
+	<Icon type="powericon" name="orbital" name2="specialPWR1" owner="UnscE3OrbitalBombard">-1</Icon>
+	<Icon type="powericon" name="orbital" name2="specialPWR1" owner="UnscCpgn12Missile">-1</Icon>
+	<Icon type="powericon" name="orbital" name2="specialPWR1" owner="UnscCpgn13OrbitalBombard">-1</Icon>
+	<Icon type="powericon" name="turret_unload" owner="UnscCivTurretConstructor">-1</Icon>
+	<Icon type="abilityicon" name="unsc_digin" owner="UnscDigIn">-1</Icon>
+	<Icon type="abilityicon" name="unsc_lockdown" owner="UnscLockdown">-1</Icon>
+	<Icon type="abilityicon" name="unsc_bombard" owner="UnscBombard">-1</Icon>
+	<Icon type="abilityicon" name="unsc_bombard" owner="UnscHawkTurbo">-1</Icon>
+	<Icon type="abilityicon" name="unsc_strike" owner="UnscStrike">-1</Icon>
+	<Icon type="abilityicon" name="unsc_detonate" owner="UnscDetonate">-1</Icon>
+	<Icon type="abilityicon" name="unsc_mines" owner="UnscMines">-1</Icon>
+	<Icon type="abilityicon" name="unsc_honk" owner="UnscHonk">-1</Icon>
+	<Icon type="abilityicon" name="cov_shadeturret" owner="CovShadeTurret">-1</Icon>
+	<Icon type="abilityicon" name="cov_lockdown" owner="CovLockdown">-1</Icon>
+	<Icon type="abilityicon" name="cov_arbiterweapon" owner="CovArbiterWeapon">-1</Icon>
+	<Icon type="abilityicon" name="cpgn_maccannon" owner="CpgnMacCannon">-1</Icon>
+	<Icon type="techicon" name="command2" owner="unsc_age2">-1</Icon>
+	<Icon type="techicon" name="command3" owner="unsc_age3">-1</Icon>
+	<Icon type="techicon" name="command4" owner="unsc_age4">-1</Icon>
+	<Icon type="techicon" name="supply2" owner="unsc_SupplyPadUpgrade1">-1</Icon>
+	<Icon type="techicon" name="supply3" owner="unsc_SupplyPadUpgrade2">-1</Icon>
+	<Icon type="techicon" name="supplies2pwr" owner="unsc_SuppliesToPower">-1</Icon>
+	<Icon type="techicon" name="pwr2supplies" owner="unsc_PowerToSupplies">-1</Icon>
+	<Icon type="techicon" name="capturedPWRUPG1" owner="unsc_capturedPowerUpgrade1">-1</Icon>
+	<Icon type="techicon" name="capturedPWRUPG2" owner="unsc_capturedPowerUpgrade2">-1</Icon>
+	<Icon type="techicon" name="marine_UPG1" owner="unsc_marine_upgrade1">-1</Icon>
+	<Icon type="techicon" name="marine_rkt" owner="unsc_cutterMarine_upgrade1">-1</Icon>
+	<Icon type="techicon" name="marine_UPG2" owner="unsc_marine_upgrade2">-1</Icon>
+	<Icon type="techicon" name="marine_vet" owner="unsc_marine_upgrade2Serina">-1</Icon>
+	<Icon type="techicon" name="marine_UPG3" owner="unsc_marine_upgrade3">-1</Icon>
+	<Icon type="techicon" name="flamemarine_UPG1" owner="unsc_flameMarine_upgrade1">-1</Icon>
+	<Icon type="techicon" name="flamemarine_UPG2" owner="unsc_flameMarine_upgrade2">-1</Icon>
+	<Icon type="techicon" name="flamemarine_UPG3" owner="unsc_flameMarine_upgrade3">-1</Icon>
+	<Icon type="techicon" name="badgerUPG1" owner="unsc_badger_upgrade1">-1</Icon>
+	<Icon type="techicon" name="badgerUPG2" owner="unsc_badger_upgrade2">-1</Icon>
+	<Icon type="techicon" name="badgerUPG2" owner="unsc_badger_upgrade2Serina">-1</Icon>
+	<Icon type="techicon" name="badgerUPG3" owner="unsc_badger_upgrade3">-1</Icon>
+	<Icon type="techicon" name="warthog_rof" owner="unsc_warthog_upgrade1">-1</Icon>
+	<Icon type="techicon" name="warthog_vet" owner="unsc_warthog_upgrade2">-1</Icon>
+	<Icon type="techicon" name="warthog_vet" owner="unsc_warthog_upgrade2Serina">-1</Icon>
+	<Icon type="techicon" name="warthog_UPG3" owner="unsc_warthog_upgrade3">-1</Icon>
+	<Icon type="techicon" name="wolverine_UPG1" owner="unsc_wolverine_upgrade1">-1</Icon>
+	<Icon type="techicon" name="wolverine_UPG2" owner="unsc_wolverine_upgrade2">-1</Icon>
+	<Icon type="techicon" name="wolverine_UPG2" owner="unsc_wolverine_upgrade2Serina">-1</Icon>
+	<Icon type="techicon" name="wolverine_UPG3" owner="unsc_wolverine_upgrade3">-1</Icon>
+	<Icon type="techicon" name="scorpion_UPG1" owner="unsc_scorpion_upgrade1">-1</Icon>
+	<Icon type="techicon" name="scorpion_UPG2" owner="unsc_scorpion_upgrade2">-1</Icon>
+	<Icon type="techicon" name="scorpion_UPG2" owner="unsc_scorpion_upgrade2Serina">-1</Icon>
+	<Icon type="techicon" name="scorpion_UPG3" owner="unsc_scorpion_upgrade3">-1</Icon>
+	<Icon type="techicon" name="rhino_lckdwn" owner="unsc_rhino_upgrade1">-1</Icon>
+	<Icon type="techicon" name="rhino_vet" owner="unsc_rhino_upgrade2">-1</Icon>
+	<Icon type="techicon" name="rhino_UPG3" owner="unsc_rhino_upgrade3">-1</Icon>
+	<Icon type="techicon" name="rhino_vet" owner="unsc_rhino_upgrade2Serina">-1</Icon>
+	<Icon type="techicon" name="falcon_missile" owner="unsc_falcon_upgrade1">-1</Icon>
+	<Icon type="techicon" name="falcon_vet" owner="unsc_falcon_upgrade2">-1</Icon>
+	<Icon type="techicon" name="falcon_vet" owner="unsc_falcon_upgrade2Serina">-1</Icon>
+	<Icon type="techicon" name="hawk_UPG1" owner="unsc_hawk_upgrade1">-1</Icon>
+	<Icon type="techicon" name="hawk_UPG2" owner="unsc_hawk_upgrade2">-1</Icon>
+	<Icon type="techicon" name="hawk_UPG3" owner="unsc_hawk_upgrade3">-1</Icon>
+	<Icon type="techicon" name="hawk_vet" owner="unsc_hawk_upgrade2Serina">-1</Icon>
+	<Icon type="techicon" name="hornet_UPG2" owner="unsc_hornet_upgrade2">-1</Icon>
+	<Icon type="techicon" name="hornet_UPG3" owner="unsc_hornet_upgrade3">-1</Icon>
+	<Icon type="techicon" name="shortSwordUPG2" owner="unsc_shortSword_upgrade2">-1</Icon>
+	<Icon type="techicon" name="fox_napalm" owner="unsc_fox_upgrade1">-1</Icon>
+	<Icon type="techicon" name="fox_vet" owner="unsc_fox_upgrade2">-1</Icon>
+	<Icon type="techicon" name="fox_UPG3" owner="unsc_fox_upgrade3">-1</Icon>
+	<Icon type="techicon" name="cougarUPG1" owner="unsc_lightTank_upgrade1">-1</Icon>
+	<Icon type="techicon" name="cougarUPG2" owner="unsc_lightTank_upgrade2">-1</Icon>
+	<Icon type="techicon" name="air1" owner="unsc_airPad_bomberUpgrade">-1</Icon>
+	<Icon type="techicon" name="air2" owner="unsc_airPad_siloUpgrade">-1</Icon>
+	<Icon type="techicon" name="air3" owner="unsc_airPad_vultureUpgrade">-1</Icon>
+	<Icon type="techicon" name="turret_missile" owner="unsc_turret_missile">-1</Icon>
+	<Icon type="techicon" name="turret_cannon" owner="unsc_turret_cannon">-1</Icon>
+	<Icon type="techicon" name="turret_fort" owner="unsc_turret_fort">-1</Icon>
+	<Icon type="techicon" name="turret_silo" owner="unsc_turret_silo">-1</Icon>
+	<Icon type="techicon" name="marine_rkt" owner="unsc_cutterMarine_upgrade1">-1</Icon>
+	<Icon type="techicon" name="wasp_chaingun" owner="unsc_wasp_upgrade1">-1</Icon>
+	<Icon type="techicon" name="wasp_vet" owner="unsc_wasp_upgrade2">-1</Icon>
+	<Icon type="techicon" name="wasp_vet" owner="unsc_wasp_upgrade3">-1</Icon>
+	<Icon type="techicon" name="extractor" owner="unsc_capturedExractorUpgrade1">-1</Icon>
+	<Icon type="techicon" name="turret" owner="unsc_capturedTurretUpgrade1">-1</Icon>
+	<Icon type="techicon" name="spartan_UPG1" owner="unsc_spartan_upgrade1">-1</Icon>
+	<Icon type="techicon" name="spartan_UPG2" owner="unsc_spartan_upgrade2">-1</Icon>
+	<Icon type="techicon" name="spartan_UPG3" owner="unsc_spartan_upgrade3">-1</Icon>
+	<Icon type="techicon" name="vulture_UPG1" owner="unsc_vulture_upgrade1">-1</Icon>
+	<Icon type="techicon" name="tiger_UPG1" owner="unsc_tiger_upgrade1">-1</Icon>
+	<Icon type="techicon" name="tiger_UPG3" owner="unsc_tiger_upgrade3">-1</Icon>
+	<Icon type="techicon" name="cougar_UPG3" owner="unsc_lightTank_upgrade3">-1</Icon>
+	<Icon type="techicon" name="unsc_bldgsUPG1" owner="unsc_buildings_upgrade1">-1</Icon>
+	<Icon type="techicon" name="unsc_bldgsUPG2" owner="unsc_buildings_upgrade2">-1</Icon>
+	<Icon type="techicon" name="unsc_bldgsUPG3" owner="unsc_buildings_upgrade3">-1</Icon>
+	<Icon type="techicon" name="turret_UPG1" owner="unsc_turret_upgrade1">-1</Icon>
+	<Icon type="techicon" name="turret_UPG2" owner="unsc_turret_upgrade2">-1</Icon>
+	<Icon type="techicon" name="turret_UPG3" owner="unsc_turret_upgrade3">-1</Icon>
+	<Icon type="techicon" name="repair_UPG1" owner="unsc_repair_upgrade1">-1</Icon>
+	<Icon type="techicon" name="repair_UPG2" owner="unsc_repair_upgrade2">-1</Icon>
+	<Icon type="techicon" name="repair_UPG3" owner="unsc_repair_upgrade3">-1</Icon>
+	<Icon type="techicon" name="market_UPG1" owner="unsc_market_upgrade1">-1</Icon>
+	<Icon type="techicon" name="market_UPG2" owner="unsc_market_upgrade2">-1</Icon>
+	<Icon type="techicon" name="market_UPG3" owner="unsc_market_upgrade3">-1</Icon>
+	<Icon type="techicon" name="orbital_airSpeed" owner="unsc_orbital_airSpeed">-1</Icon>
+	<Icon type="techicon" name="orbital_airTraining" owner="unsc_orbital_airTraining">-1</Icon>
+	<Icon type="techicon" name="orbital_energyFocus" owner="unsc_orbital_energyFocus">-1</Icon>
+	<Icon type="techicon" name="orbital_anitVehCan" owner="unsc_orbital_antiVehicleCannon">-1</Icon>
+	<Icon type="techicon" name="armored_VehicleArmor" owner="unsc_armored_VehicleArmor">-1</Icon>
+	<Icon type="techicon" name="armored_ArtilleryRange" owner="unsc_armored_ArtilleryRange">-1</Icon>
+	<Icon type="techicon" name="armored_AntiInfCan" owner="unsc_armored_AntiInfantryCannons">-1</Icon>
+	<Icon type="techicon" name="armored_VehicleTraining" owner="unsc_armored_VehicleTraining">-1</Icon>
+	<Icon type="techicon" name="BlackOps_antiAirMG" owner="unsc_BlackOps_antiAirMG">-1</Icon>
+	<Icon type="techicon" name="BlackOps_VehicleSpeed" owner="unsc_BlackOps_VehicleSpeed">-1</Icon>
+	<Icon type="techicon" name="BlackOps_Cloak" owner="unsc_BlackOps_Cloak">-1</Icon>
+	<Icon type="techicon" name="BlackOps_InfantrySpeed" owner="unsc_BlackOps_InfantrySpeed">-1</Icon>
+	<Icon type="techicon" name="mark1suit_UPG3" owner="unsc_mark1suit_upgrade3">-1</Icon>
+	<Icon type="buildingicon" name="command1" owner="unsc_bldg_command_01">-1</Icon>
+	<Icon type="buildingicon" name="command1" owner="unsc_bldg_command_02">-1</Icon>
+	<Icon type="buildingicon" name="command1" owner="unsc_bldg_command_03">-1</Icon>
+	<Icon type="buildingicon" name="command1" owner="unsc_bldg_command_04">-1</Icon>
+	<Icon type="buildingicon" name="supply1" owner="unsc_bldg_supplypad_01">-1</Icon>
+	<Icon type="buildingicon" name="supply1" owner="unsc_bldg_supplypad_02">-1</Icon>
+	<Icon type="buildingicon" name="supply1" owner="unsc_bldg_supplypad_03">-1</Icon>
+	<Icon type="buildingicon" name="repair" owner="unsc_bldg_repairpad_01">-1</Icon>
+	<Icon type="buildingicon" name="specialOps" owner="unsc_bldg_specialOps_01">-1</Icon>
+	<Icon type="buildingicon" name="specialOps" owner="unsc_bldg_specialOps_02">-1</Icon>
+	<Icon type="buildingicon" name="specialOps" owner="unsc_bldg_specialOps_03">-1</Icon>
+	<Icon type="buildingicon" name="tech" owner="unsc_bldg_fieldArmory_01">-1</Icon>
+	<Icon type="buildingicon" name="barracks" owner="unsc_bldg_barracks_01">-1</Icon>
+	<Icon type="buildingicon" name="vehicle" owner="unsc_bldg_vehicledepot_01">-1</Icon>
+	<Icon type="buildingicon" name="air1" owner="unsc_bldg_airPad_01">-1</Icon>
+	<Icon type="buildingicon" name="air3" owner="unsc_bldg_airPadWithSilo_01">-1</Icon>
+	<Icon type="buildingicon" name="air1" owner="unsc_bldg_airPadWithVulture_01">-1</Icon>
+	<Icon type="buildingicon" name="air2" owner="unsc_bldg_airPadWithBomber_01">-1</Icon>
+	<Icon type="buildingicon" name="turret" owner="unsc_bldg_turret_01">-1</Icon>
+	<Icon type="buildingicon" name="turret" owner="unsc_bldg_turret_02">-1</Icon>
+	<Icon type="buildingicon" name="turret_cannon" owner="unsc_bldg_turretcannon_01">-1</Icon>
+	<Icon type="buildingicon" name="turret_missile" owner="unsc_bldg_turretmissile_01">-1</Icon>
+	<Icon type="buildingicon" name="turret_fort" owner="unsc_bldg_turretFort_01">-1</Icon>
+	<Icon type="buildingicon" name="turret_silo" owner="unsc_bldg_turretsilo_01">-1</Icon>
+	<Icon type="buildingicon" name="tiger" owner="unsc_bldg_tiger_01">-1</Icon>
+	<Icon type="buildingicon" name="reactor" owner="unsc_bldg_reactor_01">-1</Icon>
+	<Icon type="uniticon" name="falcon" owner="unsc_air_falcon_01">-1</Icon>
+	<Icon type="uniticon" name="hawk" owner="unsc_air_hawk_01">-1</Icon>
+	<Icon type="uniticon" name="shortsword" owner="unsc_air_shortsword_01">-1</Icon>
+	<Icon type="uniticon" name="strategicmissile" owner="unsc_air_strategicMissile_01">-1</Icon>
+	<Icon type="uniticon" name="vulture" owner="unsc_air_vulture_01">-1</Icon>
+	<Icon type="uniticon" name="badger" owner="unsc_inf_badger_01">-1</Icon>
+	<Icon type="uniticon" name="fox" owner="unsc_veh_cobra_01">-1</Icon>
+	<Icon type="uniticon" name="flameMarine" owner="unsc_inf_flameMarine_01">-1</Icon>
+	<Icon type="uniticon" name="marine1" owner="unsc_inf_marine_01">-1</Icon>
+	<Icon type="uniticon" name="marine1" owner="unsc_inf_marine_02">-1</Icon>
+	<Icon type="uniticon" name="marine1" owner="unsc_inf_marine_03">-1</Icon>
+	<Icon type="uniticon" name="odst" owner="unsc_inf_odst_01">-1</Icon>
+	<Icon type="uniticon" name="mongoose" owner="unsc_inf_scout_01">-1</Icon>
+	<Icon type="uniticon" name="spartan" owner="unsc_inf_spartan_01">-1</Icon>
+	<Icon type="uniticon" name="rhino" owner="unsc_veh_rhino_01">-1</Icon>
+	<Icon type="uniticon" name="scorpion" owner="unsc_veh_scorpion_01">-1</Icon>
+	<Icon type="uniticon" name="tiger" owner="unsc_veh_tiger_01">-1</Icon>
+	<Icon type="uniticon" name="cougar" owner="unsc_veh_lightTank_01">-1</Icon>
+	<Icon type="uniticon" name="warthog" owner="unsc_veh_warthog_01">-1</Icon>
+	<Icon type="uniticon" name="wolverine" owner="unsc_veh_wolverine_01">-1</Icon>
+	<Icon type="uniticon" name="wasp" owner="unsc_air_wasp_01">-1</Icon>
+	<Icon type="uniticon" name="warthog" owner="demo_e3_warthog_01">-1</Icon>
+	<Icon type="uniticon" name="warthog" owner="physics_warthog_01">-1</Icon>
+	<Icon type="uniticon" name="hornet" owner="unsc_air_hornet_01">-1</Icon>
+	<Icon type="uniticon" name="mark1suit" owner="unsc_inf_mark1suit_01">-1</Icon>
+	<Icon type="miscicon" name="rallypnt" owner="RallyPoint">-1</Icon>
+	<Icon type="miscicon" name="selectPower" owner="SelectPower">-1</Icon>
+	<Icon type="miscicon" name="kill" owner="Kill">-1</Icon>
+	<Icon type="miscicon" name="cancelKill" owner="CancelKill">-1</Icon>
+	<Icon type="miscicon" name="tribute" owner="Tribute">-1</Icon>
+	<Icon type="miscicon" name="customCommand" owner="CustomCommand">-1</Icon>
+	<Icon type="miscicon" name="repair" owner="Repair">-1</Icon>
+	<Icon type="miscicon" name="turret_unload" owner="UnscCivTurretConstructor">-1</Icon>
+	<Icon type="miscicon" name="placeholder" owner="TrainLock">-1</Icon>
+	<Icon type="staticon" name="infantry" owner="Unarmored">-1</Icon>
+	<Icon type="staticon" name="vehicle" owner="Vehicle">-1</Icon>
+	<Icon type="staticon" name="air" owner="Air">-1</Icon>
+	<Icon type="staticon" name="structure" owner="Building">-1</Icon>
+	<Icon type="notification" name="age1" owner="unsc_age1">-1</Icon>
+	<Icon type="notification" name="age2" owner="unsc_age2">-1</Icon>
+	<Icon type="notification" name="age3" owner="unsc_age3">-1</Icon>
+	<Icon type="notification" name="age4" owner="unsc_age4">-1</Icon>
+</FlashMovieDefinition>

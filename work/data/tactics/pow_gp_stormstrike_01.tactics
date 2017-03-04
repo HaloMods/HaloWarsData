@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Stormstrike</Name>
+		<DamagePerSecond>2000</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>pow_gp_stormstrike_01</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxRange>150</MaxRange>
+		<Accuracy>1</Accuracy>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>GenericInfoAttackAction</Name>
+		<Weapon>Stormstrike</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

@@ -1,0 +1,75 @@
+<Controls>
+   <Mode name="PlayerList">
+      <Control name="ButtonA"             command="ready" event="start" sound="play_menu_accept_button" />
+      <Control name="ButtonB"             command="cancel" event="start" sound="play_menu_back_button" />
+      <Control name="ButtonY"             command="inviteFriends" event="start" sound="play_menu_accept_button" />
+      <Control name="ButtonX"             command="playerOptions" event="start" sound="play_menu_accept_button" />
+      <Control name="ButtonBack"          command="gameOptions" event="start" sound="play_menu_accept_button" />
+      <Control name="ButtonStart"         command="changeLobby" event="start" sound="play_menu_accept_button" />
+
+      <Control name="StickLeftUp"         command="navPlayersUp" event="start" digital="" threshold="0.90" repeat="" delay="0.5" rate=".20" sound="play_partysystem_menu_up_down" />
+      <Control name="StickLeftDown"       command="navPlayersDown" event="start" digital="" threshold="0.90" repeat="" delay="0.5" rate=".20" sound="play_partysystem_menu_up_down" />
+      <Control name="StickLeftLeft"       command="navPlayersLeft" event="start" digital="" threshold="0.90" repeat="" delay="0.5" rate=".20" sound="play_partysystem_menu_up_down" />
+      <Control name="StickLeftRight"      command="navPlayersRight" event="start" digital="" threshold="0.90" repeat="" delay="0.5" rate=".20" sound="play_partysystem_menu_up_down" />
+
+      <Control name="DpadUp"              command="navPlayersUp" event="start" repeat="" delay="0.5" rate=".20" sound="play_partysystem_menu_up_down" />
+      <Control name="DpadDown"            command="navPlayersDown" event="start" repeat="" delay="0.5" rate=".20" sound="play_partysystem_menu_up_down" />
+      <Control name="DpadLeft"            command="navPlayersLeft" event="start" repeat="" delay="0.5" rate=".20" sound="play_partysystem_menu_up_down" />
+      <Control name="DpadRight"           command="navPlayersRight" event="start" repeat="" delay="0.5" rate=".20" sound="play_partysystem_menu_up_down" />
+
+      <Control name="ButtonShoulderLeft"  command="switchTeams" event="start" sound="play_partysystem_menu_teamswitch"/>
+   </Mode>
+
+   <Mode name="PlayerEdit">
+      <Control name="ButtonA"             command="accept" event="start" sound="play_menu_accept_button" />
+      <Control name="ButtonB"             command="cancel" event="start" sound="play_menu_back_button" />
+
+      <Control name="StickLeftUp"         command="navMenuUp" event="start" digital="" threshold="0.90" repeat="" delay="0.5" rate=".20" sound="play_partysystem_menu_up_down" />
+      <Control name="StickLeftDown"       command="navMenuDown" event="start" digital="" threshold="0.90" repeat="" delay="0.5" rate=".20" sound="play_partysystem_menu_up_down" />
+
+      <Control name="DpadUp"              command="navMenuUp" event="start" repeat="" delay="0.5" rate=".20" sound="play_partysystem_menu_up_down" />
+      <Control name="DpadDown"            command="navMenuDown" event="start" repeat="" delay="0.5" rate=".20" sound="play_partysystem_menu_up_down" />
+
+      <Control name="StickLeftLeft"       command="menuItemLeft" event="start" digital="" threshold="0.90" repeat="" delay="0.5" rate=".20" sound="play_partysystem_menu_side2side" />
+      <Control name="DpadLeft"            command="menuItemLeft" event="start" repeat="" delay="0.5" rate=".20" sound="play_partysystem_menu_side2side" />
+      <Control name="ButtonShoulderLeft"  command="menuItemLeft" event="start" repeat="" delay="0.5" rate=".20" sound="play_partysystem_menu_side2side" />
+      <Control name="TriggerLeft"         command="menuItemLeft" event="start" repeat="" delay="0.5" rate=".20" sound="play_partysystem_menu_side2side" />
+
+      <Control name="StickLeftRight"      command="menuItemRight" event="start" digital="" threshold="0.90" repeat="" delay="0.5" rate=".20" sound="play_partysystem_menu_side2side" />
+      <Control name="DpadRight"           command="menuItemRight" event="start" repeat="" delay="0.5" rate=".20" sound="play_partysystem_menu_side2side" />
+      <Control name="ButtonShoulderRight" command="menuItemRight" event="start" repeat="" delay="0.5" rate=".20" sound="play_partysystem_menu_side2side" />
+      <Control name="TriggerRight"        command="menuItemRight" event="start" repeat="" delay="0.5" rate=".20" sound="play_partysystem_menu_side2side" />
+   </Mode>
+   
+   <Mode name="LobbyMenu">
+      <Control name="ButtonA"             command="accept" event="start" sound="play_menu_accept_button" />
+      <Control name="ButtonB"             command="cancel" event="start" sound="play_menu_back_button" />
+
+      <Control name="StickLeftUp"         command="navMenuUp" event="start" digital="" threshold="0.90" repeat="" delay="0.5" rate=".20" sound="play_partysystem_menu_up_down" />
+      <Control name="StickLeftDown"       command="navMenuDown" event="start" digital="" threshold="0.90" repeat="" delay="0.5" rate=".20" sound="play_partysystem_menu_up_down" />
+
+      <Control name="DpadUp"              command="navMenuUp" event="start" repeat="" delay="0.5" rate=".20" sound="play_partysystem_menu_up_down" />
+      <Control name="DpadDown"            command="navMenuDown" event="start" repeat="" delay="0.5" rate=".20" sound="play_partysystem_menu_up_down" />
+   </Mode>
+
+   <Mode name="GameOptions">
+      <Control name="ButtonA"             command="accept" event="start" sound="play_menu_accept_button" />
+      <Control name="ButtonB"             command="cancel" event="start" sound="play_menu_back_button" />
+
+      <Control name="StickLeftUp"         command="navMenuUp" event="start" digital="" threshold="0.90" repeat="" delay="0.5" rate=".20" sound="play_partysystem_menu_up_down" />
+      <Control name="StickLeftDown"       command="navMenuDown" event="start" digital="" threshold="0.90" repeat="" delay="0.5" rate=".20" sound="play_partysystem_menu_up_down" />
+
+      <Control name="DpadUp"              command="navMenuUp" event="start" repeat="" delay="0.5" rate=".20" sound="play_partysystem_menu_up_down" />
+      <Control name="DpadDown"            command="navMenuDown" event="start" repeat="" delay="0.5" rate=".20" sound="play_partysystem_menu_up_down" />
+
+      <Control name="StickLeftLeft"       command="menuItemLeft" event="start" digital="" threshold="0.90" repeat="" delay="0.5" rate=".20" sound="play_partysystem_menu_side2side" />
+      <Control name="DpadLeft"            command="menuItemLeft" event="start" repeat="" delay="0.5" rate=".20" sound="play_partysystem_menu_side2side" />
+      <Control name="ButtonShoulderLeft"  command="menuItemLeft" event="start" repeat="" delay="0.5" rate=".20" sound="play_partysystem_menu_side2side" />
+      <Control name="TriggerLeft"         command="menuItemLeft" event="start" repeat="" delay="0.5" rate=".20" sound="play_partysystem_menu_side2side" />
+
+      <Control name="StickLeftRight"      command="menuItemRight" event="start" digital="" threshold="0.90" repeat="" delay="0.5" rate=".20" sound="play_partysystem_menu_side2side" />
+      <Control name="DpadRight"           command="menuItemRight" event="start" repeat="" delay="0.5" rate=".20" sound="play_partysystem_menu_side2side" />
+      <Control name="ButtonShoulderRight" command="menuItemRight" event="start" repeat="" delay="0.5" rate=".20" sound="play_partysystem_menu_side2side" />
+      <Control name="TriggerRight"        command="menuItemRight" event="start" repeat="" delay="0.5" rate=".20" sound="play_partysystem_menu_side2side" />
+   </Mode>
+</Controls>

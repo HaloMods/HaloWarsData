@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="UnscDoCpuHack.triggerscript" Type="TriggerScript" NextTriggerVarID="172" NextTriggerID="19" NextConditionID="69" NextEffectID="219" External="false">
+	<TriggerGroups />
+	<TriggerVars>
+		<TriggerVar ID="16" Type="Power" Name="ExternPowerVar1" IsNull="true" />
+		<TriggerVar ID="18" Type="SquadList" Name="ExternSquadListVar1" IsNull="true" />
+		<TriggerVar ID="19" Type="Unit" Name="ExternUnitVar1" IsNull="true" />
+		<TriggerVar ID="20" Type="UnitList" Name="ExternUnitListVar1" IsNull="true" />
+		<TriggerVar ID="21" Type="Cost" Name="ExternCostVar1" IsNull="true" />
+		<TriggerVar ID="26" Type="String" Name="" IsNull="false">Fail</TriggerVar>
+		<TriggerVar ID="27" Type="String" Name="" IsNull="false">Pass</TriggerVar>
+		<TriggerVar ID="139" Type="Operator" Name="" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+		<TriggerVar ID="140" Type="Time" Name="" IsNull="false">6000</TriggerVar>
+		<TriggerVar ID="141" Type="Squad" Name="Squad" IsNull="false" />
+		<TriggerVar ID="142" Type="SquadList" Name="" IsNull="true" />
+		<TriggerVar ID="143" Type="RefCountType" Name="" IsNull="false">CpuHack</TriggerVar>
+		<TriggerVar ID="144" Type="Integer" Name="" IsNull="true">1</TriggerVar>
+		<TriggerVar ID="145" Type="Unit" Name="UnitVar6" IsNull="true" />
+		<TriggerVar ID="146" Type="UnitList" Name="UnitListVar6" IsNull="true" />
+		<TriggerVar ID="147" Type="SquadList" Name="" IsNull="true" />
+		<TriggerVar ID="148" Type="ProtoObject" Name="" IsNull="false">fx_CpuHack</TriggerVar>
+		<TriggerVar ID="149" Type="SquadList" Name="ChangeSquadListVar1" IsNull="true" />
+		<TriggerVar ID="150" Type="Player" Name="PowerOwner" IsNull="false" />
+		<TriggerVar ID="151" Type="String" Name="" IsNull="false">Hack done</TriggerVar>
+		<TriggerVar ID="162" Type="SquadList" Name="" IsNull="true" />
+		<TriggerVar ID="163" Type="RefCountType" Name="" IsNull="false">CpuHack</TriggerVar>
+		<TriggerVar ID="164" Type="Integer" Name="" IsNull="true">1</TriggerVar>
+		<TriggerVar ID="165" Type="Unit" Name="ReceivingUnitVar2" IsNull="true" />
+		<TriggerVar ID="166" Type="UnitList" Name="ReceivingUnitListVar2" IsNull="true" />
+		<TriggerVar ID="167" Type="SquadList" Name="ReceivingSquadListVar1" IsNull="true" />
+		<TriggerVar ID="168" Type="ProtoObject" Name="" IsNull="false">fx_CpuHack</TriggerVar>
+		<TriggerVar ID="169" Type="Trigger" Name="TriggerVar2" IsNull="false">17</TriggerVar>
+		<TriggerVar ID="171" Type="Trigger" Name="TriggerVar4" IsNull="false">18</TriggerVar>
+	</TriggerVars>
+	<Triggers>
+		<Trigger ID="5" Name="newTrigger5" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="194" Y="183" GroupID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="0" Type="CanRetrieveExternals" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Output Name="ExternPlayer" SigID="1" Optional="true">150</Output>
+						<Output Name="ExternPower" SigID="2" Optional="true">16</Output>
+						<Output Name="ExternSquad" SigID="3" Optional="true">141</Output>
+						<Output Name="ExternSquadList" SigID="7" Optional="true">18</Output>
+						<Output Name="ExternUnit" SigID="4" Optional="true">19</Output>
+						<Output Name="ExternUnitList" SigID="6" Optional="true">20</Output>
+						<Output Name="ExternCost" SigID="5" Optional="true">21</Output>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="218" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">171</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger ID="17" Name="Remove ref count, effect and shutdown" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="1068" Y="183" GroupID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="68" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="CompareType" SigID="1" Optional="false">139</Input>
+						<Input Name="CompareTime" SigID="2" Optional="false">140</Input>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="173" Type="RefCountSquadRemove" DBID="317" Version="1" CommentOut="false">
+					<Input Name="Squad" SigID="1" Optional="true">141</Input>
+					<Input Name="SquadList" SigID="2" Optional="true">142</Input>
+					<Input Name="RefCountType" SigID="3" Optional="false">143</Input>
+					<Output Name="MaxCount" SigID="4" Optional="true">144</Output>
+				</Effect>
+				<Effect ID="217" Type="AttachmentRemoveType" DBID="83" Version="3" CommentOut="false">
+					<Input Name="Unit" SigID="5" Optional="true">145</Input>
+					<Input Name="UnitList" SigID="3" Optional="true">146</Input>
+					<Input Name="Squad" SigID="6" Optional="true">141</Input>
+					<Input Name="SquadList" SigID="4" Optional="true">147</Input>
+					<Input Name="AttachmentType" SigID="2" Optional="false">148</Input>
+				</Effect>
+				<Effect ID="249" Type="ChangeOwner" DBID="137" Version="3" CommentOut="false">
+					<Input Name="ChangeSquad" SigID="6" Optional="true">141</Input>
+					<Input Name="ChangeSquadList" SigID="7" Optional="true">149</Input>
+					<Input Name="NewOwner" SigID="3" Optional="false">150</Input>
+				</Effect>
+				<Effect ID="112" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger ID="18" Name="Hack unit if possible" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="626" Y="182" GroupID="-1">
+			<TriggerConditions>
+				<And />
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="168" Type="RefCountSquadAdd" DBID="316" Version="1" CommentOut="false">
+					<Input Name="Squad" SigID="1" Optional="true">141</Input>
+					<Input Name="SquadList" SigID="2" Optional="true">162</Input>
+					<Input Name="RefCountType" SigID="3" Optional="false">163</Input>
+					<Output Name="MaxCount" SigID="4" Optional="true">164</Output>
+				</Effect>
+				<Effect ID="242" Type="AttachmentAddType" DBID="74" Version="5" CommentOut="false">
+					<Input Name="ReceivingUnit" SigID="5" Optional="true">165</Input>
+					<Input Name="ReceivingUnitList" SigID="3" Optional="true">166</Input>
+					<Input Name="ReceivingSquad" SigID="6" Optional="true">141</Input>
+					<Input Name="ReceivingSquadList" SigID="4" Optional="true">167</Input>
+					<Input Name="AddProtoObject" SigID="2" Optional="false">168</Input>
+				</Effect>
+				<Effect ID="244" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">169</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+	</Triggers>
+	<EditorData>
+		<TriggerMappings />
+		<UIData>
+			<NoteNodes />
+			<Groups />
+		</UIData>
+		<TriggerSystem Name="Script" Type="Scenario" NextTriggerVarID="172" NextTriggerID="19" NextConditionID="69" NextEffectID="219" External="false">
+			<TriggerGroups />
+			<TriggerVars>
+				<TriggerVar ID="16" Type="Power" Name="ExternPowerVar1" IsNull="true" />
+				<TriggerVar ID="18" Type="SquadList" Name="ExternSquadListVar1" IsNull="true" />
+				<TriggerVar ID="19" Type="Unit" Name="ExternUnitVar1" IsNull="true" />
+				<TriggerVar ID="20" Type="UnitList" Name="ExternUnitListVar1" IsNull="true" />
+				<TriggerVar ID="21" Type="Cost" Name="ExternCostVar1" IsNull="true" />
+				<TriggerVar ID="26" Type="String" Name="" IsNull="false">Fail</TriggerVar>
+				<TriggerVar ID="27" Type="String" Name="" IsNull="false">Pass</TriggerVar>
+				<TriggerVar ID="139" Type="Operator" Name="" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+				<TriggerVar ID="140" Type="Time" Name="" IsNull="false">6000</TriggerVar>
+				<TriggerVar ID="141" Type="Squad" Name="Squad" IsNull="false" />
+				<TriggerVar ID="142" Type="SquadList" Name="" IsNull="true" />
+				<TriggerVar ID="143" Type="RefCountType" Name="" IsNull="false">CpuHack</TriggerVar>
+				<TriggerVar ID="144" Type="Integer" Name="" IsNull="true">1</TriggerVar>
+				<TriggerVar ID="145" Type="Unit" Name="UnitVar6" IsNull="true" />
+				<TriggerVar ID="146" Type="UnitList" Name="UnitListVar6" IsNull="true" />
+				<TriggerVar ID="147" Type="SquadList" Name="" IsNull="true" />
+				<TriggerVar ID="148" Type="ProtoObject" Name="" IsNull="false">fx_CpuHack</TriggerVar>
+				<TriggerVar ID="149" Type="SquadList" Name="ChangeSquadListVar1" IsNull="true" />
+				<TriggerVar ID="150" Type="Player" Name="PowerOwner" IsNull="false" />
+				<TriggerVar ID="151" Type="String" Name="" IsNull="false">Hack done</TriggerVar>
+				<TriggerVar ID="162" Type="SquadList" Name="" IsNull="true" />
+				<TriggerVar ID="163" Type="RefCountType" Name="" IsNull="false">CpuHack</TriggerVar>
+				<TriggerVar ID="164" Type="Integer" Name="" IsNull="true">1</TriggerVar>
+				<TriggerVar ID="165" Type="Unit" Name="ReceivingUnitVar2" IsNull="true" />
+				<TriggerVar ID="166" Type="UnitList" Name="ReceivingUnitListVar2" IsNull="true" />
+				<TriggerVar ID="167" Type="SquadList" Name="ReceivingSquadListVar1" IsNull="true" />
+				<TriggerVar ID="168" Type="ProtoObject" Name="" IsNull="false">fx_CpuHack</TriggerVar>
+				<TriggerVar ID="169" Type="Trigger" Name="TriggerVar2" IsNull="false">17</TriggerVar>
+				<TriggerVar ID="171" Type="Trigger" Name="TriggerVar4" IsNull="false">18</TriggerVar>
+			</TriggerVars>
+			<Triggers>
+				<Trigger ID="5" Name="newTrigger5" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="194" Y="183" GroupID="-1">
+					<TriggerConditions>
+						<And>
+							<Condition ID="0" Type="CanRetrieveExternals" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+								<Output Name="ExternPlayer" SigID="1" Optional="true">150</Output>
+								<Output Name="ExternPower" SigID="2" Optional="true">16</Output>
+								<Output Name="ExternSquad" SigID="3" Optional="true">141</Output>
+								<Output Name="ExternSquadList" SigID="7" Optional="true">18</Output>
+								<Output Name="ExternUnit" SigID="4" Optional="true">19</Output>
+								<Output Name="ExternUnitList" SigID="6" Optional="true">20</Output>
+								<Output Name="ExternCost" SigID="5" Optional="true">21</Output>
+							</Condition>
+						</And>
+					</TriggerConditions>
+					<TriggerEffectsOnTrue>
+						<Effect ID="123" Type="DebugVar(String)" DBID="230" Version="1" CommentOut="true">
+							<Input Name="String" SigID="1" Optional="false">27</Input>
+						</Effect>
+						<Effect ID="218" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+							<Input Name="Trigger" SigID="1" Optional="false">171</Input>
+						</Effect>
+					</TriggerEffectsOnTrue>
+					<TriggerEffectsOnFalse>
+						<Effect ID="122" Type="DebugVar(String)" DBID="230" Version="1" CommentOut="true">
+							<Input Name="String" SigID="1" Optional="false">26</Input>
+						</Effect>
+					</TriggerEffectsOnFalse>
+				</Trigger>
+				<Trigger ID="17" Name="Remove ref count, effect and shutdown" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="1068" Y="183" GroupID="-1">
+					<TriggerConditions>
+						<And>
+							<Condition ID="68" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+								<Input Name="CompareType" SigID="1" Optional="false">139</Input>
+								<Input Name="CompareTime" SigID="2" Optional="false">140</Input>
+							</Condition>
+						</And>
+					</TriggerConditions>
+					<TriggerEffectsOnTrue>
+						<Effect ID="173" Type="RefCountSquadRemove" DBID="317" Version="1" CommentOut="false">
+							<Input Name="Squad" SigID="1" Optional="true">141</Input>
+							<Input Name="SquadList" SigID="2" Optional="true">142</Input>
+							<Input Name="RefCountType" SigID="3" Optional="false">143</Input>
+							<Output Name="MaxCount" SigID="4" Optional="true">144</Output>
+						</Effect>
+						<Effect ID="217" Type="AttachmentRemoveType" DBID="83" Version="3" CommentOut="false">
+							<Input Name="Unit" SigID="5" Optional="true">145</Input>
+							<Input Name="UnitList" SigID="3" Optional="true">146</Input>
+							<Input Name="Squad" SigID="6" Optional="true">141</Input>
+							<Input Name="SquadList" SigID="4" Optional="true">147</Input>
+							<Input Name="AttachmentType" SigID="2" Optional="false">148</Input>
+						</Effect>
+						<Effect ID="249" Type="ChangeOwner" DBID="137" Version="3" CommentOut="false">
+							<Input Name="ChangeSquad" SigID="6" Optional="true">141</Input>
+							<Input Name="ChangeSquadList" SigID="7" Optional="true">149</Input>
+							<Input Name="NewOwner" SigID="3" Optional="false">150</Input>
+						</Effect>
+						<Effect ID="113" Type="DebugVar(String)" DBID="230" Version="1" CommentOut="true">
+							<Input Name="String" SigID="1" Optional="false">151</Input>
+						</Effect>
+						<Effect ID="112" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
+					</TriggerEffectsOnTrue>
+					<TriggerEffectsOnFalse />
+				</Trigger>
+				<Trigger ID="18" Name="Hack unit if possible" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="626" Y="182" GroupID="-1">
+					<TriggerConditions>
+						<And />
+					</TriggerConditions>
+					<TriggerEffectsOnTrue>
+						<Effect ID="168" Type="RefCountSquadAdd" DBID="316" Version="1" CommentOut="false">
+							<Input Name="Squad" SigID="1" Optional="true">141</Input>
+							<Input Name="SquadList" SigID="2" Optional="true">162</Input>
+							<Input Name="RefCountType" SigID="3" Optional="false">163</Input>
+							<Output Name="MaxCount" SigID="4" Optional="true">164</Output>
+						</Effect>
+						<Effect ID="242" Type="AttachmentAddType" DBID="74" Version="5" CommentOut="false">
+							<Input Name="ReceivingUnit" SigID="5" Optional="true">165</Input>
+							<Input Name="ReceivingUnitList" SigID="3" Optional="true">166</Input>
+							<Input Name="ReceivingSquad" SigID="6" Optional="true">141</Input>
+							<Input Name="ReceivingSquadList" SigID="4" Optional="true">167</Input>
+							<Input Name="AddProtoObject" SigID="2" Optional="false">168</Input>
+						</Effect>
+						<Effect ID="244" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+							<Input Name="Trigger" SigID="1" Optional="false">169</Input>
+						</Effect>
+					</TriggerEffectsOnTrue>
+					<TriggerEffectsOnFalse />
+				</Trigger>
+			</Triggers>
+			<EditorData>
+				<TriggerMappings />
+				<UIData>
+					<NoteNodes />
+					<Groups />
+				</UIData>
+			</EditorData>
+		</TriggerSystem>
+	</EditorData>
+</TriggerSystem>

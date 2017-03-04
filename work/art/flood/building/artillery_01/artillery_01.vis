@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<file>flood\building\artillery_01\artillery_01</file>
+			</asset>
+		</component>
+		<anim type="CannonAttack" exitAction="Transition" tweenTime="0" tweenToAnimation="CannonAttack">
+			<asset type="Anim">
+				<file>flood\building\boss_01\idle_03</file>
+				<weight>10</weight>
+				<tag type="Attack" start="0" position="0.1" end="1" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+</visual>
