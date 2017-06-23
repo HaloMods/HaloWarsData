@@ -10,7 +10,6 @@
             <Control name="KeyEscape"           command="cancel" event="start" sound="" />
             <Control name="ButtonStart"         command="ready" event="start" sound="" />
             <Control name="ButtonY"             command="inviteFriends" event="start" sound="" />
-            <Control name="ButtonBack"          command="kick" event="start" sound="" />
 
             <Control name="TriggerLeft"         command="decrementLeader" event="stop" repeat="" delay="0.5" rate="1" sound="" />
             <Control name="TriggerRight"        command="incrementLeader" event="stop" repeat="" delay="0.5" rate="1" sound="" />

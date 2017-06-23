@@ -3524,9 +3524,9 @@ MASTER STRING TABLE INDEX
       <String _locID="24621" category="UI" scenario="Options" subtitle="false" _mouseKeyboard="26247">ポインターが重ねられているユニットをカメラが追従するかどうかを設定。左スティックを動かすと、カメラはユニットから離れる</String>
       <String _locID="24622" category="UI" scenario="Options" subtitle="false">ヒント表示の説明</String>
       <String _locID="24623" category="UI" scenario="Options" subtitle="false">スピード選択の説明</String>
-      <String _locID="24624" category="UI" scenario="Options" subtitle="false">BGM のボリュームを設定</String>
-      <String _locID="24625" category="UI" scenario="Options" subtitle="false">効果音のボリュームを設定</String>
-      <String _locID="24626" category="UI" scenario="Options" subtitle="false">セリフ音声のボリュームを設定</String>
+      <String _locID="24624" category="UI" scenario="Options" subtitle="false">BGM の音量を設定</String>
+      <String _locID="24625" category="UI" scenario="Options" subtitle="false">効果音の音量を設定</String>
+      <String _locID="24626" category="UI" scenario="Options" subtitle="false">セリフ音声の音量を設定</String>
       <String _locID="24627" category="UI" scenario="Options" subtitle="false">ムービーの字幕表示のオン / オフを切り替える</String>
       <String _locID="24628" category="UI" scenario="Options" subtitle="false">画面の全体的な明るさを設定</String>
       <String _locID="24629" category="UI" scenario="Options" subtitle="false">プレイヤーごとではなく、味方または敵のチームごとに色分けを設定</String>
@@ -5038,7 +5038,7 @@ MASTER STRING TABLE INDEX
       <String _locID="26243" category="UI" scenario="Party Room" subtitle="false">スロットの上で $$A$$ を押すと、プレイヤー設定にアクセスできます</String>
       <String _locID="26244" scenario="Hint Display" subtitle="false">$$A$$ で選択</String>
       <String _locID="26245" category="UI" scenario="Options" subtitle="false">Aｌｔ を押しながら $$LS$$ を動かすとカメラが回転します</String>
-      <String _locID="26246" category="UI" scenario="Options" subtitle="false">$$LS$$ でマップをスクロールする速度を設定します</String>
+      <String _locID="26246" category="UI" scenario="Options" subtitle="false">$$LS$$ でマップをスクロールする速度を設定</String>
       <String _locID="26247" category="UI" scenario="Options" subtitle="false">カメラがポインターを重ねているユニットを追跡します。マウスとキーボードでプレイしているときは機能しません</String>
       <String _locID="26248" category="Campaign" scenario="6" subtitle="false">$$SoFM$$ を押すと、スピリット オブ ファイア メニューが表示されます</String>
       <String _locID="26249" category="Powers" subtitle="false">移動したい場所を $$LS$$ で選択し、$$X$$ を押して攻撃や移動</String>
@@ -5376,5 +5376,69 @@ MASTER STRING TABLE INDEX
       <String _locID="26687" subtitle="false" category="UI">パーティーの一部のメンバーが、ロビーに参加できませんでした</String>
       <String _locID="26688" subtitle="false" category="UI">ロビーのホストによりセッションから追放されました</String>
       <String _locID="26689" subtitle="false" category="UI">ロビーのホストが離れたため、ロビーが存在しません</String>
+      <String _locID="26690" subtitle="false" category="UI">フィルターを設定したら「ゲームを公開する」ボタンでゲームをホストとして開始します</String>
+      <String _locID="26691" subtitle="false" category="UI">フィルターを設定したら「ゲームを探す」ボタンでゲームを検索します</String>
+      <String _locID="26692" subtitle="false" category="UI">フィルターを設定したら「準備完了」ボタンで開始します</String>
+      <String _locID="26693" subtitle="false" category="UI">グローバル</String>
+      <String _locID="26694" subtitle="false" category="UI">チーム</String>
+      <String _locID="26695" subtitle="false" category="UI">ラジアル メニュー ホットキー</String>
+      <String _locID="26696" subtitle="false" category="UI">ラジアル メニュー 上 使用</String>
+      <String _locID="26697" category="UI" subtitle="false">ラジアル メニュー 上 の使用を有効にする。</String>
+      <String _locID="26698" subtitle="false" category="UI">ラジアル メニュー 上 キャンセル</String>
+      <String _locID="26699" category="UI" subtitle="false">ラジアル メニュー 上 の使用をキャンセルする。</String>
+      <String _locID="26700" subtitle="false" category="UI">ラジアル メニュー 右上 使用</String>
+      <String _locID="26701" category="UI" subtitle="false">ラジアル メニュー 右上 の使用を有効にする。</String>
+      <String _locID="26702" subtitle="false" category="UI">ラジアル メニュー 右上 キャンセル</String>
+      <String _locID="26703" category="UI" subtitle="false">ラジアル メニュー 右上 の使用をキャンセルする。</String>
+      <String _locID="26704" subtitle="false" category="UI">ラジアル メニュー 右 使用</String>
+      <String _locID="26705" category="UI" subtitle="false">ラジアル メニュー 右 の使用を有効にする。</String>
+      <String _locID="26706" subtitle="false" category="UI">ラジアル メニュー 右 キャンセル</String>
+      <String _locID="26707" category="UI" subtitle="false">ラジアル メニュー 右 の使用をキャンセルする。</String>
+      <String _locID="26708" subtitle="false" category="UI">ラジアル メニュー 右下 使用</String>
+      <String _locID="26709" category="UI" subtitle="false">ラジアル メニュー 右下 の使用を有効にする。</String>
+      <String _locID="26710" subtitle="false" category="UI">ラジアル メニュー 右下 キャンセル</String>
+      <String _locID="26711" category="UI" subtitle="false">ラジアル メニュー 右下 の使用をキャンセルする。</String>
+      <String _locID="26712" subtitle="false" category="UI">ラジアル メニュー 下 使用</String>
+      <String _locID="26713" category="UI" subtitle="false">ラジアル メニュー 下 の使用を有効にする。</String>
+      <String _locID="26714" subtitle="false" category="UI">ラジアル メニュー 下 キャンセル</String>
+      <String _locID="26715" category="UI" subtitle="false">ラジアル メニュー 下 の使用をキャンセルする。</String>
+      <String _locID="26716" subtitle="false" category="UI">ラジアル メニュー 左下 使用</String>
+      <String _locID="26717" category="UI" subtitle="false">ラジアル メニュー 左下 の使用を有効にする。</String>
+      <String _locID="26718" subtitle="false" category="UI">ラジアル メニュー 左下 キャンセル</String>
+      <String _locID="26719" category="UI" subtitle="false">ラジアル メニュー 左下 の使用をキャンセルする。</String>
+      <String _locID="26720" subtitle="false" category="UI">ラジアル メニュー 左 使用</String>
+      <String _locID="26721" category="UI" subtitle="false">ラジアル メニュー 左 の使用を有効にする。</String>
+      <String _locID="26722" subtitle="false" category="UI">ラジアル メニュー 左 キャンセル</String>
+      <String _locID="26723" category="UI" subtitle="false">ラジアル メニュー 左 の使用をキャンセルする。</String>
+      <String _locID="26724" subtitle="false" category="UI">ラジアル メニュー 左上 使用</String>
+      <String _locID="26725" category="UI" subtitle="false">ラジアル メニュー 左上 の使用を有効にする。</String>
+      <String _locID="26726" subtitle="false" category="UI">ラジアル メニュー 左上 キャンセル</String>
+      <String _locID="26727" category="UI" subtitle="false">ラジアル メニュー 左上 の使用をキャンセルする。</String>
+      <String _locID="26728" subtitle="false" category="UI">消音</String>
+      <String _locID="26729" subtitle="false" category="UI">消音解除</String>
+      <String _locID="26730" category="UI" scenario="MPGameSetup" subtitle="false">本当にロビーから退出しますか?</String>
+      <String _locID="26731" category="UI" scenario="Service Record" subtitle="false">三つ星 大将</String>
+      <String _locID="26732" category="UI" scenario="Service Record" subtitle="false">四つ星 大将</String>
+      <String _locID="26733" category="UI" scenario="Service Record" subtitle="false">五つ星 大将</String>
+      <String _locID="26734" category="UI" scenario="MPGameSetup" subtitle="false">専有モード フルスクリーン</String>
+      <String _locID="26735" category="UI" scenario="MPGameSetup" subtitle="false">専有モード フルスクリーン切り替え</String>
+      <String _locID="26736" category="UI" subtitle="false">プレイヤーのプロフィールを見るには、Steam クライアントの設定で、Steam オーバーレイを有効にする必要があります。</String>
+      <String _locID="26737" category="UI" subtitle="false">フレンドを招待するには、Steam クライアントの設定で、Steam オーバーレイを有効にする必要があります。</String>
+      <String _locID="26738" category="UI" scenario="Leaderboards" subtitle="false">ランキング (フレンド)</String>
+      <String _locID="26739" category="UI" scenario="Options" subtitle="false">ムービーのボリューム</String>
+      <String _locID="26740" category="UI" scenario="Options" subtitle="false">ムービーの音量を設定</String>
+      <String _locID="26741" category="UI" scenario="Options" subtitle="false">ボイスチャットのボリューム</String>
+      <String _locID="26742" category="UI" scenario="Options" subtitle="false">ボイスチャットの音量を設定</String>
+      <String _locID="26743" category="UI" scenario="Options" subtitle="false">ボイスチャット</String>
+      <String _locID="26744" category="UI" scenario="Options" subtitle="false">ボイスチャットを有効にする。</String>
+      <String _locID="26745" category="UI" scenario="GameSetup" subtitle="false">難易度: イージー</String>
+      <String _locID="26746" category="UI" scenario="GameSetup" subtitle="false">難易度: ノーマル</String>
+      <String _locID="26747" category="UI" scenario="GameSetup" subtitle="false">難易度: ヒロイック</String>
+      <String _locID="26748" category="UI" scenario="GameSetup" subtitle="false">難易度: レジェンダリー</String>
+      <String _locID="26749" category="UI" scenario="GameSetup" subtitle="false">難易度: カスタム</String>
+      <String _locID="26750" category="UI" scenario="GameSetup" subtitle="false">難易度: オート</String>
+      <String _locID="26751" category="UI" scenario="GameSetup" subtitle="false">カスタム</String>
+      <String _locID="26752" category="UI" scenario="GameSetup" subtitle="false">オート</String>
+      <String _locID="26753" category="UI" scenario="GameSetup" subtitle="false">難易度</String>
    </Language>
 </StringTable>

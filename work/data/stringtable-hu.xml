@@ -5377,5 +5377,69 @@ MASTER STRING TABLE INDEX
       <String _locID="26687" subtitle="false" category="UI">Néhány játékos nem tudott csatlakozni a lobby-hoz.</String>
       <String _locID="26688" subtitle="false" category="UI">A lobby gazdája kirúgott a játszmából.</String>
       <String _locID="26689" subtitle="false" category="UI">A lobby gazdája elhagyta a játszmát, így az már nem létezik.</String>
+      <String _locID="26690" subtitle="false" category="UI">Amikor a szűrők beállítása megtörtént, a JÁTÉK KÖZZÉTÉTELE gomb segítségével teheted közzé a játékot.</String>
+      <String _locID="26691" subtitle="false" category="UI">Amikor a szűrők beállítása megtörtént, a JÁTÉKOK KERESÉSE gomb segítségével indíthatod a játékok keresését.</String>
+      <String _locID="26692" subtitle="false" category="UI">Amikor a beállítások megadása megtörtént, a START gomb segítségével indíthatod a játékot.</String>
+      <String _locID="26693" subtitle="false" category="UI">Globális</String>
+      <String _locID="26694" subtitle="false" category="UI">Csapat</String>
+      <String _locID="26695" subtitle="false" category="UI">Tárcsamenü gyorsbillentyűk</String>
+      <String _locID="26696" subtitle="false" category="UI">Tárcsamenü felső elem használata</String>
+      <String _locID="26697" category="UI" subtitle="false">A tárcsamenü felső elemét aktiválja.</String>
+      <String _locID="26698" subtitle="false" category="UI">Tárcsamenü felső elem visszavonása</String>
+      <String _locID="26699" category="UI" subtitle="false">A tárcsamenü felső elemét vonja vissza.</String>
+      <String _locID="26700" subtitle="false" category="UI">Tárcsamenü jobb felső elem használata</String>
+      <String _locID="26701" category="UI" subtitle="false">A tárcsamenü jobb felső elemét aktiválja.</String>
+      <String _locID="26702" subtitle="false" category="UI">Tárcsamenü jobb felső elem visszavonása</String>
+      <String _locID="26703" category="UI" subtitle="false">A tárcsamenü jobb felső elemét vonja vissza.</String>
+      <String _locID="26704" subtitle="false" category="UI">Tárcsamenü jobb elem használata</String>
+      <String _locID="26705" category="UI" subtitle="false">A tárcsamenü jobb elemét aktiválja.</String>
+      <String _locID="26706" subtitle="false" category="UI">Tárcsamenü jobb elem visszavonása</String>
+      <String _locID="26707" category="UI" subtitle="false">A tárcsamenü jobb elemét vonja vissza.</String>
+      <String _locID="26708" subtitle="false" category="UI">Tárcsamenü jobb alsó elem használata</String>
+      <String _locID="26709" category="UI" subtitle="false">A tárcsamenü jobb alsó elemét aktiválja.</String>
+      <String _locID="26710" subtitle="false" category="UI">Tárcsamenü jobb alsó elem visszavonása</String>
+      <String _locID="26711" category="UI" subtitle="false">A tárcsamenü jobb alsó elemét vonja vissza.</String>
+      <String _locID="26712" subtitle="false" category="UI">Tárcsamenü alsó elem használata</String>
+      <String _locID="26713" category="UI" subtitle="false">A tárcsamenü alsó elemét aktiválja.</String>
+      <String _locID="26714" subtitle="false" category="UI">Tárcsamenü alsó elem visszavonása</String>
+      <String _locID="26715" category="UI" subtitle="false">A tárcsamenü alsó elemét vonja vissza.</String>
+      <String _locID="26716" subtitle="false" category="UI">Tárcsamenü bal alsó elem használata</String>
+      <String _locID="26717" category="UI" subtitle="false">A tárcsamenü bal alsó elemét aktiválja.</String>
+      <String _locID="26718" subtitle="false" category="UI">Tárcsamenü bal alsó elem visszavonása</String>
+      <String _locID="26719" category="UI" subtitle="false">A tárcsamenü bal alsó elemét vonja vissza.</String>
+      <String _locID="26720" subtitle="false" category="UI">Tárcsamenü bal elem használata</String>
+      <String _locID="26721" category="UI" subtitle="false">A tárcsamenü bal elemét aktiválja.</String>
+      <String _locID="26722" subtitle="false" category="UI">Tárcsamenü bal elem visszavonása</String>
+      <String _locID="26723" category="UI" subtitle="false">A tárcsamenü bal elemét vonja vissza.</String>
+      <String _locID="26724" subtitle="false" category="UI">Tárcsamenü bal felső elem használata</String>
+      <String _locID="26725" category="UI" subtitle="false">A tárcsamenü bal felső elemét aktiválja.</String>
+      <String _locID="26726" subtitle="false" category="UI">Tárcsamenü bal felső elem visszavonása</String>
+      <String _locID="26727" category="UI" subtitle="false">A tárcsamenü bal felső elemét vonja vissza.</String>
+      <String _locID="26728" subtitle="false" category="UI">Némítás</String>
+      <String _locID="26729" subtitle="false" category="UI">Némítás visszavonása</String>
+      <String _locID="26730" category="UI" scenario="MPGameSetup" subtitle="false">Biztosan elhagyod ezt a lobby-t?</String>
+      <String _locID="26731" category="UI" scenario="Service Record" subtitle="false">Háromcsillagos tábornok</String>
+      <String _locID="26732" category="UI" scenario="Service Record" subtitle="false">Négycsillagos tábornok</String>
+      <String _locID="26733" category="UI" scenario="Service Record" subtitle="false">Ötcsillagos tábornok</String>
+      <String _locID="26734" category="UI" scenario="MPGameSetup" subtitle="false">Kizárólagos teljes képernyős mód</String>
+      <String _locID="26735" category="UI" scenario="MPGameSetup" subtitle="false">Kizárólagos teljes képernyős mód ki/bekapcsolása</String>
+      <String _locID="26736" category="UI" subtitle="false">A játékosprofilok megtekintéséhez engedélyezned kell a Steam Átfedés funkciót a Steam kliens beállításai között.</String>
+      <String _locID="26737" category="UI" subtitle="false">A barátok meghívásához engedélyezned kell a Steam Átfedés funkciót a Steam kliens beállításai között.</String>
+      <String _locID="26738" category="UI" scenario="Leaderboards" subtitle="false">RANGLISTA (BARÁTOK)</String>
+      <String _locID="26739" category="UI" scenario="Options" subtitle="false">Átvezető filmek hangereje</String>
+      <String _locID="26740" category="UI" scenario="Options" subtitle="false">Az átvezető filmek hangerejének beállítása.</String>
+      <String _locID="26741" category="UI" scenario="Options" subtitle="false">Hangcsevegés hangereje</String>
+      <String _locID="26742" category="UI" scenario="Options" subtitle="false">A hangcsevegés hangerejének beállítása.</String>
+      <String _locID="26743" category="UI" scenario="Options" subtitle="false">Hangcsevegés</String>
+      <String _locID="26744" category="UI" scenario="Options" subtitle="false">Hangcsevegés engedélyezése.</String>
+      <String _locID="26745" category="UI" scenario="GameSetup" subtitle="false">Nehézségi szint: Könnyű</String>
+      <String _locID="26746" category="UI" scenario="GameSetup" subtitle="false">Nehézségi szint: Normál</String>
+      <String _locID="26747" category="UI" scenario="GameSetup" subtitle="false">Nehézségi szint: Hősi</String>
+      <String _locID="26748" category="UI" scenario="GameSetup" subtitle="false">Nehézségi szint: Legendás</String>
+      <String _locID="26749" category="UI" scenario="GameSetup" subtitle="false">Nehézségi szint: Egyéni</String>
+      <String _locID="26750" category="UI" scenario="GameSetup" subtitle="false">Nehézségi szint: Automatikus</String>
+      <String _locID="26751" category="UI" scenario="GameSetup" subtitle="false">EGYÉNI</String>
+      <String _locID="26752" category="UI" scenario="GameSetup" subtitle="false">Automatikus</String>
+      <String _locID="26753" category="UI" scenario="GameSetup" subtitle="false">Nehézségi szint</String>
    </Language>
 </StringTable>

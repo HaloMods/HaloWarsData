@@ -7,6 +7,7 @@
 	<ControlList>
 		<Controls>
 			<Mode name="Main">
+				<Control name="ButtonA" command="playerOptions" event="start" sound="" />
 				<Control name="ButtonB" command="cancel" event="start" sound="" />
 				<Control name="ButtonBack" command="cancel" event="start" sound="" />
 				<Control name="KeyEscape" command="cancel" event="start" sound="" />
@@ -24,10 +25,20 @@
 	<UIGamerTagControl>
 		<Controls>
 			<Mode name="Main">
-				<Control name="ButtonA" command="gamerTag" event="start" sound="" />
 				<Control name="ButtonX" command="serviceRecord" event="start" sound="" />
 				<Control name="ButtonY" command="sessionReview" event="start" sound="" />
 			</Mode>
 		</Controls>
 	</UIGamerTagControl>
+	<UIListControlCustom>
+		<Controls>
+			<Mode name="Main">
+				<Control name="ButtonB" command="cancel" event="start" sound="" />
+				<Control name="StickLeftUp" command="prev" event="start" digital="" threshold="0.9" repeat="" delay="0.5" rate="0.2" sound="" />
+				<Control name="StickLeftDown" command="next" event="start" digital="" threshold="0.9" repeat="" delay="0.5" rate="0.2" sound="" />
+				<Control name="DpadUp" command="prev" event="start" repeat="" delay="0.5" rate="0.2" sound="" />
+				<Control name="DpadDown" command="next" event="start" repeat="" delay="0.5" rate="0.2" sound="" />
+			</Mode>
+		</Controls>
+	</UIListControlCustom>
 </FlashMovieDefinition>

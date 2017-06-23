@@ -3020,8 +3020,8 @@ MASTER STRING TABLE INDEX
       <String _locID="24082" category="UI" subtitle="false">비탄의 사제는 전장에서 천벌의 빛을 사용할 수 있습니다. 원래는 행성을 초토화하는 데 사용되었던 천벌의 빛은 아군 부대에 큰 피해를 줍니다. 빛을 차단하려면 사제를 처치하십시오.</String>
       <String _locID="24083" category="UI" subtitle="false" _mouseKeyboard="26240">적에게 치명적인 공격을 하고 싶으면 $$DPAD$$ 위쪽을 눌러 스피릿 오브 파이어를 호출한 다음 MAC 블라스트를 발사해보십시오.</String>
       <String _locID="24084" category="UI" subtitle="false">스파르탄을 한 명만 사용하고 있다면 3인 1개조의 스파르탄이 발휘하는 막강한 전투력을 경험해 보십시오. 적의 유닛도 탈취할 수 있습니다.</String>
-      <String _locID="24098" category="UI" scenario="Main Menu-alpha" subtitle="false">거부됨</String>
-      <String _locID="24099" category="UI" scenario="Main Menu-alpha" subtitle="false">거부됨</String>
+      <String _locID="24098" category="UI" scenario="Main Menu-alpha" subtitle="false">DEPRECATED To play Halo Wars, you need to be signed into an Xbox Live Gold gamer profile. Press $$A$$ to sign into Xbox Live now.</String>
+      <String _locID="24099" category="UI" scenario="Main Menu-alpha" subtitle="false">DEPRECATED To play Halo Wars, you need to be signed into an Xbox Live Gold gamer profile. Press $$A$$ to sign into Xbox Live with a Gold gamer profile.</String>
       <String _locID="24105" category="UI" scenario="Main Menu-alpha" subtitle="false">Halo Wars가 Xbox Live를 사용할 수 있는 프로필을 승인하지 못했습니다.</String>
       <String _locID="24106" category="Skirmish" scenario="Hint Chat" subtitle="false">좋습니다, 스콜피온이군요! 스콜피온은 여러분이 주로 사용하게 될 기갑 유닛으로서, 모든 적에 대해 뛰어난 공격력을 발휘합니다.</String>
       <String _locID="24107" category="Skirmish" scenario="Hint Chat" subtitle="false" _mouseKeyboard="26241">방향 패드를 사용하면 다양한 지점으로 즉시 이동할 수 있습니다. 기지나 아군 부대의 상황을 볼 수 있으며 궤도에 있는 스피릿 오브 파이어에 연결할 수도 있습니다.</String>
@@ -3034,7 +3034,7 @@ MASTER STRING TABLE INDEX
       <String _locID="24114" category="Campaign" scenario="6" subtitle="false">라이노를 요청하십시오.</String>
       <String _locID="24115" category="Campaign" scenario="6" subtitle="false">돔 생성기와 대공 시설 파괴</String>
       <String _locID="24116" category="UI" subtitle="false">게임에 연결된 플레이어가 부족하여 게임을 계속할 수 없습니다.</String>
-      <String _locID="24117" category="UI" scenario="PartyScreen" subtitle="false">Xbox Live에서 기다리는 중...</String>
+      <String _locID="24117" category="UI" scenario="PartyScreen" subtitle="false">Xbox Live 서버 응답 대기 중...</String>
       <String _locID="24118" category="" scenario="Hint Display" subtitle="false">힌트 표시 D</String>
       <String _locID="24122" category="UI" subtitle="false">M12 워트호그는 12리터 수소 엔진을 장착하고 있습니다.</String>
       <String _locID="24123" category="UI" subtitle="false">위대한 고행이 기다리고 있습니다.</String>
@@ -3504,7 +3504,7 @@ MASTER STRING TABLE INDEX
       <String _locID="24601" category="UI" scenario="Options" subtitle="false">빠름</String>
       <String _locID="24602" category="UI" scenario="Options" subtitle="false">음악 볼륨</String>
       <String _locID="24603" category="UI" scenario="Options" subtitle="false">효과음 볼륨</String>
-      <String _locID="24604" category="UI" scenario="Options" subtitle="false">음성 볼륨</String>
+      <String _locID="24604" category="UI" scenario="Options" subtitle="false">대화 볼륨</String>
       <String _locID="24605" category="UI" scenario="Options" subtitle="false">동영상 자막</String>
       <String _locID="24606" category="UI" scenario="Options" subtitle="false">밝기/명암</String>
       <String _locID="24607" category="UI" scenario="Options" subtitle="false">팀 색상</String>
@@ -5376,5 +5376,69 @@ MASTER STRING TABLE INDEX
       <String _locID="26687" subtitle="false" category="UI">일부 플레이어들이 대기실에 참가하지 못했습니다.</String>
       <String _locID="26688" subtitle="false" category="UI">대기실 호스트가 세션에서 플레이어를 추방했습니다.</String>
       <String _locID="26689" subtitle="false" category="UI">호스트가 대기실을 나가서 세션이 더 이상 유효하지 않습니다.</String>
+      <String _locID="26690" subtitle="false" category="UI">필터 설정이 완료되어 게임을 호스트하려면 게임 공개하기 버튼을 누르십시오.</String>
+      <String _locID="26691" subtitle="false" category="UI">필터 설정이 완료되어 게임을 찾으려면 게임 찾기 버튼을 누르십시오.</String>
+      <String _locID="26692" subtitle="false" category="UI">설정이 완료되어 게임을 실행하려면 준비 버튼을 누르십시오.</String>
+      <String _locID="26693" subtitle="false" category="UI">전체</String>
+      <String _locID="26694" subtitle="false" category="UI">팀</String>
+      <String _locID="26695" subtitle="false" category="UI">원형 메뉴 바로 가기 키</String>
+      <String _locID="26696" subtitle="false" category="UI">원형 메뉴 위쪽 사용</String>
+      <String _locID="26697" category="UI" subtitle="false">원형 메뉴 위쪽 액션을 발동합니다.</String>
+      <String _locID="26698" subtitle="false" category="UI">원형 메뉴 위쪽 취소</String>
+      <String _locID="26699" category="UI" subtitle="false">원형 메뉴 위쪽 액션을 취소합니다.</String>
+      <String _locID="26700" subtitle="false" category="UI">원형 메뉴 오른쪽 위 사용</String>
+      <String _locID="26701" category="UI" subtitle="false">원형 메뉴 오른쪽 위 액션을 발동합니다.</String>
+      <String _locID="26702" subtitle="false" category="UI">원형 메뉴 오른쪽 위 취소</String>
+      <String _locID="26703" category="UI" subtitle="false">원형 메뉴 오른쪽 위 액션을 취소합니다.</String>
+      <String _locID="26704" subtitle="false" category="UI">원형 메뉴 오른쪽 사용</String>
+      <String _locID="26705" category="UI" subtitle="false">원형 메뉴 오른쪽 액션을 발동합니다.</String>
+      <String _locID="26706" subtitle="false" category="UI">원형 메뉴 오른쪽 취소</String>
+      <String _locID="26707" category="UI" subtitle="false">원형 메뉴 오른쪽 액션을 취소합니다.</String>
+      <String _locID="26708" subtitle="false" category="UI">원형 메뉴 오른쪽 아래 사용</String>
+      <String _locID="26709" category="UI" subtitle="false">원형 메뉴 오른쪽 아래 액션을 발동합니다.</String>
+      <String _locID="26710" subtitle="false" category="UI">원형 메뉴 오른쪽 아래 취소</String>
+      <String _locID="26711" category="UI" subtitle="false">원형 메뉴 오른쪽 아래 액션을 취소합니다.</String>
+      <String _locID="26712" subtitle="false" category="UI">원형 메뉴 아래쪽 사용</String>
+      <String _locID="26713" category="UI" subtitle="false">원형 메뉴 아래쪽 액션을 발동합니다.</String>
+      <String _locID="26714" subtitle="false" category="UI">원형 메뉴 아래쪽 취소</String>
+      <String _locID="26715" category="UI" subtitle="false">원형 메뉴 아래쪽 액션을 취소합니다.</String>
+      <String _locID="26716" subtitle="false" category="UI">원형 메뉴 왼쪽 아래 사용</String>
+      <String _locID="26717" category="UI" subtitle="false">원형 메뉴 왼쪽 아래 액션을 발동합니다.</String>
+      <String _locID="26718" subtitle="false" category="UI">원형 메뉴 왼쪽 아래 취소</String>
+      <String _locID="26719" category="UI" subtitle="false">원형 메뉴 왼쪽 아래 액션을 취소합니다.</String>
+      <String _locID="26720" subtitle="false" category="UI">원형 메뉴 왼쪽 사용</String>
+      <String _locID="26721" category="UI" subtitle="false">원형 메뉴 왼쪽 액션을 발동합니다.</String>
+      <String _locID="26722" subtitle="false" category="UI">원형 메뉴 왼쪽 취소</String>
+      <String _locID="26723" category="UI" subtitle="false">원형 메뉴 왼쪽 액션을 취소합니다.</String>
+      <String _locID="26724" subtitle="false" category="UI">원형 메뉴 왼쪽 위 사용</String>
+      <String _locID="26725" category="UI" subtitle="false">원형 메뉴 왼쪽 위 액션을 발동합니다.</String>
+      <String _locID="26726" subtitle="false" category="UI">원형 메뉴 왼쪽 위 취소</String>
+      <String _locID="26727" category="UI" subtitle="false">원형 메뉴 왼쪽 위 액션을 취소합니다.</String>
+      <String _locID="26728" subtitle="false" category="UI">음성 차단</String>
+      <String _locID="26729" subtitle="false" category="UI">음성 차단 해제</String>
+      <String _locID="26730" category="UI" scenario="MPGameSetup" subtitle="false">정말로 이 대기실에서 나가시겠습니까?</String>
+      <String _locID="26731" category="UI" scenario="Service Record" subtitle="false">3성 장군</String>
+      <String _locID="26732" category="UI" scenario="Service Record" subtitle="false">4성 장군</String>
+      <String _locID="26733" category="UI" scenario="Service Record" subtitle="false">5성 장군</String>
+      <String _locID="26734" category="UI" scenario="MPGameSetup" subtitle="false">단독 모드 전체화면</String>
+      <String _locID="26735" category="UI" scenario="MPGameSetup" subtitle="false">단독 모드 전체화면을 켜고 끕니다.</String>
+      <String _locID="26736" category="UI" subtitle="false">플레이어 프로필을 보려면 Steam 클라이언트 설정에서 Steam Overlay를 켜야 합니다.</String>
+      <String _locID="26737" category="UI" subtitle="false">친구를 초대하려면 Steam 클라이언트 설정에서 Steam Overlay를 켜야 합니다.</String>
+      <String _locID="26738" category="UI" scenario="Leaderboards" subtitle="false">순위표(친구)</String>
+      <String _locID="26739" category="UI" scenario="Options" subtitle="false">시네마틱 볼륨</String>
+      <String _locID="26740" category="UI" scenario="Options" subtitle="false">시네마틱의 볼륨을 조정합니다.</String>
+      <String _locID="26741" category="UI" scenario="Options" subtitle="false">음성 채팅 볼륨</String>
+      <String _locID="26742" category="UI" scenario="Options" subtitle="false">음성 채팅의 볼륨을 조정합니다.</String>
+      <String _locID="26743" category="UI" scenario="Options" subtitle="false">음성 채팅</String>
+      <String _locID="26744" category="UI" scenario="Options" subtitle="false">음성 채팅을 켭니다.</String>
+      <String _locID="26745" category="UI" scenario="GameSetup" subtitle="false">난이도: 쉬움</String>
+      <String _locID="26746" category="UI" scenario="GameSetup" subtitle="false">난이도: 보통</String>
+      <String _locID="26747" category="UI" scenario="GameSetup" subtitle="false">난이도: 영웅</String>
+      <String _locID="26748" category="UI" scenario="GameSetup" subtitle="false">난이도: 전설</String>
+      <String _locID="26749" category="UI" scenario="GameSetup" subtitle="false">난이도: 사용자 지정</String>
+      <String _locID="26750" category="UI" scenario="GameSetup" subtitle="false">난이도: 자동</String>
+      <String _locID="26751" category="UI" scenario="GameSetup" subtitle="false">사용자 지정</String>
+      <String _locID="26752" category="UI" scenario="GameSetup" subtitle="false">자동</String>
+      <String _locID="26753" category="UI" scenario="GameSetup" subtitle="false">난이도</String>
    </Language>
 </StringTable>

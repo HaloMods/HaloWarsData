@@ -1250,37 +1250,37 @@ MASTER STRING TABLE INDEX
       <String _locID="22305" category="Powers" subtitle="false">
       </String>
       <String _locID="22306" category="Code" subtitle="false">Requiere Banshee.</String>
-      <String _locID="22308" category="Skirmish" subtitle="false">1v1 Picos Gemelos SWI</String>
-      <String _locID="22309" category="Skirmish" subtitle="false">Prueba 3v3 Fábrica SWI</String>
-      <String _locID="22310" category="Skirmish" subtitle="false">3v3 Garganta SWI</String>
-      <String _locID="22311" category="Skirmish" subtitle="false">3v3 Río Serpiente</String>
+      <String _locID="22308" category="Skirmish" subtitle="false">1c1 Picos Gemelos SWI</String>
+      <String _locID="22309" category="Skirmish" subtitle="false">Prueba 3c3 Fábrica SWI</String>
+      <String _locID="22310" category="Skirmish" subtitle="false">3c3 Garganta SWI</String>
+      <String _locID="22311" category="Skirmish" subtitle="false">3c3 Río Serpiente</String>
       <String _locID="22312" category="Skirmish" subtitle="false">Halo_fast</String>
-      <String _locID="22313" category="Skirmish" subtitle="false">MESETA DE BAISLEY (2v2)</String>
-      <String _locID="22314" category="Skirmish" subtitle="false">2v2 Harvest</String>
-      <String _locID="22315" category="Skirmish" subtitle="false">2v2 Artefacto</String>
-      <String _locID="22316" category="Skirmish" subtitle="false">2v2 Tierras baldías SWI</String>
-      <String _locID="22317" category="Skirmish" subtitle="false">1v1 Tierras baldías SWI</String>
-      <String _locID="22318" category="Skirmish" subtitle="false">TUNDRA (1v1)</String>
-      <String _locID="22319" category="Skirmish" subtitle="false">2v2 Gran lago SWI</String>
-      <String _locID="22320" category="Skirmish" subtitle="false">1v1 Picos Gemelos HAR</String>
-      <String _locID="22321" category="Skirmish" subtitle="false">3v3 Muerte súbita</String>
-      <String _locID="22322" category="Skirmish" subtitle="false">2v2 Saltos</String>
-      <String _locID="22323" category="Skirmish" subtitle="false">2v2 Arabia</String>
+      <String _locID="22313" category="Skirmish" subtitle="false">MESETA DE BAISLEY (2c2)</String>
+      <String _locID="22314" category="Skirmish" subtitle="false">2c2 Harvest</String>
+      <String _locID="22315" category="Skirmish" subtitle="false">2c2 Artefacto</String>
+      <String _locID="22316" category="Skirmish" subtitle="false">2c2 Tierras baldías SWI</String>
+      <String _locID="22317" category="Skirmish" subtitle="false">1c1 Tierras baldías SWI</String>
+      <String _locID="22318" category="Skirmish" subtitle="false">TUNDRA (1c1)</String>
+      <String _locID="22319" category="Skirmish" subtitle="false">2c2 Gran lago SWI</String>
+      <String _locID="22320" category="Skirmish" subtitle="false">1c1 Picos Gemelos HAR</String>
+      <String _locID="22321" category="Skirmish" subtitle="false">3c3 Muerte súbita</String>
+      <String _locID="22322" category="Skirmish" subtitle="false">2c2 Saltos</String>
+      <String _locID="22323" category="Skirmish" subtitle="false">2c2 Arabia</String>
       <String _locID="22324" category="Skirmish" subtitle="false">Partida de ritmo rápido en la que tomar el terreno elevado puede significar la diferencia entre la vida y la muerte.</String>
-      <String _locID="22325" category="Skirmish" subtitle="false">Información de Prueba 3v3 Fábrica SWI</String>
-      <String _locID="22326" category="Skirmish" subtitle="false">Información de 3v3 Garganta SWI</String>
-      <String _locID="22327" category="Skirmish" subtitle="false">Información de 3v3 Río Serpiente</String>
+      <String _locID="22325" category="Skirmish" subtitle="false">Información de Prueba 3c3 Fábrica SWI</String>
+      <String _locID="22326" category="Skirmish" subtitle="false">Información de 3c3 Garganta SWI</String>
+      <String _locID="22327" category="Skirmish" subtitle="false">Información de 3c3 Río Serpiente</String>
       <String _locID="22328" category="Skirmish" subtitle="false">Información de Halo_fast</String>
       <String _locID="22329" category="Skirmish" subtitle="false">Las bases de esta zona suelen tener dos entradas. Controlar el centro puede llevar a un límite de población más elevado de lo normal.</String>
-      <String _locID="22330" category="Skirmish" subtitle="false">Información de 2v2 Harvest</String>
+      <String _locID="22330" category="Skirmish" subtitle="false">Información de 2c2 Harvest</String>
       <String _locID="22331" category="Skirmish" subtitle="false">Lucha dentro de la Reliquia. El bando que consiga llegar a la parte superior controlará el Artefacto que se encuentra debajo.</String>
-      <String _locID="22332" category="Skirmish" subtitle="false">Información de 2v2 Tierras baldías SWI</String>
+      <String _locID="22332" category="Skirmish" subtitle="false">Información de 2c2 Tierras baldías SWI</String>
       <String _locID="22333" category="Skirmish" subtitle="false">Partida de ritmo rápido en la que tomar el terreno elevado puede significar la diferencia entre la vida y la muerte.</String>
       <String _locID="22334" category="Skirmish" subtitle="false">Un estanque congelado y varios cráteres canalizan los movimientos de tropas a las zonas de batalla en esta región asolada por la guerra.</String>
       <String _locID="22335" category="Skirmish" subtitle="false">Grandes masas de agua dejan estrechos desfiladeros entre tus enemigos y tú.</String>
-      <String _locID="22336" category="Skirmish" subtitle="false">Información de 1v1 Picos Gemelos HAR</String>
-      <String _locID="22337" category="Skirmish" subtitle="false">Información de 3v3 Muerte súbita</String>
-      <String _locID="22338" category="Skirmish" subtitle="false">Información de 2v2 Saltos</String>
+      <String _locID="22336" category="Skirmish" subtitle="false">Información de 1c1 Picos Gemelos HAR</String>
+      <String _locID="22337" category="Skirmish" subtitle="false">Información de 3c3 Muerte súbita</String>
+      <String _locID="22338" category="Skirmish" subtitle="false">Información de 2c2 Saltos</String>
       <String _locID="22339" category="Skirmish" subtitle="false">Las tierras baldías dejan pocas defensas naturales para tu base. Además, hay un nodo con múltiples ranuras en el centro.</String>
       <String _locID="22341" category="Campaign" scenario="1" subtitle="false">01 - BASE ALFA</String>
       <String _locID="22342" category="UI" scenario="2" subtitle="false">02 - HACIA LA RELIQUIA</String>
@@ -1306,7 +1306,7 @@ MASTER STRING TABLE INDEX
       <String _locID="22367" category="Techs" subtitle="false">JUNTAS CON TORQUE ALTO</String>
       <String _locID="22368" category="Techs" subtitle="false">Los sistemas de movilidad mejorados aumentan la velocidad de movimiento del Cyclops.</String>
       <String _locID="22369" category="Skirmish" subtitle="false">Lucha de plataforma en plataforma a través del espacio usando tus transportes; mantén la superioridad aérea para no perder la guerra.</String>
-      <String _locID="22370" category="Skirmish" subtitle="false">1v1 Placas</String>
+      <String _locID="22370" category="Skirmish" subtitle="false">1c1 Placas</String>
       <String _locID="22371" category="Techs" subtitle="false">EMBESTIDA</String>
       <String _locID="22372" category="Techs" subtitle="false">Aumenta el daño producido cuando la moto atropella enemigos y disminuye el daño sufrido.</String>
       <String _locID="22373" category="Techs" subtitle="false">
@@ -1355,9 +1355,9 @@ MASTER STRING TABLE INDEX
       <String _locID="22413" category="Techs" subtitle="false">Aumenta la tasa de energía de todos los monumentos.</String>
       <String _locID="22414" category="Campaign" scenario="9" subtitle="false">Elimina al Jefe Flood</String>
       <String _locID="22415" category="Skirmish" subtitle="false">Las bases de esta zona deben defenderse muy bien de noche, cuando los enjambres de Flood salen de sus escondrijos.</String>
-      <String _locID="22416" category="Skirmish" subtitle="false">GRIETA (2v2)</String>
+      <String _locID="22416" category="Skirmish" subtitle="false">GRIETA (2c2)</String>
       <String _locID="22417" category="Skirmish" subtitle="false">En este mapa, en el que enormes estructuras Forerunner dominan el paisaje, los enemigos pueden estar ocultos detrás de cualquier esquina.</String>
-      <String _locID="22418" category="Skirmish" subtitle="false">2v2 Laberinto</String>
+      <String _locID="22418" category="Skirmish" subtitle="false">2c2 Laberinto</String>
       <String _locID="22419" category="Objects" subtitle="false">Centro de operaciones especiales</String>
       <String _locID="22420" category="Objects" subtitle="false">Descripción de operaciones especiales</String>
       <String _locID="22421" category="Techs" subtitle="false">FOGONAZO</String>
@@ -1494,7 +1494,7 @@ MASTER STRING TABLE INDEX
       </String>
       <String _locID="22550" category="Techs" subtitle="false">
       </String>
-      <String _locID="22551" category="Skirmish" subtitle="false">2v2 Halo SWI</String>
+      <String _locID="22551" category="Skirmish" subtitle="false">2c2 Halo SWI</String>
       <String _locID="22552" category="Skirmish" subtitle="false">Lucha por un centro cargado de nodos. Aunque puedes conseguir una mejora económica importante, no podrás construir torretas.</String>
       <String _locID="22555" category="UI" subtitle="false">Grado de combate</String>
       <String _locID="22568" category="Campaign" scenario="13" subtitle="true">Sargento, debemos detener a los Covenant...</String>
@@ -1516,16 +1516,16 @@ MASTER STRING TABLE INDEX
       <String _locID="22595" category="Techs" subtitle="false">Elimina las penalizaciones por mercado e impuestos.</String>
       <String _locID="22596" category="Techs" subtitle="false">Mercado 3</String>
       <String _locID="22597" category="Techs" subtitle="false">Elimina las penalizaciones por mercado e impuestos.</String>
-      <String _locID="22598" category="Skirmish" subtitle="false">2v2 Empuje ciudadano</String>
+      <String _locID="22598" category="Skirmish" subtitle="false">2c2 Empuje ciudadano</String>
       <String _locID="22599" category="Skirmish" subtitle="false">Guerra urbana a escala galáctica. Controlar los caminos centrales puede ser difícil, ya que no puedes construir en ellos.</String>
-      <String _locID="22600" category="Skirmish" subtitle="false">2v2 Cruce</String>
+      <String _locID="22600" category="Skirmish" subtitle="false">2c2 Cruce</String>
       <String _locID="22601" category="Skirmish" subtitle="false">La guerra ha dejado muy pocas estructuras intactas en este trozo de roca. Aun así, sigue siendo nuestra roca...</String>
-      <String _locID="22602" category="Skirmish" subtitle="false">2v2 Cráteres</String>
+      <String _locID="22602" category="Skirmish" subtitle="false">2c2 Cráteres</String>
       <String _locID="22603" category="Skirmish" subtitle="false">Información de Cráteres</String>
       <String _locID="22604" category="Squads" subtitle="false">EJECUTOR</String>
       <String _locID="22605" category="Squads" subtitle="false">
       </String>
-      <String _locID="22611" category="Skirmish" subtitle="false">2v2 Géiseres</String>
+      <String _locID="22611" category="Skirmish" subtitle="false">2c2 Géiseres</String>
       <String _locID="22612" category="Skirmish" subtitle="false">Lucha alrededor de ardientes géiseres en el baldío Harvest.</String>
       <String _locID="22610" category="Squads" subtitle="false">LANZALLAMAS INFECTADOS</String>
       <String _locID="22613" category="Techs" subtitle="false">Voluntad del Inquisidor</String>
@@ -1609,9 +1609,9 @@ MASTER STRING TABLE INDEX
       <String _locID="22686" category="Squads" subtitle="false">FORMAS DE INFECCIÓN</String>
       <String _locID="22687" category="Squads" subtitle="false">
       </String>
-      <String _locID="22688" category="Skirmish" subtitle="false">3v3 Meandro del río Serpiente</String>
+      <String _locID="22688" category="Skirmish" subtitle="false">3c3 Meandro del río Serpiente</String>
       <String _locID="22689" category="Skirmish" subtitle="false">Si podemos resistir sus ataques en este río, puede que los mantengamos alejados de la ciudad.</String>
-      <String _locID="22690" category="Skirmish" subtitle="false">2v2 Hielo de Arabia</String>
+      <String _locID="22690" category="Skirmish" subtitle="false">2c2 Hielo de Arabia</String>
       <String _locID="22691" category="Skirmish" subtitle="false">La tundra helada deja pocas defensas naturales para tu base, pero también habrá pocas para tus enemigos.</String>
       <String _locID="22692" category="Campaign" scenario="5" subtitle="false">Destruye la base Covenant y sus guardias</String>
       <String _locID="22693" category="Campaign" scenario="10" subtitle="false">Tiempo de evacuación restante:</String>
@@ -2371,18 +2371,18 @@ MASTER STRING TABLE INDEX
       <String _locID="23449" category="UI" subtitle="false">DIFICULTAD</String>
       <String _locID="23450" category="Campaign" scenario="11" subtitle="false">Elimina a los Flood del casco</String>
       <String _locID="23451" category="Campaign" scenario="8" subtitle="true">Aún estoy intentando confirmar las coordenadas de la profesora Anders, pero solo podemos esperar.</String>
-      <String _locID="23452" category="UI" subtitle="false">1v1</String>
-      <String _locID="23453" category="UI" subtitle="false">2v2</String>
-      <String _locID="23454" category="UI" subtitle="false">3v3</String>
+      <String _locID="23452" category="UI" subtitle="false">1c1</String>
+      <String _locID="23453" category="UI" subtitle="false">2c2</String>
+      <String _locID="23454" category="UI" subtitle="false">3c3</String>
       <String _locID="23455" category="Campaign" scenario="11" subtitle="false">Pon las tropas a cubierto en las compuertas para protegerlas</String>
       <String _locID="23456" category="UI" subtitle="false">PARTIDA PRIVADA</String>
       <String _locID="23457" category="UI" subtitle="false">PARTIDA PÚBLICA</String>
       <String _locID="23458" category="UI" subtitle="false">CAMPAÑA</String>
-      <String _locID="23460" category="UI" subtitle="false">Estándar 1v1</String>
-      <String _locID="23461" category="UI" subtitle="false">Estándar 2v2</String>
-      <String _locID="23462" category="UI" subtitle="false">Estándar 3v3</String>
-      <String _locID="23463" category="UI" subtitle="false">Estándar 2v2 Grupo</String>
-      <String _locID="23464" category="UI" subtitle="false">Estándar 3v3 Grupo</String>
+      <String _locID="23460" category="UI" subtitle="false">Estándar 1c1</String>
+      <String _locID="23461" category="UI" subtitle="false">Estándar 2c2</String>
+      <String _locID="23462" category="UI" subtitle="false">Estándar 3c3</String>
+      <String _locID="23463" category="UI" subtitle="false">Estándar 2c2 Grupo</String>
+      <String _locID="23464" category="UI" subtitle="false">Estándar 3c3 Grupo</String>
       <String _locID="23465" category="UI" subtitle="false">Partida privada</String>
       <String _locID="23466" category="UI" subtitle="false">BUSCAR TIPO</String>
       <String _locID="23467" category="UI" subtitle="false">MISIÓN DE LA CAMPAÑA</String>
@@ -2430,7 +2430,7 @@ MASTER STRING TABLE INDEX
       <String _locID="23510" category="Objects" subtitle="false">Casa</String>
       <String _locID="23511" category="Objects" subtitle="false">
       </String>
-      <String _locID="23512" category="UI" subtitle="false">INVITAR A AMIGOS</String>
+      <String _locID="23512" category="UI" subtitle="false">INVITAR AMIGOS</String>
       <String _locID="23513" category="UI" subtitle="false">Editar descripción</String>
       <String _locID="23514" subtitle="false">Introduce una descripción para tu partida.</String>
       <String _locID="23518" category="Campaign" scenario="2" subtitle="true">He marcado el área en la que el sargento Forge encontró la estructura.</String>
@@ -2899,11 +2899,11 @@ MASTER STRING TABLE INDEX
       </String>
       <String _locID="23958" category="Objects" subtitle="false">REUNIÓN DE BASE</String>
       <String _locID="23959" category="Objects" subtitle="false">Las nuevas unidades de esta base se desplazarán a esta ubicación cuando acabe el entrenamiento. Usa el punto de reubicación global para anular este comportamiento.</String>
-      <String _locID="23960" category="Skirmish" subtitle="false">SIMAS (1v1)</String>
+      <String _locID="23960" category="Skirmish" subtitle="false">SIMAS (1c1)</String>
       <String _locID="23961" category="Skirmish" subtitle="false">El área está dominada por enormes montañas y gargantas, aunque quedan muchas vías posibles para cruzar el accidentado paisaje. Torres de francotirador defienden posiciones clave.</String>
-      <String _locID="23962" category="Skirmish" subtitle="false">ARSENAL (2v2)</String>
+      <String _locID="23962" category="Skirmish" subtitle="false">ARSENAL (2c2)</String>
       <String _locID="23963" category="Skirmish" subtitle="false">Hay muchos suministros que adquirir en el centro y peligrosos enemigos acechando desde todas partes. La lucha por el control de esta región será despiadada, brutal y corta.</String>
-      <String _locID="23964" category="Skirmish" subtitle="false">VALLE CONGELADO (3v3)</String>
+      <String _locID="23964" category="Skirmish" subtitle="false">VALLE CONGELADO (3c3)</String>
       <String _locID="23965" category="Skirmish" subtitle="false">Las frías tierras baldías, un mapa abierto y amplio, presenta dos reactores adicionales y una espiral de curación Forerunner.</String>
       <String _locID="23966" category="Objects" subtitle="false">Helipuerto</String>
       <String _locID="23967" category="Objects" subtitle="false">
@@ -3200,9 +3200,9 @@ MASTER STRING TABLE INDEX
       <String _locID="24320" category="Skirmish" scenario="FloodControl" subtitle="false">Tipo de onda 3</String>
       <String _locID="24321" category="Skirmish" scenario="FloodControl" subtitle="false">Tipo de onda 4</String>
       <String _locID="24322" category="Skirmish" scenario="FloodControl" subtitle="false">Tipo de onda 5</String>
-      <String _locID="24323" category="Skirmish" scenario="" subtitle="false">LABERINTO (2v2)</String>
+      <String _locID="24323" category="Skirmish" scenario="" subtitle="false">LABERINTO (2c2)</String>
       <String _locID="24324" category="Skirmish" subtitle="false">Un laberinto de estructuras Forerunner que crean un campo de batalla complejo y desafiante. Los protectores Forerunner pueden ser la clave de la victoria.</String>
-      <String _locID="24325" category="Skirmish" subtitle="false">LIBERACIÓN (1v1)</String>
+      <String _locID="24325" category="Skirmish" subtitle="false">LIBERACIÓN (1c1)</String>
       <String _locID="24326" category="Campaign" scenario="6" subtitle="true">El suministro de energía de la cúpula está sobrecargado. ¡Lo conseguimos!</String>
       <String _locID="24327" category="Campaign" scenario="6" subtitle="true">Solo falta un Rhino en posición.</String>
       <String _locID="24328" category="Campaign" scenario="6" subtitle="true">El MAC se está alineando; solo hay una torreta disponible.</String>
@@ -3504,7 +3504,7 @@ MASTER STRING TABLE INDEX
       <String _locID="24601" category="UI" scenario="Options" subtitle="false">Rápida</String>
       <String _locID="24602" category="UI" scenario="Options" subtitle="false">Volumen de música</String>
       <String _locID="24603" category="UI" scenario="Options" subtitle="false">Volumen de efectos especiales</String>
-      <String _locID="24604" category="UI" scenario="Options" subtitle="false">Volumen de voz</String>
+      <String _locID="24604" category="UI" scenario="Options" subtitle="false">Volumen de los diálogos</String>
       <String _locID="24605" category="UI" scenario="Options" subtitle="false">Subtítulos - Escenas cinemáticas</String>
       <String _locID="24606" category="UI" scenario="Options" subtitle="false">Brillo/Gamma</String>
       <String _locID="24607" category="UI" scenario="Options" subtitle="false">Colores de amigo o enemigo</String>
@@ -3540,9 +3540,9 @@ MASTER STRING TABLE INDEX
       <String _locID="24638" category="Squads" subtitle="false">BRUTES INFECTADOS</String>
       <String _locID="24639" category="Squads" subtitle="false">Descripción del Brute infectado</String>
       <String _locID="24640" scenario="11" subtitle="false">Op: destruye a 100 centinelas</String>
-      <String _locID="24645" category="Skirmish" scenario="Map Name" subtitle="false">EL PUERTO (2v2)</String>
+      <String _locID="24645" category="Skirmish" scenario="Map Name" subtitle="false">EL PUERTO (2c2)</String>
       <String _locID="24646" category="Skirmish" scenario="Map Description" subtitle="false">En esta región urbana densamente edificada de Arcadia, hay varias torres de francotirador que protegen lugares clave.</String>
-      <String _locID="24647" category="Skirmish" scenario="Map Name" subtitle="false">EXILE (3v3)</String>
+      <String _locID="24647" category="Skirmish" scenario="Map Name" subtitle="false">EXILIO (3c3)</String>
       <String _locID="24648" category="Skirmish" scenario="Map Description" subtitle="false">El terreno infranqueable crea un trío de anillos que define este gran campo de batalla. En el anillo exterior, hay más emplazamientos de bases, pero resulta más útil estratégicamente controlar el centro.</String>
       <String _locID="24649" category="Objects" subtitle="false">NODO DE ENERGÍA</String>
       <String _locID="24650" category="Objects" subtitle="false">BASE REBELDE</String>
@@ -3559,13 +3559,13 @@ MASTER STRING TABLE INDEX
       <String _locID="24661" category="Campaign" scenario="8" subtitle="true">¡Aléjate de mí! ¡Eres uno de ellos! ¡Puaj!</String>
       <String _locID="24662" category="Objects" subtitle="false">MURO DE ENERGÍA</String>
       <String _locID="24663" category="Objects" subtitle="false">Muro infranqueable cuando está protegido</String>
-      <String _locID="24664" category="Skirmish" subtitle="false">AFUERAS DE PIRTH (1v1)</String>
+      <String _locID="24664" category="Skirmish" subtitle="false">AFUERAS DE PIRTH (1c1)</String>
       <String _locID="24665" category="Skirmish" subtitle="false">Las pantanosas afueras de la capital de Arcadia contienen reactores adicionales sin dueño y rutas alternativas de ataque.</String>
-      <String _locID="24666" category="Skirmish" subtitle="false">BLOOD GULCH (1v1)</String>
+      <String _locID="24666" category="Skirmish" subtitle="false">BARRANCO SANGRE (1c1)</String>
       <String _locID="24667" category="Skirmish" subtitle="false">Nos aguarda un combate rápido y encarnizado en Blood Gulch. Los teletransportadores permiten realizar ataques sorpresa, mientras que los reactores adicionales dotan al ataque de más agresividad.</String>
-      <String _locID="24668" category="Skirmish" subtitle="false">MORRENA FRONTAL (2v2)</String>
+      <String _locID="24668" category="Skirmish" subtitle="false">MORRENA FRONTAL (2c2)</String>
       <String _locID="24669" category="Skirmish" subtitle="false">Accede a las secciones del mapa mediante los puentes luminosos. Atento a los puentes cuando comiencen a parpadear. Cualquier unidad que esté sobre un puente cuando este se apague estará condenada.</String>
-      <String _locID="24670" category="Skirmish" subtitle="false">FUERTE DEEN (3v3)</String>
+      <String _locID="24670" category="Skirmish" subtitle="false">FUERTE DEEN (3c3)</String>
       <String _locID="24671" category="Skirmish" subtitle="false">Este mapa, que toma su nombre de un famoso coronel de la UNSC, muestra vías fáciles de defender, aunque los teletransportadores colocados estratégicamente ofrecen oportunidades de ataque más inteligentes.</String>
       <String _locID="24672" category="UI" subtitle="false">Demo E3</String>
       <String _locID="24673" category="UI" subtitle="false">Modo Demo E3</String>
@@ -3576,7 +3576,7 @@ MASTER STRING TABLE INDEX
       <String _locID="24679" category="Objects" subtitle="false">Genera unidades de Flood</String>
       <String _locID="24680" category="Campaign" scenario="9" subtitle="false">Op: mantén a las 5 colonias Flood en letargo</String>
       <String _locID="24681" category="Campaign" scenario="9" subtitle="false">Hacer que las cinco colonias entren en letargo al mismo tiempo hará que sea mucho más fácil destruir la mente del enjambre. Mantente alerta: las colonias en letargo no pueden ser completamente destruidas con el armamento de la UNSC y se regeneran con el tiempo.</String>
-      <String _locID="24682" category="Skirmish" subtitle="false">Laberinto E3 (2v2)</String>
+      <String _locID="24682" category="Skirmish" subtitle="false">Laberinto E3 (2c2)</String>
       <String _locID="24683" category="Skirmish" subtitle="false">Jugable</String>
       <String _locID="24684" category="Campaign" scenario="7" subtitle="true">¡Esos ingenieros voladores quieren reparar el Scarab! ¡Destrúyelos!</String>
       <String _locID="24685" category="Powers" subtitle="false">TRASPASAR MANDO</String>
@@ -3780,7 +3780,7 @@ MASTER STRING TABLE INDEX
       <String _locID="24909" category="Campaign" scenario="8" subtitle="false">Varios Elephants y escuadrones SCDO perdidos fueron recuperados y las fuerzas terrestres del Spirit of fire se enfrentaron a una misteriosa forma de vida alienígena.</String>
       <String _locID="24910" category="Campaign" scenario="9" subtitle="false">La señal del transpondedor de Anders era una imitación generada por la mente del enjambre alienígena. Tras un duro combate, las fuerzas de la UNSC consiguieron destruir a la criatura.</String>
       <String _locID="24911" category="Campaign" scenario="10" subtitle="false">Sin apenas tiempo, la mayoría de las fuerzas terrestres del Spirit regresaron a la nave antes de que fuera arrastrada dentro del extraño mundo.</String>
-      <String _locID="24912" category="Campaign" scenario="11" subtitle="false">Mientras las formas de vida alienígenas se arremolinaban en torno al casco del Spirit of fire, los marines se batieron desesperadamente hasta lograr el éxito en las escotillas y las compuertas de aire.</String>
+      <String _locID="24912" category="Campaign" scenario="11" subtitle="false">Mientras las formas de vida alienígenas se arremolinaban en torno al casco del Spirit of fire, los marines se batieron hasta lograr el éxito en las escotillas y las compuertas de aire.</String>
       <String _locID="24913" category="Campaign" scenario="12" subtitle="false">Tras la colisión con el destructor Covenant, la tripulación del Spirit consiguió reparar la nave y retirarse.</String>
       <String _locID="24914" category="Campaign" scenario="13" subtitle="false">La profesora Anders fue finalmente rescatada y conducida a la zona de aterrizaje para la extracción.</String>
       <String _locID="24915" category="Campaign" scenario="14" subtitle="false">Tras utilizar Elephants para arrastrar el núcleo del reactor hasta el Apex, la tripulación del Spirit colocó el núcleo en posición para detonarlo con la esperanza de destruir el mundo escudo.</String>
@@ -3815,7 +3815,7 @@ MASTER STRING TABLE INDEX
       <String _locID="24947" category="Objects" subtitle="false">ARMA PESADA DE CUBIERTA</String>
       <String _locID="24948" subtitle="false">$$LS$$ para moverte. $$A$$ para explotar.</String>
       <String _locID="24950" category="Objects" subtitle="false">ENCLAVAMIENTO DE PUERTA</String>
-      <String _locID="24951" category="UI" scenario="Pregame" subtitle="false">PUNTUACIÓN</String>
+      <String _locID="24951" category="UI" scenario="Pregame" subtitle="false">PUNTOS</String>
       <String _locID="24952" category="Campaign" scenario="2" subtitle="false">Construye unos cuarteles</String>
       <String _locID="24953" category="Skirmish" scenario="Tutorial" subtitle="false">Pulsa $$X$$ para reunir cajas.</String>
       <String _locID="24954" category="Campaign" scenario="2" subtitle="false">Construye una plataforma de suministro</String>
@@ -3910,7 +3910,7 @@ MASTER STRING TABLE INDEX
       <String _locID="25049" category="UI" scenario="ButtonBar" subtitle="false">CRONOLOGÍA</String>
       <String _locID="25050" category="UI" scenario="ButtonBar" subtitle="false">ANTERIOR</String>
       <String _locID="25051" category="UI" scenario="ButtonBar" subtitle="false">SIGUIENTE</String>
-      <String _locID="25052" category="UI" scenario="PostgameTab" subtitle="false">PUNTUACIÓN</String>
+      <String _locID="25052" category="UI" scenario="PostgameTab" subtitle="false">PUNTOS</String>
       <String _locID="25053" category="UI" scenario="Postgame Tab" subtitle="false">MILITAR</String>
       <String _locID="25054" category="UI" scenario="Postgame Tab" subtitle="false">ECONOMÍA</String>
       <String _locID="25055" category="UI" scenario="Postgame Tab" subtitle="false">CRONOLOGÍAS</String>
@@ -3933,7 +3933,7 @@ MASTER STRING TABLE INDEX
       <String _locID="25072" category="UI" scenario="CampaignGradePanel" subtitle="false">BONUS COMBATE</String>
       <String _locID="25073" category="UI" scenario="CampaignGradePanel" subtitle="false">BONUS TIEMPO</String>
       <String _locID="25074" category="UI" scenario="CampaignGradePanel" subtitle="false">BONUS CALAVERA</String>
-      <String _locID="25075" category="UI" scenario="CampaignGradePanel" subtitle="false">PUNTUACIÓN</String>
+      <String _locID="25075" category="UI" scenario="CampaignGradePanel" subtitle="false">PUNTOS TOTALES</String>
       <String _locID="25076" category="UI" scenario="CampaignGradePanel" subtitle="false">TIEMPO PAR</String>
       <String _locID="25077" category="UI" scenario="CampaignObjectives" subtitle="false">PRINCIPAL</String>
       <String _locID="25078" category="UI" scenario="CampaignObjectives" subtitle="false">OPCIONAL</String>
@@ -3973,9 +3973,9 @@ MASTER STRING TABLE INDEX
       <String _locID="25112" category="UI" scenario="Leaderboards" subtitle="false">Ninguno</String>
       <String _locID="25113" category="UI" scenario="Leaderboards" subtitle="false">Amigos</String>
       <String _locID="25114" category="UI" scenario="Leaderboards" subtitle="false">Pivote</String>
-      <String _locID="25115" category="UI" scenario="Leaderboards" subtitle="false">1v1</String>
-      <String _locID="25116" category="UI" scenario="Leaderboards" subtitle="false">2v2</String>
-      <String _locID="25117" category="UI" scenario="Leaderboards" subtitle="false">3v3</String>
+      <String _locID="25115" category="UI" scenario="Leaderboards" subtitle="false">1c1</String>
+      <String _locID="25116" category="UI" scenario="Leaderboards" subtitle="false">2c2</String>
+      <String _locID="25117" category="UI" scenario="Leaderboards" subtitle="false">3c3</String>
       <String _locID="25118" category="UI" scenario="Leaderboards" subtitle="false">Sí</String>
       <String _locID="25119" category="UI" scenario="Leaderboards" subtitle="false">No</String>
       <String _locID="25120" category="UI" scenario="Leaderboards" subtitle="false">ESTÁNDAR</String>
@@ -3983,8 +3983,8 @@ MASTER STRING TABLE INDEX
       <String _locID="25122" category="UI" scenario="Leaderboards" subtitle="false">GAMERTAG</String>
       <String _locID="25123" category="UI" scenario="Leaderboards" subtitle="false">TrueSkill™</String>
       <String _locID="25124" category="UI" scenario="Leaderboards" subtitle="false">PARTIDAS JUGADAS</String>
-      <String _locID="25125" category="UI" scenario="Leaderboards" subtitle="false">PUNTUACIÓN</String>
-      <String _locID="25126" category="UI" scenario="Leaderboards" subtitle="false">PUNTUACIÓN</String>
+      <String _locID="25125" category="UI" scenario="Leaderboards" subtitle="false">PUNTOS TOTALES</String>
+      <String _locID="25126" category="UI" scenario="Leaderboards" subtitle="false">PUNTOS</String>
       <String _locID="25127" category="UI" scenario="Leaderboards" subtitle="false">SOLO/COOPERATIVO</String>
       <String _locID="25128" category="UI" scenario="Leaderboards" subtitle="false">VICTORIAS TOTALES</String>
       <String _locID="25129" category="UI" scenario="Leaderboards" subtitle="false">PÁGINA ANTERIOR</String>
@@ -4174,11 +4174,11 @@ MASTER STRING TABLE INDEX
       <String _locID="25327" category="Campaign" scenario="7" subtitle="true">Deberíamos usar el cañón MAC para defender nuestra base o destruir los nodos de energía.</String>
       <String _locID="25329" category="Campaign" scenario="3" subtitle="true">¡No podemos desactivar ese puente si hay aliados en él!</String>
       <String _locID="25330" category="UI" scenario="CircleMenu" subtitle="false">EN COLA</String>
-      <String _locID="25331" category="UI" scenario="PartyScreen" subtitle="false">Duelo a muerte 1v1</String>
-      <String _locID="25332" category="UI" scenario="PartyScreen" subtitle="false">Duelo a muerte 2v2</String>
-      <String _locID="25333" category="UI" scenario="PartyScreen" subtitle="false">Duelo a muerte 3v3</String>
-      <String _locID="25334" category="UI" scenario="PartyScreen" subtitle="false">Duelo a muerte 2v2 Grupo</String>
-      <String _locID="25335" category="UI" scenario="PartyScreen" subtitle="false">Duelo a muerte 3v3 Grupo</String>
+      <String _locID="25331" category="UI" scenario="PartyScreen" subtitle="false">Duelo a muerte 1c1</String>
+      <String _locID="25332" category="UI" scenario="PartyScreen" subtitle="false">Duelo a muerte 2c2</String>
+      <String _locID="25333" category="UI" scenario="PartyScreen" subtitle="false">Duelo a muerte 3c3</String>
+      <String _locID="25334" category="UI" scenario="PartyScreen" subtitle="false">Duelo a muerte 2c2 Grupo</String>
+      <String _locID="25335" category="UI" scenario="PartyScreen" subtitle="false">Duelo a muerte 3c3 Grupo</String>
       <String _locID="25336" category="UI" scenario="BackgroundPlayer" subtitle="false">JUGAR</String>
       <String _locID="25337" category="UI" scenario="BackgroundPlayer" subtitle="false">PAUSAR</String>
       <String _locID="25338" category="UI" scenario="BackgroundPlayer" subtitle="false">SALTAR</String>
@@ -4727,7 +4727,7 @@ MASTER STRING TABLE INDEX
       <String _locID="25897" category="UI" scenario="UICampaignPostgame" subtitle="false">%1!d! +&lt;br&gt;%2!d! - %3!d!&lt;br&gt;%4!d! - %5!d!&lt;br&gt;%6!d! - %7!d!</String>
       <String _locID="25898" category="UI" scenario="UICampaignPostgame" subtitle="false">PUNTUACIÓN DE BASE</String>
       <String _locID="25899" category="UI" scenario="UICampaignPostgame" subtitle="false">PUNTUACIÓN DE BONIFICACIÓN</String>
-      <String _locID="25900" category="UI" scenario="UICampaignPostgame" subtitle="false">PUNTUACIÓN</String>
+      <String _locID="25900" category="UI" scenario="UICampaignPostgame" subtitle="false">PUNTOS TOTALES</String>
       <String _locID="25901" category="UI" scenario="UICampaignPostgame" subtitle="false">LUGAR</String>
       <String _locID="25902" category="UI" scenario="UICampaignPostgame" subtitle="false">ESCUADRONES FORMADOS (PERDIDOS)</String>
       <String _locID="25903" category="UI" scenario="UICampaignPostgame" subtitle="false">ESCUADRONES ELIMINADOS</String>
@@ -4835,11 +4835,11 @@ MASTER STRING TABLE INDEX
       <String _locID="26028" category="Skirmish" scenario="game mode" subtitle="false" Update="true">Comienza con recursos altos y tecnol. Las bases dan más población.</String>
       <String _locID="26029" category="Skirmish" scenario="CTF" subtitle="false" Update="true">CAPTURA 3 BANDERAS PARA GANAR</String>
       <String _locID="26030" category="Skirmish" scenario="game mode" subtitle="false" Update="true">JUEGO DE LA SOGA</String>
-      <String _locID="26031" category="Skirmish" subtitle="false" Update="true">TIERRAS BALDÍAS (1v1)</String>
+      <String _locID="26031" category="Skirmish" subtitle="false" Update="true">TIERRAS BALDÍAS (1c1)</String>
       <String _locID="26032" category="Skirmish" subtitle="false" Update="true">El terreno difícil canaliza las unidades a las zonas de batalla. El bando que controle los artefactos Forerunner tendrá la ventaja.</String>
-      <String _locID="26033" category="Skirmish" subtitle="false" Update="true">RÍO DE SANGRE (1v1)</String>
+      <String _locID="26033" category="Skirmish" subtitle="false" Update="true">RÍO DE SANGRE (1c1)</String>
       <String _locID="26034" category="Skirmish" subtitle="false" Update="true">Asegura las ubicaciones de bases en los acantilados cercanos que dan a este río teñido de rojo de forma natural. Los soldados que lucharon entre sus dos estrechos vados son los que le dieron nombre.</String>
-      <String _locID="26035" category="Skirmish" subtitle="false" Update="true">EL FOSO (2v2)</String>
+      <String _locID="26035" category="Skirmish" subtitle="false" Update="true">EL FOSO (2c2)</String>
       <String _locID="26036" category="Skirmish" subtitle="false" Update="true">Este terreno con elevación en el medio ofrece una buena protección para la infantería, mientras que el terreno generalmente abierto transforma los planes de los combates organizados en baños de sangre.</String>
       <String _locID="26037" category="UI" subtitle="false" Update="true">DESCARGA DE CONTENIDO</String>
       <String _locID="26038" category="UI" subtitle="false" Update="true">La descarga de contenido de Halo Wars está disponible. Selecciona Opciones y Extras en el menú principal.</String>
@@ -4852,21 +4852,21 @@ MASTER STRING TABLE INDEX
       <String _locID="26050" category="Skirmish" scenario="CTF" subtitle="false" Update="true">CAPTURA 5 BANDERAS PARA GANAR</String>
       <String _locID="26051" category="Skirmish" scenario="CTF" subtitle="false" Update="true">PORTADOR DE LA BANDERA DESTRUIDO</String>
       <String _locID="26052" category="Squads" subtitle="false" Update="true">BANDERA</String>
-      <String _locID="26053" category="UI" subtitle="false" Update="true">Mantente alejado 1v1</String>
-      <String _locID="26054" category="UI" subtitle="false" Update="true">Mantente alejado 2v2</String>
-      <String _locID="26055" category="UI" subtitle="false" Update="true">Mantente alejado 3v3</String>
-      <String _locID="26056" category="UI" subtitle="false" Update="true">Mantente alejado 2v2 por equipos</String>
-      <String _locID="26057" category="UI" subtitle="false" Update="true">Mantente alejado 3v3 por equipos</String>
-      <String _locID="26058" category="UI" subtitle="false" Update="true">Tira y afloja 1v1</String>
-      <String _locID="26059" category="UI" subtitle="false" Update="true">Tira y afloja 2v2</String>
-      <String _locID="26060" category="UI" subtitle="false" Update="true">Tira y afloja 3v3</String>
-      <String _locID="26061" category="UI" subtitle="false" Update="true">Tira y afloja 2v2 por equipos</String>
-      <String _locID="26062" category="UI" subtitle="false" Update="true">Tira y afloja 3v3 por equipos</String>
-      <String _locID="26063" category="UI" subtitle="false" Update="true">Refuerzo 1v1</String>
-      <String _locID="26064" category="UI" subtitle="false" Update="true">Refuerzo 2v2</String>
-      <String _locID="26065" category="UI" subtitle="false" Update="true">Refuerzo 3v3</String>
-      <String _locID="26066" category="UI" subtitle="false" Update="true">Refuerzo 2v2 por equipos</String>
-      <String _locID="26067" category="UI" subtitle="false" Update="true">Refuerzo 3v3 por equipos</String>
+      <String _locID="26053" category="UI" subtitle="false" Update="true">Mantente alejado 1c1</String>
+      <String _locID="26054" category="UI" subtitle="false" Update="true">Mantente alejado 2c2</String>
+      <String _locID="26055" category="UI" subtitle="false" Update="true">Mantente alejado 3c3</String>
+      <String _locID="26056" category="UI" subtitle="false" Update="true">Mantente alejado 2c2 por equipos</String>
+      <String _locID="26057" category="UI" subtitle="false" Update="true">Mantente alejado 3c3 por equipos</String>
+      <String _locID="26058" category="UI" subtitle="false" Update="true">Tira y afloja 1c1</String>
+      <String _locID="26059" category="UI" subtitle="false" Update="true">Tira y afloja 2c2</String>
+      <String _locID="26060" category="UI" subtitle="false" Update="true">Tira y afloja 3c3</String>
+      <String _locID="26061" category="UI" subtitle="false" Update="true">Tira y afloja 2c2 por equipos</String>
+      <String _locID="26062" category="UI" subtitle="false" Update="true">Tira y afloja 3c3 por equipos</String>
+      <String _locID="26063" category="UI" subtitle="false" Update="true">Refuerzo 1c1</String>
+      <String _locID="26064" category="UI" subtitle="false" Update="true">Refuerzo 2c2</String>
+      <String _locID="26065" category="UI" subtitle="false" Update="true">Refuerzo 3c3</String>
+      <String _locID="26066" category="UI" subtitle="false" Update="true">Refuerzo 2c2 por equipos</String>
+      <String _locID="26067" category="UI" subtitle="false" Update="true">Refuerzo 3c3 por equipos</String>
       <String _locID="26068" category="UI" subtitle="false" Update="true">Para obtener más estadísticas e información detallada del juego, visita www.HaloWars.com</String>
       <String _locID="26069" category="UI" subtitle="false" Update="true">Este modo de juego comienza igual que una escaramuza estándar. En intervalos aleatorios, una unidad Bandera Forerunner aparecerá en algún lugar del mapa. La bandera se marcará con una estrella blanca en el minimapa y se moverá a ubicaciones aleatorias. Si se envía a una unidad a por la bandera, la recogerá. Una vez que una unidad tenga la bandera, comenzará un temporizador. Si el portador sigue vivo cuando se acabe el tiempo, el equipo de dicha unidad ganará recursos adicionales y un punto de captura. Ten cuidado cuando tu equipo controle la unidad con la bandera: el equipo enemigo podrá ver al portador en todo momento. El juego se gana cuando un equipo alcanza un cierto número capturas o cuando se derrota al equipo enemigo. Si el portador de la bandera muere, aparecerá una nueva poco después.</String>
       <String _locID="26070" category="UI" subtitle="false" Update="true">El modo Tira y afloja es muy similar a las escaramuzas normales, con la diferencia de que cada unidad producida, edificio construido y recurso recolectado se suma a la fuerza de un equipo. Al comienzo del juego, ambos equipos tienen la misma fuerza. La barra de "Tira y afloja" en la parte superior izquierda de la pantalla muestra la diferencia actual de fuerza entre los dos equipos. Si la fuerza de tu equipo le saca suficiente ventaja a la del equipo contrario, ganas.</String>
@@ -4878,8 +4878,8 @@ MASTER STRING TABLE INDEX
       <String _locID="26076" category="UI" scenario="Options" subtitle="false" Update="true">ALIADOS</String>
       <String _locID="26077" category="UI" scenario="Options" subtitle="false" Update="true">ENEMIGOS</String>
       <String _locID="26078" category="UI" subtitle="false" Update="true">El jugador %1!s! no tiene la descarga de contenido necesaria para este mapa.</String>
-      <String _locID="26081" category="Skirmish" scenario=" Map Name" subtitle="false">BARRANCO GLACIAL (3v3)</String>
-      <String _locID="26082" category="Skirmish" scenario="Map Description" subtitle="false">Una cordillera divide esta región en dos. El control de los dos muros de energía en el angosto paso central determina con frecuencia el resultado de la batalla. El uso de las Fábricas de Centinelas también puede ser concluyente.</String>
+      <String _locID="26081" category="Skirmish" scenario=" Map Name" subtitle="false">BARRANCO GLACIAL (3c3)</String>
+      <String _locID="26082" category="Skirmish" scenario="Map Description" subtitle="false">Una cordillera divide esta región. El control de los dos muros de energía en el angosto paso central determina con frecuencia el resultado de batalla. Uso de las Fábricas de Centinelas también puede ser concluyente.</String>
       <String _locID="26083" category="UI" scenario="Options" subtitle="false" Update="true">Opción gráfica de prueba A</String>
       <String _locID="26084" category="UI" scenario="Options" subtitle="false">Esta es una opción gráfica de prueba para PC.</String>
       <String _locID="26085" category="UI" scenario="Options" subtitle="false" Update="true">Opción gráfica de prueba B</String>
@@ -5008,7 +5008,7 @@ MASTER STRING TABLE INDEX
       <String _locID="26213" category="UI" subtitle="false">Imagen conceptual 10</String>
       <String _locID="26214" category="UI" subtitle="false">Imagen conceptual 11</String>
       <String _locID="26215" category="UI" subtitle="false">Imagen conceptual 12</String>
-      <String _locID="26216" category="UI" subtitle="false">¡Haz clic aquí para ver la guía de Halo Wars de Prima, totalmente gratuita!&lt;br&gt;Encuentra los mapas, estrategias y órdenes de construcción que necesitas para vencer en multijugador o en la campaña en esta guía interactiva gratuita que te trae Prima.</String>
+      <String _locID="26216" category="UI" subtitle="false">¡Haz clic aquí para ver la guía de Halo Wars de Prima, totalmente gratuita!&lt;br&gt;Encuentra los mapas, estrategias y órdenes de construcción que necesitas para ganar.</String>
       <String _locID="26217" category="UI" subtitle="false">Pulsa cualquier tecla o botón para continuar.</String>
       <String _locID="26218" category="UI" subtitle="false">Puedes cambiar el periférico deseado en la pantalla de inicio, accesible desde el menú principal.</String>
       <String _locID="26219" category="UI" subtitle="false">Guardando contenido... No cierres el juego.</String>
@@ -5068,17 +5068,17 @@ MASTER STRING TABLE INDEX
       <String _locID="26273" subtitle="false" category="UI">INTERACCIÓN CON EL MINIMAPA</String>
       <String _locID="26274" subtitle="false" category="UI">CREAR UN GRUPO DE CONTROL</String>
       <String _locID="26275" subtitle="false" category="UI">AÑADIR MÁS UNID. A UN GRUPO DE CONTROL</String>
-      <String _locID="26276" subtitle="false" category="UI">AÑADIR/RETIRAR UNID. A TODOS LOS DEMÁS GRUPOS</String>
-      <String _locID="26277" subtitle="false" category="UI">ASIGNAR/RETIRAR UNID. TODOS LOS DEMÁS GRUPOS</String>
+      <String _locID="26276" subtitle="false" category="UI">AÑADIR/RETIRAR UNID. AL RESTO DE GRUPOS</String>
+      <String _locID="26277" subtitle="false" category="UI">ASIGNAR/RETIRAR UNID. AL RESTO DE GRUPOS</String>
       <String _locID="26278" subtitle="false" category="UI">SELECCIONAR UN GRUPO DE CONTROL</String>
       <String _locID="26279" subtitle="false" category="UI">IR A UN GRUPO DE CONTROL</String>
       <String _locID="26280" subtitle="false" category="UI">RECONFIGURACIÓN DE LOS CONTROLES</String>
       <String _locID="26281" subtitle="false" category="UI">Para hacer esto puedes mantener pulsado el botón izquierdo mientras creas un recuadro de selección moviendo el ratón en cualquier dirección.</String>
-      <String _locID="26282" subtitle="false" category="UI">Haz clic izq. en el minimapa para acoplarte una posición relativa al terreno de juego. Cuando tengas varias unidades seleccionadas, haz clic dcha. en el minimapa para enviar unidades a atacar la posición.</String>
+      <String _locID="26282" subtitle="false" category="UI">Haz clic izq. en el minimapa para acoplarte una posición relativa al terreno de juego. Cuando tengas varias uds. seleccionadas, haz clic dcho. en el minimapa para enviar uds. a atacar la posición.</String>
       <String _locID="26283" subtitle="false" category="UI">Con una unidad o un grupo de unidades seleccionados, pulsa CTRL + (un número del 0 al 9) para asignar la selección al número correspondiente.</String>
       <String _locID="26284" subtitle="false" category="UI">Con una unidad o un grupo de unidades seleccionados, pulsa MAYÚS + (un número del 0 al 9). Si no hay unidades asignadas, el comando creará un nuevo grupo con las seleccionadas.</String>
-      <String _locID="26285" subtitle="false" category="UI">Con una unidad o un grupo de unidades seleccionados, pulsa ALT + MAYÚS + (un número del 0 al 9). Así se añadirán las unidades seleccionadas al grupo. Las unidades afectadas abandonarán cualquier otro grupo al que pertenecieran.</String>
-      <String _locID="26286" subtitle="false" category="UI">Con una unidad o un grupo de unidades seleccionados, pulsa ALT + (un número del 0 al 9). Así se reiniciará la definición del grupo para que contenga las unidades seleccionadas. Las unidades afectadas abandonarán cualquier otro grupo al que pertenecieran.</String>
+      <String _locID="26285" subtitle="false" category="UI">Con una ud. o un grupo de uds selec., pulsa ALT + MAYÚS + (núm. 0-9). Así se añadirán las uds. selec. al grupo. Las uds. afectadas abandonarán cualquier otro grupo al que pertenecieran.</String>
+      <String _locID="26286" subtitle="false" category="UI">Con una ud. o un grupo de uds. selec., pulsa ALT + (núm. 0-9). Así se reiniciará la def. del grupo para que contenga las uds. selec. Las uds. afectadas abandonarán cualquier otro grupo.</String>
       <String _locID="26287" subtitle="false" category="UI">Pulsa una vez la tecla del número del grupo para convertirlo en la selección activa.</String>
       <String _locID="26288" subtitle="false" category="UI">Pulsa dos veces la tecla del número del grupo para saltar hasta él.</String>
       <String _locID="26289" subtitle="false" category="UI">Ahora, algunos de los controles de Halo Wars se pueden reasignar. Pásate por el menú de opciones, en la pestaña Controles, para verlos y modificarlos.</String>
@@ -5158,8 +5158,8 @@ MASTER STRING TABLE INDEX
       <String _locID="26427" subtitle="false" category="Code">Gatillos</String>
       <String _locID="26428" subtitle="false" category="Code">Menú del mando</String>
       <String _locID="26429" subtitle="false" category="Code">Vista del mando</String>
-      <String _locID="26430" subtitle="false" category="Code">Botón izq. mouse</String>
-      <String _locID="26431" subtitle="false" category="Code">Botón dcha. mouse</String>
+      <String _locID="26430" subtitle="false" category="Code">Botón izq. ratón</String>
+      <String _locID="26431" subtitle="false" category="Code">Botón dcho. ratón</String>
       <String _locID="26432" subtitle="false" category="Code">Botón central del ratón</String>
       <String _locID="26433" subtitle="false" category="Code">Botón 4 del ratón</String>
       <String _locID="26434" subtitle="false" category="Code">Botón 5 del ratón</String>
@@ -5287,13 +5287,13 @@ MASTER STRING TABLE INDEX
       <String _locID="26556" subtitle="false" category="Code">ModificadorMantener</String>
       <String _locID="26557" subtitle="false" category="Code">ModificadorPreciso</String>
       <String _locID="26600" subtitle="false" category="Code">Atajos alternativos</String>
-      <String _locID="26601" subtitle="false" category="Code">Desplazamiento panorámico de cámara a la izquierda, alternativo</String>
+      <String _locID="26601" subtitle="false" category="Code">Desplaz. pan. cámara a la izq., altern.</String>
       <String _locID="26602" subtitle="false" category="Code">Desplaza la cámara a la izquierda.</String>
-      <String _locID="26603" subtitle="false" category="Code">Desplazamiento panorámico de cámara a la derecha, alternativo</String>
+      <String _locID="26603" subtitle="false" category="Code">Desplaz. pan. cámara a la dcha., altern.</String>
       <String _locID="26604" subtitle="false" category="Code">Desplaza la cámara a la derecha.</String>
-      <String _locID="26605" subtitle="false" category="Code">Desplazamiento panorámico de cámara hacia arriba, alternativo</String>
+      <String _locID="26605" subtitle="false" category="Code">Desplaz. pan. cámara arriba, altern.</String>
       <String _locID="26606" subtitle="false" category="Code">Desplaza la cámara hacia arriba.</String>
-      <String _locID="26607" subtitle="false" category="Code">Desplazamiento panorámico de cámara hacia abajo, alternativo</String>
+      <String _locID="26607" subtitle="false" category="Code">Desplaz. pan. cámara abajo, altern.</String>
       <String _locID="26608" subtitle="false" category="Code">Desplaza la cámara hacia abajo.</String>
       <String _locID="26609" subtitle="false" category="Code">Modo Recorte con ratón</String>
       <String _locID="26610" subtitle="false" category="Code">Automático: activado en pantalla completa, Sí: siempre activado, No: siempre desactivado</String>
@@ -5318,7 +5318,7 @@ MASTER STRING TABLE INDEX
       <String _locID="26629" subtitle="false" category="Code">La tarjeta gráfica detectada no cumple los requisitos mínimos.</String>
       <String _locID="26630" subtitle="false" category="Code">Se ha perdido la conexión a la tarjeta gráfica.</String>
       <String _locID="26631" category="UI" subtitle="false">PUBLICAR PARTIDA</String>
-      <String _locID="26632" category="UI" subtitle="false">CANCELAR LA PUBLICACIÓN DE PARTIDA</String>
+      <String _locID="26632" category="UI" subtitle="false">CANCELAR PUBLICAC.</String>
       <String _locID="26633" subtitle="false">Los comandos de movimiento pueden ponerse en cola para que se ejecuten de modo consecutivo manteniendo pulsado MAYÚS mientras das órdenes.</String>
       <String _locID="26634" category="UI" scenario="Options" subtitle="false">Configura la adherencia del cursor cuando se desplaza por el campo de batalla. Ten en cuenta que esta opción no se aplicará al jugar con teclado y ratón.</String>
       <String _locID="26635" category="UI" subtitle="false">Mando</String>
@@ -5329,7 +5329,7 @@ MASTER STRING TABLE INDEX
       <String _locID="26640" category="UI" subtitle="false">Ctrl+#</String>
       <String _locID="26641" category="UI" subtitle="false">Mayús+#</String>
       <String _locID="26642" category="UI" subtitle="false">0-9</String>
-      <String _locID="26643" category="UI" subtitle="false">Shift+Alt+#</String>
+      <String _locID="26643" category="UI" subtitle="false">Mayús +Alt+#</String>
       <String _locID="26644" category="UI" subtitle="false">Alt+#</String>
       <String _locID="26645" category="Skirmish" scenario="Hint Chat" subtitle="false">Cuando el cursor está sobre una unidad, puedes seleccionarlo. Pulsa $$A$$ para seleccionar el Warthog.</String>
       <String _locID="26646" category="Skirmish" scenario="Hint Chat" subtitle="false">Reunamos algunos recursos. Con el Warthog seleccionado, mueve el cursor hasta la caja de suministros.</String>
@@ -5359,7 +5359,7 @@ MASTER STRING TABLE INDEX
       <String _locID="26670" category="UI" scenario="Options" subtitle="false">Resolución pantalla completa</String>
       <String _locID="26671" category="UI" scenario="Options" subtitle="false">Resolución cuando se ejecuta en modo pantalla completa.</String>
       <String _locID="26672" subtitle="false">%1!d!x%2!d!</String>
-      <String _locID="26673" subtitle="false">APLICAR RESOLUCIÓN</String>
+      <String _locID="26673" subtitle="false">APLICA RESOLUCIÓN</String>
       <String _locID="26674" subtitle="false">La nueva resolución se aplicará la próxima vez que la aplicación esté en pantalla completa.</String>
       <String _locID="26675" category="steamVersion" originally="25045 and 23441" subtitle="false">PERFIL</String>
       <String _locID="26676" category="steamVersion" originally="25316" subtitle="false">Ver perfil</String>
@@ -5376,5 +5376,69 @@ MASTER STRING TABLE INDEX
       <String _locID="26687" subtitle="false" category="UI">Algunos jugadores no han podido unirse a la sesión.</String>
       <String _locID="26688" subtitle="false" category="UI">El anfitrión de la sala te ha expulsado de la sesión.</String>
       <String _locID="26689" subtitle="false" category="UI">El anfitrión de la sala ha dejado la sesión y ya no existe.</String>
+      <String _locID="26690" subtitle="false" category="UI">Cuando termines de establecer los filtros, usa el botón PUBLICAR PARTIDA para albergar tu partida.</String>
+      <String _locID="26691" subtitle="false" category="UI">Cuando termines de establecer los filtros, usa el botón BUSCAR PARTIDAS para buscar partidas.</String>
+      <String _locID="26692" subtitle="false" category="UI">Cuando termines de establecer tu configuración, usa el botón LISTO para empezar.</String>
+      <String _locID="26693" subtitle="false" category="UI">Global</String>
+      <String _locID="26694" subtitle="false" category="UI">Equipo</String>
+      <String _locID="26695" subtitle="false" category="UI">Atajos del menú radial</String>
+      <String _locID="26696" subtitle="false" category="UI">Uso del menú radial (superior)</String>
+      <String _locID="26697" category="UI" subtitle="false">Activa la acción superior del menú radial.</String>
+      <String _locID="26698" subtitle="false" category="UI">Cancel. menú radial (superior)</String>
+      <String _locID="26699" category="UI" subtitle="false">Cancela la acción superior del menú radial.</String>
+      <String _locID="26700" subtitle="false" category="UI">Uso del menú radial (superior derecha)</String>
+      <String _locID="26701" category="UI" subtitle="false">Activa la acción superior derecha del menú radial.</String>
+      <String _locID="26702" subtitle="false" category="UI">Cancel. menú radial (superior dcha.)</String>
+      <String _locID="26703" category="UI" subtitle="false">Cancela la acción superior derecha del menú radial.</String>
+      <String _locID="26704" subtitle="false" category="UI">Uso del menú radial (derecha)</String>
+      <String _locID="26705" category="UI" subtitle="false">Activa la acción derecha del menú radial.</String>
+      <String _locID="26706" subtitle="false" category="UI">Cancel. menú radial (derecha)</String>
+      <String _locID="26707" category="UI" subtitle="false">Cancela la acción derecha del menú radial.</String>
+      <String _locID="26708" subtitle="false" category="UI">Uso del menú radial (inferior derecha)</String>
+      <String _locID="26709" category="UI" subtitle="false">Activa la acción inferior derecha del menú radial.</String>
+      <String _locID="26710" subtitle="false" category="UI">Cancel. menú radial (inferior dcha.)</String>
+      <String _locID="26711" category="UI" subtitle="false">Cancela la acción inferior derecha del menú radial.</String>
+      <String _locID="26712" subtitle="false" category="UI">Uso del menú radial (inferior)</String>
+      <String _locID="26713" category="UI" subtitle="false">Activa la acción inferior del menú radial.</String>
+      <String _locID="26714" subtitle="false" category="UI">Cancel. menú radial (inferior)</String>
+      <String _locID="26715" category="UI" subtitle="false">Cancela la acción inferior del menú radial.</String>
+      <String _locID="26716" subtitle="false" category="UI">Uso del menú radial (inferior izquierda)</String>
+      <String _locID="26717" category="UI" subtitle="false">Activa la acción inferior izquierda del menú radial.</String>
+      <String _locID="26718" subtitle="false" category="UI">Cancel. menú radial (inferior izq.)</String>
+      <String _locID="26719" category="UI" subtitle="false">Cancela la acción inferior izquierda del menú radial.</String>
+      <String _locID="26720" subtitle="false" category="UI">Uso del menú radial (izquierda)</String>
+      <String _locID="26721" category="UI" subtitle="false">Activa la acción izquierda del menú radial.</String>
+      <String _locID="26722" subtitle="false" category="UI">Cancel. menú radial (izquierda)</String>
+      <String _locID="26723" category="UI" subtitle="false">Cancela la acción izquierda del menú radial.</String>
+      <String _locID="26724" subtitle="false" category="UI">Uso del menú radial (superior izquierda)</String>
+      <String _locID="26725" category="UI" subtitle="false">Activa la acción superior izquierda del menú radial.</String>
+      <String _locID="26726" subtitle="false" category="UI">Cancel. menú radial (superior izq.)</String>
+      <String _locID="26727" category="UI" subtitle="false">Cancela la acción superior izquierda del menú radial.</String>
+      <String _locID="26728" subtitle="false" category="UI">Silenciar</String>
+      <String _locID="26729" subtitle="false" category="UI">Quitar silencio</String>
+      <String _locID="26730" category="UI" scenario="MPGameSetup" subtitle="false">¿Seguro que quieres abandonar esta sala?</String>
+      <String _locID="26731" category="UI" scenario="Service Record" subtitle="false">General de tres estrellas</String>
+      <String _locID="26732" category="UI" scenario="Service Record" subtitle="false">General de cuatro estrellas</String>
+      <String _locID="26733" category="UI" scenario="Service Record" subtitle="false">General de cinco estrellas</String>
+      <String _locID="26734" category="UI" scenario="MPGameSetup" subtitle="false">Pantalla completa de modo exclusivo</String>
+      <String _locID="26735" category="UI" scenario="MPGameSetup" subtitle="false">Activa o desactiva la pantalla completa de modo exclusivo.</String>
+      <String _locID="26736" category="UI" subtitle="false">Debes tener activada la interfaz de Steam en los parámetros del cliente de Steam para ver los perfiles de los jugadores.</String>
+      <String _locID="26737" category="UI" subtitle="false">Debes tener activada la interfaz de Steam en los parámetros del cliente de Steam para invitar a amigos.</String>
+      <String _locID="26738" category="UI" scenario="Leaderboards" subtitle="false">MARCADORES (AMIGOS)</String>
+      <String _locID="26739" category="UI" scenario="Options" subtitle="false">Volumen de las secuencias</String>
+      <String _locID="26740" category="UI" scenario="Options" subtitle="false">Ajusta el volumen de las secuencias cinematográficas.</String>
+      <String _locID="26741" category="UI" scenario="Options" subtitle="false">Volumen del chat de voz</String>
+      <String _locID="26742" category="UI" scenario="Options" subtitle="false">Ajusta el volumen del chat de voz.</String>
+      <String _locID="26743" category="UI" scenario="Options" subtitle="false">Chat de voz</String>
+      <String _locID="26744" category="UI" scenario="Options" subtitle="false">Activa el chat de voz.</String>
+      <String _locID="26745" category="UI" scenario="GameSetup" subtitle="false">Dificultad: Fácil</String>
+      <String _locID="26746" category="UI" scenario="GameSetup" subtitle="false">Dificultad: Normal</String>
+      <String _locID="26747" category="UI" scenario="GameSetup" subtitle="false">Dificultad: Heroica</String>
+      <String _locID="26748" category="UI" scenario="GameSetup" subtitle="false">Dificultad: Legendaria</String>
+      <String _locID="26749" category="UI" scenario="GameSetup" subtitle="false">Dificultad: Personalizada</String>
+      <String _locID="26750" category="UI" scenario="GameSetup" subtitle="false">Dificultad: Automática</String>
+      <String _locID="26751" category="UI" scenario="GameSetup" subtitle="false">Personalizada</String>
+      <String _locID="26752" category="UI" scenario="GameSetup" subtitle="false">Automática</String>
+      <String _locID="26753" category="UI" scenario="GameSetup" subtitle="false">Dificultad</String>
    </Language>
 </StringTable>

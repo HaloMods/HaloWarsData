@@ -3344,11 +3344,11 @@ des Echo-Teams</String>
       <String _locID="24436" category="Techs" subtitle="false">MND-SPIONAGE</String>
       <String _locID="24437" category="Techs" subtitle="false">Alle Teammitglieder können alle feindlichen Einheiten und Basen sehen.</String>
       <String _locID="24438" category="Techs" subtitle="false">MITTL. MAB-FEUER</String>
-      <String _locID="24439" category="Techs" subtitle="false">Die Munition für die MAB-Kanone wird um zwei Schüsse erhöht.</String>
+      <String _locID="24439" category="Techs" subtitle="false">Die Munition für die MAB-Kanone wird auf zwei Schüsse erhöht.</String>
       <String _locID="24440" category="Techs" subtitle="false">GROSSES MAB-FEUER</String>
-      <String _locID="24441" category="Techs" subtitle="false">Die Munition für die MAB-Kanone wird um drei Schüsse erhöht.</String>
+      <String _locID="24441" category="Techs" subtitle="false">Die Munition für die MAB-Kanone wird auf drei Schüsse erhöht.</String>
       <String _locID="24442" category="Techs" subtitle="false">SUPER-MAB-FEUER</String>
-      <String _locID="24443" category="Techs" subtitle="false">Die Munition für die MAB-Kanone wird um vier Schüsse erhöht.</String>
+      <String _locID="24443" category="Techs" subtitle="false">Die Munition für die MAB-Kanone wird auf vier Schüsse erhöht.</String>
       <String _locID="24444" category="Techs" subtitle="false">MITTL. STREUBOMBE</String>
       <String _locID="24445" category="Techs" subtitle="false">Streuweite und Schaden für die Streubombe werden erhöht.</String>
       <String _locID="24446" category="Techs" subtitle="false">GROSSE STREUBOMBE</String>
@@ -3505,7 +3505,7 @@ des Echo-Teams</String>
       <String _locID="24601" category="UI" scenario="Options" subtitle="false">Schnell</String>
       <String _locID="24602" category="UI" scenario="Options" subtitle="false">Lautstärke Musik</String>
       <String _locID="24603" category="UI" scenario="Options" subtitle="false">Lautstärke Soundeffekte</String>
-      <String _locID="24604" category="UI" scenario="Options" subtitle="false">Lautstärke Sprache</String>
+      <String _locID="24604" category="UI" scenario="Options" subtitle="false">Dialoglautstärke</String>
       <String _locID="24605" category="UI" scenario="Options" subtitle="false">Untertitel - Filmsequenzen</String>
       <String _locID="24606" category="UI" scenario="Options" subtitle="false">Helligkeit/Gamma</String>
       <String _locID="24607" category="UI" scenario="Options" subtitle="false">Farben Freund/Feind</String>
@@ -5009,7 +5009,7 @@ des Echo-Teams</String>
       <String _locID="26213" category="UI" subtitle="false">Konzeptgrafik 10</String>
       <String _locID="26214" category="UI" subtitle="false">Konzeptgrafik 11</String>
       <String _locID="26215" category="UI" subtitle="false">Konzeptgrafik 12</String>
-      <String _locID="26216" category="UI" subtitle="false">Klicken Sie hier, um sich das kostenlose Prima-Lösungsbuch für Halo Wars zu sichern!&lt;br&gt;Mit diesem interaktiven Lösungsbuch von Prima erhalten Sie Karten, Strategien und Bautipps, die Sie zum Sieg im Multiplayer oder in der Kampagne benötigen.</String>
+      <String _locID="26216" category="UI" subtitle="false">Sichern Sie sich das interaktive Prima-Lösungsbuch für Halo Wars! Sie erhalten Karten, Strategien und Bautipps, die Sie zum Sieg im Multiplayer oder in der Kampagne benötigen.</String>
       <String _locID="26217" category="UI" subtitle="false">Zum Fortfahren eine beliebige Taste drücken.</String>
       <String _locID="26218" category="UI" subtitle="false">Sie können das gewünschte Eingabegerät auf dem Startbildschirm im Hauptmenü ändern.</String>
       <String _locID="26219" category="UI" subtitle="false">Inhalt wird gespeichert. Das Spiel bitte nicht beenden.</String>
@@ -5360,7 +5360,7 @@ des Echo-Teams</String>
       <String _locID="26670" category="UI" scenario="Options" subtitle="false">Vollbildmodusauflösung</String>
       <String _locID="26671" category="UI" scenario="Options" subtitle="false">Die verwendete Auflösung im Vollbildmodus.</String>
       <String _locID="26672" subtitle="false">%1!d!x%2!d!</String>
-      <String _locID="26673" subtitle="false">AUFLÖSUNG ÜBERNEHMEN</String>
+      <String _locID="26673" subtitle="false">AUFLÖSUNG ÜBERN.</String>
       <String _locID="26674" subtitle="false">Die neue Auflösung wird beim nächsten Starten der Anwendung im Vollbildmodus übernommen.</String>
       <String _locID="26675" category="steamVersion" originally="25045 and 23441" subtitle="false">PROFIL</String>
       <String _locID="26676" category="steamVersion" originally="25316" subtitle="false">Profil ansehen</String>
@@ -5377,5 +5377,69 @@ des Echo-Teams</String>
       <String _locID="26687" subtitle="false" category="UI">Einige Spieler konnten der Lobby nicht beitreten.</String>
       <String _locID="26688" subtitle="false" category="UI">Der Host der Lobby hat Sie aus der Sitzung geworfen.</String>
       <String _locID="26689" subtitle="false" category="UI">Der Host der Lobby hat die Sitzung verlassen und sie ist nicht länger verfügbar.</String>
+      <String _locID="26690" subtitle="false" category="UI">Wenn Sie mit dem Einstellen der Filter fertig sind, benutzen Sie die "VERÖFFENTLICHEN"-Taste, um Ihr Spiel zu hosten.</String>
+      <String _locID="26691" subtitle="false" category="UI">Wenn Sie mit dem Einstellen der Filter fertig sind, benutzen Sie die "SPIELE SUCHEN"-Taste, um nach Spielen zu suchen.</String>
+      <String _locID="26692" subtitle="false" category="UI">Wenn Sie mit dem Konfigurieren Ihrer Einstellungen fertig sind, benutzen Sie die "BEREIT"-Taste, um sie zu übernehmen.</String>
+      <String _locID="26693" subtitle="false" category="UI">Global</String>
+      <String _locID="26694" subtitle="false" category="UI">Team</String>
+      <String _locID="26695" subtitle="false" category="UI">Radialmenü-Hotkeys</String>
+      <String _locID="26696" subtitle="false" category="UI">Radialmenü oben</String>
+      <String _locID="26697" category="UI" subtitle="false">Aktivieren Sie die Radialmenüaktion oben.</String>
+      <String _locID="26698" subtitle="false" category="UI">Radialmenü oben entfernen</String>
+      <String _locID="26699" category="UI" subtitle="false">Entfernen Sie die Radialmenüaktion oben.</String>
+      <String _locID="26700" subtitle="false" category="UI">Radialmenü oben rechts</String>
+      <String _locID="26701" category="UI" subtitle="false">Aktivieren Sie die Radialmenüaktion oben rechts.</String>
+      <String _locID="26702" subtitle="false" category="UI">Radialmenü oben rechts entfernen</String>
+      <String _locID="26703" category="UI" subtitle="false">Entfernen Sie die Radialmenüaktion oben rechts.</String>
+      <String _locID="26704" subtitle="false" category="UI">Radialmenü rechts</String>
+      <String _locID="26705" category="UI" subtitle="false">Aktivieren Sie die Radialmenüaktion rechts.</String>
+      <String _locID="26706" subtitle="false" category="UI">Radialmenü rechts entfernen</String>
+      <String _locID="26707" category="UI" subtitle="false">Entfernen Sie die Radialmenüaktion rechts.</String>
+      <String _locID="26708" subtitle="false" category="UI">Radialmenü unten rechts</String>
+      <String _locID="26709" category="UI" subtitle="false">Aktivieren Sie die Radialmenüaktion unten rechts.</String>
+      <String _locID="26710" subtitle="false" category="UI">Radialmenü unten rechts entfernen</String>
+      <String _locID="26711" category="UI" subtitle="false">Entfernen Sie die Radialmenüaktion unten rechts.</String>
+      <String _locID="26712" subtitle="false" category="UI">Radialmenü unten</String>
+      <String _locID="26713" category="UI" subtitle="false">Aktivieren Sie die Radialmenüaktion unten.</String>
+      <String _locID="26714" subtitle="false" category="UI">Radialmenü unten entfernen</String>
+      <String _locID="26715" category="UI" subtitle="false">Entfernen Sie die Radialmenüaktion unten.</String>
+      <String _locID="26716" subtitle="false" category="UI">Radialmenü unten links</String>
+      <String _locID="26717" category="UI" subtitle="false">Aktivieren Sie die Radialmenüaktion unten links.</String>
+      <String _locID="26718" subtitle="false" category="UI">Radialmenü unten links entfernen</String>
+      <String _locID="26719" category="UI" subtitle="false">Entfernen Sie die Radialmenüaktion unten links.</String>
+      <String _locID="26720" subtitle="false" category="UI">Radialmenü links</String>
+      <String _locID="26721" category="UI" subtitle="false">Aktivieren Sie die Radialmenüaktion links.</String>
+      <String _locID="26722" subtitle="false" category="UI">Radialmenü links entfernen</String>
+      <String _locID="26723" category="UI" subtitle="false">Entfernen Sie die Radialmenüaktion links.</String>
+      <String _locID="26724" subtitle="false" category="UI">Radialmenü oben links</String>
+      <String _locID="26725" category="UI" subtitle="false">Aktivieren Sie die Radialmenüaktion oben links.</String>
+      <String _locID="26726" subtitle="false" category="UI">Radialmenü oben links entfernen</String>
+      <String _locID="26727" category="UI" subtitle="false">Entfernen Sie die Radialmenüaktion oben links.</String>
+      <String _locID="26728" subtitle="false" category="UI">Stummschalten</String>
+      <String _locID="26729" subtitle="false" category="UI">Hörbar machen</String>
+      <String _locID="26730" category="UI" scenario="MPGameSetup" subtitle="false">Möchten Sie diese Lobby wirklich verlassen?</String>
+      <String _locID="26731" category="UI" scenario="Service Record" subtitle="false">Drei-Sterne-General</String>
+      <String _locID="26732" category="UI" scenario="Service Record" subtitle="false">Vier-Sterne-General</String>
+      <String _locID="26733" category="UI" scenario="Service Record" subtitle="false">Fünf-Sterne-General</String>
+      <String _locID="26734" category="UI" scenario="MPGameSetup" subtitle="false">Exklusiver Vollbildmodus</String>
+      <String _locID="26735" category="UI" scenario="MPGameSetup" subtitle="false">Schalten Sie den exklusiven Vollbildmodus um.</String>
+      <String _locID="26736" category="UI" subtitle="false">Zum Einsehen von Spielerprofilen muss der Steam-Overlay in den Einstellungen des Steam-Clients aktiviert sein.</String>
+      <String _locID="26737" category="UI" subtitle="false">Zum Einladen von Freunden muss der Steam-Overlay in den Einstellungen des Steam-Clients aktiviert sein.</String>
+      <String _locID="26738" category="UI" scenario="Leaderboards" subtitle="false">BESTENLISTEN (FREUNDE)</String>
+      <String _locID="26739" category="UI" scenario="Options" subtitle="false">Filmsequenzlautstärke</String>
+      <String _locID="26740" category="UI" scenario="Options" subtitle="false">Die Lautstärke der Zwischensequenzen anpassen.</String>
+      <String _locID="26741" category="UI" scenario="Options" subtitle="false">Sprach-Chat-Lautstärke</String>
+      <String _locID="26742" category="UI" scenario="Options" subtitle="false">Die Lautstärke für den Sprach-Chat anpassen.</String>
+      <String _locID="26743" category="UI" scenario="Options" subtitle="false">Sprach-Chat</String>
+      <String _locID="26744" category="UI" scenario="Options" subtitle="false">Aktiviert den Sprach-Chat.</String>
+      <String _locID="26745" category="UI" scenario="GameSetup" subtitle="false">Schwierigkeit: Einfach</String>
+      <String _locID="26746" category="UI" scenario="GameSetup" subtitle="false">Schwierigkeit: Normal</String>
+      <String _locID="26747" category="UI" scenario="GameSetup" subtitle="false">Schwierigkeit: Heldenhaft</String>
+      <String _locID="26748" category="UI" scenario="GameSetup" subtitle="false">Schwierigkeit: Legendär</String>
+      <String _locID="26749" category="UI" scenario="GameSetup" subtitle="false">Schwierigkeit: Benutzerdefiniert</String>
+      <String _locID="26750" category="UI" scenario="GameSetup" subtitle="false">Schwierigkeit: Automatisch</String>
+      <String _locID="26751" category="UI" scenario="GameSetup" subtitle="false">BENUTZERDEF.</String>
+      <String _locID="26752" category="UI" scenario="GameSetup" subtitle="false">Automatisch</String>
+      <String _locID="26753" category="UI" scenario="GameSetup" subtitle="false">Schwierigkeit</String>
    </Language>
 </StringTable>

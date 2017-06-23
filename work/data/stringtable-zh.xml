@@ -2764,13 +2764,13 @@ MASTER STRING TABLE INDEX
       <String _locID="23825" category="UI" subtitle="false" _mouseKeyboard="26224">按下 $$A$$ 檢視玩家選項</String>
       <String _locID="23826" category="Code" scenario="AI" subtitle="false">ph1</String>
       <String _locID="23827" category="Code" scenario="AI" subtitle="false">引導盟軍前往您的位置</String>
-      <String _locID="23828" category="Code" scenario="AI" subtitle="false">正在設定集結點</String>
-      <String _locID="23829" category="Code" scenario="AI" subtitle="false">正在設定集結點</String>
+      <String _locID="23828" category="Code" scenario="AI" subtitle="false">正在設定集合點</String>
+      <String _locID="23829" category="Code" scenario="AI" subtitle="false">正在設定集合點</String>
       <String _locID="23830" category="Code" scenario="AI" subtitle="false">沒有盟軍可以攻擊敵人</String>
       <String _locID="23831" category="Code" scenario="AI" subtitle="false">您有盟友無法提供部隊</String>
       <String _locID="23832" category="Code" scenario="AI" subtitle="false">盟軍攻擊部隊已集結</String>
       <String _locID="23833" category="Code" scenario="AI" subtitle="false">盟軍將在您的基地集結</String>
-      <String _locID="23834" category="Code" scenario="AI" subtitle="false">盟軍正在撤退到集結點</String>
+      <String _locID="23834" category="Code" scenario="AI" subtitle="false">盟軍正在撤退到集合點</String>
       <String _locID="23835" category="Code" scenario="AI" subtitle="false">我們沒有那個位置的情報，派出盟軍的偵查兵</String>
       <String _locID="23836" category="Code" scenario="AI" subtitle="false">引導盟軍偵查單位前往攻擊區</String>
       <String _locID="23837" category="Code" scenario="AI" subtitle="false">引導一小隊盟軍去摧毀目標</String>
@@ -3504,7 +3504,7 @@ MASTER STRING TABLE INDEX
       <String _locID="24601" category="UI" scenario="Options" subtitle="false">快</String>
       <String _locID="24602" category="UI" scenario="Options" subtitle="false">音樂音量</String>
       <String _locID="24603" category="UI" scenario="Options" subtitle="false">音效音量</String>
-      <String _locID="24604" category="UI" scenario="Options" subtitle="false">語音音量</String>
+      <String _locID="24604" category="UI" scenario="Options" subtitle="false">對話音量</String>
       <String _locID="24605" category="UI" scenario="Options" subtitle="false">字幕 - 過場影片</String>
       <String _locID="24606" category="UI" scenario="Options" subtitle="false">亮度/Gamma 值</String>
       <String _locID="24607" category="UI" scenario="Options" subtitle="false">盟友或敵軍顏色</String>
@@ -3526,7 +3526,7 @@ MASTER STRING TABLE INDEX
       <String _locID="24623" category="UI" scenario="Options" subtitle="false">選取速度說明...</String>
       <String _locID="24624" category="UI" scenario="Options" subtitle="false">調整音樂音量。</String>
       <String _locID="24625" category="UI" scenario="Options" subtitle="false">調整音效音量。</String>
-      <String _locID="24626" category="UI" scenario="Options" subtitle="false">調整語音音量。</String>
+      <String _locID="24626" category="UI" scenario="Options" subtitle="false">調整語音對話音量。</String>
       <String _locID="24627" category="UI" scenario="Options" subtitle="false">開啟所有過場影片的字幕。</String>
       <String _locID="24628" category="UI" scenario="Options" subtitle="false">調整遊戲畫面的整體亮度。</String>
       <String _locID="24629" category="UI" scenario="Options" subtitle="false">使用敵友團隊顏色來分別玩家，而非使用個別玩家的顏色。</String>
@@ -4199,8 +4199,8 @@ MASTER STRING TABLE INDEX
       <String _locID="25353" category="UI" scenario="User" subtitle="false">隊長選單</String>
       <String _locID="25354" category="UI" scenario="User" subtitle="false">選取力量</String>
       <String _locID="25358" category="UI" scenario="SkirmishScreen" subtitle="false">開放</String>
-      <String _locID="25356" category="UI" scenario="GameMenu" subtitle="false">選取全部單位</String>
-      <String _locID="25357" category="UI" scenario="GameMenu" subtitle="false">選取區域單位</String>
+      <String _locID="25356" category="UI" scenario="GameMenu" subtitle="false">全域</String>
+      <String _locID="25357" category="UI" scenario="GameMenu" subtitle="false">區域</String>
       <String _locID="25359" category="UI" scenario="GameMenu" subtitle="false">視角</String>
       <String _locID="25360" category="UI" scenario="GameMenu" subtitle="false">能力</String>
       <String _locID="25361" category="UI" scenario="GameMenu" subtitle="false">取消</String>
@@ -4624,8 +4624,8 @@ MASTER STRING TABLE INDEX
       <String _locID="25793" subtitle="false">您可以使用 $$LS$$ 在地圖上四處移動。</String>
       <String _locID="25794" subtitle="false" _mouseKeyboard="26254">按下 $$LS$$ 即可對盟友送出閃光訊號。如果您想立刻讓盟友知道您的攻擊目標，這方法是非常有用的。</String>
       <String _locID="25795" subtitle="false">當您在某個地點使用閃光信號後，電腦盟友就會試著幫您攻擊或防禦那個地點。</String>
-      <String _locID="25796" subtitle="false">適當地使用集結點可讓您把新部隊派遣到前線。您也可以嘗試設定全域集結點，並分別為每個基地設定集結點。</String>
-      <String _locID="25797" subtitle="false" _mouseKeyboard="26255">按兩下 $$LS$$ 就能設定全域集結點。</String>
+      <String _locID="25796" subtitle="false">適當地使用集合點可讓您把新部隊派遣到前線。您也可以嘗試設定全域集合點，並分別為每個基地設定集合點。</String>
+      <String _locID="25797" subtitle="false" _mouseKeyboard="26255">按兩下 $$LS$$ 就能將該地點設定為全域集合點。</String>
       <String _locID="25798" subtitle="false" _mouseKeyboard="26256">$$RS$$ 可用來旋轉與縮放視角，按下它即可重設視角。</String>
       <String _locID="25799" subtitle="false" _mouseKeyboard="26257">$$DPAD$$ 可用來快速地轉換地圖位置，進階玩家使用它的頻率甚至會高過 $$LS$$。</String>
       <String _locID="25800" subtitle="false" _mouseKeyboard="26258">想要快速地跳到您星盟隊長的位置嗎？請向上按 $$DPAD$$。</String>
@@ -4898,7 +4898,7 @@ MASTER STRING TABLE INDEX
       <String _locID="26098" category="UI" scenario="Options" subtitle="false" Update="true">視角向上平移</String>
       <String _locID="26099" category="UI" scenario="Options" subtitle="false" Update="true">視角向下平移</String>
       <String _locID="26100" category="UI" scenario="Options" subtitle="false" Update="true">重設視角</String>
-      <String _locID="26101" category="UI" scenario="Options" subtitle="false" Update="true">設定集結點</String>
+      <String _locID="26101" category="UI" scenario="Options" subtitle="false" Update="true">設定集合點</String>
       <String _locID="26102" category="UI" scenario="Options" subtitle="false" Update="true">移動到上一個警示位置</String>
       <String _locID="26103" category="UI" scenario="Options" subtitle="false" Update="true">移動至/依序前往基地位置</String>
       <String _locID="26104" category="UI" scenario="Options" subtitle="false" Update="true">移動至/依序前往下一個軍隊</String>
@@ -5376,5 +5376,69 @@ MASTER STRING TABLE INDEX
       <String _locID="26687" subtitle="false" category="UI">有些玩家無法加入該大廳。</String>
       <String _locID="26688" subtitle="false" category="UI">大廳主持人已將您踢出遊戲階段。</String>
       <String _locID="26689" subtitle="false" category="UI">大廳主持人已離開遊戲階段，大廳已不存在。</String>
+      <String _locID="26690" subtitle="false" category="UI">當您完成設定篩選時，使用 [發佈遊戲] 按鈕來主持您的遊戲。</String>
+      <String _locID="26691" subtitle="false" category="UI">當您完成設定篩選時，使用 [尋找遊戲] 按鈕來搜尋遊戲。</String>
+      <String _locID="26692" subtitle="false" category="UI">當您完成設定配置時，使用 [準備就緒] 按鈕來開始遊戲。</String>
+      <String _locID="26693" subtitle="false" category="UI">全域</String>
+      <String _locID="26694" subtitle="false" category="UI">團隊</String>
+      <String _locID="26695" subtitle="false" category="UI">圓形選單快速鍵</String>
+      <String _locID="26696" subtitle="false" category="UI">使用圓形選單上方功能</String>
+      <String _locID="26697" category="UI" subtitle="false">啟用圓形選單上方功能的動作。</String>
+      <String _locID="26698" subtitle="false" category="UI">取消圓形選單上方功能</String>
+      <String _locID="26699" category="UI" subtitle="false">取消圓形選單上方功能的動作。</String>
+      <String _locID="26700" subtitle="false" category="UI">使用圓形選單右上功能</String>
+      <String _locID="26701" category="UI" subtitle="false">啟用圓形選單右上方功能的動作。</String>
+      <String _locID="26702" subtitle="false" category="UI">取消圓形選單右上功能</String>
+      <String _locID="26703" category="UI" subtitle="false">取消圓形選單右上方功能的動作。</String>
+      <String _locID="26704" subtitle="false" category="UI">使用圓形選單右方功能</String>
+      <String _locID="26705" category="UI" subtitle="false">啟用圓形選單右方功能的動作。</String>
+      <String _locID="26706" subtitle="false" category="UI">取消圓形選單右方功能</String>
+      <String _locID="26707" category="UI" subtitle="false">取消圓形選單右方功能的動作。</String>
+      <String _locID="26708" subtitle="false" category="UI">使用圓形選單右下功能</String>
+      <String _locID="26709" category="UI" subtitle="false">啟用圓形選單右下方功能的動作。</String>
+      <String _locID="26710" subtitle="false" category="UI">取消圓形選單右下功能</String>
+      <String _locID="26711" category="UI" subtitle="false">取消圓形選單右下方功能的動作。</String>
+      <String _locID="26712" subtitle="false" category="UI">使用圓形選單下方功能</String>
+      <String _locID="26713" category="UI" subtitle="false">啟用圓形選單下方功能的動作。</String>
+      <String _locID="26714" subtitle="false" category="UI">取消圓形選單下方功能</String>
+      <String _locID="26715" category="UI" subtitle="false">取消圓形選單下方功能的動作。</String>
+      <String _locID="26716" subtitle="false" category="UI">使用圓形選單左下功能</String>
+      <String _locID="26717" category="UI" subtitle="false">啟用圓形選單左下方功能的動作。</String>
+      <String _locID="26718" subtitle="false" category="UI">取消圓形選單左下功能</String>
+      <String _locID="26719" category="UI" subtitle="false">取消圓形選單左下方功能的動作。</String>
+      <String _locID="26720" subtitle="false" category="UI">使用圓形選單左方功能</String>
+      <String _locID="26721" category="UI" subtitle="false">啟用圓形選單左方功能的動作。</String>
+      <String _locID="26722" subtitle="false" category="UI">取消圓形選單左方功能</String>
+      <String _locID="26723" category="UI" subtitle="false">取消圓形選單左方功能的動作。</String>
+      <String _locID="26724" subtitle="false" category="UI">使用圓形選單左上功能</String>
+      <String _locID="26725" category="UI" subtitle="false">啟用圓形選單左上方功能的動作。</String>
+      <String _locID="26726" subtitle="false" category="UI">取消圓形選單左上功能</String>
+      <String _locID="26727" category="UI" subtitle="false">取消圓形選單左上方功能的動作。</String>
+      <String _locID="26728" subtitle="false" category="UI">靜音</String>
+      <String _locID="26729" subtitle="false" category="UI">解除靜音</String>
+      <String _locID="26730" category="UI" scenario="MPGameSetup" subtitle="false">確定要離開這個大廳嗎？</String>
+      <String _locID="26731" category="UI" scenario="Service Record" subtitle="false">三星上將</String>
+      <String _locID="26732" category="UI" scenario="Service Record" subtitle="false">四星上將</String>
+      <String _locID="26733" category="UI" scenario="Service Record" subtitle="false">五星上將</String>
+      <String _locID="26734" category="UI" scenario="MPGameSetup" subtitle="false">獨佔模式全螢幕</String>
+      <String _locID="26735" category="UI" scenario="MPGameSetup" subtitle="false">切換至獨佔模式全螢幕</String>
+      <String _locID="26736" category="UI" subtitle="false">您必須在 Steam 客戶端設定中啟用 Steam 內嵌介面才能檢視玩家設定檔。</String>
+      <String _locID="26737" category="UI" subtitle="false">您必須在 Steam 客戶端設定中啟用 Steam 內嵌介面才能邀請朋友。</String>
+      <String _locID="26738" category="UI" scenario="Leaderboards" subtitle="false">排行榜 (好友)</String>
+      <String _locID="26739" category="UI" scenario="Options" subtitle="false">過場影片音量</String>
+      <String _locID="26740" category="UI" scenario="Options" subtitle="false">調整過場影片音量。</String>
+      <String _locID="26741" category="UI" scenario="Options" subtitle="false">語音交談音量</String>
+      <String _locID="26742" category="UI" scenario="Options" subtitle="false">調整語音交談音量。</String>
+      <String _locID="26743" category="UI" scenario="Options" subtitle="false">語音交談</String>
+      <String _locID="26744" category="UI" scenario="Options" subtitle="false">啟用語音交談。</String>
+      <String _locID="26745" category="UI" scenario="GameSetup" subtitle="false">難度：簡單</String>
+      <String _locID="26746" category="UI" scenario="GameSetup" subtitle="false">難度：正常</String>
+      <String _locID="26747" category="UI" scenario="GameSetup" subtitle="false">難度：英雄</String>
+      <String _locID="26748" category="UI" scenario="GameSetup" subtitle="false">難度：傳奇</String>
+      <String _locID="26749" category="UI" scenario="GameSetup" subtitle="false">難度：自訂</String>
+      <String _locID="26750" category="UI" scenario="GameSetup" subtitle="false">難度：自動</String>
+      <String _locID="26751" category="UI" scenario="GameSetup" subtitle="false">自訂</String>
+      <String _locID="26752" category="UI" scenario="GameSetup" subtitle="false">自動</String>
+      <String _locID="26753" category="UI" scenario="GameSetup" subtitle="false">難度</String>
    </Language>
 </StringTable>

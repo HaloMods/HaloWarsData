@@ -3504,7 +3504,7 @@ MASTER STRING TABLE INDEX
       <String _locID="24601" category="UI" scenario="Options" subtitle="false">Rapide</String>
       <String _locID="24602" category="UI" scenario="Options" subtitle="false">Volume de la musique</String>
       <String _locID="24603" category="UI" scenario="Options" subtitle="false">Volume des effets sonores</String>
-      <String _locID="24604" category="UI" scenario="Options" subtitle="false">Volume des voix</String>
+      <String _locID="24604" category="UI" scenario="Options" subtitle="false">Volume des dialogues</String>
       <String _locID="24605" category="UI" scenario="Options" subtitle="false">Sous-titres - Cinématiques</String>
       <String _locID="24606" category="UI" scenario="Options" subtitle="false">Luminosité/gamma</String>
       <String _locID="24607" category="UI" scenario="Options" subtitle="false">Couleurs amis/ennemis</String>
@@ -4415,7 +4415,7 @@ MASTER STRING TABLE INDEX
       <String _locID="25583" category="UI" subtitle="false">La partie sélectionnée n'est plus valide. Veuillez en sélectionner une autre.</String>
       <String _locID="25584" category="Campaign" scenario="Tutorial" subtitle="false">Didacticiel de base</String>
       <String _locID="25585" category="Campaign" scenario="Tutorial" subtitle="false">Didacticiel avancé</String>
-      <String _locID="25586" category="UI" scenario="Leaderboards" subtitle="false">PARCOURIR LES FILTRES</String>
+      <String _locID="25586" category="UI" scenario="Leaderboards" subtitle="false">PARCOURIR FILTRES</String>
       <String _locID="25587" subtitle="false" category="UI" scenario="SkirmishPostgameScreen">ESCOUADES ENTRAÎNÉES (PERDUES)</String>
       <String _locID="25588" subtitle="false" category="UI" scenario="SkirmishPostgameScreen">ESCOUADES TUÉES</String>
       <String _locID="25589" subtitle="false" category="UI" scenario="SkirmishPostgameScreen">BÂTIMENTS CONSTRUITS (PERDUS)</String>
@@ -5008,7 +5008,7 @@ MASTER STRING TABLE INDEX
       <String _locID="26213" category="UI" subtitle="false">Illustration concept 10</String>
       <String _locID="26214" category="UI" subtitle="false">Illustration concept 11</String>
       <String _locID="26215" category="UI" subtitle="false">Illustration concept 12</String>
-      <String _locID="26216" category="UI" subtitle="false">Cliquez ici pour obtenir gratuitement le guide de stratégie Prima de Halo Wars !&lt;br&gt;Découvrez les cartes, stratégies et méthodes dont vous aurez besoin pour gagner en multijoueur ou en campagne dans ce guide interactif gratuit conçu par Prima.</String>
+      <String _locID="26216" category="UI" subtitle="false">Cliquez ici pour obtenir le guide de stratégie Prima de Halo Wars !&lt;br&gt;Découvrez tout ce dont vous aurez besoin pour gagner dans ce guide interactif gratuit conçu par Prima.</String>
       <String _locID="26217" category="UI" subtitle="false">Pour continuer, appuyez sur n'importe quelle touche ou bouton.</String>
       <String _locID="26218" category="UI" subtitle="false">Vous pouvez changer de périphérique dans le menu principal disponible depuis l'écran d'accueil.</String>
       <String _locID="26219" category="UI" subtitle="false">Enregistrement en cours... Veuillez ne pas quitter le jeu.</String>
@@ -5376,5 +5376,69 @@ MASTER STRING TABLE INDEX
       <String _locID="26687" subtitle="false" category="UI">Certains joueurs n'ont pas pu rejoindre l'accueil.</String>
       <String _locID="26688" subtitle="false" category="UI">L'hôte de l'accueil vous a expulsé de la session.</String>
       <String _locID="26689" subtitle="false" category="UI">L'hôte de l'accueil a quitté la session qui n'existe plus.</String>
+      <String _locID="26690" subtitle="false" category="UI">Une fois les filtres définis, utilisez le bouton PUBLIER LA PARTIE pour héberger votre partie.</String>
+      <String _locID="26691" subtitle="false" category="UI">Une fois les filtres définis, utilisez le bouton TROUVER PARTIES pour lancer la recherche.</String>
+      <String _locID="26692" subtitle="false" category="UI">Une fois vos paramètres configurés, utilisez le bouton PRÊT pour démarrer.</String>
+      <String _locID="26693" subtitle="false" category="UI">Global</String>
+      <String _locID="26694" subtitle="false" category="UI">Équipe</String>
+      <String _locID="26695" subtitle="false" category="UI">Raccourcis du menu circulaire</String>
+      <String _locID="26696" subtitle="false" category="UI">Lancement de l'action en haut du menu circulaire</String>
+      <String _locID="26697" category="UI" subtitle="false">Lance l'action en haut du menu circulaire.</String>
+      <String _locID="26698" subtitle="false" category="UI">Annulation de l'action en haut du menu circulaire</String>
+      <String _locID="26699" category="UI" subtitle="false">Annule l'action en haut du menu circulaire.</String>
+      <String _locID="26700" subtitle="false" category="UI">Lancement de l'action en haut à droite du menu circulaire</String>
+      <String _locID="26701" category="UI" subtitle="false">Lance l'action en haut à droite du menu circulaire.</String>
+      <String _locID="26702" subtitle="false" category="UI">Annulation de l'action en haut à droite du menu circulaire</String>
+      <String _locID="26703" category="UI" subtitle="false">Annule l'action en haut à droite du menu circulaire.</String>
+      <String _locID="26704" subtitle="false" category="UI">Lancement de l'action à droite du menu circulaire</String>
+      <String _locID="26705" category="UI" subtitle="false">Lance l'action à droite du menu circulaire.</String>
+      <String _locID="26706" subtitle="false" category="UI">Annulation de l'action à droite du menu circulaire</String>
+      <String _locID="26707" category="UI" subtitle="false">Annule l'action à droite du menu circulaire.</String>
+      <String _locID="26708" subtitle="false" category="UI">Lancement de l'action en bas à droite du menu circulaire</String>
+      <String _locID="26709" category="UI" subtitle="false">Lance l'action en bas à droite du menu circulaire.</String>
+      <String _locID="26710" subtitle="false" category="UI">Annulation de l'action en bas à droite du menu circulaire</String>
+      <String _locID="26711" category="UI" subtitle="false">Annule l'action en bas à droite du menu circulaire.</String>
+      <String _locID="26712" subtitle="false" category="UI">Lancement de l'action en bas du menu circulaire</String>
+      <String _locID="26713" category="UI" subtitle="false">Lance l'action en bas du menu circulaire.</String>
+      <String _locID="26714" subtitle="false" category="UI">Annulation de l'action en bas du menu circulaire</String>
+      <String _locID="26715" category="UI" subtitle="false">Annule l'action en bas du menu circulaire.</String>
+      <String _locID="26716" subtitle="false" category="UI">Lancement de l'action en bas à gauche du menu circulaire</String>
+      <String _locID="26717" category="UI" subtitle="false">Lance l'action en bas à gauche du menu circulaire.</String>
+      <String _locID="26718" subtitle="false" category="UI">Annulation de l'action en bas à gauche du menu circulaire</String>
+      <String _locID="26719" category="UI" subtitle="false">Annule l'action en bas à gauche du menu circulaire.</String>
+      <String _locID="26720" subtitle="false" category="UI">Lancement de l'action à gauche du menu circulaire</String>
+      <String _locID="26721" category="UI" subtitle="false">Lance l'action à gauche du menu circulaire.</String>
+      <String _locID="26722" subtitle="false" category="UI">Annulation de l'action à gauche du menu circulaire</String>
+      <String _locID="26723" category="UI" subtitle="false">Annule l'action à gauche du menu circulaire.</String>
+      <String _locID="26724" subtitle="false" category="UI">Lancement de l'action en haut à gauche du menu circulaire</String>
+      <String _locID="26725" category="UI" subtitle="false">Lance l'action en haut à gauche du menu circulaire.</String>
+      <String _locID="26726" subtitle="false" category="UI">Annulation de l'action en haut à gauche du menu circulaire</String>
+      <String _locID="26727" category="UI" subtitle="false">Annule l'action en haut à gauche du menu circulaire.</String>
+      <String _locID="26728" subtitle="false" category="UI">Couper le son</String>
+      <String _locID="26729" subtitle="false" category="UI">Activer voix</String>
+      <String _locID="26730" category="UI" scenario="MPGameSetup" subtitle="false">Voulez-vous vraiment quitter cet accueil ?</String>
+      <String _locID="26731" category="UI" scenario="Service Record" subtitle="false">Général 3 étoiles</String>
+      <String _locID="26732" category="UI" scenario="Service Record" subtitle="false">Général 4 étoiles</String>
+      <String _locID="26733" category="UI" scenario="Service Record" subtitle="false">Général 5 étoiles</String>
+      <String _locID="26734" category="UI" scenario="MPGameSetup" subtitle="false">Mode Plein écran exclusif</String>
+      <String _locID="26735" category="UI" scenario="MPGameSetup" subtitle="false">Activer/désactiver le mode Plein écran exclusif</String>
+      <String _locID="26736" category="UI" subtitle="false">L'overlay Steam doit être activé dans les paramètres du client Steam afin de voir les profils de joueurs.</String>
+      <String _locID="26737" category="UI" subtitle="false">L'overlay Steam doit être activé dans les paramètres du client Steam afin d'inviter des amis.</String>
+      <String _locID="26738" category="UI" scenario="Leaderboards" subtitle="false">CLASSEMENTS (AMIS)</String>
+      <String _locID="26739" category="UI" scenario="Options" subtitle="false">Volume des cinématiques</String>
+      <String _locID="26740" category="UI" scenario="Options" subtitle="false">Règle le volume des cinématiques.</String>
+      <String _locID="26741" category="UI" scenario="Options" subtitle="false">Volume du chat vocal</String>
+      <String _locID="26742" category="UI" scenario="Options" subtitle="false">Règle le volume du chat vocal.</String>
+      <String _locID="26743" category="UI" scenario="Options" subtitle="false">Chat vocal</String>
+      <String _locID="26744" category="UI" scenario="Options" subtitle="false">Active le chat vocal.</String>
+      <String _locID="26745" category="UI" scenario="GameSetup" subtitle="false">Difficulté : Facile</String>
+      <String _locID="26746" category="UI" scenario="GameSetup" subtitle="false">Difficulté : Normale</String>
+      <String _locID="26747" category="UI" scenario="GameSetup" subtitle="false">Difficulté : Héroïque</String>
+      <String _locID="26748" category="UI" scenario="GameSetup" subtitle="false">Difficulté : Légendaire</String>
+      <String _locID="26749" category="UI" scenario="GameSetup" subtitle="false">Difficulté : Personnalisée</String>
+      <String _locID="26750" category="UI" scenario="GameSetup" subtitle="false">Difficulté : Automatique</String>
+      <String _locID="26751" category="UI" scenario="GameSetup" subtitle="false">PERSONNALISÉE</String>
+      <String _locID="26752" category="UI" scenario="GameSetup" subtitle="false">Automatique</String>
+      <String _locID="26753" category="UI" scenario="GameSetup" subtitle="false">Difficulté</String>
    </Language>
 </StringTable>

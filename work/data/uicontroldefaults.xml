@@ -216,6 +216,9 @@
 				<Control name="KeyEscape" command="setHotkey" event="start" sound="" />
 				<Control name="KeySpace" command="setHotkey" event="start" sound="" />
 				<Control name="MouseWheelDown" command="setHotkey" event="start" sound="" />
+				<Control name="MouseMiddle" command="setHotkey" event="start" sound="" />
+				<Control name="MouseButton4" command="setHotkey" event="start" sound="" />
+				<Control name="MouseButton5" command="setHotkey" event="start" sound="" />
 			</Mode>
 		</Controls>
 		<Sounds>

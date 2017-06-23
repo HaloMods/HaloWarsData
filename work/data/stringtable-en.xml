@@ -3504,7 +3504,7 @@ MASTER STRING TABLE INDEX
       <String _locID='24601' category='UI' scenario='Options' subtitle='false'>Fast</String>
       <String _locID='24602' category='UI' scenario='Options' subtitle='false'>Music Volume</String>
       <String _locID='24603' category='UI' scenario='Options' subtitle='false'>Sound FX Volume</String>
-      <String _locID='24604' category='UI' scenario='Options' subtitle='false'>Voice Volume</String>
+      <String _locID='24604' category='UI' scenario='Options' subtitle='false'>Dialogue Volume</String>
       <String _locID='24605' category='UI' scenario='Options' subtitle='false'>Subtitles - Cinematics</String>
       <String _locID='24606' category='UI' scenario='Options' subtitle='false'>Brightness/Gamma</String>
       <String _locID='24607' category='UI' scenario='Options' subtitle='false'>Friend or Foe Colors</String>
@@ -5379,5 +5379,66 @@ MASTER STRING TABLE INDEX
       <String _locID='26690' subtitle='false' category='UI'>When you are done setting filters, use the PUBLISH GAME button to host your game.</String>
       <String _locID='26691' subtitle='false' category='UI'>When you are done setting filters, use the FIND GAMES button to search games.</String>
       <String _locID='26692' subtitle='false' category='UI'>When you are done configuring your settings, use the READY button to launch.</String>
+      <String _locID='26693' subtitle='false' category='UI'>Global</String>
+      <String _locID='26694' subtitle='false' category='UI'>Team</String>
+      <String _locID='26695' subtitle='false' category='UI'>Radial Menu Hotkeys</String>
+      <String _locID='26696' subtitle='false' category='UI'>Radial Menu Top Use</String>
+      <String _locID='26697' category='UI' subtitle='false'>Activate the radial menu top action.</String>
+      <String _locID='26698' subtitle='false' category='UI'>Radial Menu Top Cancel</String>
+      <String _locID='26699' category='UI' subtitle='false'>Cancel the radial menu top action.</String>
+      <String _locID='26700' subtitle='false' category='UI'>Radial Menu Top-Right Use</String>
+      <String _locID='26701' category='UI' subtitle='false'>Activate the radial menu top-right action.</String>
+      <String _locID='26702' subtitle='false' category='UI'>Radial Menu Top-Right Cancel</String>
+      <String _locID='26703' category='UI' subtitle='false'>Cancel the radial menu top-right action.</String>
+      <String _locID='26704' subtitle='false' category='UI'>Radial Menu Right Use</String>
+      <String _locID='26705' category='UI' subtitle='false'>Activate the radial menu right action.</String>
+      <String _locID='26706' subtitle='false' category='UI'>Radial Menu Right Cancel</String>
+      <String _locID='26707' category='UI' subtitle='false'>Cancel the radial menu right action.</String>
+      <String _locID='26708' subtitle='false' category='UI'>Radial Menu Bottom-Right Use</String>
+      <String _locID='26709' category='UI' subtitle='false'>Activate the radial menu bottom-right action.</String>
+      <String _locID='26710' subtitle='false' category='UI'>Radial Menu Bottom-Right Cancel</String>
+      <String _locID='26711' category='UI' subtitle='false'>Cancel the radial menu bottom-right action.</String>
+      <String _locID='26712' subtitle='false' category='UI'>Radial Menu Bottom Use</String>
+      <String _locID='26713' category='UI' subtitle='false'>Activate the radial menu bottom action.</String>
+      <String _locID='26714' subtitle='false' category='UI'>Radial Menu Bottom Cancel</String>
+      <String _locID='26715' category='UI' subtitle='false'>Cancel the radial menu bottom action.</String>
+      <String _locID='26716' subtitle='false' category='UI'>Radial Menu Bottom-Left Use</String>
+      <String _locID='26717' category='UI' subtitle='false'>Activate the radial menu bottom-left action.</String>
+      <String _locID='26718' subtitle='false' category='UI'>Radial Menu Bottom-Left Cancel</String>
+      <String _locID='26719' category='UI' subtitle='false'>Cancel the radial menu bottom-left action.</String>
+      <String _locID='26720' subtitle='false' category='UI'>Radial Menu Left Use</String>
+      <String _locID='26721' category='UI' subtitle='false'>Activate the radial menu left action.</String>
+      <String _locID='26722' subtitle='false' category='UI'>Radial Menu Left Cancel</String>
+      <String _locID='26723' category='UI' subtitle='false'>Cancel the radial menu left action.</String>
+      <String _locID='26724' subtitle='false' category='UI'>Radial Menu Top-Left Use</String>
+      <String _locID='26725' category='UI' subtitle='false'>Activate the radial menu top-left action.</String>
+      <String _locID='26726' subtitle='false' category='UI'>Radial Menu Top-Left Cancel</String>
+      <String _locID='26727' category='UI' subtitle='false'>Cancel the radial menu top-left action.</String>
+      <String _locID='26728' subtitle='false' category='UI'>Mute</String>
+      <String _locID='26729' subtitle='false' category='UI'>Unmute</String>
+      <String _locID='26730' category='UI' scenario='MPGameSetup' subtitle='false'>Are you sure you want to leave this lobby?</String>
+      <String _locID='26731' category='UI' scenario='Service Record' subtitle='false'>Three-Star General</String>
+      <String _locID='26732' category='UI' scenario='Service Record' subtitle='false'>Four-Star General</String>
+      <String _locID='26733' category='UI' scenario='Service Record' subtitle='false'>Five-Star General</String>
+      <String _locID='26734' category='UI' scenario='MPGameSetup' subtitle='false'>Exclusive-Mode Fullscreen</String>
+      <String _locID='26735' category='UI' scenario='MPGameSetup' subtitle='false'>Toggle exclusive-mode fullscreen.</String>
+      <String _locID='26736' category='UI' subtitle='false'>The Steam Overlay must be enabled in the Steam Client settings in order to view player profiles.</String>
+      <String _locID='26737' category='UI' subtitle='false'>The Steam Overlay must be enabled in the Steam Client settings in order to invite friends.</String>
+      <String _locID='26738' category='UI' scenario='Leaderboards' subtitle='false'>LEADERBOARDS (FRIENDS)</String>
+      <String _locID='26739' category='UI' scenario='Options' subtitle='false'>Cinematic Volume</String>
+      <String _locID='26740' category='UI' scenario='Options' subtitle='false'>Adjust the volume for cinematics.</String>
+      <String _locID='26741' category='UI' scenario='Options' subtitle='false'>Voice Chat Volume</String>
+      <String _locID='26742' category='UI' scenario='Options' subtitle='false'>Adjust the volume for voice chat.</String>
+      <String _locID='26743' category='UI' scenario='Options' subtitle='false'>Voice Chat</String>
+      <String _locID='26744' category='UI' scenario='Options' subtitle='false'>Enables voice chat.</String>
+      <String _locID='26745' category='UI' scenario='GameSetup' subtitle='false'>Difficulty: Easy</String>
+      <String _locID='26746' category='UI' scenario='GameSetup' subtitle='false'>Difficulty: Normal</String>
+      <String _locID='26747' category='UI' scenario='GameSetup' subtitle='false'>Difficulty: Heroic</String>
+      <String _locID='26748' category='UI' scenario='GameSetup' subtitle='false'>Difficulty: Legendary</String>
+      <String _locID='26749' category='UI' scenario='GameSetup' subtitle='false'>Difficulty: Custom</String>
+      <String _locID='26750' category='UI' scenario='GameSetup' subtitle='false'>Difficulty: Automatic</String>
+      <String _locID='26751' category='UI' scenario='GameSetup' subtitle='false'>CUSTOM</String>
+      <String _locID='26752' category='UI' scenario='GameSetup' subtitle='false'>Automatic</String>
+      <String _locID='26753' category='UI' scenario='GameSetup' subtitle='false'>Difficulty</String>
    </Language>
 </StringTable>

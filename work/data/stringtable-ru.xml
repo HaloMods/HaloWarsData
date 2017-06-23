@@ -1255,12 +1255,12 @@ MASTER STRING TABLE INDEX
       <String _locID="22310" category="Skirmish" subtitle="false">3 на 3 «Ущелье» SWI</String>
       <String _locID="22311" category="Skirmish" subtitle="false">3 на 3 «Змеиная река»</String>
       <String _locID="22312" category="Skirmish" subtitle="false">Halo_fast</String>
-      <String _locID="22313" category="Skirmish" subtitle="false">Плато Бисли (2х2)</String>
+      <String _locID="22313" category="Skirmish" subtitle="false">«Плато Бисли» (2х2)</String>
       <String _locID="22314" category="Skirmish" subtitle="false">2 на 2 «Жатва»</String>
       <String _locID="22315" category="Skirmish" subtitle="false">2 на 2 «Артефакт»</String>
       <String _locID="22316" category="Skirmish" subtitle="false">2 на 2 «Пустоши» SWI</String>
       <String _locID="22317" category="Skirmish" subtitle="false">1 на 1 «Пустоши» SWI</String>
-      <String _locID="22318" category="Skirmish" subtitle="false">Тундра (1х1)</String>
+      <String _locID="22318" category="Skirmish" subtitle="false">«Тундра» (1х1)</String>
       <String _locID="22319" category="Skirmish" subtitle="false">2 на 2 «Большое озеро» SWI</String>
       <String _locID="22320" category="Skirmish" subtitle="false">1 на 1 «Два пика» HAR</String>
       <String _locID="22321" category="Skirmish" subtitle="false">3 на 3 «Внезапная смерть»</String>
@@ -1355,7 +1355,7 @@ MASTER STRING TABLE INDEX
       <String _locID="22413" category="Techs" subtitle="false">Увеличивает производимую монументами энергию.</String>
       <String _locID="22414" category="Campaign" scenario="9" subtitle="false">Уничтожить лидера Орды</String>
       <String _locID="22415" category="Skirmish" subtitle="false">Базам в этом районе необходима серьезная защита по ночам, когда паразиты Роя вылезают из своих убежищ.</String>
-      <String _locID="22416" category="Skirmish" subtitle="false">Расщелина (2х2)</String>
+      <String _locID="22416" category="Skirmish" subtitle="false">«Расщелина» (2х2)</String>
       <String _locID="22417" category="Skirmish" subtitle="false">Враги могут поджидать вас за каждым углом в этом лабиринте зданий Предтеч</String>
       <String _locID="22418" category="Skirmish" subtitle="false">2 на 2 «Лабиринт»</String>
       <String _locID="22419" category="Objects" subtitle="false">Центр спецопераций</String>
@@ -2899,11 +2899,11 @@ MASTER STRING TABLE INDEX
       </String>
       <String _locID="23958" category="Objects" subtitle="false">Точка сбора базы</String>
       <String _locID="23959" category="Objects" subtitle="false">Новые юниты с этой базы будут перемещаться сюда. Чтобы задать другое место, используйте кнопку «Общая точка сбора».</String>
-      <String _locID="23960" category="Skirmish" subtitle="false">Пропасти (1х1)</String>
+      <String _locID="23960" category="Skirmish" subtitle="false">«Пропасти» (1х1)</String>
       <String _locID="23961" category="Skirmish" subtitle="false">Эта область густо покрыта горами и ущельями, но способов пройти по ней все еще предостаточно. Ключевые локации защищены разбросанными по области снайперскими вышками.</String>
-      <String _locID="23962" category="Skirmish" subtitle="false">Хранилище (2х2)</String>
+      <String _locID="23962" category="Skirmish" subtitle="false">«Хранилище» (2х2)</String>
       <String _locID="23963" category="Skirmish" subtitle="false">Многое здесь может вам помочь, а многое — уничтожить. Бой за этот регион будет жестоким, страшным и коротким.</String>
-      <String _locID="23964" category="Skirmish" subtitle="false">Ледяная долина (3х3)</String>
+      <String _locID="23964" category="Skirmish" subtitle="false">«Ледяная долина» (3х3)</String>
       <String _locID="23965" category="Skirmish" subtitle="false">Обширная, холодная пустыня. Зато здесь есть два дополнительных реактора и Шпиль исцеления Предтеч.</String>
       <String _locID="23966" category="Objects" subtitle="false">Посадочная площадка</String>
       <String _locID="23967" category="Objects" subtitle="false">
@@ -3020,8 +3020,8 @@ MASTER STRING TABLE INDEX
       <String _locID="24082" category="UI" subtitle="false">Злобный Пророк приносит на поле битвы ужасающую силу Очищения, которое предает забвению целые планеты. Этот луч может полностью уничтожить вашу армию. Убейте Пророка, чтобы остановить луч.</String>
       <String _locID="24083" category="UI" subtitle="false" _mouseKeyboard="26240">Хотите устроить настоящий хаос? Вызовите «Дух огня» (нажмите вверх на крестовине $$DPAD$$) и нанесите «МРП-удар» в полную силу!</String>
       <String _locID="24084" category="UI" subtitle="false">Зачем ограничиваться только одним Спартанцем? Доведите их число до 3 и используйте их объединенную мощь. Они также могут угонять вражескую технику.</String>
-      <String _locID="24098" category="UI" scenario="Main Menu-alpha" subtitle="false">Ошибка</String>
-      <String _locID="24099" category="UI" scenario="Main Menu-alpha" subtitle="false">Ошибка</String>
+      <String _locID="24098" category="UI" scenario="Main Menu-alpha" subtitle="false">DEPRECATED To play Halo Wars, you need to be signed into an Xbox Live Gold gamer profile. Press $$A$$ to sign into Xbox Live now.</String>
+      <String _locID="24099" category="UI" scenario="Main Menu-alpha" subtitle="false">DEPRECATED To play Halo Wars, you need to be signed into an Xbox Live Gold gamer profile. Press $$A$$ to sign into Xbox Live with a Gold gamer profile.</String>
       <String _locID="24105" category="UI" scenario="Main Menu-alpha" subtitle="false">Игра Halo Wars не может зарегистрировать активный профиль Xbox Live.</String>
       <String _locID="24106" category="Skirmish" scenario="Hint Chat" subtitle="false">Ага, «Скорпион»! Ваше основное транспортное средство; они неплохо приспособлены к любому бою.</String>
       <String _locID="24107" category="Skirmish" scenario="Hint Chat" subtitle="false" _mouseKeyboard="26241">С помощью крестовины можно перемещаться между различными точками — базами и армиями, а также попадать на орбитальный корабль «Дух огня».</String>
@@ -3200,9 +3200,9 @@ MASTER STRING TABLE INDEX
       <String _locID="24320" category="Skirmish" scenario="FloodControl" subtitle="false">Тип волны 3</String>
       <String _locID="24321" category="Skirmish" scenario="FloodControl" subtitle="false">Тип волны 4</String>
       <String _locID="24322" category="Skirmish" scenario="FloodControl" subtitle="false">Тип волны 5</String>
-      <String _locID="24323" category="Skirmish" scenario="" subtitle="false">Лабиринт (2х2)</String>
+      <String _locID="24323" category="Skirmish" scenario="" subtitle="false">«Лабиринт» (2х2)</String>
       <String _locID="24324" category="Skirmish" subtitle="false">Постройки Предтеч образуют здесь лабиринт, это труднопроходимое поле боя. Ключ к победе, вероятно, — в защитниках Предтеч.</String>
-      <String _locID="24325" category="Skirmish" subtitle="false">На свободу (1х1)</String>
+      <String _locID="24325" category="Skirmish" subtitle="false">«На свободу» (1х1)</String>
       <String _locID="24326" category="Campaign" scenario="6" subtitle="true">Есть, источник питания купола перегружен!</String>
       <String _locID="24327" category="Campaign" scenario="6" subtitle="true">Осталось вывести еще один «Носорог».</String>
       <String _locID="24328" category="Campaign" scenario="6" subtitle="true">МРП на подходе, работает одна турель.</String>
@@ -3504,7 +3504,7 @@ MASTER STRING TABLE INDEX
       <String _locID="24601" category="UI" scenario="Options" subtitle="false">Быстро</String>
       <String _locID="24602" category="UI" scenario="Options" subtitle="false">Громкость музыки</String>
       <String _locID="24603" category="UI" scenario="Options" subtitle="false">Громкость звуковых эффектов</String>
-      <String _locID="24604" category="UI" scenario="Options" subtitle="false">Громкость голоса</String>
+      <String _locID="24604" category="UI" scenario="Options" subtitle="false">Громкость диалогов</String>
       <String _locID="24605" category="UI" scenario="Options" subtitle="false">Субтитры — ролики</String>
       <String _locID="24606" category="UI" scenario="Options" subtitle="false">Яркость/Гамма-коррекция</String>
       <String _locID="24607" category="UI" scenario="Options" subtitle="false">Маркировка «свой-чужой»</String>
@@ -4376,7 +4376,7 @@ MASTER STRING TABLE INDEX
       <String _locID="25542" category="UI" scenario="PlayerName" subtitle="false">Ковенант</String>
       <String _locID="25543" subtitle="false">Ваш герой ослаблен.</String>
       <String _locID="25544" subtitle="false">Поместить рядом с героем для лечения.</String>
-      <String _locID="25545" category="UI" scenario="Message" subtitle="false">Ошибка</String>
+      <String _locID="25545" category="UI" scenario="Message" subtitle="false">DEPRECATED Active profile is not Xbox Live enabled. Press $$A$$ to sign into an Xbox Live account now.</String>
       <String _locID="25546" category="UI" scenario="Message" subtitle="false">Необходимо наличие профиля игрока Xbox Live.</String>
       <String _locID="25547" category="UI" scenario="MPPartyRoomHelp" subtitle="false">Открытые — для всех, закрытые — для друзей, кампании — для совместных заданий.</String>
       <String _locID="25548" category="UI" scenario="MPPartyRoomHelp" subtitle="false">Выберите настройки приватности для вашего лобби.</String>
@@ -4541,10 +4541,10 @@ MASTER STRING TABLE INDEX
       <String _locID="25710" category="UI" scenario="Ticker" subtitle="false">Получено достижений: %1!d! / %2!d!</String>
       <String _locID="25711" category="UI" scenario="Ticker" subtitle="false">Последнее полученное достижение: %1!s!</String>
       <String _locID="25712" category="UI" scenario="Ticker" subtitle="false">Схватки (%1!s!). Выиграно: %2!d!, всего: %3!d!</String>
-      <String _locID="25713" category="UI" scenario="Ticker" subtitle="false">Открытые схватки на карте «%1!s!». Выиграно: %2!d!, всего: %3!d!</String>
+      <String _locID="25713" category="UI" scenario="Ticker" subtitle="false">Открытые схватки на карте %1!s!. Выиграно: %2!d!, всего: %3!d!</String>
       <String _locID="25714" category="UI" scenario="Ticker" subtitle="false">Открытые схватки в режиме «%1!s!». Выиграно: %2!d!, всего: %3!d!</String>
       <String _locID="25715" category="UI" scenario="Ticker" subtitle="false">Одиночные/закрытые схватки (%1!s!). Выиграно: %2!d!, всего: %3!d!</String>
-      <String _locID="25716" category="UI" scenario="Ticker" subtitle="false">Одиночные/закрытые схватки на карте «%1!s!». Выиграно: %2!d!, всего: %3!d!</String>
+      <String _locID="25716" category="UI" scenario="Ticker" subtitle="false">Одиночные/закрытые схватки на карте %1!s!. Выиграно: %2!d!, всего: %3!d!</String>
       <String _locID="25717" category="UI" scenario="Ticker" subtitle="false">Одиночные/закрытые схватки в режиме «%1!s!». Выиграно: %2!d!, всего: %3!d!</String>
       <String _locID="25718" category="UI" scenario="Ticker" subtitle="false">temp</String>
       <String _locID="25719" category="UI" scenario="Ticker" subtitle="false">temp</String>
@@ -4835,7 +4835,7 @@ MASTER STRING TABLE INDEX
       <String _locID="26028" category="Skirmish" scenario="game mode" subtitle="false" Update="true">В начале — много ресурсов и все технологии доступны. Численность войск выше.</String>
       <String _locID="26029" category="Skirmish" scenario="CTF" subtitle="false" Update="true">Для победы захватите 3 флага</String>
       <String _locID="26030" category="Skirmish" scenario="game mode" subtitle="false" Update="true">Кто сильнее</String>
-      <String _locID="26031" category="Skirmish" subtitle="false" Update="true">Дикие земли (1х1)</String>
+      <String _locID="26031" category="Skirmish" subtitle="false" Update="true">«Дикие земли» (1х1)</String>
       <String _locID="26032" category="Skirmish" subtitle="false" Update="true">Сложный рельеф местности — мясорубка для войск. Преимущества у того, кто захватит артефакты Предтеч.</String>
       <String _locID="26033" category="Skirmish" subtitle="false" Update="true">«Кровавая река» (1х1)</String>
       <String _locID="26034" category="Skirmish" subtitle="false" Update="true">Над рекой с красноватыми водами расположены несколько удачных мест под базы. Название реке дали солдаты, некогда сражавшиеся за два узких брода. Теперь это имя получит более мрачный смысл.</String>
@@ -4888,22 +4888,22 @@ MASTER STRING TABLE INDEX
       <String _locID="26088" category="UI" scenario="MainMenu" subtitle="false" Update="true">Игра установлена лишь частично, меню «%1!s!» и «%2!s!» будут недоступны до тех пор, пока игра не загрузится полностью.</String>
       <String _locID="26089" category="UI" scenario="Options" subtitle="false" Update="true">Пауза/Главное меню</String>
       <String _locID="26090" category="UI" scenario="Options" subtitle="false" Update="true">Цели</String>
-      <String _locID="26091" category="UI" scenario="Options" subtitle="false" Update="true">Мировые единицы</String>
+      <String _locID="26091" category="UI" scenario="Options" subtitle="false" Update="true">Все юниты</String>
       <String _locID="26092" category="UI" scenario="Options" subtitle="false" Update="true">Подвыбор юнитов</String>
-      <String _locID="26093" category="UI" scenario="Options" subtitle="false" Update="true">Местные единицы</String>
-      <String _locID="26094" category="UI" scenario="Options" subtitle="false" Update="true">Отмена игры</String>
-      <String _locID="26095" category="UI" scenario="Options" subtitle="false" Update="true">Смена действия</String>
-      <String _locID="26096" category="UI" scenario="Options" subtitle="false" Update="true">Вращение камеры влево</String>
-      <String _locID="26097" category="UI" scenario="Options" subtitle="false" Update="true">Вращение камеры вправо</String>
-      <String _locID="26098" category="UI" scenario="Options" subtitle="false" Update="true">Вращение камеры вверх</String>
-      <String _locID="26099" category="UI" scenario="Options" subtitle="false" Update="true">Вращение камеры вниз</String>
+      <String _locID="26093" category="UI" scenario="Options" subtitle="false" Update="true">Ближние юниты</String>
+      <String _locID="26094" category="UI" scenario="Options" subtitle="false" Update="true">Отмена действия</String>
+      <String _locID="26095" category="UI" scenario="Options" subtitle="false" Update="true">Активация способности</String>
+      <String _locID="26096" category="UI" scenario="Options" subtitle="false" Update="true">Сдвиг камеры влево</String>
+      <String _locID="26097" category="UI" scenario="Options" subtitle="false" Update="true">Сдвиг камеры вправо</String>
+      <String _locID="26098" category="UI" scenario="Options" subtitle="false" Update="true">Сдвиг камеры вверх</String>
+      <String _locID="26099" category="UI" scenario="Options" subtitle="false" Update="true">Сдвиг камеры вниз</String>
       <String _locID="26100" category="UI" scenario="Options" subtitle="false" Update="true">Сброс параметров камеры</String>
       <String _locID="26101" category="UI" scenario="Options" subtitle="false" Update="true">Установка точки сбора</String>
       <String _locID="26102" category="UI" scenario="Options" subtitle="false" Update="true">К последней тревожной точке</String>
       <String _locID="26103" category="UI" scenario="Options" subtitle="false" Update="true">Перемещение между базами</String>
-      <String _locID="26104" category="UI" scenario="Options" subtitle="false" Update="true">Перемещение к армиями</String>
+      <String _locID="26104" category="UI" scenario="Options" subtitle="false" Update="true">Переключение между отрядами</String>
       <String _locID="26105" category="UI" scenario="Options" subtitle="false" Update="true">Меню «Духа огня»</String>
-      <String _locID="26106" category="UI" scenario="Options" subtitle="false" Update="true">Проверка</String>
+      <String _locID="26106" category="UI" scenario="Options" subtitle="false" Update="true">Указать точку на карте</String>
       <String _locID="26107" category="UI" scenario="Options" subtitle="false" Update="true">Вызов игрового чата/Отправка сообщения</String>
       <String _locID="26108" category="UI" scenario="Options" subtitle="false" Update="true">Приостанавливает игру и открывает главное меню.</String>
       <String _locID="26109" category="UI" scenario="Options" subtitle="false" Update="true">Открывает меню целей.</String>
@@ -4919,7 +4919,7 @@ MASTER STRING TABLE INDEX
       <String _locID="26119" category="UI" scenario="Options" subtitle="false" Update="true">Возвращает камеру в изначальное положение.</String>
       <String _locID="26120" category="UI" scenario="Options" subtitle="false" Update="true">Устанавливает точку, куда будут направляться новые юниты.</String>
       <String _locID="26121" category="UI" scenario="Options" subtitle="false" Update="true">Перемещает камеру к последней тревожной точке.</String>
-      <String _locID="26122" category="UI" scenario="Options" subtitle="false" Update="true">Перемещает камеру к следующей позиции базы.</String>
+      <String _locID="26122" category="UI" scenario="Options" subtitle="false" Update="true">Перемещает камеру к следующей базе.</String>
       <String _locID="26123" category="UI" scenario="Options" subtitle="false" Update="true">Перемещает камеру к следующей позиции армии.</String>
       <String _locID="26124" category="UI" scenario="Options" subtitle="false" Update="true">Открывает меню «Духа огня», где можно найти мощные способности лидеров.</String>
       <String _locID="26125" category="UI" scenario="Options" subtitle="false" Update="true">Подсвечивает на карте точку для всех союзников.</String>
@@ -4958,7 +4958,7 @@ MASTER STRING TABLE INDEX
       <String _locID="26163" category="UI" subtitle="false">Настройка уровня сглаживания. Чем ниже значение, тем выше быстродействие.</String>
       <String _locID="26164" category="UI" subtitle="false">Детализация текстур</String>
       <String _locID="26165" category="UI" subtitle="false">Настройка уровня детализации текстур. Чем ниже значение, тем выше быстродействие.</String>
-      <String _locID="26166" category="UI" subtitle="false">Фильтр текстур</String>
+      <String _locID="26166" category="UI" subtitle="false">Фильтрация текстур</String>
       <String _locID="26167" category="UI" subtitle="false">Настройка качества фильтрации текстур. Чем ниже значение, тем выше быстродействие.</String>
       <String _locID="26168" category="UI" subtitle="false">Качество теней</String>
       <String _locID="26169" category="UI" subtitle="false">Настройка качества теней. Чем ниже значение, тем выше быстродействие.</String>
@@ -5078,7 +5078,7 @@ MASTER STRING TABLE INDEX
       <String _locID="26283" subtitle="false" category="UI">Выбрав один или несколько юнитов, нажмите Ctrl + (0–9), чтобы назначить группу для соответствующей ячейки.</String>
       <String _locID="26284" subtitle="false" category="UI">Выбрав один или несколько юнитов, нажмите Shift + (0–9). Если в ячейках 0–9 пусто, то выбранные юниты станут новой группой.</String>
       <String _locID="26285" subtitle="false" category="UI">Выбрав один или несколько юнитов, нажмите Alt + Shift + (0–9). Это добавит выбранные юниты в нужную группу. При этом они будут удалены из остальных групп, где они присутствуют.</String>
-      <String _locID="26286" subtitle="false" category="UI">Выбрав один или несколько юнитов, нажмите Alt + (0–9). Выбранные юниты образуют новую группу, И будут удалены из остальных групп, где они присутствуют.</String>
+      <String _locID="26286" subtitle="false" category="UI">Выбрав один или несколько юнитов, нажмите Alt + (0–9). Выбранные юниты образуют новую группу и будут удалены из остальных групп, где они присутствуют.</String>
       <String _locID="26287" subtitle="false" category="UI">Нажмите клавишу нужной группы юнитов, чтобы выбрать ее.</String>
       <String _locID="26288" subtitle="false" category="UI">Дважды нажмите клавишу нужной группы юнитов, чтобы быстро перейти к ней.</String>
       <String _locID="26289" subtitle="false" category="UI">Некоторые элементы управления Halo Wars можно перенастроить. Откройте закладку «Управление» в меню настроек, чтобы просмотреть и изменить схему управления.</String>
@@ -5287,14 +5287,14 @@ MASTER STRING TABLE INDEX
       <String _locID="26556" subtitle="false" category="Code">ModifierHold</String>
       <String _locID="26557" subtitle="false" category="Code">ModifierPrecise</String>
       <String _locID="26600" subtitle="false" category="Code">Горячие клавиши (альтернативные)</String>
-      <String _locID="26601" subtitle="false" category="Code">Вращение камеры влево (альт.)</String>
-      <String _locID="26602" subtitle="false" category="Code">Поворачивает камеру влево.</String>
-      <String _locID="26603" subtitle="false" category="Code">Вращение камеры вправо (альт.)</String>
-      <String _locID="26604" subtitle="false" category="Code">Поворачивает камеру вправо.</String>
-      <String _locID="26605" subtitle="false" category="Code">Вращение камеры вверх (альт.)</String>
-      <String _locID="26606" subtitle="false" category="Code">Поворачивает камеру вверх.</String>
-      <String _locID="26607" subtitle="false" category="Code">Вращение камеры вниз (альт.)</String>
-      <String _locID="26608" subtitle="false" category="Code">Поворачивает камеру вниз.</String>
+      <String _locID="26601" subtitle="false" category="Code">Сдвиг камеры влево (альт.)</String>
+      <String _locID="26602" subtitle="false" category="Code">Сдвигает камеру влево.</String>
+      <String _locID="26603" subtitle="false" category="Code">Сдвиг камеры вправо (альт.)</String>
+      <String _locID="26604" subtitle="false" category="Code">Сдвигает камеру вправо.</String>
+      <String _locID="26605" subtitle="false" category="Code">Сдвиг камеры вверх (альт.)</String>
+      <String _locID="26606" subtitle="false" category="Code">Сдвигает камеру вверх.</String>
+      <String _locID="26607" subtitle="false" category="Code">Сдвиг камеры вниз (альт.)</String>
+      <String _locID="26608" subtitle="false" category="Code">Сдвигает камеру вниз.</String>
       <String _locID="26609" subtitle="false" category="Code">Ограничение курсора</String>
       <String _locID="26610" subtitle="false" category="Code">«Авто»: только в полноэкранном режиме; «Вкл.»: всегда действует; «Выкл.»: всегда отключено</String>
       <String _locID="26611" subtitle="false" category="Code">Авто</String>
@@ -5359,7 +5359,7 @@ MASTER STRING TABLE INDEX
       <String _locID="26670" category="UI" scenario="Options" subtitle="false">Полноэкранное разрешение</String>
       <String _locID="26671" category="UI" scenario="Options" subtitle="false">Разрешение экрана, использующееся в полноэкранном режиме.</String>
       <String _locID="26672" subtitle="false">%1!d!x%2!d!</String>
-      <String _locID="26673" subtitle="false">Использовать разрешение</String>
+      <String _locID="26673" subtitle="false">Смена разрешения</String>
       <String _locID="26674" subtitle="false">Новые параметры разрешения вступят в силу при следующем запуске приложения в полноэкранном режиме.</String>
       <String _locID="26675" category="steamVersion" originally="25045 and 23441" subtitle="false">Профиль</String>
       <String _locID="26676" category="steamVersion" originally="25316" subtitle="false">Просмотреть профиль</String>
@@ -5376,5 +5376,69 @@ MASTER STRING TABLE INDEX
       <String _locID="26687" subtitle="false" category="UI">Некоторые игроки не смогли присоединиться к лобби.</String>
       <String _locID="26688" subtitle="false" category="UI">Ведущий игрок этого лобби исключил вас из игры.</String>
       <String _locID="26689" subtitle="false" category="UI">Ведущий игрок этого лобби покинул игру, и лобби больше не существует.</String>
+      <String _locID="26690" subtitle="false" category="UI">Завершив настройку фильтров, используйте кнопку «Открытая игра», чтобы создать игру.</String>
+      <String _locID="26691" subtitle="false" category="UI">Завершив настройку фильтров, используйте кнопку «Найти игры» для поиска подходящих игр.</String>
+      <String _locID="26692" subtitle="false" category="UI">Задав все необходимые настройки, используйте кнопку «Готово» для запуска игры.</String>
+      <String _locID="26693" subtitle="false" category="UI">Общее</String>
+      <String _locID="26694" subtitle="false" category="UI">Команда</String>
+      <String _locID="26695" subtitle="false" category="UI">Горячие клавиши радиального меню</String>
+      <String _locID="26696" subtitle="false" category="UI">Верхняя функция — использ.</String>
+      <String _locID="26697" category="UI" subtitle="false">Активировать верхнюю функцию радиального меню.</String>
+      <String _locID="26698" subtitle="false" category="UI">Верхняя функция — отмена</String>
+      <String _locID="26699" category="UI" subtitle="false">Отменить верхнюю функцию радиального меню.</String>
+      <String _locID="26700" subtitle="false" category="UI">Правая верхняя функция — использ.</String>
+      <String _locID="26701" category="UI" subtitle="false">Активировать правую верхнюю функцию радиального меню.</String>
+      <String _locID="26702" subtitle="false" category="UI">Правая верхняя функция — отмена</String>
+      <String _locID="26703" category="UI" subtitle="false">Отменить правую верхнюю функцию радиального меню.</String>
+      <String _locID="26704" subtitle="false" category="UI">Правая функция — использ.</String>
+      <String _locID="26705" category="UI" subtitle="false">Активировать правую функцию радиального меню.</String>
+      <String _locID="26706" subtitle="false" category="UI">Правая функция — отмена</String>
+      <String _locID="26707" category="UI" subtitle="false">Отменить правую функцию радиального меню.</String>
+      <String _locID="26708" subtitle="false" category="UI">Правая нижняя функция — использ.</String>
+      <String _locID="26709" category="UI" subtitle="false">Активировать правую нижнюю функцию радиального меню.</String>
+      <String _locID="26710" subtitle="false" category="UI">Правая нижняя функция — отмена</String>
+      <String _locID="26711" category="UI" subtitle="false">Отменить правую нижнюю функцию радиального меню.</String>
+      <String _locID="26712" subtitle="false" category="UI">Нижняя функция — использ.</String>
+      <String _locID="26713" category="UI" subtitle="false">Активировать нижнюю функцию радиального меню.</String>
+      <String _locID="26714" subtitle="false" category="UI">Нижняя функция — отмена</String>
+      <String _locID="26715" category="UI" subtitle="false">Отменить нижнюю функцию радиального меню.</String>
+      <String _locID="26716" subtitle="false" category="UI">Левая нижняя функция — использ.</String>
+      <String _locID="26717" category="UI" subtitle="false">Активировать левую нижнюю функцию радиального меню.</String>
+      <String _locID="26718" subtitle="false" category="UI">Левая нижняя функция — отмена</String>
+      <String _locID="26719" category="UI" subtitle="false">Отменить левую нижнюю функцию радиального меню.</String>
+      <String _locID="26720" subtitle="false" category="UI">Левая функция — использ.</String>
+      <String _locID="26721" category="UI" subtitle="false">Активировать левую функцию радиального меню.</String>
+      <String _locID="26722" subtitle="false" category="UI">Левая функция — отмена</String>
+      <String _locID="26723" category="UI" subtitle="false">Отменить левую функцию радиального меню.</String>
+      <String _locID="26724" subtitle="false" category="UI">Левая верхняя функция — использ.</String>
+      <String _locID="26725" category="UI" subtitle="false">Активировать левую верхнюю функцию радиального меню.</String>
+      <String _locID="26726" subtitle="false" category="UI">Левая верхняя функция — отмена</String>
+      <String _locID="26727" category="UI" subtitle="false">Отменить левую верхнюю функцию радиального меню.</String>
+      <String _locID="26728" subtitle="false" category="UI">Отключить звук</String>
+      <String _locID="26729" subtitle="false" category="UI">Включить звук</String>
+      <String _locID="26730" category="UI" scenario="MPGameSetup" subtitle="false">Покинуть это лобби?</String>
+      <String _locID="26731" category="UI" scenario="Service Record" subtitle="false">Генерал-майор</String>
+      <String _locID="26732" category="UI" scenario="Service Record" subtitle="false">Генерал-лейтенант</String>
+      <String _locID="26733" category="UI" scenario="Service Record" subtitle="false">Генерал-полковник</String>
+      <String _locID="26734" category="UI" scenario="MPGameSetup" subtitle="false">Эксклюзивный полноэкранный режим</String>
+      <String _locID="26735" category="UI" scenario="MPGameSetup" subtitle="false">Вкл/откл эксклюзивный полноэкранный режим.</String>
+      <String _locID="26736" category="UI" subtitle="false">Для просмотра профилей игроков необходимо включить в клиенте Steam «оверлей Steam».</String>
+      <String _locID="26737" category="UI" subtitle="false">Чтобы добавлять игроков в друзья, необходимо включить в клиенте Steam «оверлей Steam».</String>
+      <String _locID="26738" category="UI" scenario="Leaderboards" subtitle="false">Списки лидеров (друзья)</String>
+      <String _locID="26739" category="UI" scenario="Options" subtitle="false">Громкость видеороликов</String>
+      <String _locID="26740" category="UI" scenario="Options" subtitle="false">Изменить громкость видеороликов.</String>
+      <String _locID="26741" category="UI" scenario="Options" subtitle="false">Громкость голосового чата</String>
+      <String _locID="26742" category="UI" scenario="Options" subtitle="false">Изменить громкость голосового чата.</String>
+      <String _locID="26743" category="UI" scenario="Options" subtitle="false">Голосовой чат</String>
+      <String _locID="26744" category="UI" scenario="Options" subtitle="false">Включить голосовой чат.</String>
+      <String _locID="26745" category="UI" scenario="GameSetup" subtitle="false">Сложность: Легко</String>
+      <String _locID="26746" category="UI" scenario="GameSetup" subtitle="false">Сложность: Норма</String>
+      <String _locID="26747" category="UI" scenario="GameSetup" subtitle="false">Сложность: Герой</String>
+      <String _locID="26748" category="UI" scenario="GameSetup" subtitle="false">Сложность: Легенда</String>
+      <String _locID="26749" category="UI" scenario="GameSetup" subtitle="false">Сложность: Пользовательская</String>
+      <String _locID="26750" category="UI" scenario="GameSetup" subtitle="false">Сложность: Авто</String>
+      <String _locID="26751" category="UI" scenario="GameSetup" subtitle="false">Пользовательская</String>
+      <String _locID="26752" category="UI" scenario="GameSetup" subtitle="false">Авто</String>
+      <String _locID="26753" category="UI" scenario="GameSetup" subtitle="false">Сложность</String>
    </Language>
 </StringTable>

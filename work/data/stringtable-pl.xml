@@ -278,7 +278,7 @@ MASTER STRING TABLE INDEX
       <String _locID="1084" category="Techs" subtitle="false">TARCZA ZESPOJONA</String>
       <String _locID="1085" category="Techs" subtitle="false">Wyposaża każdego Łowcę w olbrzymią tarczę zdolną do odbicia licznych pocisków.</String>
       <String _locID="1086" category="Techs" subtitle="false">DUCHOWA JEDNOŚĆ</String>
-      <String _locID="1087" category="Techs" subtitle="false">Łowcy otrzymują duże wzmocnienie obrażeń, gdy obaj brania są żywi.</String>
+      <String _locID="1087" category="Techs" subtitle="false">Łowcy otrzymują duże wzmocnienie obrażeń, gdy obaj bracia są żywi.</String>
       <String _locID="1088" category="Techs" subtitle="false">TARANOWANIE</String>
       <String _locID="1089" category="Techs" subtitle="false">Uaktywnia zdolność Taranowania u Duchów, pozwalając im na taranowanie przeciwników.</String>
       <String _locID="1090" category="Techs" subtitle="false">UNIKI</String>
@@ -1172,7 +1172,7 @@ MASTER STRING TABLE INDEX
       <String _locID="22201" category="UI" subtitle="false">Przymierze</String>
       <String _locID="22209" category="Campaign" scenario="1" subtitle="false">Zniszcz przy pomocy piechoty źródło mocy bariery</String>
       <String _locID="22210" category="Campaign" scenario="1" subtitle="false">Forge musi przeżyć</String>
-      <String _locID="22215" category="Squads" subtitle="false">Szerszeń</String>
+      <String _locID="22215" category="Squads" subtitle="false">SZERSZEŃ</String>
       <String _locID="22216" category="Squads" subtitle="false">Szerszenie są główną jednostką lotniczą wojsk UNSC. Są wyposażone w kartaczownice oraz wybuchowe rakiety, co zapewnia im bardziej niż wystarczający potencjał ataku przeciwko każdemu przeciwnikowi.</String>
       <String _locID="22217" category="Objects" subtitle="false">Szerszeń</String>
       <String _locID="22218" category="Objects" subtitle="false">
@@ -3923,8 +3923,8 @@ MASTER STRING TABLE INDEX
       <String _locID="25062" category="UI" scenario="MoviePlayer" subtitle="false">NAPISY</String>
       <String _locID="25063" category="UI" scenario="MoviePlayer" subtitle="false">INFORMACJE</String>
       <String _locID="25064" category="UI" scenario="MoviePlayer" subtitle="false">START</String>
-      <String _locID="25065" category="UI" scenario="ButtonBar" subtitle="false">Dalej</String>
-      <String _locID="25066" category="UI" scenario="ButtonBar" subtitle="false">Powtórz</String>
+      <String _locID="25065" category="UI" scenario="ButtonBar" subtitle="false">DALEJ</String>
+      <String _locID="25066" category="UI" scenario="ButtonBar" subtitle="false">POWTÓRZ</String>
       <String _locID="25067" category="UI" scenario="CampaignPostgame" subtitle="false">PODSUMOWANIE</String>
       <String _locID="25068" category="UI" scenario="CampaignPostGame" subtitle="false">NAGRODY</String>
       <String _locID="25069" category="UI" scenario="CampaignSummary" subtitle="false">NIEOSIĄGNIĘTE CELE MISJI</String>
@@ -4194,7 +4194,7 @@ MASTER STRING TABLE INDEX
       <String _locID="25348" category="UI" scenario="OptionsScreen" subtitle="false">Przywrócić wszystkim opcjom z tej zakładki ustawienia domyślne?</String>
       <String _locID="25349" category="UI" scenario="OptionsScreen" subtitle="false">Wyzerować wskazówki?</String>
       <String _locID="25350" category="UI" scenario="UIEndGameScreen" subtitle="false">STATYSTYKA</String>
-      <String _locID="25351" category="UI" scenario="UIEndGameScreen" subtitle="false">Wyjdź</String>
+      <String _locID="25351" category="UI" scenario="UIEndGameScreen" subtitle="false">WYJDŹ</String>
       <String _locID="25352" category="UI" scenario="User" subtitle="false">Wersja profilu uległa zmianie. Twoje opcje zostały wyzerowane.</String>
       <String _locID="25353" category="UI" scenario="User" subtitle="false">MENU DOWÓDCY</String>
       <String _locID="25354" category="UI" scenario="User" subtitle="false">WYBIERZ SPECJALNĄ MOC</String>
@@ -4380,7 +4380,7 @@ MASTER STRING TABLE INDEX
       <String _locID="25546" category="UI" scenario="Message" subtitle="false">Wymagany profil gracza Xbox Live.</String>
       <String _locID="25547" category="UI" scenario="MPPartyRoomHelp" subtitle="false">Publiczne gry ze wszystkimi, prywatne gry z przyjaciółmi lub tryb koop. w kampanii.</String>
       <String _locID="25548" category="UI" scenario="MPPartyRoomHelp" subtitle="false">Wybierz ustawienia prywatności, aby określić, kto może dołączyć do twojego lobby.</String>
-      <String _locID="25549" category="UI" scenario="MPPartyRoomHelp" subtitle="false">Wybierz liczbę graczy, którzy mają uczestniczyć w grze.</String>
+      <String _locID="25549" category="UI" scenario="MPPartyRoomHelp" subtitle="false">Wybierz ilu graczy ma uczestniczyć w grze.</String>
       <String _locID="25550" category="UI" scenario="MPPartyRoomHelp" subtitle="false">Wybierz mapę, na której gra będzie się toczyć.</String>
       <String _locID="25551" category="UI" scenario="MPPartyRoomHelp" subtitle="false" Update="true">Wybierz tryb gry.</String>
       <String _locID="25552" category="UI" scenario="MPPartyRoomHelp" subtitle="false">Ustaw poziom sztucznej inteligencji.</String>
@@ -4879,7 +4879,7 @@ MASTER STRING TABLE INDEX
       <String _locID="26077" category="UI" scenario="Options" subtitle="false" Update="true">WROGOWIE</String>
       <String _locID="26078" category="UI" subtitle="false" Update="true">Gracz %1!s! nie zainstalował zawartości do pobrania wymaganej na tej mapie.</String>
       <String _locID="26081" category="Skirmish" scenario=" Map Name" subtitle="false">LODOWY WĄWÓZ (3 na 3)</String>
-      <String _locID="26082" category="Skirmish" scenario="Map Description" subtitle="false">Ośnieżony łańcuch górski tworzy naturalną barierę, która przecina teren na pół. O wyniku bitwy często decyduje utrzymanie kontroli nad dwiema ścianami energetycznymi, które zabezpieczają wąski przesmyk w środku mapy, chociaż przemyślane wykorzystanie fabryki Wartowników też może przechylić szalę.</String>
+      <String _locID="26082" category="Skirmish" scenario="Map Description" subtitle="false">Ośnieżony łańcuch górski tworzy barierę, która przecina teren na pół. O wyniku bitwy często decyduje kontrola nad ścianami energetycznymi, zabezpieczającymi wąski przesmyk w środku mapy. Wykorzystanie fabryki Wartowników również może przechylić szalę.</String>
       <String _locID="26083" category="UI" scenario="Options" subtitle="false" Update="true">Opcje graficzne test A</String>
       <String _locID="26084" category="UI" scenario="Options" subtitle="false">To jest test opcji graficznych na PC.</String>
       <String _locID="26085" category="UI" scenario="Options" subtitle="false" Update="true">Opcje graficzne test B</String>
@@ -4900,8 +4900,8 @@ MASTER STRING TABLE INDEX
       <String _locID="26100" category="UI" scenario="Options" subtitle="false" Update="true">Zresetuj kamerę</String>
       <String _locID="26101" category="UI" scenario="Options" subtitle="false" Update="true">Ustaw punkt zborny</String>
       <String _locID="26102" category="UI" scenario="Options" subtitle="false" Update="true">Przemieść się do miejsca ostatniego alarmu</String>
-      <String _locID="26103" category="UI" scenario="Options" subtitle="false" Update="true">Przemieść się do/Przełączaj na miejsc(a) bazy</String>
-      <String _locID="26104" category="UI" scenario="Options" subtitle="false" Update="true">Przemieść się do/Przełączaj na następną armię</String>
+      <String _locID="26103" category="UI" scenario="Options" subtitle="false" Update="true">Przejdź/Przełącz na miejsc(a) bazy</String>
+      <String _locID="26104" category="UI" scenario="Options" subtitle="false" Update="true">Przejdź/Przełącz na następną armię</String>
       <String _locID="26105" category="UI" scenario="Options" subtitle="false" Update="true">Menu Spirit of Fire</String>
       <String _locID="26106" category="UI" scenario="Options" subtitle="false" Update="true">Pingowanie</String>
       <String _locID="26107" category="UI" scenario="Options" subtitle="false" Update="true">Wywołaj czat w grze/Wyślij wiadomość</String>
@@ -5008,7 +5008,7 @@ MASTER STRING TABLE INDEX
       <String _locID="26213" category="UI" subtitle="false">Ilustracja koncepcyjna 10</String>
       <String _locID="26214" category="UI" subtitle="false">Ilustracja koncepcyjna 11</String>
       <String _locID="26215" category="UI" subtitle="false">Ilustracja koncepcyjna 12</String>
-      <String _locID="26216" category="UI" subtitle="false">Kliknij, aby otrzymać darmowy poradnik do gry Halo Wars Prima!&lt;br&gt;W tym darmowym interaktywnym przewodniku firmy Prima znajdziesz mapy, strategie i sugerowane kolejności rozbudowy dzięki którym osiągniesz sukces i w trybie wieloosobowym i w kampanii.</String>
+      <String _locID="26216" category="UI" subtitle="false">Kliknij, aby otrzymać darmowy poradnik Halo Wars Prima!&lt;br&gt;A w nim mapy, strategie i kolejności rozbudowy. Osiągnij sukces w trybie wieloos. i w kampanii.</String>
       <String _locID="26217" category="UI" subtitle="false">Naciśnij dowolny klawisz lub przycisk, by kontynuować.</String>
       <String _locID="26218" category="UI" subtitle="false">Możesz zmienić preferowane urządzenie peryferyjne na ekranie startowym poprzez główne menu.</String>
       <String _locID="26219" category="UI" subtitle="false">Zapisywanie zawartości... proszę nie wyłączać gry.</String>
@@ -5074,7 +5074,7 @@ MASTER STRING TABLE INDEX
       <String _locID="26279" subtitle="false" category="UI">IDŹ DO KONTROLOWANEJ GRUPY</String>
       <String _locID="26280" subtitle="false" category="UI">DOSTOSOWYWANIE USTAWIEŃ STEROWANIA</String>
       <String _locID="26281" subtitle="false" category="UI">Możesz to zrobić, naciskając i przytrzymując lewy przycisk myszy, poruszając jednocześnie myszą w dowolnym kierunku, by stworzyć okienko wyboru.</String>
-      <String _locID="26282" subtitle="false" category="UI">Naciśnij lewy przycisk myszy na minimapie, by przenieść się do danej pozycji. Mając zaznaczone jakieś jednostki, naciśnij prawy przycisk myszy na minimapie, by wysłać jednostki do wybranego obszaru.</String>
+      <String _locID="26282" subtitle="false" category="UI">Naciśnij lewy przycisk myszy na minimapie, by przenieść się do danej pozycji. Mając zaznaczone jednostki, naciśnij prawy przycisk myszy na minimapie, by wysłać je do wybranego obszaru.</String>
       <String _locID="26283" subtitle="false" category="UI">Mając wybraną jedną lub więcej jednostek, naciśnij CTRL + (numer od 0 do 9), by przypisać aktualny wybór do konkretnej cyfry.</String>
       <String _locID="26284" subtitle="false" category="UI">Mając wybraną jedną lub więcej jednostek, naciśnij SHIFT + (0-9). Jeśli nie ma przypisanych żadnych jednostek, z aktualnie zaznaczonych jednostek zostanie stworzona zupełnie nowa grupa.</String>
       <String _locID="26285" subtitle="false" category="UI">Wybierz jedną lub więcej jednostek, naciśnij ALT + SHIFT + (0-9). Dodasz aktualnie zaznaczone jednostki do grupy docelowej, usuwając je ze wszystkich pozostałych grup, do których są obecnie przypisane.</String>
@@ -5127,7 +5127,7 @@ MASTER STRING TABLE INDEX
       <String _locID="26332" subtitle="false" category="UI">Mając wybraną jedną lub więcej jednostek, naciśnij ALT + (0-9). Wybrane jednostki utworzą nową grupę kontrolowaną i zostaną usunięte z innych grup.</String>
       <String _locID="26333" category="UI" subtitle="false">Synchronizacja pionowa</String>
       <String _locID="26334" category="UI" subtitle="false">Włącza/wyłącza synchronizację pionową - wyłącz, by zwiększyć wydajność gry.</String>
-      <String _locID="26335" category="UI" subtitle="false">Czy na pewno wyjść z gry?</String>
+      <String _locID="26335" category="UI" subtitle="false">Czy na pewno chcesz wyjść z gry?</String>
       <String _locID="26400" subtitle="false" category="Code">Lewy drążek w górę</String>
       <String _locID="26401" subtitle="false" category="Code">Lewy drążek w dół</String>
       <String _locID="26402" subtitle="false" category="Code">Lewy drążek w lewo</String>
@@ -5287,13 +5287,13 @@ MASTER STRING TABLE INDEX
       <String _locID="26556" subtitle="false" category="Code">Modyfikator - przytrzymanie</String>
       <String _locID="26557" subtitle="false" category="Code">Modyfikator - precyzyjnie</String>
       <String _locID="26600" subtitle="false" category="Code">Alternatywne klawisze skrótu</String>
-      <String _locID="26601" subtitle="false" category="Code">Alternatywny ruch panoramy kamery w lewo</String>
+      <String _locID="26601" subtitle="false" category="Code">Alt. ruch panoramy kamery w lewo</String>
       <String _locID="26602" subtitle="false" category="Code">Ruch kamery w lewo.</String>
-      <String _locID="26603" subtitle="false" category="Code">Alternatywny ruch panoramy kamery w prawo</String>
+      <String _locID="26603" subtitle="false" category="Code">Alt. ruch panoramy kamery w prawo</String>
       <String _locID="26604" subtitle="false" category="Code">Ruch kamery w prawo.</String>
-      <String _locID="26605" subtitle="false" category="Code">Alternatywny ruch panoramy kamery w górę</String>
+      <String _locID="26605" subtitle="false" category="Code">Alt. ruch panoramy kamery w górę</String>
       <String _locID="26606" subtitle="false" category="Code">Ruch kamery w górę.</String>
-      <String _locID="26607" subtitle="false" category="Code">Alternatywny ruch panoramy kamery w dół</String>
+      <String _locID="26607" subtitle="false" category="Code">Alt. ruch panoramy kamery w dół</String>
       <String _locID="26608" subtitle="false" category="Code">Ruch kamery w dół.</String>
       <String _locID="26609" subtitle="false" category="Code">Tryb przenikania myszy</String>
       <String _locID="26610" subtitle="false" category="Code">Tryb auto: włączony podczas gry na pełnym ekranie, Wł.: zawsze włączony, Wył: zawsze wyłączony</String>
@@ -5359,7 +5359,7 @@ MASTER STRING TABLE INDEX
       <String _locID="26670" category="UI" scenario="Options" subtitle="false">Rozdzielczość pełnoekranowa</String>
       <String _locID="26671" category="UI" scenario="Options" subtitle="false">Rozdzielczość gry w trybie pełnoekranowym.</String>
       <String _locID="26672" subtitle="false">%1!d!x%2!d!</String>
-      <String _locID="26673" subtitle="false">ZASTOSUJ USTAWIENIA ROZDZIELCZOŚCI</String>
+      <String _locID="26673" subtitle="false">ZAPISZ USTAWIENIA</String>
       <String _locID="26674" subtitle="false">Nowe ustawienia rozdzielczości zostaną zastosowane przy ponownym uruchomieniu aplikacji w trybie pełnoekranowym.</String>
       <String _locID="26675" category="steamVersion" originally="25045 and 23441" subtitle="false">PROFIL</String>
       <String _locID="26676" category="steamVersion" originally="25316" subtitle="false">Zobacz profil</String>
@@ -5376,5 +5376,69 @@ MASTER STRING TABLE INDEX
       <String _locID="26687" subtitle="false" category="UI">Niektórym graczom nie udało się wejść do lobby.</String>
       <String _locID="26688" subtitle="false" category="UI">Gospodarz lobby wykopał cię z sesji.</String>
       <String _locID="26689" subtitle="false" category="UI">Gospodarz lobby opuścił sesję i nie jest już dostępna.</String>
+      <String _locID="26690" subtitle="false" category="UI">Po skończeniu ustawiania filtrów, użyj przycisku OPUBLIKUJ GRĘ, aby zostać gospodarzem gry.</String>
+      <String _locID="26691" subtitle="false" category="UI">Po skończeniu ustawiania filtrów, użyj przycisku ZNAJDŹ GRY, aby wyszukiwać gry.</String>
+      <String _locID="26692" subtitle="false" category="UI">Po skończeniu konfigurowania swoich ustawień, użyj przycisku GOTOWE, aby uruchomić grę.</String>
+      <String _locID="26693" subtitle="false" category="UI">Ogólne</String>
+      <String _locID="26694" subtitle="false" category="UI">Drużyna</String>
+      <String _locID="26695" subtitle="false" category="UI">Skróty menu kołowego</String>
+      <String _locID="26696" subtitle="false" category="UI">Menu kołowe - góra - użyj</String>
+      <String _locID="26697" category="UI" subtitle="false">Aktywuj czynność dla górnego skrótu menu kołowego.</String>
+      <String _locID="26698" subtitle="false" category="UI">Menu kołowe - góra - anuluj</String>
+      <String _locID="26699" category="UI" subtitle="false">Anuluj czynność dla górnego skrótu menu kołowego.</String>
+      <String _locID="26700" subtitle="false" category="UI">Menu kołowe - prawa góra - użyj</String>
+      <String _locID="26701" category="UI" subtitle="false">Aktywuj czynność dla prawego górnego skrótu menu kołowego.</String>
+      <String _locID="26702" subtitle="false" category="UI">Menu kołowe - prawa góra - anuluj</String>
+      <String _locID="26703" category="UI" subtitle="false">Anuluj czynność dla prawego górnego skrótu menu kołowego.</String>
+      <String _locID="26704" subtitle="false" category="UI">Menu kołowe - prawo - użyj</String>
+      <String _locID="26705" category="UI" subtitle="false">Aktywuj czynność dla prawego skrótu menu kołowego.</String>
+      <String _locID="26706" subtitle="false" category="UI">Menu kołowe - prawo - anuluj</String>
+      <String _locID="26707" category="UI" subtitle="false">Anuluj czynność dla prawego skrótu menu kołowego.</String>
+      <String _locID="26708" subtitle="false" category="UI">Menu kołowe - prawy dół - użyj</String>
+      <String _locID="26709" category="UI" subtitle="false">Aktywuj czynność dla prawego dolnego skrótu menu kołowego.</String>
+      <String _locID="26710" subtitle="false" category="UI">Menu kołowe - prawy dół - anuluj</String>
+      <String _locID="26711" category="UI" subtitle="false">Anuluj czynność dla prawego skrótu menu kołowego.</String>
+      <String _locID="26712" subtitle="false" category="UI">Menu kołowe - dół - użyj</String>
+      <String _locID="26713" category="UI" subtitle="false">Aktywuj czynność dla dolnego skrótu menu kołowego.</String>
+      <String _locID="26714" subtitle="false" category="UI">Menu kołowe - dół - anuluj</String>
+      <String _locID="26715" category="UI" subtitle="false">Anuluj czynność dla prawego skrótu menu kołowego.</String>
+      <String _locID="26716" subtitle="false" category="UI">Menu kołowe - lewy dół - użyj</String>
+      <String _locID="26717" category="UI" subtitle="false">Aktywuj czynność dla lewego dolnego skrótu menu kołowego.</String>
+      <String _locID="26718" subtitle="false" category="UI">Menu kołowe - lewy dół - anuluj</String>
+      <String _locID="26719" category="UI" subtitle="false">Anuluj czynność dla prawego skrótu menu kołowego.</String>
+      <String _locID="26720" subtitle="false" category="UI">Menu kołowe - lewo - użyj</String>
+      <String _locID="26721" category="UI" subtitle="false">Aktywuj czynność dla lewego skrótu menu kołowego.</String>
+      <String _locID="26722" subtitle="false" category="UI">Menu kołowe - lewo - anuluj</String>
+      <String _locID="26723" category="UI" subtitle="false">Anuluj czynność dla prawego skrótu menu kołowego.</String>
+      <String _locID="26724" subtitle="false" category="UI">Menu kołowe - lewa góra - użyj</String>
+      <String _locID="26725" category="UI" subtitle="false">Aktywuj czynność dla lewego górnego skrótu menu kołowego.</String>
+      <String _locID="26726" subtitle="false" category="UI">Menu kołowe - lewa góra - anuluj</String>
+      <String _locID="26727" category="UI" subtitle="false">Anuluj czynność dla prawego skrótu menu kołowego.</String>
+      <String _locID="26728" subtitle="false" category="UI">Wycisz</String>
+      <String _locID="26729" subtitle="false" category="UI">Wył. wyciszenie</String>
+      <String _locID="26730" category="UI" scenario="MPGameSetup" subtitle="false">Czy na pewno chcesz opuścić to lobby?</String>
+      <String _locID="26731" category="UI" scenario="Service Record" subtitle="false">Trzygwiazdkowy generał</String>
+      <String _locID="26732" category="UI" scenario="Service Record" subtitle="false">Czterogwiazdkowy generał</String>
+      <String _locID="26733" category="UI" scenario="Service Record" subtitle="false">Pięciogwiazdkowy generał</String>
+      <String _locID="26734" category="UI" scenario="MPGameSetup" subtitle="false">Prawdziwy pełny ekran</String>
+      <String _locID="26735" category="UI" scenario="MPGameSetup" subtitle="false">Włącz/wyłącz prawdziwy pełny ekran.</String>
+      <String _locID="26736" category="UI" subtitle="false">Żeby przeglądać profile graczy, należy włączyć nakładkę Steam z poziomu ustawień klienta Steam.</String>
+      <String _locID="26737" category="UI" subtitle="false">Żeby móc zapraszać znajomych, należy włączyć nakładkę Steam z poziomu ustawień klienta Steam.</String>
+      <String _locID="26738" category="UI" scenario="Leaderboards" subtitle="false">RANKINGI (PRZYJACIELE)</String>
+      <String _locID="26739" category="UI" scenario="Options" subtitle="false">Głośność filmików</String>
+      <String _locID="26740" category="UI" scenario="Options" subtitle="false">Dostosowuje poziom głośności filmików.</String>
+      <String _locID="26741" category="UI" scenario="Options" subtitle="false">Głośność czatu głosowego</String>
+      <String _locID="26742" category="UI" scenario="Options" subtitle="false">Dostosowuje poziom głośności czatu głosowego.</String>
+      <String _locID="26743" category="UI" scenario="Options" subtitle="false">Czat głosowy</String>
+      <String _locID="26744" category="UI" scenario="Options" subtitle="false">Włącza czat głosowy.</String>
+      <String _locID="26745" category="UI" scenario="GameSetup" subtitle="false">Poziom trudności: Łatwy</String>
+      <String _locID="26746" category="UI" scenario="GameSetup" subtitle="false">Poziom trudności: Normalny</String>
+      <String _locID="26747" category="UI" scenario="GameSetup" subtitle="false">Poziom trudności: Heroiczny</String>
+      <String _locID="26748" category="UI" scenario="GameSetup" subtitle="false">Poziom trudności: Legendarny</String>
+      <String _locID="26749" category="UI" scenario="GameSetup" subtitle="false">Poziom trudności: Niestandardowy</String>
+      <String _locID="26750" category="UI" scenario="GameSetup" subtitle="false">Poziom trudności: Automatyczny</String>
+      <String _locID="26751" category="UI" scenario="GameSetup" subtitle="false">NIESTANDARDOWE</String>
+      <String _locID="26752" category="UI" scenario="GameSetup" subtitle="false">Automatyczny</String>
+      <String _locID="26753" category="UI" scenario="GameSetup" subtitle="false">Poziom trudności</String>
    </Language>
 </StringTable>

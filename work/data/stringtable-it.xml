@@ -5359,7 +5359,7 @@ MASTER STRING TABLE INDEX
       <String _locID="26670" category="UI" scenario="Options" subtitle="false">Risoluzione schermo intero</String>
       <String _locID="26671" category="UI" scenario="Options" subtitle="false">Risoluzione in modalità schermo intero.</String>
       <String _locID="26672" subtitle="false">%1!d!x%2!d!</String>
-      <String _locID="26673" subtitle="false">APPLICA RISOLUZIONE</String>
+      <String _locID="26673" subtitle="false">APPLICA</String>
       <String _locID="26674" subtitle="false">La nuova risoluzione sarà applicata la prossima volta che l'applicazione verrà eseguita a schermo intero.</String>
       <String _locID="26675" category="steamVersion" originally="25045 and 23441" subtitle="false">PROFILO</String>
       <String _locID="26676" category="steamVersion" originally="25316" subtitle="false">Visualizza profilo</String>
@@ -5376,5 +5376,69 @@ MASTER STRING TABLE INDEX
       <String _locID="26687" subtitle="false" category="UI">Alcuni giocatori non sono riusciti ad accedere alla sala d'attesa.</String>
       <String _locID="26688" subtitle="false" category="UI">L'host della sala d'attesa ti ha espulso dalla sessione.</String>
       <String _locID="26689" subtitle="false" category="UI">L'host della sala d'attesa ha abbandonato la sessione e questa è stata eliminata.</String>
+      <String _locID="26690" subtitle="false" category="UI">Quando hai finito di impostare i filtri, premi il pulsante PUBBLICA per ospitare la tua partita.</String>
+      <String _locID="26691" subtitle="false" category="UI">Quando hai finito di impostare i filtri, premi il pulsante TROVA PARTITE per cercare delle partite.</String>
+      <String _locID="26692" subtitle="false" category="UI">Quando hai finito di configurare le tue impostazioni, premi il pulsante PRONTO per avviare.</String>
+      <String _locID="26693" subtitle="false" category="UI">Globale</String>
+      <String _locID="26694" subtitle="false" category="UI">Squadra</String>
+      <String _locID="26695" subtitle="false" category="UI">Tasti di scelta rapida Menu radiale</String>
+      <String _locID="26696" subtitle="false" category="UI">Usa azione in alto</String>
+      <String _locID="26697" category="UI" subtitle="false">Attiva l'azione in alto del Menu radiale.</String>
+      <String _locID="26698" subtitle="false" category="UI">Annulla azione in alto</String>
+      <String _locID="26699" category="UI" subtitle="false">Annulla l'azione in alto del Menu radiale.</String>
+      <String _locID="26700" subtitle="false" category="UI">Usa azione in alto a destra</String>
+      <String _locID="26701" category="UI" subtitle="false">Attiva l'azione in alto a destra del Menu radiale.</String>
+      <String _locID="26702" subtitle="false" category="UI">Annulla azione in alto a destra</String>
+      <String _locID="26703" category="UI" subtitle="false">Annulla l'azione in alto a destra del Menu radiale.</String>
+      <String _locID="26704" subtitle="false" category="UI">Usa azione a destra</String>
+      <String _locID="26705" category="UI" subtitle="false">Attiva l'azione a destra del Menu radiale.</String>
+      <String _locID="26706" subtitle="false" category="UI">Annulla azione a destra</String>
+      <String _locID="26707" category="UI" subtitle="false">Annulla l'azione a destra del Menu radiale.</String>
+      <String _locID="26708" subtitle="false" category="UI">Usa azione in basso a destra</String>
+      <String _locID="26709" category="UI" subtitle="false">Attiva l'azione in basso a destra del Menu radiale.</String>
+      <String _locID="26710" subtitle="false" category="UI">Annulla azione in basso a destra</String>
+      <String _locID="26711" category="UI" subtitle="false">Annulla l'azione in basso a destra del Menu radiale.</String>
+      <String _locID="26712" subtitle="false" category="UI">Usa azione in basso</String>
+      <String _locID="26713" category="UI" subtitle="false">Attiva l'azione in basso del Menu radiale.</String>
+      <String _locID="26714" subtitle="false" category="UI">Annulla azione in basso</String>
+      <String _locID="26715" category="UI" subtitle="false">Annulla l'azione in basso del Menu radiale.</String>
+      <String _locID="26716" subtitle="false" category="UI">Usa azione in basso a sinistra</String>
+      <String _locID="26717" category="UI" subtitle="false">Attiva l'azione in basso a sinistra del Menu radiale.</String>
+      <String _locID="26718" subtitle="false" category="UI">Annulla azione in basso a sinistra</String>
+      <String _locID="26719" category="UI" subtitle="false">Annulla l'azione in basso a sinistra del Menu radiale.</String>
+      <String _locID="26720" subtitle="false" category="UI">Usa azione a sinistra</String>
+      <String _locID="26721" category="UI" subtitle="false">Attiva l'azione a sinistra del Menu radiale.</String>
+      <String _locID="26722" subtitle="false" category="UI">Annulla azione a sinistra</String>
+      <String _locID="26723" category="UI" subtitle="false">Annulla l'azione a sinistra del Menu radiale.</String>
+      <String _locID="26724" subtitle="false" category="UI">Usa azione in alto a sinistra</String>
+      <String _locID="26725" category="UI" subtitle="false">Attiva l'azione in alto a sinistra del Menu radiale.</String>
+      <String _locID="26726" subtitle="false" category="UI">Annulla azione in alto a sinistra</String>
+      <String _locID="26727" category="UI" subtitle="false">Annulla l'azione in alto a sinistra del Menu radiale.</String>
+      <String _locID="26728" subtitle="false" category="UI">Muto</String>
+      <String _locID="26729" subtitle="false" category="UI">Attiva</String>
+      <String _locID="26730" category="UI" scenario="MPGameSetup" subtitle="false">Sei sicuro di voler uscire dalla Sala d'attesa?</String>
+      <String _locID="26731" category="UI" scenario="Service Record" subtitle="false">Generale a tre stelle</String>
+      <String _locID="26732" category="UI" scenario="Service Record" subtitle="false">Generale a quattro stelle</String>
+      <String _locID="26733" category="UI" scenario="Service Record" subtitle="false">Generale a cinque stelle</String>
+      <String _locID="26734" category="UI" scenario="MPGameSetup" subtitle="false">Modalità esclusiva a schermo intero</String>
+      <String _locID="26735" category="UI" scenario="MPGameSetup" subtitle="false">Attiva/Disattiva modalità esclusiva a schermo intero.</String>
+      <String _locID="26736" category="UI" subtitle="false">Lo Steam Overlay deve essere abilitato nelle impostazioni dello Steam Cliente per visualizzare i profili del giocatore.</String>
+      <String _locID="26737" category="UI" subtitle="false">Lo Steam Overlay deve essere abilitato nelle impostazioni dello Steam Cliente per invitare gli amici.</String>
+      <String _locID="26738" category="UI" scenario="Leaderboards" subtitle="false">CLASSIFICHE (AMICI)</String>
+      <String _locID="26739" category="UI" scenario="Options" subtitle="false">Volume filmato</String>
+      <String _locID="26740" category="UI" scenario="Options" subtitle="false">Regola il volume dei filmati.</String>
+      <String _locID="26741" category="UI" scenario="Options" subtitle="false">Volume chat vocale</String>
+      <String _locID="26742" category="UI" scenario="Options" subtitle="false">Regola il volume della chat vocale.</String>
+      <String _locID="26743" category="UI" scenario="Options" subtitle="false">Chat vocale</String>
+      <String _locID="26744" category="UI" scenario="Options" subtitle="false">Consente la chat vocale.</String>
+      <String _locID="26745" category="UI" scenario="GameSetup" subtitle="false">Difficoltà: Facile</String>
+      <String _locID="26746" category="UI" scenario="GameSetup" subtitle="false">Difficoltà: Normale</String>
+      <String _locID="26747" category="UI" scenario="GameSetup" subtitle="false">Difficoltà: Eroica</String>
+      <String _locID="26748" category="UI" scenario="GameSetup" subtitle="false">Difficoltà: Leggendaria</String>
+      <String _locID="26749" category="UI" scenario="GameSetup" subtitle="false">Difficoltà: Personalizzata</String>
+      <String _locID="26750" category="UI" scenario="GameSetup" subtitle="false">Difficoltà: Automatica</String>
+      <String _locID="26751" category="UI" scenario="GameSetup" subtitle="false">PERSONALIZZATA</String>
+      <String _locID="26752" category="UI" scenario="GameSetup" subtitle="false">Automatica</String>
+      <String _locID="26753" category="UI" scenario="GameSetup" subtitle="false">Difficoltà</String>
    </Language>
 </StringTable>
